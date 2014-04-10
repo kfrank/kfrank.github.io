@@ -4,7 +4,7 @@ description: "Thoughts from a designer/developer"
 author: "Klare Frank"
 
 url: "http://localhost:4000"
-baseurl: "kfrank.github.io"
+baseurl: "kfrank.github.io/klare"
 
 markdown: rdiscount
 permalink: :year/:month/:title.html
