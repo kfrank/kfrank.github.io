@@ -78,7 +78,7 @@ header {
 
       &:hover { 
         border-radius: 100%; 
-        @include transition ( all 0.2s ease );
+        @include transition ( all 1s ease );
       }
 
       span { 
