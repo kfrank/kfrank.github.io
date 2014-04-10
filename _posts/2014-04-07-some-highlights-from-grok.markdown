@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "Some Highlights from Grok"
+date:   2014-04-07 16:57:51
+category: thoughts
+---
+
+I was really damn excited going into my double header trip of Barcelona/Greenville. One new place, and one familiar place. Two years ago, I went to Grok for the first time and made some great friends that I've kept in touch with on twitter and have run into over those two years at various conferences across the country.
+
+![Printing my own shirt](http://distilleryimage9.ak.instagram.com/5c5aeff6bb5311e3b33a12e185860505_8.jpg)
+
+What I loved about Grok the first time was still present this year. Amazingly friendly people that you can walk right up to and start talking with and 10/20s where folks who are just starting out and people who are internet famous have equal say. But this year was so much more than that.
+
+It was great to see Ish Burciaga, Brittany Murray, Matt D. Smith and Jeremiah Adkins again like two years hadn't gone by. It was also amazing to meet so many new folks, even those in my own city and close by. One of my coworkers even signed up which was nice happenstance.
+
+When I go to conferences, I like to choose ones that aren't technical. Why travel all the way to a new city to sit through lectures on things you probably could've learned by reading an article? Conferences are about making relationships and getting a new perspective for a little while so that when we get back to our own cities and jobs, we can be inspired to create amazing work and continue the conversations & collaboration. I'm definitely not planning on leaving the relationships I started building at Grok in Greenville.
+
+![Awesome photobombs](http://distilleryimage0.ak.instagram.com/848591d4bc3911e3b7d60002c99b1c44_8.jpg)
+
+In one of our 10/20s, blogging came up, and I mentioned that I've never successfully been able to blog. Following Matt D. Smith's advice about not spending so much time debating about the design of your site, I've designed this website in two days and chose jekyll. Maybe this blogging thing will work. Maybe it won't. But hopefully someone will get something out of it.
+
+Out of a few of my 10/20s, there was a word that kept getting mentioned that doesn't really come up in conversation much in DC. *Empathy*. It's something that I know makes me work better, but it's so easy to be lazy (especially in DC). Empathizing with a client's mission instead of just understanding it helps me create better visual designs. Empathizing with my friends and acquaintances helps me deepen relationships. 
+
+I think that's the thing I was searching for when I left DC bored and ready for adventure. I was bored when I met someone new because they asked the same DC questions: "What do you do" & "Where are you from originally". But really, I was avoiding empathizing and as a result created barriers between myself and any new connection. 
+
+>What was lacking wasn't something I could find by traveling, but something I was missing in myself.
+
+I'm going back to DC knowing what I actively have to work on. I haven't answered all the questions or figured out where exactly I should be or what I should be working on, but I'm a little bit closer. It's a good feeling.
+
+Let's keep those conversations going, Grokers.
+
+![Joseph Abrams and me with cigars](http://distilleryimage10.ak.instagram.com/c64c7854bc7e11e3affe0002c9c90082_8.jpg)

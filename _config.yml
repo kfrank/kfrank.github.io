@@ -1,0 +1,15 @@
+name: "Klare"
+description: "Thoughts from a designer/developer"
+
+author: "Klare Frank"
+
+url: "http://localhost:4000"
+baseurl: ""
+
+markdown: rdiscount
+permalink: :year/:month/:title.html
+pygments: true
+
+# Google Analytics
+ga_domain: http://localhost:4000
+ga_tracking_id: 
