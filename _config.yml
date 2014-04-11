@@ -3,7 +3,7 @@ description: "Thoughts from a designer/developer"
 
 author: "Klare Frank"
 
-url: "http://localhost:4000"
+url: "http://kfrank.github.io/klare"
 baseurl: "http://kfrank.github.io/klare"
 
 markdown: rdiscount
@@ -11,5 +11,5 @@ permalink: :year/:month/:title.html
 pygments: true
 
 # Google Analytics
-ga_domain: http://localhost:4000
+ga_domain: http://kfrank.github.io/klare
 ga_tracking_id: UA-49926701-1
