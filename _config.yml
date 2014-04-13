@@ -3,13 +3,13 @@ description: "Thoughts from a designer/developer"
 
 author: "Klare Frank"
 
-url: "http://kfrank.github.io/klare"
-baseurl: "http://kfrank.github.io/klare"
+url: "http://kfrank.github.io"
+baseurl: "http://kfrank.github.io"
 
 markdown: rdiscount
 permalink: :year/:month/:title.html
 pygments: true
 
 # Google Analytics
-ga_domain: http://kfrank.github.io/klare
+ga_domain: http://kfrank.github.io
 ga_tracking_id: UA-49926701-1
