@@ -12,7 +12,7 @@ My mom sent me an email a few days after I booked a flight to Barcelona. Sure, i
 
 All my life, whenever I'd have to go someplace new or do something I'd never done before, I'd have to force myself. That funny, sick feeling in my gut would emerge and I'd be so nervous that I'd be planning my escape route in all possible situations. I spent most of my life being afraid of new situations and thinking I was an introvert. It took losing all my confidence completely and having a year of rebuilding to discover that I wasn't. I'm just a reserved extrovert. With a lot of long pauses.
 
-![A sea pattern in the tiles on the sidewalk](/http://distilleryimage9.ak.instagram.com/744ae5b0b77211e3a9cb127110f29a31_8.jpg)
+![A sea pattern in the tiles on the sidewalk](http://distilleryimage9.ak.instagram.com/744ae5b0b77211e3a9cb127110f29a31_8.jpg)
 
 The best part about traveling solo is that you don't have to wait for anyone to make your plans. Hell, you don't even have to make plans. I still remember how upset my mother got in Prague when my father and I just decided to go sit outside at lunch for a few hours having beers instead of doing the things she had planned. So we sat for a while, enjoying the August weather, becoming fishes in our liters of beer with smug grins creeping across our faces because we only paid 30 koruna for everything. Different people have different traveling styles. Some people like to sit soak up the ambiance of a new place. Some people simply like to see the sights. Some enjoy having their itinerary mapped out entirely beforehand.
 
