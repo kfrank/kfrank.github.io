@@ -1,6 +1,7 @@
 ---
 published: true
 category: thoughts
+layout: post
 ---
 
 ## A Little Solo Travel
