@@ -1,7 +1,7 @@
 ---
 layout: post
 title: BaconFrame
-date: 2014-04-09 16:57:51
+date: 2014-04-09 
 category: work
 published: false
 ---
