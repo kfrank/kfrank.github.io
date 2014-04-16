@@ -3,8 +3,8 @@ description: "Thoughts from a designer/developer"
 
 author: "Klare Frank"
 
-url: "http://kfrank.github.io"
-baseurl: "http://kfrank.github.io"
+url: "/"
+baseurl: ""
 
 markdown: rdiscount
 permalink: :year/:month/:title.html
