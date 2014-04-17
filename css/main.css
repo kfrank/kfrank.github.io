@@ -1,7 +1,52 @@
-/* Global Reset */
-* {
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  max-width: 100%; }
 
 /* General */
 html, body {
@@ -198,6 +243,23 @@ footer {
     -webkit-transition: -webkit-transform 0.5s;
     transition: transform 0.5s; }
 
+/* Vimeo */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 /* Font-icons */
 @font-face {
   font-family: 'icomoon';
@@ -319,6 +381,9 @@ section#single-wrap {
   section#single-wrap p {
     padding: 0 40px;
     margin: 1.5em 0; }
+    section#single-wrap p img {
+      margin: 0 auto;
+      display: block; }
   section#single-wrap ul, section#single-wrap ol {
     padding: 10px 80px; }
   section#single-wrap ul li, section#single-wrap ol li {
@@ -377,7 +442,8 @@ section#single-wrap {
   #prev:active, #prev:hover,
   #next:active,
   #next:hover {
-    border-color: #50e3c2; }
+    border-color: #50e3c2;
+    color: #50e3c2; }
 
 #prev {
   left: 40px; }
@@ -388,7 +454,8 @@ section#single-wrap {
 .nav-title {
   display: none;
   vertical-align: top;
-  font-size: 80%; }
+  font-size: 80%;
+  color: #50e3c2; }
 
 .nav-title-prev {
   margin-left: 10px;
@@ -440,6 +507,9 @@ section#single-wrap {
 /*****************************************************************************/
 /* Viewport width < 920px */
 @media only screen and (max-width: 919px) {
+  .top {
+    position: absolute; }
+
   body {
     font-size: 17px; }
 
@@ -465,7 +535,8 @@ section#single-wrap {
     padding: 30px; }
 
   ul.posts li .p-wrap p {
-    display: block; }
+    display: block;
+    margin-top: 0; }
 
   ul.posts li .p-wrap:hover {
     padding-left: 40px; }
@@ -495,11 +566,20 @@ section#single-wrap {
   ul.posts li .p-wrap:hover {
     padding-left: 20px; }
 
+  header.home .wrap {
+    padding: 5em 1em 2.5em; }
+
+  header.post h1 {
+    font: 700 1.2em/2.25em "effra", sans-serif; }
+
+  header.post .wrap {
+    margin: 2em 1em; }
+
   section#single-wrap {
     margin: 0 auto; }
 
   section#single-wrap .single-content {
-    padding: 0 20px; }
+    padding: 0; }
 
   section#single-wrap h1.page-title {
     padding: 0 20px;
@@ -520,6 +600,9 @@ section#single-wrap {
   section#single-wrap h6 {
     padding: 0 20px;
     margin-top: 30px; }
+
+  section#single-wrap h1.page-title {
+    font-size: 275%; }
 
   section#single-wrap blockquote {
     padding: 0 20px;
@@ -546,4 +629,91 @@ section#single-wrap {
     header.home nav.social {
       position: absolute;
       bottom: 2em;
-      left: 2.5em; } }
+      left: 2.5em; }
+
+  header.post {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #fff;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
+    header.post.headroom--not-top {
+      background: #50e3c2; }
+      header.post.headroom--not-top .wrap {
+        margin: 1em 3em 3.625em; }
+      header.post.headroom--not-top h1 a {
+        color: #fff; }
+      header.post.headroom--not-top nav.social a {
+        color: #50e3c2;
+        background: #fff; }
+
+  .animated {
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both; }
+
+  @-webkit-keyframes slideDown {
+    from {
+      -webkit-transform: translateY(-100%); }
+
+    to {
+      -webkit-transform: translateY(0); } }
+  @-moz-keyframes slideDown {
+    from {
+      -moz-transform: translateY(-100%); }
+
+    to {
+      -moz-transform: translateY(0); } }
+  @-o-keyframes slideDown {
+    from {
+      -o-transform: translateY(-100%); }
+
+    to {
+      -o-transform: translateY(0); } }
+  @keyframes slideDown {
+    from {
+      transform: translateY(-100%); }
+
+    to {
+      transform: translateY(0); } }
+  header.post.slideDown {
+    -webkit-animation-name: slideDown;
+    -moz-animation-name: slideDown;
+    animation-name: slideDown; }
+
+  @-webkit-keyframes slideUp {
+    from {
+      -webkit-transform: translateY(0); }
+
+    to {
+      -webkit-transform: translateY(-100%); } }
+  @-moz-keyframes slideUp {
+    from {
+      -moz-transform: translateY(0); }
+
+    to {
+      -moz-transform: translateY(-100%); } }
+  @-o-keyframes slideUp {
+    from {
+      -o-transform: translateY(0); }
+
+    to {
+      -o-transform: translateY(-100%); } }
+  @keyframes slideUp {
+    from {
+      transform: translateY(0); }
+
+    to {
+      transform: translateY(-100%); } }
+  header.post.slideUp {
+    -webkit-animation-name: slideUp;
+    -moz-animation-name: slideUp;
+    animation-name: slideUp; } }

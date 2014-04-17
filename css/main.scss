@@ -3,11 +3,57 @@
 $dark: #282828;
 $contrast: #50E3C2;
 
-/* Global Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-* {
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
   margin: 0;
   padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* General */
@@ -209,6 +255,9 @@ footer {
   }
 }
 
+/* Vimeo */
+.embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
 /* Font-icons */
 
 @font-face {
@@ -340,6 +389,11 @@ section#single-wrap {
   p {
     padding: 0 40px;
     margin: 1.5em 0;
+
+    img {
+      margin: 0 auto;
+      display: block;
+    }
   }
   ul, ol {
     padding: 10px 80px;
@@ -398,6 +452,7 @@ section#single-wrap {
 
   &:active, &:hover {
     border-color: $contrast;
+    color: $contrast;
   }
 }
 
@@ -408,6 +463,7 @@ section#single-wrap {
   display: none;
   vertical-align: top;
   font-size: 80%;
+  color: $contrast;
 }
 
 .nav-title-prev {
@@ -477,7 +533,9 @@ section#single-wrap {
 /* Viewport width < 920px */
 
 @media only screen and (max-width : 919px) {
-
+  .top {
+    position: absolute;
+  }
   body { font-size: 17px; }
   nav.social a { font-size: 1.45em; }
 
@@ -491,7 +549,7 @@ section#single-wrap {
   .nav-title { display: inline; }
 
   ul.posts li .p-wrap { padding: 30px; }
-  ul.posts li .p-wrap p { display: block; }
+  ul.posts li .p-wrap p { display: block; margin-top: 0; }
   ul.posts li .p-wrap:hover { padding-left: 40px; }
   ul.posts li .p-wrap:hover::after { content: none; margin: 0; }
   .highlight { margin: 30px 40px 40px; }
@@ -511,8 +569,12 @@ section#single-wrap {
   nav.social a { font-size: 1.55em; }
   ul.posts li .p-wrap { padding: 20px; }
   ul.posts li .p-wrap:hover { padding-left: 20px; }
+  header.home .wrap { padding: 5em 1em 2.5em; }
+  header.post h1 { font: 700 1.2em/2.25em "effra", sans-serif; }
+  header.post .wrap { margin: 2em 1em; }
+  
   section#single-wrap { margin: 0 auto; }
-  section#single-wrap .single-content { padding: 0 20px; }
+  section#single-wrap .single-content { padding: 0; }
   section#single-wrap h1.page-title { padding: 0 20px; margin: 0 0 30px; }
   section#single-wrap p { padding: 0 20px; }
 
@@ -531,6 +593,9 @@ section#single-wrap {
     padding: 0 20px; 
     margin-top: 30px;
   }
+  section#single-wrap h1.page-title {
+    font-size: 275%;
+  }
 
   section#single-wrap blockquote { padding: 0 20px; border-left: 4px solid $contrast; }
 
@@ -539,7 +604,6 @@ section#single-wrap {
 }
 
 @media screen and (min-width:919px) {
-
   main, header.home {
     width: 50%;
     float: left;
@@ -561,5 +625,52 @@ section#single-wrap {
       bottom: 2em;
       left: 2.5em;
     }
+  }
+
+  header.post {
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    top: 0;
+    background: #fff;
+    @include transition ( all 0.5s ease-in-out );
+
+    &.headroom--not-top {
+      background: $contrast;
+      .wrap {
+        margin: 1em 3em 3.625em;
+      }
+      h1 a {
+        color: #fff;
+      }
+      nav.social a {
+        color: $contrast;
+        background: #fff;
+      }
+    }
+  }
+
+  .animated {
+    @include animation-duration(.5s);
+    -webkit-animation-fill-mode:both;
+    -moz-animation-fill-mode:both;
+    -o-animation-fill-mode:both;
+    animation-fill-mode:both
+  }
+  @include keyframes(slideDown) {
+    from {@include transform(translateY(-100%))}
+    to {@include transform(translateY(0))}
+  }
+  header.post.slideDown {
+    @include animation-name(slideDown);
+  }
+
+  @include keyframes(slideUp) {
+    from {@include transform(translateY(0))}
+    to {@include transform(translateY(-100%))}
+  }
+  header.post.slideUp {
+    @include animation-name(slideUp);
   }
 }

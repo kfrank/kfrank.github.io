@@ -13,15 +13,13 @@ Our phones aren't secure enough. Anyone can take our fingerprints to hack their 
 
 Beardswipe, the greatest invention since beards made men. Beards are the newest key to unlocking our phones. BeardSwipe utilizes a patented beardprint recognition technology—BRT—to capture a man's unique follicle pattern and lets you effortlessly unlock your phone. Where will we go from here? Literally no one knows.
 
+<div class='embed-container'><iframe src='http://player.vimeo.com/video/90373042' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
 ## What We Really Built
 
 Our self-selected team at iStrategyLabs came together to create an April Fools prank that highlighted our talents for building physical technology products. We filmed a short video and created a product landing page with two iphone screens as a prototype for our (fake) product.
 
 ![Image transitions on scroll]({{ site.baseurl }}/assets/img/beardswipe/brt.gif)
-
-<div id="vimeo">
-  <iframe src="//player.vimeo.com/video/90373042?title=0&amp;byline=0&amp;portrait=0&amp;api=1&amp;share=0&amp;player_id=video" id="video" width="817" height="460" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-</div>
 
 ## What I Worked On
 
@@ -29,7 +27,7 @@ Our self-selected team at iStrategyLabs came together to create an April Fools p
 
 Knowing that I'd be both designing and deving the website, I started off with a simple wireframe of the one page site. This helped me explain my ideas for what I'd develop later to my coworkers and also allowed them to create some excellent content for the areas I had set up.
 
-![Wireframes in Sketch]({{ site.baseurl }}/assets/img/beardswipe/wireframes.jpg)
+![Wireframes in Sketch]({{ site.baseurl }}/assets/img/beardswipe/wires-01.jpg)
 
 ### Design & Development
 
@@ -37,11 +35,12 @@ I set up the page initially in basic html and started laying out the typography 
 
 I also really wanted to bring in some of the urban woodseyness from our target demographic with the background header image and round out the page with a little bit of gold from the newest iPhone 5s.
 
-![Wireframes in Sketch]({{ site.baseurl }}/assets/img/beardswipe/visuals.jpg)
+![Wireframes in Sketch]({{ site.baseurl }}/assets/img/beardswipe/visual-01.jpg)
 
 We were originally going to take a set of lookbook photographs that would capture the essence of our demographic, so I tried to keep in mind that we'd have huge, crisp pictures of bearded men. But we scraped that because of time, so I was stuck using images of our coworkers. Lame. Some of them can't even grow beards.
 
-![Image transitions on scroll]({{ site.baseurl }}/assets/img/beardswipe/mockup-01.jpg)
+![Image transitions on scroll]({{ site.baseurl }}/assets/img/beardswipe/visual-02.jpg)
+![Image transitions on scroll]({{ site.baseurl }}/assets/img/beardswipe/visual-03.jpg)
 
 It was a basic build, using sass with bourbon and a little bit of jquery. The most difficult thing was figuring out how to get the vimeo api to autoplay and stop the video based on the users' interaction with the modal, but I nailed that right before I had to hop a flight to Barcelona.
 
