@@ -144,7 +144,7 @@ header {
       line-height: 50px; }
 
 header.post .wrap {
-  margin: 2em 3em; }
+  margin: 2em 3em 3.625em; }
 header.post h1 {
   float: left;
   font: 700 0.9em/1.75em "effra", sans-serif; }
@@ -337,7 +337,7 @@ ul.posts {
 section#single-wrap {
   width: 100%;
   max-width: 42em;
-  margin: 2em auto;
+  margin: 4em auto;
   background: #fff;
   z-index: 1; }
   section#single-wrap .single-content {

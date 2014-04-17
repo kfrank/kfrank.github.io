@@ -140,7 +140,7 @@ header {
 
 header.post {
   .wrap {
-    margin: 2em 3em;
+    margin: 2em 3em 3.625em;
   }
   h1 {
     float: left;
@@ -337,7 +337,7 @@ ul.posts {
 section#single-wrap {
   width: 100%;
   max-width: 42em;
-  margin: 2em auto;
+  margin: 4em auto;
   background: #fff;
   z-index: 1;
 
