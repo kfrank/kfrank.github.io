@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What DC lacks
-date: {}
+date: 2014-04-09
 category: thoughts
 published: false
 ---
