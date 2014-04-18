@@ -22,7 +22,10 @@ People usually say it's because you get judged immediately on your worth on the 
 How much of DC's culture has permiated down into my core, making it impossible for me to divorce my career from my personality? It's extremely tough as a designer not to notice things like kerning and typography on everything, but I enjoy making a distinction between my job and my career. 
 
 ##Where are you from?
-This is where I usually wait for the comments on Delaware beaches or something about incorporating in Wilmington. My conversationalist is usually looking for some commonality between the two of us, which may be likely since most everyone in DC is from somewhere else. However, I'm from the second smallest state and I didn't live at the beach or in a corporation, so there's not much to say.
+This is where I usually wait for the comments on Delaware beaches or something about incorporating in Wilmington. My conversationalist is usually looking for some commonality between the two of us, which may be likely since most everyone in DC is from somewhere else. I'm from the second smallest state and I didn't live at the beach or in a corporation, so there's not much to say.
 
 ---
 
+These questions aren't bad, but people end up complaining because they're so surface level. It's easy to start a conversation with a broad question like the two above, but we get stuck in this surface level slush instead of sinking down into the rabbit hole. 
+
+People who live in DC have a hidden defense mechanism. 
