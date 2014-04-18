@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What DC lacks
-date: 2014-04-09
+date: {}
 category: thoughts
 published: false
 ---
@@ -19,7 +19,10 @@ People usually say it's because you get judged immediately on your worth on the 
 
 >In France, I've heard, it's rude to ask people what they do.
 
-How much of DC's culture has permiated down into my core, making it impossible for me to divorce my career from my personality?
+How much of DC's culture has permiated down into my core, making it impossible for me to divorce my career from my personality? It's extremely tough as a designer not to notice things like kerning and typography on everything, but I enjoy making a distinction between my job and my career. 
 
 ##Where are you from?
-Where I usually wait for the comments on Delaware beaches or something about incorporating in Wilmington.
+This is where I usually wait for the comments on Delaware beaches or something about incorporating in Wilmington. My conversationalist is usually looking for some commonality between the two of us, which may be likely since most everyone in DC is from somewhere else. However, I'm from the second smallest state and I didn't live at the beach or in a corporation, so there's not much to say.
+
+---
+
