@@ -24,8 +24,8 @@ How much of DC's culture has permiated down into my core, making it impossible f
 ##Where are you from?
 This is where I usually wait for the comments on Delaware beaches or something about incorporating in Wilmington. My conversationalist is usually looking for some commonality between the two of us, which may be likely since most everyone in DC is from somewhere else. I'm from the second smallest state and I didn't live at the beach or in a corporation, so there's not much to say.
 
----
-
 These questions aren't bad, but people end up complaining because they're so surface level. It's easy to start a conversation with a broad question like the two above, but we get stuck in this surface level slush instead of sinking down into the rabbit hole. 
 
-People who live in DC have a hidden defense mechanism. 
+People who live in DC have a hidden defense mechanism. It's like they know everyone's going to leave eventually so making deep connections isn't that much of a priority. Add big government and being treated like a number to the mix and suddenly a culture of detached professionals permiates through everything.
+
+I've fallen victim to this as well. It's easy not to get too attached. But it's also monotonous. The meaty, rich parts of life come from deeper connections between people and the only way to get that is to be more empathetic in our relationships. I'm going to start small and try to keep empathy in the front of my mind. It's not going to change the city, and I'm not trying to solve all the problems, but it's a start. Small steps.
