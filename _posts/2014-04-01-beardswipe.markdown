@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "BeardSwipe"
-date:   2014-04-01 16:57:51
+title: BeardSwipe
+date: {}
 category: work
+published: true
 ---
 
 ## The Problem
@@ -40,6 +41,7 @@ I also really wanted to bring in some of the urban woodseyness from our target d
 We were originally going to take a set of lookbook photographs that would capture the essence of our demographic, so I tried to keep in mind that we'd have huge, crisp pictures of bearded men. But we scraped that because of time, so I was stuck using images of our coworkers. Lame. Some of them can't even grow beards.
 
 ![Image transitions on scroll]({{ site.baseurl }}/assets/img/beardswipe/visual-02.jpg)
+
 ![Image transitions on scroll]({{ site.baseurl }}/assets/img/beardswipe/visual-03.jpg)
 
 It was a basic build, using sass with bourbon and a little bit of jquery. The most difficult thing was figuring out how to get the vimeo api to autoplay and stop the video based on the users' interaction with the modal, but I nailed that right before I had to hop a flight to Barcelona.
