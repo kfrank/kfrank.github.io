@@ -42,6 +42,7 @@ We were originally going to take a set of lookbook photographs that would captur
 
 ![Image transitions on scroll]({{ site.baseurl }}/assets/img/beardswipe/visual-02.jpg)
 
+
 ![Image transitions on scroll]({{ site.baseurl }}/assets/img/beardswipe/visual-03.jpg)
 
 It was a basic build, using sass with bourbon and a little bit of jquery. The most difficult thing was figuring out how to get the vimeo api to autoplay and stop the video based on the users' interaction with the modal, but I nailed that right before I had to hop a flight to Barcelona.
