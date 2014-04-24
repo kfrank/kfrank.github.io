@@ -11,5 +11,5 @@ permalink: :year/:month/:title.html
 pygments: true
 
 # Google Analytics
-ga_domain: http://kfrank.github.io
+ga_domain: http://klare.io
 ga_tracking_id: UA-49926701-1
