@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Homepage
+published: true
 ---
+
 <div class="container">
 <div class="top"></div>
 <header class="home">
@@ -20,7 +22,7 @@ title: Homepage
   <div id="home">
     <ul class="posts">
       {% for post in site.posts %}
-        <li itemscope itemtype="http://schema.org/BlogPosting">
+        <li>
           <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
             <div class="p-wrap">
               <span class="type">
@@ -40,4 +42,3 @@ title: Homepage
   <button type="button" class="overlay-close">Close</button>
 
 </div>-->
-
