@@ -3,6 +3,7 @@ layout: post
 title:  "Paying for College"
 date:   2013-03-28 16:57:51
 category: work
+published: true
 ---
 
 ## The Problem
