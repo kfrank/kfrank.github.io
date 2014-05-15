@@ -18,16 +18,16 @@ My creative director and my client aren't going to understand that I'm trying to
 
 Things I enjoy now that I've been using sketch exclusively for the past two months:
 
-1. Artboards & Pages
+##Artboards & Pages
 Yup. I totally realize that you get this with illustrator. I don't disagree with you illustrator users! Artboards are awesome! They make iterating ideas quick by just drag-copying entire artboards. I can see what different interaction states look like right next to one another. If I need to create traditional comps because I know another designer may take over the work, it's easy to store a whole set of pages in one file. The organization is already set up to use and it's easy to understand.
 
-2. Symbols & Shared Styles
+##Symbols & Shared Styles
 Photoshop has this, but, let's be real, it sucks. Yesterday I imported a fellow designer's comp from Photoshop to Sketch and create a symbol out of her button style. I ended up not using the button at all in the initial design I created, but when the edits came back from the client, I needed that button and it was easily stored for me to add in a second.
 
-3. Type Rendering
+##Type Rendering
 I'm not spending 5 million years switching between crisp, strong, mac, mac lcd, etc. Type in Sketch is closely rendered the way it'll look in modern browsers. I like that. Then I can spend less time wondering why it doesn't look similar and move on to spending 5 million years adjusting my margins.
 
-5. Exporting
+##Exporting
 I can geek out by exporting all my artboards and pages with [one command via Alfred](http://jonohunt.tumblr.com/post/84511158113/alfred-workflow-export-sketch-documents). 
 
 Things I've noticed need a bit of work:
