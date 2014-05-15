@@ -1,5 +1,9 @@
 ---
-published: false
+layout: post
+title:  "Why I Switched to Sketch"
+date:   2014-05-15 14:34:51
+category: thoughts
+published: true
 ---
 
 It's been about two months since I decided to redownload Sketch and see what all the fuss was about. Surprisingly, I ended up liking it. Quite a lot. I've switched from grumbling about having to use Photoshop to, now, just mocking up a few components and playing with layouts in Sketch outside of the context of browser constraints or grids already set in sass. 
