@@ -3,6 +3,7 @@ layout: post
 title:  "Some Highlights from Grok"
 date:   2014-04-07 16:57:51
 category: thoughts
+published: true
 ---
 
 I was really damn excited going into my double header trip of Barcelona/Greenville. One new place, and one familiar place. Two years ago, I went to Grok for the first time and made some great friends that I've kept in touch with on twitter and have run into over those two years at various conferences across the country.

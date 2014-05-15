@@ -3,6 +3,7 @@ layout: post
 title:  "Ducklings"
 date:   2014-04-09 16:57:51
 category: thoughts
+published: true
 ---
 
 Last night I taught my first class at General Assembly on the basics of HTML. Not only was it the first class of the course, but it was my first class ever. For the better part of three months I've been dealing with impostor syndrome because I'm teaching a frontend development course. As a designer. I'd nervously laugh as I told people I'd be sitting on a panel about the 'Day in the Life of a Frontend Developer' when that wasn't my job title at all, and they'd look at me like I was crazy for even thinking I *wasn't* capable of being on that panel.
