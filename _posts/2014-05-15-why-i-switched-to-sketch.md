@@ -31,8 +31,11 @@ I'm not spending 5 million years switching between crisp, strong, mac, mac lcd, 
 I can geek out by exporting all my artboards and pages with [one command via Alfred](http://jonohunt.tumblr.com/post/84511158113/alfred-workflow-export-sketch-documents). 
 
 Things I've noticed need a bit of work:
+
 1. Sketch can get a bit slow if you have a ton of artboards. I've gotten around this by moving artboards to pages when I'm mostly done with them.
+
 2. Shared styles also share a color, so if you have type in a font and at one size, but want to change the color to white because it's on a dark background, you have to unlink the style first.
+
 3. Sometimes resizing icons imported from illustrator can be strange. The inner shape might not resize exactly the right way.
 
 Overall, I've been pretty happy with the switch and have only opened Photoshop if another design gets handed to me. I've really been loving all the plugins that keep popping up. It seems like the majority of users are really into open source and already are active on github. Sketch has been working great for me. If you're struggling with one tool, maybe you should give something else a try for a while. If you're not, then keep on designing! It's all a means to a polished final product and whatever's going to help you produce the best work is what you should be using.
