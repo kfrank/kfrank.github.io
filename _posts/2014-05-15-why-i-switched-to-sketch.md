@@ -30,6 +30,8 @@ I'm not spending 5 million years switching between crisp, strong, mac, mac lcd, 
 ##Exporting
 I can geek out by exporting all my artboards and pages with [one command via Alfred](http://jonohunt.tumblr.com/post/84511158113/alfred-workflow-export-sketch-documents). 
 
+***
+
 Things I've noticed need a bit of work:
 
 1. Sketch can get a bit slow if you have a ton of artboards. I've gotten around this by moving artboards to pages when I'm mostly done with them.
