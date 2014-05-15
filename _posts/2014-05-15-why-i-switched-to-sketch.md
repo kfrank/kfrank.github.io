@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I Switched to Sketch
-date: {}
+date: 2014-05-15 14:32:51
 category: thoughts
 published: true
 ---
