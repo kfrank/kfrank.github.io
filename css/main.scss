@@ -80,6 +80,10 @@ ol li { list-style-type: decimal; }
 a         { color: darken($contrast,20%); }
 a:hover   { color: #444; }
 
+p + ol, p + ul {
+  margin-top: -2em;
+}
+
 /* header */
 
 .top {
