@@ -18,7 +18,7 @@ Let's start off by assuming we'll still have static comps. Because we're trying 
 
 I like to start in Sketch with their 'Web Design' template, which gives us four artboards: Desktop HD at 1440 pixels wide, Desktop at 1024 pixels wide, Tablet Portrait at 768 pixels wide, and Mobile Portrait at 320 pixels wide. As a side note, we probably want to make sure we're saving these both @1x and at @2x in case our client is on a retina device.
 
-!(Example of Sketch document with four different artboards)[]
+!(Example of Sketch document with four different artboards)[assets/img/responsive-comps.png]
 
 Next, we want a simple html page with a css file attached where we list out all of our comp images. We also want to make sure we're adding a class to each image so we can reference that in css.
 
@@ -46,7 +46,7 @@ Since our desktop comp is 1024 pixels wide, we'll show that when the user's view
 
 Repeat with each comp and we'll have something like this:
 
-!(Viewport width adjusting to show different comps at different browser widths)[]
+!(Viewport width adjusting to show different comps at different browser widths)[assets/img/responsive-comps.gif]
 
 Upload to a server and now we have a url that we can send to our clients. When they open the page, only the image that fits their viewport will show so that we can be sure they're viewing our designs proportionately.
 
