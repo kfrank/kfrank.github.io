@@ -53,5 +53,7 @@ Upload to a server and now we have a url that we can send to our clients. When t
 ## Caveats
 This doesn't solve everything. Like the title of this post suggests, we're only faking responsive. We still have problems like not being able to show interactive elements, transitions, parallax (if you insist on using it), etc. At the end of the client meeting, the comps are still pretty pictures of a website we'll eventually make. 
 
+You could probably be really fancy with how you serve your images, too. But we're going for simplicity here, so that's why I wrote it the way I did.
+
 This does, however, attempt to solve the issue of the client thinking designs are really really large, or wanting to know how our desktop sized comps will look on their ipad. And sometimes that's exactly what we need to get signoff on visual designs.
 
