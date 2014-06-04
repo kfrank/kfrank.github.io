@@ -91,6 +91,20 @@ hr {
   margin: 3em 1.5em;
 }
 
+pre {
+  background: #062B37;
+  padding: 1.5em;
+  border-radius: 4px;
+  color: #839496;
+}
+
+code {
+  font-family: Consolas, monaco, monospace;
+  font-size: 0.75em;
+  white-space: pre-wrap;
+}
+
+
 /* header */
 
 .top {
