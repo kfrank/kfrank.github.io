@@ -6,6 +6,9 @@ category: thoughts
 published: false
 ---
 
-Mobile First
+## Approach
+Mobile-first, content-based wireframes
+
+## Execution
 Hologram
 Assemble & Handlebars
