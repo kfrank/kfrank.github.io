@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Content Audits
+title: Simple Content Audits
 date: 2014-07-07 10:29:21
 category: thoughts
 published: true
