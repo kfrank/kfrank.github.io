@@ -1,10 +1,14 @@
 ---
+layout: post
+title: Responsible Design
+date: 2014-08-25 14:32:51
+category: thoughts
 published: false
 ---
 
 ## Making deliberate choices
 
-2014 is going to be the year where we take a hard look at the types of projects we’re designing and ask ourselves is this providing significant good?.
+It's time we take a hard look at the types of projects we’re designing and ask ourselves is this providing significant good?.
 
 Throughout my career, I’ve only once been placed in a situation where I’ve had to ask myself how my designs were helping the motives of an organization I didn’t agree with. It ended up affecting the choices I made in how I designed and I was deliberately questioning the design decisions I was making not in a ‘will this layout be easier to read and digest’ sort of way, but a ‘is this design too good that it’ll give more power to an organization I stand against?’.
 

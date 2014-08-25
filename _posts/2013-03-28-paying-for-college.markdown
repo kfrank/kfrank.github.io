@@ -22,5 +22,9 @@ As a part of the products team at the Consumer Financial Protection Bureau, CFPB
 
 ### Interface Design
 
+![The Interface]({{ site.baseurl }}/assets/img/cfpb-paying-for-college-tool.png)
+
+See and interact with the current tool:
+
 [Paying for College](http://www.consumerfinance.gov/paying-for-college/compare-financial-aid-and-college-cost/)
 
