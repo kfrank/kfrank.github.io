@@ -3,7 +3,7 @@ layout: post
 title: "Everything Looks the Same" 
 date: 2014-08-25 10:29:21
 category: thoughts
-published: false
+published: true
 ---
 
 To preface, this was my original proposed topic for [Contrary Con](http://contrarycon.com). If you've never prepped for a talk for a conference before, it's a lot of hard work. Being that it was my first official conference speaking experience, it took most nights (and some mornings) the week of plus extra concepting the week prior. I have a lot more respect now for speakers who can craft engaging and cohesive talks that aren't focused around their work.
@@ -60,7 +60,9 @@ Starting out, designers and developers needed to get familiar with responsive de
 
 Creating a website became more difficult while completing it within the same timeframe. It's understandable that websites got simpler in response to this.
 
->Quote
+>Flexibility has become a more valuable currency than specificity.
+>
+> <cite>[Matt Griffin, Client Relationships and the Multi-Device Web](http://alistapart.com/article/client-relationships-and-the-multi-device-web)</cite>
 
 ###Type
 I like to joke that everything is either set in Proxima Nova or Brandon Grotesque. Or maybe Gotham if the client is really "progressive" (aka, was convinced to pay a lot for a Hoefler & Co typeface).
@@ -74,16 +76,27 @@ I get it. It's easy to use. [Bootstrap](http://getbootstrap.com/) can be a great
 
 However, over time we've noticed that websites built with bootstrap still look like bootstrap. Heck, even toolkits based off bootstrap look like bootstrap.
 
->Deciding all the different components in a toolkit before starting design or content strategy is like 
+>Deciding all the components in a toolkit before starting design is limiting designers to what's already been done, not what's possible.
 
 ##How similar is too similar?
 
+When I came across these two websites in May of 2014, my initial thought was that someone took a hell of a lot of influence from the other. I posted to twitter with a simple reaction of 'huh'.
+
 ![May 2014]({{ site.baseurl }}/assets/img/BndmDgaCAAAAtZ9.png)
+
+Immediately after, I was reminded that this trend is prevalent in a lot of places. Take for example InVision's latest redesign, which also uses similar placement of user interface elements and the same type treatment.
+
 ![May 2014]({{ site.baseurl }}/assets/img/Bndn8MKCMAMUz4r.png)
+
+So how similar is too similar? Is this a reflection of trends and influence or designers drawing the same conclusions?
 
 ##What should we do (if anything)?
 
-Most people are quick to judge today's websites, but there are some positives to their similarity. For one, users know where to go. Most of the common elements on a page are in similar places and take advantage of users scanning the page in an 'F' shaped pattern. Secondly, it's easy for startups to build first, validate their product and then add on uniqueness. Thirdly, the design similarities make websites of today look a hell of a lot better than their predecessors.
+Most people are quick to judge today's websites, but there are some positives to their similarity. 
+
+1. Users know where to go. Most of the common elements on a page are in similar places and take advantage of users scanning the page in an 'F' shaped pattern. 
+2. It's easy for startups to build first, validate their product and then add on uniqueness. 
+3. The design similarities make websites of today look a hell of a lot better than their predecessors.
 
 We can do better than that.
 

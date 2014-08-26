@@ -104,6 +104,10 @@ code {
   font-size: 0.75em;
   white-space: pre-wrap; }
 
+cite {
+  font-size: 0.4em;
+  font-style: italic; }
+
 /* header */
 .top {
   height: 8px;
@@ -437,12 +441,13 @@ section#single-wrap {
     font-weight: 200;
     color: #333;
     border-left: 6px solid #50e3c2;
-    padding: 0 34px;
+    padding: 0.5em 34px;
     margin: 40px 0; }
     section#single-wrap blockquote p {
       padding-left: 0 !important;
       padding-right: 0 !important;
-      line-height: 150%; }
+      line-height: 150%;
+      margin: 0; }
     section#single-wrap blockquote img {
       width: 100%;
       height: 100%; }

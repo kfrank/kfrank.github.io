@@ -104,6 +104,11 @@ code {
   white-space: pre-wrap;
 }
 
+cite {
+  font-size: 0.4em;
+  font-style: italic;
+}
+
 
 /* header */
 
@@ -446,13 +451,14 @@ section#single-wrap {
     font-weight: 200;
     color: #333;
     border-left: 6px solid $contrast;
-    padding: 0 34px;
+    padding: 0.5em 34px;
     margin: 40px 0;
 
     p {
       padding-left: 0!important;
       padding-right: 0!important;
       line-height: 150%;
+      margin: 0;
     }
     img {
       width: 100%;
