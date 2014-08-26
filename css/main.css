@@ -105,6 +105,10 @@ code {
   white-space: pre-wrap; }
 
 cite {
+  font-size: 0.75em;
+  font-style: italic; }
+
+blockquote cite {
   font-size: 0.4em;
   font-style: italic; }
 

@@ -13,7 +13,7 @@ While I enjoyed speaking on the principles I practice for trying to create quali
 So here we go.
 
 ##How did we get here?
-If you were designing two or three years ago, you'll remember most homepages had four elements. A header, a carousel, a three column section with more content that no one read, and a very large footer with a complete sitemap and contact information
+If you were designing two or three years ago, you'll remember most homepages had four elements. A header, a carousel, a three column section with more content that no one read, and a very large footer with a complete sitemap and contact information.
 
 In short, something very similar to this:
 
@@ -23,13 +23,14 @@ During that time, most people thought this was the perfect layout. We kept seein
 
 But things did change.
 
-Not too long after, responsive design emerged. Some people (including myself) adopted it early on, while others were skeptical for a long while, arguing that separate mobile sites were better. Regardless, responsive design because the norm, and as creators of the web, we had to adapt to this.
+Not too long after, responsive design emerged. Some people (including myself) adopted it early on, while others were skeptical for a long while, arguing that separate mobile sites were better. Regardless, responsive design became the norm, and as creators of the web, we adapted to this.
 
-What ended up being created were longer websites where content could be delivered in more interesting layouts. These layouts were based on strict grid systems that could be easily reconfigured into a single column for small screens.
+What we ended up with were longer websites where content could be delivered in more interesting layouts. These layouts were based on strict grid systems that could be easily reconfigured into a single column for small screens.
 
 They ended up looking a bit like this:
 
 ![2013 era websites]({{ site.baseurl }}/assets/img/new-websites.jpg)
+<cite>[Created with One Page Wireframes](http://graphicburger.com/one-page-website-wireframes/)</cite>
 
 But frankly, things still look the same. 
 
@@ -37,9 +38,9 @@ Why is it that today we have more flexibility in delivering content, yet we're c
 
 ###Visual trends as response
 
-If you remember (or maybe you'd like to forget), highly texturized, drop shadowed websites were popular at the same time we were creating websites that were only 600 pixels tall. I think a lot of the justification for creating these was based off of our layouts being so rigid. Creating a website with personality was tough when services such as Typekit and Fontdeck were just emerging.
+If you remember (or maybe you'd like to forget), highly texturized, drop shadowed websites were popular at the same time we were creating websites that were only 800 pixels tall. I think a lot of the justification for creating these was based off of our layouts being so rigid. Creating a website with personality was tough when services such as Typekit and Fontdeck were just emerging.
 
-Additionally, after so many of our websites were just links for a long while, it was nice to be able to include a lot of images that didn't take forever to load. It was pretty much commonplace to create websites where all the text had a 1px text shadow to make it feel inset on the page, echoing actual letter-pressed, real type.
+Additionally, after so many of our websites were just links for a long while, it was nice to be able to include a lot of images that didn't take forever to load. It was pretty much commonplace to create websites where all the text had a 1px shadow to make it feel inset on the page, echoing actual letter-pressed, real type.
 
 ![Pendulum]({{ site.baseurl }}/assets/img/pendulum-1.jpg)
 
