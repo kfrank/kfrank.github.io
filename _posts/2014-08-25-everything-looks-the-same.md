@@ -57,9 +57,11 @@ Let's take a look at some of the things that have influenced how we currently de
 ###Responsive Design
 Things had to change, literally. 
 
-Starting out, designers and developers needed to get familiar with responsive design. To accommodate changing sizes and placement of elements within responsive layouts, websites needed to be basically a collection of large boxes.
+As mentioned before, responsive design was a huge influence on simplifying websites.
 
-Creating a website became more difficult while completing it within the same timeframe. It's understandable that websites got simpler in response to this.
+Starting out, designers and developers needed to get familiar with responsive design. To accommodate changing sizes and placement of elements within responsive layouts, websites were mostly distilled down into a collection of large boxes.
+
+Creating a website became more difficult to complete within the same timeframe. It's understandable that websites got simpler in response to this.
 
 >Flexibility has become a more valuable currency than specificity.
 >
@@ -73,7 +75,11 @@ It's mostly true. Take a look at [Land Book](http://land-book.com/) and you'll s
 They're all modern sans-serifs that are easy to read and work with a variety of different logos. In short, very flexible. Yet, overuse dilutes any uniqueness.
 
 ###Bootstrap
-I get it. It's easy to use. [Bootstrap](http://getbootstrap.com/) can be a great tool for quickly creating prototypes, but when a product gets built with it, it can be easy to think the work has been done. It works. It feels like a real product. It has whitespace.
+I get it. It's easy to use. [Bootstrap](http://getbootstrap.com/) can be a great tool for quickly creating prototypes. However, when a product gets built using Bootstrap, it can be easy to think the work has been done. 
+
+It works. 
+It feels like a real product. 
+It has whitespace.
 
 However, over time we've noticed that websites built with bootstrap still look like bootstrap. Heck, even toolkits based off bootstrap look like bootstrap.
 
@@ -85,7 +91,7 @@ When I came across these two websites in May of 2014, my initial thought was tha
 
 ![May 2014]({{ site.baseurl }}/assets/img/BndmDgaCAAAAtZ9.png)
 
-Immediately after, I was reminded that this trend is prevalent in a lot of places. Take for example InVision's latest redesign, which also uses similar placement of user interface elements and the same type treatment.
+Immediately after, I was reminded that this trend is prevalent in a lot of places. Take for example InVision's latest redesign, which also uses similar placement of user interface elements and the same font and treatment.
 
 ![May 2014]({{ site.baseurl }}/assets/img/Bndn8MKCMAMUz4r.png)
 
@@ -103,7 +109,11 @@ We can do better than that.
 
 The web community has done a great job recently asking why certain trends exist and whether they add to the sites being created. But we shouldn't be critical for the sake of being critical.
 
-Something about technology changing and us responding to that.
+As technology changes, our common web design philosophy will also change. It could be a positive response to having more flexibility in the way we create websites, or a negative responsive to using new technology in the same way. 
 
-Not all of the solutions we've used in today's very minimalist era work for every project. I'd challenge all of you creating websites to think about creating something that enhances the work with ever step.
+We'll see. Change is inevitable. 
+
+Not all of the solutions we've used in today's very minimalist era work for every project. Web designers have already moved away from exceedingly flat design trends (such as long shadows). I predict that we'll see some bit of texture emerge as the pendulum swings back away from highly minimal. 
+
+I'd challenge all of you creating websites to think about creating something that enhances the work with ever step.
 
