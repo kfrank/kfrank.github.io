@@ -1,16 +1,17 @@
 $(document).ready(function() {
-  $("header.post").headroom({
-    "tolerance": 5,
-    "offset": 205,
-    "classes": {
-      "initial": "animated",
-      "pinned": "slideDown",
-      "unpinned": "slideUp",
-      "top": "headroom--top",
-      "notTop": "headroom--not-top"
-    }
-    });
+  $('.tabs a').click(function(){
+    var postType = $(this).attr('href');
 
-    // to destroy
-    $("#header.post").headroom("destroy");
+    $('.posts a').hide();
+    $('.type--' + postType.substring(1)).show();
+
+    if( $(this).hasClass('selected') ) {
+      $(this).removeClass('selected');
+      $('.posts a').show();
+    } else {
+      $('.tabs a').removeClass('selected');
+      $(this).addClass('selected');
+    }
+   
+  });
 });

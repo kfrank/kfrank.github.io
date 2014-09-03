@@ -65,7 +65,7 @@ Creating a website became more difficult to complete within the same timeframe. 
 
 >Flexibility has become a more valuable currency than specificity.
 >
-> <cite>[Matt Griffin, Client Relationships and the Multi-Device Web](http://alistapart.com/article/client-relationships-and-the-multi-device-web)</cite>
+> <cite>Matt Griffin — [Client Relationships and the Multi-Device Web](http://alistapart.com/article/client-relationships-and-the-multi-device-web)</cite>
 
 ###Type
 I like to joke that everything is either set in Proxima Nova or Brandon Grotesque. Or maybe Gotham if the client is really "progressive" (aka, was convinced to pay a lot for a Hoefler & Co typeface).

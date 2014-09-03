@@ -1,0 +1,40 @@
+body, input, textarea {
+	color: $dark;
+	font-family: $type-primary;
+}
+
+h1 {
+	font-family: $type-secondary;
+}
+
+h2, h3, h4, h5, h6 {
+	font-family: $type-tertiary;
+}
+
+pre {
+	background: $dark;
+	padding: 1.5em;
+	border-radius: 4px;
+	color: darken($light, 30%);
+}
+
+hr {
+	height: 1px;
+	border: none;
+	background: darken($light, 10%);
+	margin: 3em 0;
+}
+
+/* 800 and up */
+@media screen and (min-width:50em) {
+
+	body 							{ font-size:110%; }
+
+}
+
+/* 1400 and up */
+@media screen and (min-width:87.5em) {
+
+	body 							{ font-size:125%; }
+
+}

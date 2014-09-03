@@ -4,6 +4,10 @@ title:  "CourtPlay"
 date:   2014-01-27 16:57:51
 category: work
 published: true
+intro: "A web application that gives coaches the ability to market themselves, eases the administrative responsibilities of coaching, eliminates the inefficiencies of their current scheduling process, and gives them maximum earning potential. Players now have all the necessary tools to sign up for lessons, find players at their skill level, and locate courts in their neighborhood."
+tags:
+- user experience
+- visual design
 ---
 
 ## The Problem

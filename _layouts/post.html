@@ -3,47 +3,71 @@ layout: default
 published: true
 ---
 
-<div class="top"></div>
-<header class="post">
-  <div class="wrap">
-    <h1 class="title"><a href="{{ site.baseurl }}/" title="Back to Homepage">{{ site.name }}</a></h1>
-    <nav class="social">
-      <a href="http://twitter.com/klare"><span class="icon-twitter"></span></a>
-      <a href="http://dribbble.com/klare"><span class="icon-dribbble"></span></a>
-    </nav>
-  </div>
+<header class="header--interior">
+  <h1><a href="{{ site.baseurl }}/" title="Back to Homepage">{{ site.name }}</a></h1>
+  <nav role="navigation">
+    <ul>
+      <li><a href="{{ site.baseurl }}/">Work</a></li>
+      <li><a href="{{ site.baseurl }}/">Thoughts</a></li>
+      <li><a href="{{ site.basurl }}/about">About</a></li>
+    </ul>
+  </nav>
 </header>
 
-<section id="single-wrap">
-  <article class="single-content">
-    <div class="feat">
-      <h5 class="page-date">
-        <time datetime="{{ page.date | date_to_xmlschema }}">
-          {{ page.date | date_to_long_string }}
-        </time>
-      </h5>
+{% if page.category == "thoughts" %}
+  <article class="page page--thoughts">
+{% else %}
+  <article class="page page--work">
+{% endif %}
+
+{% if page.category == "work" %} 
+  <ul class="post--tags">
+{% for tag in page.tags %}
+    <li class="post--tag">{{ tag }}</li>
+{% endfor %}
+  </ul>
+{% else %}
+  <time datetime="{{ page.date | date_to_xmlschema }}">
+    {{ page.date | date_to_long_string }}
+  </time>
+{% endif %}
+  
+<h1 class="page-title">{{ page.title }}</h1>
+  {% if page.category == "work" %} 
+    <div class="content--intro">
+      {{ page.intro }}
     </div>
-    <h1 class="page-title">{{ page.title }}</h1>
-    <div>
-      {{ content }}
-    </div>
-    <div id="share" class="feat">
-      <a href="http://twitter.com/share" class="popup">
-        <span class="icon-twitter"></span>
-      </a>
-    </div>
-    {% if page.next %}
-      <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
-        <span class="nav-title nav-title-next">newer</span> &rarr;
-      </a>
-    {% endif %}
-    {% if page.previous %}
-      <a rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}" id="prev">
-        &larr; <span class="nav-title nav-title-prev">older</span>
-      </a>
-    {% endif %}
-  </article>
-</section>
+    <figure class="hero">
+      <img src="{{ site.baseurl }}/{{ page.hero }}" alt="">
+    </figure>
+  {% endif %}
+  <div class="content--post">
+    {{ content }}
+  </div>
+  <div class="nav--share">
+    <a href="http://twitter.com/share" class="popup">
+      <span class="icon-twitter"></span>
+    </a>
+  </div>
+  {% if page.next %}
+    <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" class="paging" id="next">
+      <span>
+        <svg width="32" height="32" viewBox="0 0 64 64">
+        <path d="M29.333 10.667q1.104 0 1.875 0.771l18.667 18.667q0.792 0.792 0.792 1.896t-0.792 1.896l-18.667 18.667q-0.771 0.771-1.875 0.771t-1.885-0.781-0.781-1.885q0-1.125 0.771-1.896l16.771-16.771-16.771-16.771q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76zM13.333 10.667q1.104 0 1.875 0.771l18.667 18.667q0.792 0.792 0.792 1.896t-0.792 1.896l-18.667 18.667q-0.771 0.771-1.875 0.771t-1.885-0.781-0.781-1.885q0-1.125 0.771-1.896l16.771-16.771-16.771-16.771q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z"></path>
+      </svg>
+      </span>
+    </a>
+  {% endif %}
+  {% if page.previous %}
+    <a rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}" class="paging" id="prev">
+      <span>
+        <svg width="32" height="32" viewBox="0 0 64 64">
+        <path id="arrow-left-5" d="M48 10.667q1.104 0 1.885 0.781t0.781 1.885-0.792 1.896l-16.771 16.771 16.771 16.771q0.792 0.792 0.792 1.896t-0.781 1.885-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.771-0.771-1.896t0.771-1.896l18.667-18.667q0.771-0.771 1.896-0.771zM32 10.667q1.104 0 1.885 0.781t0.781 1.885-0.792 1.896l-16.771 16.771 16.771 16.771q0.792 0.792 0.792 1.896t-0.781 1.885-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.771-0.771-1.896t0.771-1.896l18.667-18.667q0.771-0.771 1.896-0.771z"></path>
+      </svg>
+      </span>
+    </a>
+  {% endif %}
+</article>
 
 <footer>
   <small>&copy; {{ site.author }}</small>

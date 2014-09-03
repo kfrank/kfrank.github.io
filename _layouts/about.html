@@ -1,0 +1,29 @@
+---
+layout: default
+published: true
+---
+
+<header class="header--interior">
+  <h1><a href="{{ site.baseurl }}/" title="Back to Homepage">{{ site.name }}</a></h1>
+  <nav role="navigation">
+    <ul>
+      <li><a href="{{ site.baseurl }}/">Work</a></li>
+      <li><a href="{{ site.baseurl }}/">Thoughts</a></li>
+      <li><a href="{{ site.basurl }}/about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<article class="page page--about">
+ 
+  <figure class="hero">
+    <img src="{{ site.baseurl }}/{{ page.hero }}" alt="">
+  </figure>
+<h1 class="page-title">{{ page.title }}</h1>
+  <div class="content--post">
+    {{ content }}
+  </div>
+<footer>
+  <small>&copy; {{ site.author }}</small>
+</footer>

@@ -4,6 +4,11 @@ title: EveryoneOn
 date: 2014-07-15 16:57:51
 category: work
 published: true
+intro: "A website redesign that combines the old everyoneon.org and connect2compete.org. EveryoneOn aims to bridge the digital divide by providing affordable internet access. Our targeted audiences were K-12 families, seniors, and job-seekers, providing a difficult challenge for a wide range of age groups, backgrounds, and goals."
+hero: "assets/img/everyoneon/hero.jpg"
+tags: 
+- user experience
+- visual design
 ---
 
 ## The Problem

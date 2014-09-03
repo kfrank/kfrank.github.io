@@ -4,7 +4,14 @@ title:  "Paying for College"
 date:   2013-03-28 16:57:51
 category: work
 published: true
+intro: "A tool to help prospective college students and their families decipher how much a college degree actually costs. The cost comparison worksheet computes the actual cost of the chosen schools by comparing tuition, books, and other expenses, estimated post-school debt and overall debt burden."
+tags:
+- user experience
+- visual design
+- frontend dev
 ---
+
+![Image]()
 
 ## The Problem
 

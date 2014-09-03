@@ -3,6 +3,7 @@ layout: post
 title:  "One Two Brew"
 date:   2014-04-20 16:57:51
 category: work
+intro: "Build and refine homebrewing recipes while keeping track of current brews. The app aims to sit at the center of homebrewing complexity, with just enough for brewers to feel like mad scientists without taking the fun out of drinking beers all day while watching a pot boil."
 published: false
 ---
 

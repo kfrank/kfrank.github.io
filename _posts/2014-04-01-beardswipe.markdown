@@ -4,6 +4,11 @@ title: BeardSwipe
 date: 2014-04-20 16:57:51
 category: work
 published: true
+intro: "An April Fools stunt that allows bearded men to unlock their phones with their facial hair. BeardSwipe drove over 70,000 site views, over 70,000 video views, and 5.75 million Twitter impressions. The campaign was featured in VentureBeat, The Huffington Post, and ABC News."
+tags:
+- user experience
+- visual design
+- frontend dev
 ---
 
 ## The Problem
