@@ -1,8 +1,10 @@
 header.home {
 	background: $dark url(../assets/img/bg.jpg) center;
 	min-height: 60%;
-	background-size: cover;
-	background-attachment: fixed;
+	@media screen and (min-width: 50em){
+		background-size: cover;
+		background-attachment: fixed;
+	}
 	padding: 2em 2.5em;
 	box-sizing: border-box;
 
@@ -12,6 +14,7 @@ header.home {
 		@media screen and (min-width: 50em){
 			position: relative;
 			top: 50%;
+			-webkit-transform: translateY(-75%);
 			transform: translateY(-75%);
 
 		}
@@ -22,6 +25,7 @@ header.home {
 		color: $light;
 		text-transform: uppercase;
 		letter-spacing: 0.25em;
+		-webkit-transition: color 0.3s ease;
 		transition: color 0.3s ease;
 
 		&:hover {
@@ -81,6 +85,7 @@ header.home {
 			}
 			text-align: center;
 			padding: 1.25em 0;
+			-webkit-transition: all 0.3s ease;
 			transition: all 0.3s ease;
 
 			&:hover {
@@ -116,6 +121,7 @@ header.home {
 		padding: 2em 3em;
 		display: block;
 		border-bottom: 1px solid darken($light, 5%);
+		-webkit-transition: border-left 0.3s ease;
 		transition: border-left 0.3s ease;
 		border-left: 0 solid $primary;
 

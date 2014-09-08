@@ -313,6 +313,7 @@ hr {
   letter-spacing: 0.125em;
   color: #06113a;
   border-top: 4px solid transparent;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   @media screen and (min-width: 50em) {
     .header--interior nav a {
@@ -326,12 +327,14 @@ hr {
     position: fixed;
     top: 0;
     height: 10em;
+    -webkit-transition: top 0.2s ease-in-out, height 0.2s ease-in-out;
     transition: top 0.2s ease-in-out, height 0.2s ease-in-out;
     width: 100%;
     background: white;
     z-index: 1; } }
 .header--interior h1 {
   margin: 1em 0.5em;
+  -webkit-transition: margin 0.2s ease-in-out;
   transition: margin 0.2s ease-in-out; }
   @media screen and (min-width: 50em) {
     .header--interior h1 {
@@ -354,13 +357,17 @@ hr {
       width: 1.75em;
       height: 1.75em;
       z-index: -1;
+      -webkit-transform: rotate(45deg);
+      -webkit-transition: transform 0.5s ease, background 0.5s ease;
       transform: rotate(45deg);
       transition: transform 0.5s ease, background 0.5s ease;
       border-radius: 4px; }
     .header--interior h1 a:hover:before {
+      -webkit-transform: rotate(315deg);
       transform: rotate(315deg);
       background: #4a90e2; }
 .header--interior nav a {
+  -webkit-transition: padding 0.2s ease-in-out;
   transition: padding 0.2s ease-in-out; }
 .header--interior.nav-up {
   top: -10em; }
@@ -398,6 +405,7 @@ ul.social-buttons {
     width: 1em; }
     ul.social-buttons li[class*="social"] a svg {
       fill: white;
+      -webkit-transition: fill 0.3s ease;
       transition: fill 0.3s ease; }
     ul.social-buttons li[class*="social"] a:before {
       position: absolute;
@@ -407,12 +415,15 @@ ul.social-buttons {
       width: 2.5em;
       height: 2.5em;
       z-index: -1;
+      -webkit-transform: rotate(45deg);
+      -webkit-transition: transform 0.5s ease, background 0.5s ease;
       transform: rotate(45deg);
       transition: transform 0.5s ease, background 0.5s ease;
       border-radius: 4px; }
     ul.social-buttons li[class*="social"] a:hover svg {
       fill: #06113a; }
     ul.social-buttons li[class*="social"] a:hover:before {
+      -webkit-transform: rotate(135deg);
       transform: rotate(135deg); }
 
 @supports (display: flex) {
@@ -450,10 +461,12 @@ footer {
 header.home {
   background: #06113a url(../assets/img/bg.jpg) center;
   min-height: 60%;
-  background-size: cover;
-  background-attachment: fixed;
   padding: 2em 2.5em;
   box-sizing: border-box; }
+  @media screen and (min-width: 50em) {
+    header.home {
+      background-size: cover;
+      background-attachment: fixed; } }
   header.home .title {
     position: relative;
     margin-bottom: 4em; }
@@ -461,12 +474,14 @@ header.home {
       header.home .title {
         position: relative;
         top: 50%;
+        -webkit-transform: translateY(-75%);
         transform: translateY(-75%); } }
   header.home h1 a {
     font: 600 1.5rem/1 effra, sans-serif;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.25em;
+    -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease; }
     header.home h1 a:hover {
       color: #4a90e2; }
@@ -511,6 +526,7 @@ header.home {
   float: left;
   text-align: center;
   padding: 1.25em 0;
+  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
   @supports (display: flex) {
     .main .tabs a {
@@ -539,6 +555,7 @@ header.home {
     padding: 2em 3em;
     display: block;
     border-bottom: 1px solid #f2f2f2;
+    -webkit-transition: border-left 0.3s ease;
     transition: border-left 0.3s ease;
     border-left: 0 solid #4a90e2; }
     .posts li a:hover {
@@ -558,8 +575,10 @@ article {
       padding-top: 12em; } }
   article a {
     border-bottom: 1px solid #4a90e2;
+    -webkit-transition: all 0.1s ease;
     transition: all 0.1s ease; }
     article a:hover {
+      -webkit-transition: all 0.1s ease;
       transition: all 0.1s ease;
       border-bottom: 1px solid white; }
   article img {

@@ -20,6 +20,7 @@
 		letter-spacing: 0.125em;
 		color: $dark;
 		border-top: 4px solid transparent;
+		-webkit-transition: all 0.3s ease;
 		transition: all 0.3s ease;
 
 		&:hover, &.active {

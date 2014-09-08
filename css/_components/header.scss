@@ -3,6 +3,7 @@
 		position: fixed;
 		top: 0;
 		height: 10em;
+		-webkit-transition: top 0.2s ease-in-out, height 0.2s ease-in-out;
 		transition: top 0.2s ease-in-out, height 0.2s ease-in-out;
 		width: 100%;
 		background: $light;
@@ -10,6 +11,7 @@
 	}
 	h1 {
 		margin: 1em 0.5em;
+		-webkit-transition: margin 0.2s ease-in-out;
 		transition: margin 0.2s ease-in-out;
 		@media screen and (min-width:50em) {
 			margin: 2em 0.5em;
@@ -35,18 +37,22 @@
 				width: 1.75em;
 				height: 1.75em;
 				z-index: -1;
+				-webkit-transform: rotate(45deg);
+				-webkit-transition: transform 0.5s ease, background 0.5s ease;
 				transform: rotate(45deg);
-				transition: transform 0.5s ease, background 0.5s ease,;
+				transition: transform 0.5s ease, background 0.5s ease;
 				border-radius: 4px;
 			}
 
 			&:hover:before {
+				-webkit-transform: rotate(315deg);
 				transform: rotate(315deg);
 				background: $primary;
 			}
 		}
 	}
 	nav a {
+		-webkit-transition: padding 0.2s ease-in-out;
 		transition: padding 0.2s ease-in-out;
 	}
 	&.nav-up {
@@ -116,6 +122,7 @@ ul.social-buttons {
 			width: 1em;
 			svg {
 				fill: $light;
+				-webkit-transition: fill 0.3s ease;
 				transition: fill 0.3s ease;
 			}
 			&:before {
@@ -126,8 +133,10 @@ ul.social-buttons {
 				width: 2.5em;
 				height: 2.5em;
 				z-index: -1;
+				-webkit-transform: rotate(45deg);
+				-webkit-transition: transform 0.5s ease, background 0.5s ease;
 				transform: rotate(45deg);
-				transition: transform 0.5s ease, background 0.5s ease,;
+				transition: transform 0.5s ease, background 0.5s ease;
 				border-radius: 4px;
 			}
 			&:hover {
@@ -135,6 +144,7 @@ ul.social-buttons {
 					fill: $dark;
 				}
 				&:before {
+					-webkit-transform: rotate(135deg);
 					transform: rotate(135deg);
 				}
 			}
