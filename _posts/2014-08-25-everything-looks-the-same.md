@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Everything Looks the Same" 
+title: "Everything Looks the Same: Convergence of Web Design" 
 date: 2014-08-25 10:29:21
 category: thoughts
 published: true

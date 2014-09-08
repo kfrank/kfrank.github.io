@@ -1,0 +1,30 @@
+footer {
+	padding: 0 4em 3em 2.5em;
+	@media screen and (min-width:50em){
+		max-width: 75em;
+		margin: 0 auto;
+	}
+
+	@supports (display: flex) {
+			display: flex;
+			justify-content: space-between;
+		}
+
+	ul.social-buttons {
+		margin: 0;
+		li[class*="social"] a {
+			&:before {
+				background: darken($light, 20%);
+			}
+			svg {
+				fill: $light;
+			}
+		}
+	}
+	small {
+		color: darken($light, 20%);
+		font: 600 1em/1 $type-tertiary;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
+}

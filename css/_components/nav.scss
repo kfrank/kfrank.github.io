@@ -22,7 +22,7 @@
 		border-top: 4px solid transparent;
 		transition: all 0.3s ease;
 
-		&:hover {
+		&:hover, &.active {
 			color: $primary;
 			border-top: 4px solid $primary;
 		}

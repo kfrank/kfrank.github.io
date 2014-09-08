@@ -7,6 +7,10 @@ h1.page-title {
 }
 
 article {
+	padding-top: 2em;
+	@media screen and (min-width:50em) {
+		padding-top: 12em;
+	}
 	a {
 		border-bottom: 1px solid $primary;
 		transition: all 0.1s ease;
@@ -49,9 +53,11 @@ article {
 		}
 	}
 	.content--post {
+		margin-bottom: 3em;
 		@media screen and (min-width:50em) {
-			max-width: 40em;
-			margin: 3em auto;
+			max-width: 40rem;
+			margin-left: auto;
+			margin-right: auto;
 		}
 	}
 
@@ -103,18 +109,20 @@ article {
 	}
 
 	.paging {
-		bottom: 0;
-		transition: fill 0.3s;
-		transform: translateY(-50%);
-		fill: $primary;
-		border-bottom: none;
+		margin: 5em 0 3em;
+		border-top: 1px dotted darken($light, 20%);
+		border-bottom: 1px dotted darken($light, 20%);
+		text-align: center;
+		
+		h3 {
 
-		&#next {
-			right: 1em;
 		}
 
-		&#prev {
-			left: 1em;
+		h4 {
+			margin: 0 0 1.5em;
+			font: 2em/1 $type-secondary;
+			color: $dark;
 		}
+
 	}
 }

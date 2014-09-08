@@ -3,8 +3,19 @@ header.home {
 	min-height: 60%;
 	background-size: cover;
 	background-attachment: fixed;
-	padding: 5em 2.5em 2.5em;
+	padding: 2em 2.5em;
 	box-sizing: border-box;
+
+	.title {
+		position: relative;
+		margin-bottom: 4em;
+		@media screen and (min-width: 50em){
+			position: relative;
+			top: 50%;
+			transform: translateY(-75%);
+
+		}
+	}
 
 	h1 a {
 		font: 600 1.5rem/1 $type-tertiary;
@@ -12,7 +23,7 @@ header.home {
 		text-transform: uppercase;
 		letter-spacing: 0.25em;
 		transition: color 0.3s ease;
-		
+
 		&:hover {
 			color:$primary;
 		}
@@ -22,69 +33,13 @@ header.home {
 		font: 300 2em/1.25em $type-tertiary;
 		margin-top: 0.3em;
 	}
-	
-	ul {	
-		margin: 0;
-		padding: 0;
-		list-style: none;
-
-		a {
-			font: 600 1rem/1 $type-tertiary;
-			text-transform: uppercase;
-			letter-spacing: 0.2em;
-		}
-
-
-		margin: 2em 0 0 1em;
+	ul.social-buttons {
 		@media screen and (min-width:50em) {
 			position: absolute;
 			left: 3.5em;
 			bottom: 2.5em;
 			text-align: right;
 			margin: 0 3em 0 0;
-		}
-		li {
-			display: inline-block;
-			&.social--twitter {
-				margin: -0.2em 2.5em 0 0;
-				
-				a:before {
-					top: -0.65em;
-					left: -0.5em;
-				}
-			}
-			&.social--dribbble {
-
-				a:before {
-					top: -0.45em;
-					left: -0.5em;
-				}
-			}
-		}
-	 	li[class*="social"] a {
-			position: relative;
-			display: block;
-			z-index: 5;
-			height: 1em;
-			width: 1em;
-			svg {
-				fill: $light;
-			}
-			&:before {
-				position: absolute;
-				display: block;
-				content: "";
-				background: $primary;
-				width: 2.5em;
-				height: 2.5em;
-				z-index: -1;
-				transform: rotate(45deg);
-				transition: transform 0.5s ease, background 0.5s ease,;
-				border-radius: 4px;
-			}
-			&:hover:before {
-				transform: rotate(135deg);
-			}
 		}
 	}
 }
@@ -113,7 +68,7 @@ header.home {
 			display: flex;
 		}
 		a {
-			background: $dark;
+			background: desaturate($dark, 50%);
 			font: 600 1rem/1 $type-tertiary;
 			text-transform: uppercase;
 			letter-spacing: 0.2em;
@@ -145,7 +100,7 @@ header.home {
 	list-style: none;
 
 	h2 {
-		font: 1.625em/1.375 $type-secondary;
+		font: 1.375em/1.375 $type-primary;
 		color: $dark;
 		margin: 0;
 	}
@@ -158,14 +113,13 @@ header.home {
 	}
 
 	li a {
-		padding: 2em 3em 1.75em 2em;
+		padding: 2em 3em;
 		display: block;
 		border-bottom: 1px solid darken($light, 5%);
-		transition: all 0.3s ease;
+		transition: border-left 0.3s ease;
 		border-left: 0 solid $primary;
 
 		&:hover {
-			padding: 2em 2em 1.75em 3em;
 			border-left: 6px solid $primary;
 		}
 	}

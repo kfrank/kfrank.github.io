@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Paying for College"
-date:   2013-03-28 16:57:51
+date:   2014-05-26 16:57:51
 category: work
 published: true
 intro: "A tool to help prospective college students and their families decipher how much a college degree actually costs. The cost comparison worksheet computes the actual cost of the chosen schools by comparing tuition, books, and other expenses, estimated post-school debt and overall debt burden."
@@ -11,27 +11,63 @@ tags:
 - frontend dev
 ---
 
-![Image]()
+<div class="hero">
+<img src="{{ site.baseurl }}/assets/img/paying-for-college/image10.jpg" alt="">
+</div>
 
-## The Problem
+<div class="content--post">
+<h2>The Problem</h2>
 
-Student debt can be a confusing arena where it's often difficult to understand how to compare the financial benefits of getting a college degree. Getting a college degree is often a part of the American dream, but students and parents taking on this debt often fail to realize the debt burden after school.
+<p>Student debt can be a confusing arena where it's often difficult to understand how to compare the financial benefits of getting a college degree. Getting a college degree is often a part of the American dream, but students and parents taking on this debt often fail to realize the debt burden after school.</p>
 
-## What We Built
+<h2>What We Built</h2>
 
-As a part of the products team at the Consumer Financial Protection Bureau, CFPB, I primarily worked as a visual designer, prototyping my ideas in code and working with other ux designers in sprint cycles to release Paying for College, a set of tools catered towards the education life milestone. 
+<p>As a part of the products team at the Consumer Financial Protection Bureau, CFPB, I primarily worked as a visual designer, prototyping my ideas in code and working with other ux designers in sprint cycles to release Paying for College, a set of tools catered towards the education life milestone. </p>
 
-## What I Worked On
+<p>See and interact with the current tool:</p>
 
-### UX
+<a href="http://www.consumerfinance.gov/paying-for-college/compare-financial-aid-and-college-cost/">Paying for College Cost Comparision Tool</a>
+</div>
+<div class="grid">
+	<div class="grid__item grid__item--half">
+		<img src="{{ site.baseurl }}/assets/img/paying-for-college/image11.jpg" alt="">
+	</div>
+	<div class="grid__item grid__item--half">
+		<img src="{{ site.baseurl }}/assets/img/paying-for-college/image12.jpg" alt="">
+	</div>
+</div>
+<div class="content--post">
+<h2>What I Worked On</h2>
 
-[Brittany Mederos](http://brouin.com) and I collaborated on how to build this tool, whiteboarding out different scenarios that we'd both elaborate on and test. We ran into issues of how users were going to input data (if at all), how we would integrate two-year and four-year programs, and how to easily compare costs of different programs.
+<h3>UX</h3>
 
-### Interface Design
+<p><a href="http://brouin.com">Brittany Mederos</a> and I collaborated on how to build this tool, whiteboarding out different scenarios that we'd both elaborate on and test. We ran into issues of how users were going to input data (if at all), how we would integrate two-year and four-year programs, and how to easily compare costs of different programs.</p>
+</div>
 
-![The Interface]({{ site.baseurl }}/assets/img/cfpb-paying-for-college-tool.png)
+<div class="content--post">
+<h3>Interface Design</h3>
 
-See and interact with the current tool:
+<p>Paying for College was meant to be an extension of the Consumer Financial Protection Bureau brand. It drew inspiration from light usage of color on the rest of the website while focusing primarily on interactions. One of the more interesting parts of the interface was the sticky input header that allowed users to easily switch between schools, and the sticky footer containing important debt information that would attach itself to the bottom of the page once the user reached far enough down the cost table.</p>
+</div>
+<div class="grid">
+	<div class="grid__item grid__item--two-thirds">
+		<img src="{{ site.baseurl }}/assets/img/paying-for-college/image8.jpg" alt="">
+	</div>
+	<div class="grid__item grid__item--one-third">
+		<img src="{{ site.baseurl }}/assets/img/paying-for-college/image6.jpg" alt="">
+	</div>
+</div>
+<div class="grid">
+	<div class="grid__item grid__item--half">
+		<img src="{{ site.baseurl }}/assets/img/paying-for-college/image9.jpg" alt="">
+	</div>
+	<div class="grid__item grid__item--half">
+		<img src="{{ site.baseurl }}/assets/img/paying-for-college/image7.jpg" alt="">
+	</div>
+</div>
 
-[Paying for College](http://www.consumerfinance.gov/paying-for-college/compare-financial-aid-and-college-cost/)
+
+<!-- ![The Interface]({{ site.baseurl }}/assets/img/cfpb-paying-for-college-tool.png)
+ -->
+
 
