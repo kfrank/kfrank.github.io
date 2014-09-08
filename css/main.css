@@ -437,10 +437,19 @@ ul.social-buttons {
       -webkit-transform: rotate(135deg);
       transform: rotate(135deg); }
 
-@supports (display: flex) {
-  .header--interior {
-    display: flex;
-    justify-content: space-between; } }
+.header--interior {
+  overflow: hidden; }
+  .header--interior h1, .header--interior nav {
+    float: left; }
+  @media screen and (min-width: 50em) {
+    @supports (display: flex) {
+      .header--interior {
+        display: flex;
+        justify-content: space-between;
+        overflow: visible; }
+        .header--interior h1, .header--interior nav {
+          float: none; } } }
+
 .hero {
   margin: 3em auto 0; }
 
