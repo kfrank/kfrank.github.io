@@ -1,75 +1,101 @@
 ---
 layout: post
 title: EveryoneOn
-date: 2014-07-15 16:57:51
+date: 2014-06-15 16:57:51
 category: work
 published: true
+intro: "A website redesign that combines the old everyoneon.org and connect2compete.org. EveryoneOn aims to bridge the digital divide by providing affordable internet access. Our targeted audiences were K-12 families, seniors, and job-seekers, providing a difficult challenge for a wide range of age groups, backgrounds, and goals."
+hero: "assets/img/everyoneon/hero.jpg"
+tags: 
+- user experience
+- visual design
 ---
 
-## The Problem
+<div class="hero">
+	<img src="{{ site.baseurl }}/assets/img/everyoneon/hero.jpg" alt="">
+</div>
+<div class="content--post">
 
-Originally the Connect2Compete program, EveryoneOn came to iStrategyLabs to combine the two brands under one redesigned website. With a focus on information architecture and design, ISL worked with the EveryoneOn team to reorganize content and present it in a simple, digestible, mobile-friendly format.
+<h2>Project Overview</h2>
 
-## What We Built
+<p>Originally the Connect2Compete program, EveryoneOn came to iStrategyLabs to combine the two brands under one redesigned website. With a focus on information architecture and design, ISL worked with the EveryoneOn team to reorganize content and present it in a simple, digestible, mobile-friendly format.</p>
 
-Myself and the team at iStrategyLabs built a complete website that combined two previous websites and brands (Connect2Compete and EveryoneOn). This was especially challenging considering the wide range of audiences (children and families, job-seekers, and seniors). With a focus on information architecture and design, we worked with the EveryoneOn team to reorganize content and present it in a simple, digestible, mobile-friendly format.
+<p>The team at iStrategyLabs and I built a complete website that combined two previous websites and brands (Connect2Compete and EveryoneOn). This was especially challenging considering the wide range of audiences (children and families, job-seekers, and seniors). With a focus on information architecture and design, we worked with the EveryoneOn team to reorganize content and present it in a simple, digestible, mobile-friendly format.</p>
+</div>
+<div class="content--post">
 
-![EveryoneOn]({{ site.baseurl }}/assets/img/everyoneon/e1o.jpg)
+<h2>Information Architecture</h2>
 
-## What I Worked On
+<p>As mentioned, we were combining two websites together, which involved a comprehensive look at the content.</p>
 
-I was responsible for guiding the client through both visual design and user experience design.
+<h3>What we started with</h3>
+</div>
+<div class="grid__item grid__item--half">
+		<img src="{{ site.baseurl }}/assets/img/everyoneon/image1.jpg" alt="Existing Sitemap">
+	</div>
+<div class="content--post">
+<h3>Final sitemap</h3>
+</div>
+<img src="{{ site.baseurl }}/assets/img/everyoneon/image2.jpg" alt="Final Sitemap">
 
-### Sitemap
+<div class="content--post">
+<h2>Wireframes</h2>
 
-As mentioned, we were combining two websites together, which involved a comphrensive look at the content.
+<p>This was my first experience in deliberately choosing to do in-browser wireframes. I wanted the client and our entire team to see how the website might feel with actual content at different screen sizes.</p>
 
-#### What we started with
+<p>I also provided an annotated version of the wireframes. This allowed me to tie certain sections directly to our audience and goals.</p>
+</div>
 
-![What we started with]({{ site.baseurl }}/assets/img/everyoneon/existing-sitemap.jpg)
+<div class="grid">
+	<div class="grid__item grid__item--half">
+		<img src="{{ site.baseurl }}/assets/img/everyoneon/image3.jpg" alt="Annotated Wireframes">
+	</div>
+	<div class="grid__item grid__item--half">
+		<img src="{{ site.baseurl }}/assets/img/everyoneon/image4.jpg" alt="In-browser Wireframes">
+		<br>
+		<img src="{{ site.baseurl }}/assets/img/everyoneon/image5.jpg" alt="In-browser Wireframes">
+	</div>
+</div>
 
-#### Final sitemap
+<div class="content--post">
+<h2>Visual Design</h2>
 
-![Final Sitemap]({{ site.baseurl }}/assets/img/everyoneon/everyoneon-sitemap_v2.jpg)
-
-### Wireframes
-
-This was my first experience in deliberately choosing to do in-browser wireframes. I wanted the client and our entire team to see how the website might feel with actual content at different screen sizes.
-
-I also provided an annotated version of the wireframes. This allowed me to tie certain sections directly to our audience and goals.
-
-![Final Sitemap]({{ site.baseurl }}/assets/img/everyoneon/EveryoneOn-Wireframes-R1_v1.jpg)
-
-### Visual Design
-
-#### Typography
-I wanted to choose a typefaces that were friendly and approachable to help the website seem more inviting to our wide range of audiences.
+<h3>Typography</h3>
+<p>I wanted to choose a typefaces that were friendly and approachable to help the website seem more inviting to our wide range of audiences.</p>
+</div>
 
 ![Type]({{ site.baseurl }}/assets/img/everyoneon/type.jpg)
 
-#####Adelle
-Chosen because of it's personality and flexibility that, when paired with a softer typeface, adds an element of authority. In the context of this website, it was used exclusively for headlines.
+<div class="content--post">
+<h4>Adelle</h4>
+<p>Chosen because of it's personality and flexibility that, when paired with a softer typeface, adds an element of authority. In the context of this website, it was used exclusively for headlines.</p>
 
-#####Proxima Nova Soft
-A more approachable rounded version of Proxima Nova. I almost always chose to pair this with Adelle to soften the slab serif.
+<h4>Proxima Nova Soft</h4>
+<p>A more approachable rounded version of Proxima Nova. I almost always chose to pair this with Adelle to soften the slab serif.</p>
 
-#####Effra
-A sans-serif known for it's clean lines and open proportions that create a geometric and modern typeface.
+<h4>Effra</h4>
+<p>A sans-serif known for it's clean lines and open proportions that create a geometric and modern typeface.</p>
+</div>
 
-#### Color
-EveryoneOn already had a color palette of red and blue. I choose to tweak the colors slightly so that they were less harsh and more youthful while adding a darker blue to balance out whitespace.
+<div class="content--post">
+<h3>Color</h3>
+<p>EveryoneOn already had a color palette of red and blue. I choose to tweak the colors slightly so that they were less harsh and more youthful while adding a darker blue to balance out whitespace.</p>
+<img src="{{ site.baseurl }}/assets/img/everyoneon/color.jpg" alt="iOS Design">
+</div>
 
-![Color]({{ site.baseurl }}/assets/img/everyoneon/color.jpg)
+<img src="{{ site.baseurl }}/assets/img/everyoneon/image6.jpg" alt="Large">
 
-#### Art Direction
+<div class="grid">
+	<div class="grid__item grid__item--two-thirds">
+		<img src="{{ site.baseurl }}/assets/img/everyoneon/image7.jpg" alt="Medium">
+	</div>
+	<div class="grid__item grid__item--one-third">
+		<img src="{{ site.baseurl }}/assets/img/everyoneon/image8.jpg" alt="Small">
+	</div>
+</div>
 
-![Final Homepage]({{ site.baseurl }}/assets/img/everyoneon/e1o_homepage.jpg)
+<img src="{{ site.baseurl }}/assets/img/everyoneon/image9.jpg" alt="Small">
 <br>
-![Get Connected]({{ site.baseurl }}/assets/img/everyoneon/e1o_get-connected.jpg)
+<img src="{{ site.baseurl }}/assets/img/everyoneon/image10.jpg" alt="Small">
 <br>
-![Get Involved]({{ site.baseurl }}/assets/img/everyoneon/e1o_get-involved_v2.jpg)
-<br>
-![Press]({{ site.baseurl }}/assets/img/everyoneon/e1o_press.jpg)
-<br>
-![Success Stories]({{ site.baseurl }}/assets/img/everyoneon/e1o_success-stories.jpg)
-
+<img src="{{ site.baseurl }}/assets/img/everyoneon/image11.jpg" alt="Small">

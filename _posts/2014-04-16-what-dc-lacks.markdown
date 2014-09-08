@@ -6,9 +6,7 @@ category: thoughts
 published: true
 ---
 
-I couldn't really put my finger on it until I left DC.
-
-Everyone talks about how transient this city is. I've been victim to this common thread, having two of my best friends move to different cities in the past few months. I'm happy for them to start a new adventure and gather new perspectives and experiences they weren't getting from living in DC. But eventually, most everyone packs up for somewhere new.
+I couldn't really put my finger on it until I left DC. Everyone talks about how transient this city is. I've been victim to this common thread, having two of my best friends move to different cities in the past few months. I'm happy for them to start a new adventure and gather new perspectives and experiences they weren't getting from living in DC. But eventually, most everyone packs up for somewhere new.
 
 The second thing everyone talks about is the two same question you get asked when you meet someone new. I've heard these questions differ from city to city, but it's become such of a commonality that folks expect it when you first meet. 
 

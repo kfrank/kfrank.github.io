@@ -1,0 +1,39 @@
+.content--intro {
+	font: italic 1.25em/1.75 $type-primary;
+	color: desaturate(lighten($dark, 40%), 60%);
+	margin-top: 2em;
+
+	@media screen and (min-width:50em) {
+		margin-left: 20%;
+		position: relative;
+		max-width: 50em;
+
+		&:before {
+			content: "";
+			position: absolute;
+			left: -25%;
+			top: 0.75em;
+			height: 4px;
+			width: 20%;
+			background: lighten($primary,30%);
+		}
+	}
+}
+
+.post--tags {
+	margin: 0 0 1em 0;
+	padding: 0;
+	list-style: none;
+
+	.post--tag {
+		display: inline-block;
+		margin: 0;
+
+		&:after {
+			content: ",";
+		}
+		&:last-child:after {
+			content: "";
+		}
+	}
+}

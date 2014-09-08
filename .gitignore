@@ -3,3 +3,4 @@ _site
 CNAME
 Gemfile
 Gemfile.lock
+.sass-cache

@@ -3,48 +3,94 @@ layout: default
 published: true
 ---
 
-<div class="top"></div>
-<header class="post">
-  <div class="wrap">
-    <h1 class="title"><a href="{{ site.baseurl }}/" title="Back to Homepage">{{ site.name }}</a></h1>
-    <nav class="social">
-      <a href="http://twitter.com/klare"><span class="icon-twitter"></span></a>
-      <a href="http://dribbble.com/klare"><span class="icon-dribbble"></span></a>
-    </nav>
-  </div>
+<header class="header--interior">
+  <h1><a href="{{ site.baseurl }}/" title="Back to Homepage">{{ site.name }}</a></h1>
+  <nav role="navigation">
+    <ul>
+      <li><a {% if page.category == "work" %}class="active"{% endif %} href="{{ site.baseurl }}/#work">Work</a></li>
+      <li><a {% if page.category == "thoughts" %}class="active"{% endif %} href="{{ site.baseurl }}/#thoughts">Thoughts</a></li>
+      <li><a href="{{ site.basurl }}/about">About</a></li>
+    </ul>
+  </nav>
 </header>
 
-<section id="single-wrap">
-  <article class="single-content">
-    <div class="feat">
-      <h5 class="page-date">
-        <time datetime="{{ page.date | date_to_xmlschema }}">
-          {{ page.date | date_to_long_string }}
-        </time>
-      </h5>
+{% if page.category == "thoughts" %}
+  <article class="page page--thoughts">
+{% else %}
+  <article class="page page--work">
+{% endif %}
+
+{% if page.category == "work" %} 
+  <ul class="post--tags">
+    {% for tag in page.tags %}
+    <li class="post--tag">{{ tag }}</li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <time datetime="{{ page.date | date_to_xmlschema }}">
+    {{ page.date | date_to_long_string }}
+  </time>
+{% endif %}
+  
+<h1 class="page-title">{{ page.title }}</h1>
+  {% if page.category == "work" %} 
+    <div class="content--intro">
+      {{ page.intro }}
     </div>
-    <h1 class="page-title">{{ page.title }}</h1>
-    <div>
-      {{ content }}
-    </div>
-    <div id="share" class="feat">
-      <a href="http://twitter.com/share" class="popup">
-        <span class="icon-twitter"></span>
-      </a>
-    </div>
-    {% if page.next %}
-      <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
-        <span class="nav-title nav-title-next">newer</span> &rarr;
-      </a>
+    {% if page.hero == true %}
+    <figure class="hero">
+      <img src="{{ site.baseurl }}/{{ page.hero }}" alt="">
+    </figure>
     {% endif %}
-    {% if page.previous %}
-      <a rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}" id="prev">
-        &larr; <span class="nav-title nav-title-prev">older</span>
-      </a>
-    {% endif %}
-  </article>
-</section>
+     {{ content }}
+  {% endif %}
+  {% if page.category == "thoughts" %} 
+  <div class="content--post">
+    {{ content }}
+  </div>
+  <div class="nav--share">
+    <a href="http://twitter.com/share" class="popup">
+      <span class="icon-twitter"></span>
+    </a>
+  </div>
+  {% endif %}
+  <div class="paging">
+  {% if page.next_in_category != nil %} 
+    <a rel="prev" href="{{ site.baseurl }}{{page.next_in_category.url}}" class="paging__link" id="prev">
+      <h3>Next up</h3>
+      <h4>
+        {{ page.next_in_category.title }}
+      </h4>
+    </a>
+  {% endif %}
+  <!-- {% if page.next_in_category != nil %}
+    <a rel="next" href="{{ site.baseurl }}{{page.next_in_category.url}}" class="paging__link" id="next">
+      <span class="paging__link__name">
+        {{ page.next_in_category.title }}
+      </span>
+      <span class="paging__link__arrow">
+        <svg width="32" height="32" viewBox="0 0 64 64">
+        <path d="M29.333 10.667q1.104 0 1.875 0.771l18.667 18.667q0.792 0.792 0.792 1.896t-0.792 1.896l-18.667 18.667q-0.771 0.771-1.875 0.771t-1.885-0.781-0.781-1.885q0-1.125 0.771-1.896l16.771-16.771-16.771-16.771q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76zM13.333 10.667q1.104 0 1.875 0.771l18.667 18.667q0.792 0.792 0.792 1.896t-0.792 1.896l-18.667 18.667q-0.771 0.771-1.875 0.771t-1.885-0.781-0.781-1.885q0-1.125 0.771-1.896l16.771-16.771-16.771-16.771q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z"></path>
+      </svg>
+      </span>
+    </a>
+  {% endif %} -->
+  </div>
+
+</article>
 
 <footer>
-  <small>&copy; {{ site.author }}</small>
+  <small>Klare Frank</small>
+  <ul class="social-buttons"> 
+      <li class="social--twitter"><a href="http://twitter.com/klare">
+        <svg viewbox="0 0 2000 1625.36" width="24" height="20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <path d="m 1999.9999,192.4 c -73.58,32.64 -152.67,54.69 -235.66,64.61 84.7,-50.78 149.77,-131.19 180.41,-227.01 -79.29,47.03 -167.1,81.17 -260.57,99.57 C 1609.3399,49.82 1502.6999,0 1384.6799,0 c -226.6,0 -410.328,183.71 -410.328,410.31 0,32.16 3.628,63.48 10.625,93.51 -341.016,-17.11 -643.368,-180.47 -845.739,-428.72 -35.324,60.6 -55.5583,131.09 -55.5583,206.29 0,142.36 72.4373,267.95 182.5433,341.53 -67.262,-2.13 -130.535,-20.59 -185.8519,-51.32 -0.039,1.71 -0.039,3.42 -0.039,5.16 0,198.803 141.441,364.635 329.145,402.342 -34.426,9.375 -70.676,14.395 -108.098,14.395 -26.441,0 -52.145,-2.578 -77.203,-7.364 52.215,163.008 203.75,281.649 383.304,284.946 -140.429,110.062 -317.351,175.66 -509.5972,175.66 -33.1211,0 -65.7851,-1.949 -97.8828,-5.738 181.586,116.4176 397.27,184.359 628.988,184.359 754.732,0 1167.462,-625.238 1167.462,-1167.47 0,-17.79 -0.41,-35.48 -1.2,-53.08 80.1799,-57.86 149.7399,-130.12 204.7499,-212.41">
+        </svg>
+      </a></li>
+      <li class="social--dribbble"><a href="http://dribbble.com/klare">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
+        <path d="M12.5,23.828c-6.256,0-11.328-5.071-11.328-11.327c0-6.256,5.072-11.328,11.328-11.328 c6.256,0,11.328,5.072,11.328,11.328S18.756,23.828,12.5,23.828z M21.774,13.689c-2.223-0.292-4.194-0.313-5.951-0.042 c0.727,2.074,1.336,4.307,1.815,6.661C19.861,18.842,21.422,16.455,21.774,13.689z M15.853,21.22 c-0.449-2.627-1.066-4.988-1.861-7.166c-2.975,0.893-5.288,2.803-7.229,5.819c1.585,1.235,3.572,1.977,5.736,1.977 C13.683,21.85,14.811,21.621,15.853,21.22z M3.15,12.5c0,2.313,0.845,4.426,2.236,6.059c2.373-3.479,5.045-5.291,7.962-6.134 c-0.24-0.565-0.489-1.123-0.757-1.666c-2.605,0.785-5.69,1.197-9.422,1.369C3.164,12.252,3.15,12.374,3.15,12.5z M3.361,10.533 c2.945-0.13,5.82-0.457,8.455-1.254C10.812,7.486,9.634,5.802,8.289,4.16C5.807,5.415,3.96,7.739,3.361,10.533z M12.5,3.15 c-0.819,0-1.61,0.116-2.368,0.314c1.299,1.43,2.482,3.17,3.528,5.165c1.819-0.751,3.488-1.785,4.945-3.201 C16.966,4.013,14.836,3.15,12.5,3.15z M19.737,6.582c-1.526,1.546-3.268,2.698-5.336,3.543c0.282,0.609,0.549,1.243,0.807,1.89 c2.099-0.325,4.311-0.253,6.62-0.017C21.719,9.949,20.958,8.073,19.737,6.582z"/>
+        </svg>
+      </a></li> 
+    </ul> 
 </footer>

@@ -1,0 +1,35 @@
+footer {
+	padding: 0 2em 3em;
+	text-align: center;
+	@media screen and (min-width:50em){
+		padding: 0 4em 3em 2.5em;
+		max-width: 75em;
+		margin: 0 auto;
+		text-align: left;
+	@supports (display: flex) {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+
+	ul.social-buttons {
+		margin: 2em 0 0 -1em;
+		@media screen and (min-width:50em){
+			margin: -0.5em 0 0 0;
+		}
+		li[class*="social"] a {
+			&:before {
+				background: darken($light, 20%);
+			}
+			svg {
+				fill: $light;
+			}
+		}
+	}
+	small {
+		color: darken($light, 20%);
+		font: 600 1em/1 $type-tertiary;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
+}

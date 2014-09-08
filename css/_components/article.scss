@@ -1,0 +1,130 @@
+h1.page-title {
+	font-size: 2.5em;
+	line-height: 1.25;
+	@media screen and (min-width:50em) {
+		font-size: 4.5em;
+	}
+}
+
+article {
+	padding-top: 2em;
+	@media screen and (min-width:50em) {
+		padding-top: 12em;
+	}
+	a {
+		border-bottom: 1px solid $primary;
+		-webkit-transition: all 0.1s ease;
+		transition: all 0.1s ease;
+
+		&:hover {
+			-webkit-transition: all 0.1s ease;
+			transition: all 0.1s ease;
+			border-bottom: 1px solid $light;
+		}
+	}
+	img {
+		margin: 0 auto;
+		display: block;
+	}
+	time, .post--tag {
+		font: 600 1em/1 $type-tertiary;
+		color: $primary;
+		text-transform: uppercase;
+		letter-spacing: 0.15em;
+	}
+	p {
+		font-size: 1.25rem;
+		line-height: 2;
+
+		&:first-child:first-letter {
+			font: 3.625em/1 $type-secondary;
+			color: $primary;
+			float: left;
+			margin: 0.1em 0.25em 0 0;
+		}
+	}
+	li {
+		font-size: 1.25rem;
+		margin: 1em 0;
+
+		p:first-child:first-letter {
+			font: 1.25rem/1 $type-primary;
+			color: $dark;
+			float: none;
+			margin: 0;
+		}
+	}
+	.content--post {
+		margin-bottom: 3em;
+		@media screen and (min-width:50em) {
+			max-width: 40rem;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	h2 {
+		color: $primary;
+		margin-top: 2.5em;
+	}
+	h3 {
+		margin-top: 2.5em;
+		text-transform: uppercase;
+	}
+	h4 {
+		letter-spacing: 0.05em;
+		margin-top: 2.5em;
+	}
+
+	blockquote {
+		margin: 1.5em 0 1.5em -2.5em;
+		padding: 1em 0 1em 2.5em;
+		@media screen and (min-width:50em) {
+			margin: 3em 0 3em -3em;
+			padding: 2em 0 2em 3em;
+		}
+		border-left: 3px solid $primary;
+		p:first-child:first-letter {
+			font: italic 1.125em/1.5 $type-secondary;
+			@media screen and (min-width:50em) {
+				font: italic 1em/1.5 $type-secondary;
+			}
+			float: none;
+			color: $dark;
+			margin: 0;
+		}
+
+		p {
+			margin: 0;
+			font: italic 1.5em/1.5 $type-secondary;
+			@media screen and (min-width:50em) {
+				font: italic 2.5em/1.5 $type-secondary;
+			}
+
+			cite {
+				font: normal 1rem/1 $type-tertiary;
+				a {
+					color: $primary;
+				}
+			}
+		}
+	}
+
+	.paging {
+		margin: 5em 0 3em;
+		border-top: 1px dotted darken($light, 20%);
+		border-bottom: 1px dotted darken($light, 20%);
+		text-align: center;
+		
+		h3 {
+
+		}
+
+		h4 {
+			margin: 0 0 1.5em;
+			font: 2em/1 $type-secondary;
+			color: $dark;
+		}
+
+	}
+}

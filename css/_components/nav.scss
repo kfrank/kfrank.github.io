@@ -1,0 +1,32 @@
+.header--interior nav {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	li {
+		display: inline-block;
+		margin: 0;
+	}
+	a {
+		padding: 2.75em 0.5em;
+		font: 400 0.75em/1 $type-tertiary;
+		@media screen and (min-width:50em) {
+			padding: 4.75em 1em;
+			font: 400 0.875em/1 $type-tertiary;
+		}
+		display: block;
+		text-decoration: none;
+		text-transform: uppercase; 
+		letter-spacing: 0.125em;
+		color: $dark;
+		border-top: 4px solid transparent;
+		-webkit-transition: all 0.3s ease;
+		transition: all 0.3s ease;
+
+		&:hover, &.active {
+			color: $primary;
+			border-top: 4px solid $primary;
+		}
+	}
+}
