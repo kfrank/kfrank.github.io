@@ -151,10 +151,22 @@ ul.social-buttons {
 		}
 	}
 
-@supports (display: flex) {
-	.header--interior {
-		display: flex;
-		justify-content: space-between;
+
+.header--interior {
+	overflow: hidden;
+	h1, nav {
+		float: left;
+	}
+	@media screen and (min-width:50em) {
+
+		@supports (display: flex) {
+			display: flex;
+			justify-content: space-between;
+			overflow: visible;
+			h1, nav {
+				float: none;
+			}
+		}
 	}
 }
 
