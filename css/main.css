@@ -230,8 +230,8 @@ html, body {
       padding-right: 2.5em; } }
 
 .header--interior {
-  padding-left: 0.5em;
-  padding-right: 0.5em; }
+  padding-left: 1em;
+  padding-right: 1em; }
   @media screen and (min-width: 50em) {
     .header--interior {
       padding-left: 2.5em;
@@ -315,7 +315,7 @@ hr {
   display: inline-block;
   margin: 0; }
 .header--interior nav a {
-  padding: 2.75em 0.5em;
+  padding: 3em 0.5em;
   font: 400 0.75em/1 effra, sans-serif;
   display: block;
   text-decoration: none;
