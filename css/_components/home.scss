@@ -68,10 +68,6 @@ header.home {
 
 .main {
 	.tabs {
-		margin-bottom: 2em;
-		@media screen and (min-width: 50em) {
-			margin-bottom: 0;
-		}
 		@supports (display: flex) {
 			display: flex;
 		}
@@ -107,6 +103,11 @@ header.home {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+
+		margin-top: 2em;
+		@media screen and (min-width: 50em) {
+			margin-bottom: 0;
+		}
 
 	h2 {
 		font: 1.375em/1.375 $type-primary;
