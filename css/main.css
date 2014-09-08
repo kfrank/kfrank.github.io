@@ -217,13 +217,23 @@ html, body {
   height: 100%; }
 
 .page, .header--interior {
-  padding-left: 1.5em;
-  padding-right: 1.5em;
   box-sizing: border-box;
   max-width: 75em;
   margin: 0 auto; }
+
+.page {
+  padding-left: 1.5em;
+  padding-right: 1.5em; }
   @media screen and (min-width: 50em) {
-    .page, .header--interior {
+    .page {
+      padding-left: 2.5em;
+      padding-right: 2.5em; } }
+
+.header--interior {
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+  @media screen and (min-width: 50em) {
+    .header--interior {
       padding-left: 2.5em;
       padding-right: 2.5em; } }
 
@@ -305,10 +315,10 @@ hr {
   display: inline-block;
   margin: 0; }
 .header--interior nav a {
-  padding: 2.75em 0.75em;
+  padding: 2.75em 0.5em;
+  font: 400 0.75em/1 effra, sans-serif;
   display: block;
   text-decoration: none;
-  font: 400 0.875em/1 effra, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.125em;
   color: #06113a;
@@ -317,7 +327,8 @@ hr {
   transition: all 0.3s ease; }
   @media screen and (min-width: 50em) {
     .header--interior nav a {
-      padding: 4.75em 1em; } }
+      padding: 4.75em 1em;
+      font: 400 0.875em/1 effra, sans-serif; } }
   .header--interior nav a:hover, .header--interior nav a.active {
     color: #4a90e2;
     border-top: 4px solid #4a90e2; }
@@ -333,7 +344,7 @@ hr {
     background: white;
     z-index: 1; } }
 .header--interior h1 {
-  margin: 1em 0.5em;
+  margin: 1em 0 1em 0.5em;
   -webkit-transition: margin 0.2s ease-in-out;
   transition: margin 0.2s ease-in-out; }
   @media screen and (min-width: 50em) {

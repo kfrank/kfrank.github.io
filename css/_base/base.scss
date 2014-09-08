@@ -3,15 +3,25 @@ html, body {
 }
 
 .page, .header--interior {
+	box-sizing: border-box;
+	max-width: 75em;
+	margin: 0 auto;
+}
+.page {
 	padding-left: 1.5em;
 	padding-right: 1.5em;
 	@media screen and (min-width: 50em){
 		padding-left: 2.5em;
 		padding-right: 2.5em;
 	}
-	box-sizing: border-box;
-	max-width: 75em;
-	margin: 0 auto;
+}
+.header--interior {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	@media screen and (min-width: 50em){
+		padding-left: 2.5em;
+		padding-right: 2.5em;
+	}
 }
 a {
 	color: $primary;

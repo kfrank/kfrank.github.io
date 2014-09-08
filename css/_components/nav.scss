@@ -9,13 +9,14 @@
 		margin: 0;
 	}
 	a {
-		padding: 2.75em 0.75em;
+		padding: 2.75em 0.5em;
+		font: 400 0.75em/1 $type-tertiary;
 		@media screen and (min-width:50em) {
 			padding: 4.75em 1em;
+			font: 400 0.875em/1 $type-tertiary;
 		}
 		display: block;
 		text-decoration: none;
-		font: 400 0.875em/1 $type-tertiary;
 		text-transform: uppercase; 
 		letter-spacing: 0.125em;
 		color: $dark;
