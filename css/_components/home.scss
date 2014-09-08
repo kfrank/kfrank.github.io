@@ -68,6 +68,10 @@ header.home {
 
 .main {
 	.tabs {
+		margin-bottom: 2em;
+		@media screen and (min-width: 50em) {
+			margin-bottom: 0;
+		}
 		@supports (display: flex) {
 			display: flex;
 		}
@@ -118,7 +122,10 @@ header.home {
 	}
 
 	li a {
-		padding: 2em 3em;
+		padding: 2em;
+		@media screen and (min-width: 50em) {
+			padding: 2em 3em;
+		}
 		display: block;
 		border-bottom: 1px solid darken($light, 5%);
 		-webkit-transition: border-left 0.3s ease;

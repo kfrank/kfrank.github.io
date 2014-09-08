@@ -512,30 +512,35 @@ header.home {
   .main {
     float: right;
     overflow: scroll; } }
-@supports (display: flex) {
-  .main .tabs {
-    display: flex; } }
-.main .tabs a {
-  background: #161a2a;
-  font: 600 1rem/1 effra, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #405399;
-  width: 50%;
-  display: block;
-  float: left;
-  text-align: center;
-  padding: 1.25em 0;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
+.main .tabs {
+  margin-bottom: 2em; }
+  @media screen and (min-width: 50em) {
+    .main .tabs {
+      margin-bottom: 0; } }
   @supports (display: flex) {
-    .main .tabs a {
-      float: none; } }
-  .main .tabs a:hover {
-    background: #4a90e2;
-    color: white; }
-  .main .tabs a.selected {
-    color: white; }
+    .main .tabs {
+      display: flex; } }
+  .main .tabs a {
+    background: #161a2a;
+    font: 600 1rem/1 effra, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #405399;
+    width: 50%;
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 1.25em 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    @supports (display: flex) {
+      .main .tabs a {
+        float: none; } }
+    .main .tabs a:hover {
+      background: #4a90e2;
+      color: white; }
+    .main .tabs a.selected {
+      color: white; }
 
 .posts {
   margin: 0;
@@ -552,12 +557,15 @@ header.home {
     margin-bottom: 0.75em;
     display: block; }
   .posts li a {
-    padding: 2em 3em;
+    padding: 2em;
     display: block;
     border-bottom: 1px solid #f2f2f2;
     -webkit-transition: border-left 0.3s ease;
     transition: border-left 0.3s ease;
     border-left: 0 solid #4a90e2; }
+    @media screen and (min-width: 50em) {
+      .posts li a {
+        padding: 2em 3em; } }
     .posts li a:hover {
       border-left: 6px solid #4a90e2; }
 
