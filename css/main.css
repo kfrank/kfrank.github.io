@@ -437,17 +437,23 @@ ul.social-buttons {
   margin: 0 auto 3em; }
 
 footer {
-  padding: 0 4em 3em 2.5em; }
+  padding: 0 2em 3em;
+  text-align: center; }
   @media screen and (min-width: 50em) {
     footer {
+      padding: 0 4em 3em 2.5em;
       max-width: 75em;
-      margin: 0 auto; } }
-  @supports (display: flex) {
-    footer {
-      display: flex;
-      justify-content: space-between; } }
+      margin: 0 auto;
+      text-align: left; }
+      @supports (display: flex) {
+        footer {
+          display: flex;
+          justify-content: space-between; } } }
   footer ul.social-buttons {
-    margin: 0; }
+    margin: 2em 0 0 -1em; }
+    @media screen and (min-width: 50em) {
+      footer ul.social-buttons {
+        margin: -0.5em 0 0 0; } }
     footer ul.social-buttons li[class*="social"] a:before {
       background: #cccccc; }
     footer ul.social-buttons li[class*="social"] a svg {
