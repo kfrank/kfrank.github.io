@@ -68,8 +68,12 @@ header.home {
 
 .main {
 	.tabs {
-		@supports (display: flex) {
-			display: flex;
+		overflow: hidden;
+		@media screen and (min-width: 50em) {
+			overflow: none;
+			@supports (display: flex) {
+				display: flex;
+			}
 		}
 		a {
 			background: desaturate($dark, 50%);
@@ -80,8 +84,10 @@ header.home {
 			width: 50%;
 			display: block;
 			float: left;
-			@supports (display: flex) {
-				float: none;
+			@media screen and (min-width: 50em) {
+				@supports (display: flex) {
+					float: none;
+				}
 			}
 			text-align: center;
 			padding: 1.25em 0;
@@ -103,11 +109,6 @@ header.home {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-
-		margin-top: 2em;
-		@media screen and (min-width: 50em) {
-			margin-bottom: 0;
-		}
 
 	h2 {
 		font: 1.375em/1.375 $type-primary;
