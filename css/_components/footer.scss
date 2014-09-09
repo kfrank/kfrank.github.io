@@ -14,6 +14,10 @@ footer {
 
 	ul.social-buttons {
 		margin: 2em 0 0 -1em;
+		text-align: right;
+		@supports (display: flex) {
+			text-align:left;
+		}
 		@media screen and (min-width:50em){
 			margin: -0.5em 0 0 0;
 		}

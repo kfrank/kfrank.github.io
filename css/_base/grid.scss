@@ -20,7 +20,7 @@
 			float: none;
 		}
 		&--half {
-			width: 50%;
+			width: 48%;
 
 			@supports (display: flex){
 				width: auto;
@@ -28,7 +28,7 @@
 			}
 		}
 		&--two-thirds {
-			width: 67.375%;
+			width: 65.375%;
 
 			@supports (display: flex){
 				width: auto;

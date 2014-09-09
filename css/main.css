@@ -290,13 +290,13 @@ hr {
         .grid__item {
           float: none; } }
       .grid__item--half {
-        width: 50%; }
+        width: 48%; }
         @supports (display: flex) {
           .grid__item--half {
             width: auto;
             flex-basis: 50%; } }
       .grid__item--two-thirds {
-        width: 67.375%; }
+        width: 65.375%; }
         @supports (display: flex) {
           .grid__item--two-thirds {
             width: auto;
@@ -440,8 +440,10 @@ ul.social-buttons {
 
 .header--interior {
   overflow: hidden; }
-  .header--interior h1, .header--interior nav {
+  .header--interior h1 {
     float: left; }
+  .header--interior nav {
+    float: right; }
   @media screen and (min-width: 50em) {
     @supports (display: flex) {
       .header--interior {
@@ -471,7 +473,11 @@ footer {
           display: flex;
           justify-content: space-between; } } }
   footer ul.social-buttons {
-    margin: 2em 0 0 -1em; }
+    margin: 2em 0 0 -1em;
+    text-align: right; }
+    @supports (display: flex) {
+      footer ul.social-buttons {
+        text-align: left; } }
     @media screen and (min-width: 50em) {
       footer ul.social-buttons {
         margin: -0.5em 0 0 0; } }

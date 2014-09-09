@@ -156,8 +156,11 @@ ul.social-buttons {
 
 .header--interior {
 	overflow: hidden;
-	h1, nav {
+	h1 {
 		float: left;
+	}
+	nav {
+		float: right;
 	}
 	@media screen and (min-width:50em) {
 
