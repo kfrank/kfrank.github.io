@@ -5,8 +5,10 @@ $(document).ready(function() {
   // If navigating to homepage from internal page, only show relevant category
   if ( document.location.href.indexOf('#work') > -1 ) {
     $('.type--thoughts').hide();
+    $('.tabs a[href="#work"]').addClass('selected');
   } else if ( document.location.href.indexOf('#thoughts') > -1 ) {
     $('.type--work').hide();
+    $('.tabs a[href="#thoughts"]').addClass('selected');
   }
 
   // Tab sorting
