@@ -84,9 +84,9 @@
 }
 
 ul.social-buttons {	
-		margin: 0;
 		padding: 0;
 		list-style: none;
+		margin: 2em 0 0 1em;
 
 		a {
 			font: 600 1rem/1 $type-tertiary;
@@ -94,7 +94,6 @@ ul.social-buttons {
 			letter-spacing: 0.2em;
 		}
 
-		margin: 2em 0 0 1em;
 		
 		li {
 			display: inline-block;
@@ -102,8 +101,11 @@ ul.social-buttons {
 				margin: -0.2em 2.5em 0 0;
 				
 				a:before {
-					top: -0.65em;
+					top: -0.45em;
 					left: -0.5em;
+				}
+				svg {
+					margin-top: 0.2em;
 				}
 			}
 			&.social--dribbble {
