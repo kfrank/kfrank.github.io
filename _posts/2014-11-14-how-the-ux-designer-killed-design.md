@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How the UX Designer killed Design" 
-date: 2014-09-15 10:29:21
+date: 2014-11-14 10:29:21
 category: thoughts
 published: true
 ---
@@ -38,5 +38,11 @@ Mark Boulton describes this perfectly in his article [Visual Design is Not a Thi
 
 This attitude is reflected in the salary difference between [ux designers](http://www.coroflot.com/designsalaryguide/user-experience-designer/united-states) and [web designers](http://www.coroflot.com/designsalaryguide/web-designer/united-states). UX designers are consistently paid more even though visual designers have all the skills they need to know how to be a compentent ux designer on top of what they already practice.
 
+Somewhere along the way, the collective makers of the web realized the importance of ux (yay!), yet neglected advocating for visual design. If a website has a great experience and still looks horrible, users will still be confused. Prentice Mathew [observed this](https://medium.com/@prenticemathew/ux-specialists-are-killing-web-design-50b7d7607c13) when Gov.uk won the [“Design of the year award”](http://www.bbc.co.uk/news/entertainment-arts-22164715):
 
 *“Visual Design is still the most important pillar which supports the UX (don’t forget the the “X” stands for “Experience”) framework, and most users still evaluate the credibility of a website based solely on it’s visual appeal.”*
+
+##A Collaborative Web
+It’s clear we can’t neglect visual design. It’s just as important as user experience design in creating great websites and apps. Whether a team is made up of designers and developers in traditional roles or not, user experience design should not just be for ux designers. It should bear equal weight with all of the other roles and processes that make up creating web experiences.
+
+For me, that means seeking out and pushing for roles that will let me practice ux and visual design while also doing frontend development. For a team, it means collaborating equally between them, regardless of who is working on what. We’re all working towards the same goal and great ideas can come from anywhere.

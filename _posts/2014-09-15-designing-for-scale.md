@@ -9,6 +9,7 @@ published: true
 This past Saturday, [Ali Felski](http://twitter.com/felskia) and I had the pleasure of doing a workshop at the [Code(Her) Conference](http://codeherconference.com/). We went over our process for tackling user experience and user interface design for large web builds and the considerations we take when creating these sites. If you'd like, download our [slides]({{ site.baseurl }}/assets/img/blogs/building-for-scale.pdf) for more information. For more clarification, I thought I'd outline my process for designing interfaces for scale.
 
 ## Why does it matter?
+We've all been on a project that seems to take a life of it's own and morph into something unrecognizable. Projects like this soon have no clear goals and are like buildings that keep being built on top of buildings. Team members change over time, features may change over time, but design direction should stay solid throughout all this change. Designing for scale is about predicting the future of a site that'll live on after the team is done initially building and designing.
 
 
 ## Three goals for designing for scale
