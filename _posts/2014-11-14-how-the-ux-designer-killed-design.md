@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How the UX Designer killed Design" 
-date: 2014-11-14 10:29:21
+date: 2014-11-12 15:29:21
 category: thoughts
 published: true
 ---
