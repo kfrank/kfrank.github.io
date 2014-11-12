@@ -4,13 +4,18 @@
   <id>/</id>
   <link href="/" />
   <link href="//atom.xml" rel="self" />
+<<<<<<< HEAD
   <updated>2014-11-12T14:04:32-05:00</updated>
+=======
+  <updated>2014-09-09T15:26:11-04:00</updated>
+>>>>>>> 3023464acb35cf2a1acf3294cb300aebb4175e46
   <rights>Copyright 2014, Klare Frank</rights>
   <author>
     <name>Klare Frank</name>
   </author>
   
     <entry>
+<<<<<<< HEAD
       <title>How the UX Designer killed Design</title>
       <link href="//how-the-ux-designer-killed-design.html" />
       <summary type="html">&lt;p&gt;It’s the same question that comes up during every interview: “If you could choose between only designing and only coding, which would it be?” The first time I was asked that, it caught me off guard, mostly because I hadn’t experienced one separate from the other.&lt;/p&gt;
@@ -158,6 +163,8 @@ A user experience designer who learns about graphic design can better understand
     </entry>
   
     <entry>
+=======
+>>>>>>> 3023464acb35cf2a1acf3294cb300aebb4175e46
       <title>BeardSwipe</title>
       <link href="//beardswipe.html" />
       <summary type="html">&lt;div class=&quot;hero&quot;&gt;
