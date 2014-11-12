@@ -12,7 +12,7 @@ To a young and naive me, coding was what my Dad did in his home office with five
 
 Design was something that people graduated from school with a degree in where they put together their final book project and gushed over typefaces. Fonts designed for screens were barely available when I was first looking for a job and while I knew what proper spacing was and could call myself a designer, I definitely knew nothing about print. I didn’t have a degree in it. That single, lacking, piece of paper fueled my imposter syndrome for years following. I still can’t call line-height leading when I’m not looking at type on a screen.
 
-Early on, even before I knew that graduating with a degree in Global Studies would yeild nothing more than having a comprehensive understanding of countries on a map, my idols were the ones creating the web. They were the ones pushing for better type rendering on screens, responsive design, more whitespace, easier organization of frontend code, and simplifying web experiences. In my mind, these were all the same people and if I was ever going to be a great designer who also influenced the future of the web, I needed to be doing all these things.
+Early on, even before I knew that graduating with a degree in Global Studies would yield nothing more than having a comprehensive understanding of countries on a map, my idols were the ones creating the web. They were the ones pushing for better type rendering on screens, responsive design, more whitespace, easier organization of frontend code, and simplifying web experiences. In my mind, these were all the same people and if I was ever going to be a great designer who also influenced the future of the web, I needed to be doing all these things.
 
 So when the question was posed to me, I said neither. Without one or the other, I would easily become bored and uninterested, probably lamenting the loss of using skills I enjoyed using every day. Being a designer who practiced neither user experience design nor frontend development meant I was potentially crippling myself from being a master in the craft.
 
@@ -23,7 +23,7 @@ As I’m in the midst of transitioning jobs, I’ve been dwelling upon the few p
 
 > Choosing to specialize and be a user experience designer simply felt like giving up.
 
-Even when I was placed on teams and titled the ‘visual designer’ and paired with user experience designers and frontend developers, I tried to never be complacent in my role, always chosing constant collaboration over strict role delegation. 
+Even when I was placed on teams and titled the ‘visual designer’ and paired with user experience designers and frontend developers, I tried to never be complacent in my role, always choosing constant collaboration over strict role delegation. 
 
 And maybe that’s because I’ve always felt a visual designer is more than colors and type and spacing and how things *feel*. It’s a balance of the analytic and the aesthetic. To be the best designer I can, it takes a strong understanding of how the web works, the trends (good or bad), and the best practices.
 
@@ -32,7 +32,7 @@ Siloing is for suckers.
 ##A Visual Designer is a UX Designer is a Designer
 User experience design doesn’t stop at gray boxes; it extends to how a user responds to a page, and that includes how it looks as well as how it functions. It’s more than making a site ‘look pretty’ or coloring in boxes.
 
-That’s one of the reasons the chart from [uxisnotui.com](http://www.uxisnotui.com/downloads/without-title.png) became so popular. While it’s important to help people understand all the different aspects that make up creating a user experience, somehow the column titled “How UX Wants to be Seen” got replaced with “UX Designers” and the column “How UX is Typically Seen”, replaced with “Visual Designers”, making it more of a role delegation than a comprehensive list of all the things designers do.
+That’s one of the reasons the chart from [uxisnotui.com](http://www.uxisnotui.com/downloads/without-title.png) became so popular. While it’s important to help people understand all the different aspects that make up creating a user experience, somehow the column titled “How UX Wants to be Seen” got replaced with “UX Designers” and the column “How UX is Typically Seen” replaced with “Visual Designers”, making it more of a role delegation than a comprehensive list of all the things designers do.
 
 Mark Boulton describes this perfectly in his article [Visual Design is Not a Thing](https://themanual.org/read/issues/2/mark-boulton/article). In it, he talks about the industry’s response to Jesse James Garrett’s *The Elements of User Experience*: 
 
@@ -40,9 +40,9 @@ Mark Boulton describes this perfectly in his article [Visual Design is Not a Thi
 
 Somewhere along the way, the collective makers of the web realized the importance of ux (yay!) while neglected advocating for visual design—the cast aside casualty. Instead of judging the quality of a website as a whole, user experience design became the most important factor. Yet, a users judge of a website’s credibility does not stop before visual design. If a website has a great experience and still looks horrible, users will still be confused. Prentice Mathew [observed this](https://medium.com/@prenticemathew/ux-specialists-are-killing-web-design-50b7d7607c13) when Gov.uk won the [“Design of the year award”](http://www.bbc.co.uk/news/entertainment-arts-22164715):
 
-*“Visual Design is still the most important pillar which supports the UX (don’t forget the the “X” stands for “Experience”) framework, and most users still evaluate the credibility of a website based solely on it’s visual appeal.”*
+*“Visual Design is still the most important pillar which supports the UX (don’t forget the “X” stands for “Experience”) framework, and most users still evaluate the credibility of a website based solely on it’s visual appeal.”*
 
-This attitude is further reflected in the salary difference between [ux designers](http://www.coroflot.com/designsalaryguide/user-experience-designer/united-states) and [web designers](http://www.coroflot.com/designsalaryguide/web-designer/united-states). UX designers are consistently paid more even though visual designers have all the skills they need to know how to be a compentent ux designer on top of what they already practice. The placement of a button drives engagement while the overall style affects credibility. The choice of fonts influences the users’ disposition. A lawyer’s website set in comic sans will always prove too unprofessional and negatively accept business.
+This attitude is further reflected in the salary difference between [ux designers](http://www.coroflot.com/designsalaryguide/user-experience-designer/united-states) and [web designers](http://www.coroflot.com/designsalaryguide/web-designer/united-states). UX designers are consistently paid more even though visual designers have all the skills they need to know how to be a competent ux designer on top of what they already practice. The placement of a button drives engagement while the overall style affects credibility. The choice of fonts influences the users’ disposition. A lawyer’s website set in comic sans will always prove too unprofessional and negatively accept business.
 
 User experience processes—such as user testing, research, and creating personas— reinforce (or weaken) these assumptions made in visual design.
 
