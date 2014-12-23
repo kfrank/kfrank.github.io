@@ -12,7 +12,7 @@ tags:
 ---
 
 <div class="hero">
-<div class='embed-container'><iframe src='http://player.vimeo.com/video/90373042' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+<div class="embed-container"><iframe src="http://player.vimeo.com/video/90373042" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
 </div>
 <div class="content--post">
 
