@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Switching to VIM
+title: Switching to Vim
 date: 2014-12-23 12:34:51
 category: thoughts
 published: true
@@ -12,9 +12,9 @@ Designing with one hand is a challenge. It’s nearly impossible to do in Photos
 
 I had heard about vim being great for only using keyboard commands, and ditching a trackpad meant one less thing for me to worry about. Everyone who had successfuly switched over to vim praised how much faster it could be. I didn’t have much to lose and at least I knew I could type with one hand, so I decided to try it out.
 
-##Tips for Switching to VIM
+##Tips for Switching to Vim
 
-1. Don’t expect to be that quick starting out. Hell. I was a lot slower. There’s a ton of commands you need to memorize, just like with any design program, and they’re probably not ones you’re familiar with. [VIM Cheetyr](http://cheetyr.com/vim) helps a ton. Just have that open all the time.
+1. Don’t expect to be that quick starting out. Hell. I was a lot slower. There’s a ton of commands you need to memorize, just like with any design program, and they’re probably not ones you’re familiar with. [Vim Cheetyr](http://cheetyr.com/vim) helps a ton. Just have that open all the time.
 
 2. Start with small commands, and when you find yourself doing something a lot slower than in Sublime Text, look up a shortcut. There’s always a shortcut.
 
