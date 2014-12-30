@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+      <title>Klare - Thoughts from a designer/developer</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta http-equiv="content-language" content="en-gb">
+      <meta name="copyright" content="Klare Frank">
+      <meta name="description" content="Portfolio and Blog of Klare Frank">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <script src="//use.typekit.net/laf4xea.js"></script>
+      <script>try{Typekit.load();}catch(e){}</script>
+      <link rel="stylesheet" type="text/css" href="/css/main.css" />
+      <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+
+      <!-- favicon -->
+      <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+      <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16">
+      <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  </head>
+
+  <body>
+    <!--[if lt IE 8]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    
+  <header class="header--interior">
+  <h1><a href="/" title="Back to Homepage">Klare</a></h1>
+  <nav role="navigation">
+    <ul>
+      <li><a  href="/#work">Work</a></li>
+      <li><a class="active" href="/#thoughts">Thoughts</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+  <article class="page page--thoughts">
+
+
+
+  <time datetime="2014-06-04T09:58:21Z">
+    04 June 2014
+  </time>
+
+  
+<h1 class="page-title">Faking Responsive</h1>
+  
+   
+  <div class="content--post">
+    <p>Responsive design has been forcing digital agencies for the past few years to rethink their traditional waterfall processes. It's tough enough trying to nail down a visual design when your client is deliberating over the font size of navigation items, asking questions like: "Why can't we decrease the size of the carousel to view more items below the fold?"</p>
+
+<p>Yes. We all still get asked this.</p>
+
+<p>In an ideal world, all designers would be able to flawlessly code up their designs and browser test them (because we know someone's bound to be viewing the page in IE). Presenting to clients and iterating through designs based on feedback would be as simple as changing a few backgrounds, images and placements of elements in Photoshop or Illustrator. We can't all have that. A girl can hope, right?</p>
+
+<p>Working on a design team with several designers on the same project has taught me to be extremely flexible in the methods we use to create and present work to clients. Some designers know code. Great. Some designers are wizs at Illustrator. Also great. We all have different tools we prefer and work quickly in. I love that some people on my team know more about certain tools and we all still make great designs using different methods.</p>
+
+<p>But at the end of the day, we're still presenting a picture of the website we intend to create. Faking responsive with static comps gets us one step closer by allowing the client to view the correct sizing of type, elements and images based on their viewport. But how do we do that?</p>
+
+<h2>Let's make a simple page</h2>
+
+<p>Let's start off by assuming we'll still have static comps. Because we're trying to be really nice to our developers, we're also creating separate comps for our viewports that are sized appropriately based on width.</p>
+
+<p>I like to start in Sketch with their 'Web Design' template, which gives us four artboards: Desktop HD at 1440 pixels wide, Desktop at 1024 pixels wide, Tablet Portrait at 768 pixels wide, and Mobile Portrait at 320 pixels wide. As a side note, we probably want to make sure we're saving these both @1x and at @2x in case our client is on a retina device.</p>
+
+<p><img src="/assets/img/responsive-comps.png" alt="Example of Sketch document with four different artboards" /></p>
+
+<p>Next, we want a simple html page with a css file attached where we list out all of our comp images. We also want to make sure we're adding a class to each image so we can reference that in css.</p>
+
+<pre><code>&lt;body&gt;
+    &lt;img src="_/img/comp_desktophd.jpg" alt="" class="desktophd"&gt;
+    &lt;img src="_/img/comp_desktop.jpg" alt="" class="desktop"&gt;
+    &lt;img src="_/img/comp_laptop.jpg" alt="" class="laptop"&gt;
+    &lt;img src="_/img/comp_tablet.jpg" alt="" class="tablet"&gt;
+    &lt;img src="_/img/comp_mobile.jpg" alt="" class="mobile"&gt;
+&lt;/body&gt;
+</code></pre>
+
+<p>But this shows all the images and we only want to show the one that fits the viewport for our user. So in css, we'll hide all the elements and display only the one that corresponds to our comp width:</p>
+
+<pre><code>@media screen and (min-width: 1024px) {
+    .desktophd, .desktop, .laptop, .tablet, .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+        width: 100%;
+    }
+}
+</code></pre>
+
+<p>Since our desktop comp is 1024 pixels wide, we'll show that when the user's viewport is at 1024 pixels or higher while hiding everything else.</p>
+
+<p>Repeat with each comp and we'll have something like this:</p>
+
+<p><img src="/assets/img/responsive-comps.gif" alt="Viewport width adjusting to show different comps at different browser widths" /></p>
+
+<p>Upload to a server and now we have a url that we can send to our clients. When they open the page, only the image that fits their viewport will show so that we can be sure they're viewing our designs proportionately.</p>
+
+<h2>Caveats</h2>
+
+<p>This doesn't solve everything. Like the title of this post suggests, we're only faking responsive. We still have problems like not being able to show interactive elements, transitions, parallax (if you insist on using it), etc. At the end of the client meeting, the comps are still pretty pictures of a website we'll eventually make.</p>
+
+<p>You could probably be really fancy with how you serve your images, too. But we're going for simplicity here, so that's why I wrote it the way I did.</p>
+
+<p>This does, however, attempt to solve the issue of the client thinking designs are really really large, or wanting to know how our desktop sized comps will look on their ipad. And sometimes that's exactly what we need to get signoff on visual designs.</p>
+
+  </div>
+  <div class="nav--share">
+    <a href="http://twitter.com/share" class="popup">
+      <span class="icon-twitter"></span>
+    </a>
+  </div>
+  
+  <div class="paging">
+   
+    <a rel="prev" href="/why-i-switched-to-sketch.html" class="paging__link" id="prev">
+      <h3>Next up</h3>
+      <h4>
+        Why I Switched to Sketch
+      </h4>
+    </a>
+  
+  <!-- 
+    <a rel="next" href="/why-i-switched-to-sketch.html" class="paging__link" id="next">
+      <span class="paging__link__name">
+        Why I Switched to Sketch
+      </span>
+      <span class="paging__link__arrow">
+        <svg width="32" height="32" viewBox="0 0 64 64">
+        <path d="M29.333 10.667q1.104 0 1.875 0.771l18.667 18.667q0.792 0.792 0.792 1.896t-0.792 1.896l-18.667 18.667q-0.771 0.771-1.875 0.771t-1.885-0.781-0.781-1.885q0-1.125 0.771-1.896l16.771-16.771-16.771-16.771q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76zM13.333 10.667q1.104 0 1.875 0.771l18.667 18.667q0.792 0.792 0.792 1.896t-0.792 1.896l-18.667 18.667q-0.771 0.771-1.875 0.771t-1.885-0.781-0.781-1.885q0-1.125 0.771-1.896l16.771-16.771-16.771-16.771q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z"></path>
+      </svg>
+      </span>
+    </a>
+   -->
+  </div>
+
+</article>
+
+<footer>
+  <small>Klare Frank</small>
+  <ul class="social-buttons"> 
+      <li class="social--twitter"><a href="http://twitter.com/klare">
+        <svg viewbox="0 0 2000 1625.36" width="24" height="20" version="1.1" xmlns="http://www.w3.org/2000/svg">
+          <path d="m 1999.9999,192.4 c -73.58,32.64 -152.67,54.69 -235.66,64.61 84.7,-50.78 149.77,-131.19 180.41,-227.01 -79.29,47.03 -167.1,81.17 -260.57,99.57 C 1609.3399,49.82 1502.6999,0 1384.6799,0 c -226.6,0 -410.328,183.71 -410.328,410.31 0,32.16 3.628,63.48 10.625,93.51 -341.016,-17.11 -643.368,-180.47 -845.739,-428.72 -35.324,60.6 -55.5583,131.09 -55.5583,206.29 0,142.36 72.4373,267.95 182.5433,341.53 -67.262,-2.13 -130.535,-20.59 -185.8519,-51.32 -0.039,1.71 -0.039,3.42 -0.039,5.16 0,198.803 141.441,364.635 329.145,402.342 -34.426,9.375 -70.676,14.395 -108.098,14.395 -26.441,0 -52.145,-2.578 -77.203,-7.364 52.215,163.008 203.75,281.649 383.304,284.946 -140.429,110.062 -317.351,175.66 -509.5972,175.66 -33.1211,0 -65.7851,-1.949 -97.8828,-5.738 181.586,116.4176 397.27,184.359 628.988,184.359 754.732,0 1167.462,-625.238 1167.462,-1167.47 0,-17.79 -0.41,-35.48 -1.2,-53.08 80.1799,-57.86 149.7399,-130.12 204.7499,-212.41">
+        </svg>
+      </a></li>
+      <li class="social--dribbble"><a href="http://dribbble.com/klare">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 25 25" enable-background="new 0 0 25 25" xml:space="preserve">
+        <path d="M12.5,23.828c-6.256,0-11.328-5.071-11.328-11.327c0-6.256,5.072-11.328,11.328-11.328 c6.256,0,11.328,5.072,11.328,11.328S18.756,23.828,12.5,23.828z M21.774,13.689c-2.223-0.292-4.194-0.313-5.951-0.042 c0.727,2.074,1.336,4.307,1.815,6.661C19.861,18.842,21.422,16.455,21.774,13.689z M15.853,21.22 c-0.449-2.627-1.066-4.988-1.861-7.166c-2.975,0.893-5.288,2.803-7.229,5.819c1.585,1.235,3.572,1.977,5.736,1.977 C13.683,21.85,14.811,21.621,15.853,21.22z M3.15,12.5c0,2.313,0.845,4.426,2.236,6.059c2.373-3.479,5.045-5.291,7.962-6.134 c-0.24-0.565-0.489-1.123-0.757-1.666c-2.605,0.785-5.69,1.197-9.422,1.369C3.164,12.252,3.15,12.374,3.15,12.5z M3.361,10.533 c2.945-0.13,5.82-0.457,8.455-1.254C10.812,7.486,9.634,5.802,8.289,4.16C5.807,5.415,3.96,7.739,3.361,10.533z M12.5,3.15 c-0.819,0-1.61,0.116-2.368,0.314c1.299,1.43,2.482,3.17,3.528,5.165c1.819-0.751,3.488-1.785,4.945-3.201 C16.966,4.013,14.836,3.15,12.5,3.15z M19.737,6.582c-1.526,1.546-3.268,2.698-5.336,3.543c0.282,0.609,0.549,1.243,0.807,1.89 c2.099-0.325,4.311-0.253,6.62-0.017C21.719,9.949,20.958,8.073,19.737,6.582z"/>
+        </svg>
+      </a></li> 
+    </ul> 
+</footer>
+
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="/js/main.js"></script>
+    
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49926701-1', 'klare.io');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>

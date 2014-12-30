@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Klare</title>
+  <id>/</id>
+  <link href="/" />
+  <link href="//atom.xml" rel="self" />
+  <updated>2014-12-30T17:27:25-05:00</updated>
+  <rights>Copyright 2014, Klare Frank</rights>
+  <author>
+    <name>Klare Frank</name>
+  </author>
+  
+    <entry>
+      <title>Switching to Vim</title>
+      <link href="//switching-to-vim.html" />
+      <summary type="html">&lt;p&gt;The first time I started using vim, it was more a necessity than by choice. It was a little bit too late for me to walk to work one morning and still make my morning meeting, so I did what I always did, rode my bike. Not even ten seconds after I had mounted and pushed away from my apartment building, my pedal collided with the oh so lovely marble curbs of dc and I was suddenly flying over my handlebars on one of the busiest streets in the morning. It could’ve been worse. I only ended up with a minor scrape on my leg, but the brunt of my fall had been stopped by my dominant hand. Riding the rest of the way to work that morning, I could barely squeeze the breaks properly and knew I had to lay off it for a few days in order for my hand to have a chance to heal.&lt;/p&gt;
+
+&lt;p&gt;Designing with one hand is a challenge. It’s nearly impossible to do in Photoshop or Sketch, which both require complicated multi-keyed commands to execute even the most basic tasks. Just try drawing a rectangle with one hand on a trackpad. It doesn’t really work. Switching to a mouse didn’t even occur to me. I had been using a trackpad ever since my sophomore year of college when I used to play some pretty intense World of Warcraft on a MacBook Pro.&lt;/p&gt;
+
+&lt;p&gt;I had heard about vim being great for only using keyboard commands, and ditching a trackpad meant one less thing for me to worry about. Everyone who had successfuly switched over to vim praised how much faster it could be. I didn’t have much to lose and at least I knew I could type with one hand, so I decided to try it out.&lt;/p&gt;
+
+&lt;h2&gt;Tips for Switching to Vim&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Don’t expect to be that quick starting out. Hell. I was a lot slower. There’s a ton of commands you need to memorize, just like with any design program, and they’re probably not ones you’re familiar with. &lt;a href=&quot;http://cheetyr.com/vim&quot;&gt;Vim Cheetyr&lt;/a&gt; helps a ton. Just have that open all the time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Start with small commands, and when you find yourself doing something a lot slower than in Sublime Text, look up a shortcut. There’s always a shortcut.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Learn how to set up a .vimrc file. Setting up your preferences (especially syntax highlighting) helps tremendously.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Don’t expect to code the same way as you did in Sublime Text. This isn’t like upgrading a version. Expect that everything is different and, again, always question if you can be doing something quicker.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;Things I’ve learned&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;It’s a hell of a lot easier to use vim with one hand than sublime text, sketch, or photoshop.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It takes practice, but eventually it is way faster.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Github merge messages seem a hell of a lot less scary. And you know the commands to quit properly instead of panicing and quitting terminal.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It helps a lot with focusing on one task, especially since it’s a lot easier to work in one file at a time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It makes you feel like you’re in a secret club that’s visible to everyone but they don’t understand how awesome it is.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;It’s been a few months since I first tried vim out, but overall, I’m enjoying it a lot more. With everything, it takes a bit of practice to learn, but it makes me feel like I’m driving a manual over an automatic; I’m just closer to the code. And, if I ever sprain my hand again, I’ll know I can still get things done.&lt;/p&gt;
+</summary>
+      <id>//switching-to-vim.html</id>
+      <updated>2014-12-23T12:34:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>How the UX Designer killed Design</title>
+      <link href="//how-the-ux-designer-killed-design.html" />
+      <summary type="html">&lt;p&gt;It’s the same question that comes up during every interview: “If you could choose between only designing and only coding, which would it be?” The first time I was asked that, it caught me off guard, mostly because I hadn’t experienced one separate from the other.&lt;/p&gt;
+
+&lt;p&gt;To a young and naive me, coding was what my Dad did in his home office with five terminal windows open. It reminded me of when he worked in an actual office and there was a warm, humming server room with wires everywhere making tangled nests behind the server racks. It was a mystical place where I didn’t know what those big, tall racks did, or how someone could manipulate real, physical things to make connected systems work. I definitely didn’t do that.&lt;/p&gt;
+
+&lt;p&gt;Design was something that people graduated from school with a degree in where they put together their final book project and gushed over typefaces. Fonts designed for screens were barely available when I was first looking for a job and while I knew what proper spacing was and could call myself a designer, I definitely knew nothing about print. I didn’t have a degree in it. That single, lacking, piece of paper fueled my imposter syndrome for years following. I still can’t call line-height leading when I’m not looking at type on a screen.&lt;/p&gt;
+
+&lt;p&gt;Early on, even before I knew that graduating with a degree in Global Studies would yield nothing more than having a comprehensive understanding of countries on a map, my idols were the ones creating the web. They were the ones pushing for better type rendering on screens, responsive design, more whitespace, easier organization of frontend code, and simplifying web experiences. In my mind, these were all the same people and if I was ever going to be a great designer who also influenced the future of the web, I needed to be doing all these things.&lt;/p&gt;
+
+&lt;p&gt;So when the question was posed to me, I said neither. Without one or the other, I would easily become bored and uninterested, probably lamenting the loss of using skills I enjoyed using every day. Being a designer who practiced neither user experience design nor frontend development meant I was potentially crippling myself from being a master in the craft.&lt;/p&gt;
+
+&lt;p&gt;Despite that, visual design has consistently been my most challenging aspect of design. It’s taken a while to get to a point where I could illustrate anything I thought was of decent quality. I’ve nearly (and probably) cried over designs that weren’t coming together and sometimes wished I would’ve had an education from a design school because maybe it would’ve made things easier. Yet, I’ve always stuck with it and pushed through the muck to chisel out something I can be somewhat proud of.&lt;/p&gt;
+
+&lt;h2&gt;A Fork in the Road&lt;/h2&gt;
+
+&lt;p&gt;As I’m in the midst of transitioning jobs, I’ve been dwelling upon the few pivotal opportunities where I could’ve chosen to do only user experience design. It would’ve set me down a track based solely on facts, research, and testing. And while those are all necessary parts of design, I never did choose that path.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Choosing to specialize and be a user experience designer simply felt like giving up.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Even when I was placed on teams and titled the ‘visual designer’ and paired with user experience designers and frontend developers, I tried to never be complacent in my role, always choosing constant collaboration over strict role delegation.&lt;/p&gt;
+
+&lt;p&gt;And maybe that’s because I’ve always felt a visual designer is more than colors and type and spacing and how things &lt;em&gt;feel&lt;/em&gt;. It’s a balance of the analytic and the aesthetic. To be the best designer I can, it takes a strong understanding of how the web works, the trends (good or bad), and the best practices.&lt;/p&gt;
+
+&lt;p&gt;Siloing is for suckers.&lt;/p&gt;
+
+&lt;h2&gt;A Visual Designer is a UX Designer is a Designer&lt;/h2&gt;
+
+&lt;p&gt;User experience design doesn’t stop at gray boxes; it extends to how a user responds to a page, and that includes how it looks as well as how it functions. It’s more than making a site ‘look pretty’ or coloring in boxes.&lt;/p&gt;
+
+&lt;p&gt;That’s one of the reasons the chart from &lt;a href=&quot;http://www.uxisnotui.com/downloads/without-title.png&quot;&gt;uxisnotui.com&lt;/a&gt; became so popular. While it’s important to help people understand all the different aspects that make up creating a user experience, somehow the column titled “How UX Wants to be Seen” got replaced with “UX Designers” and the column “How UX is Typically Seen” replaced with “Visual Designers”, making it more of a role delegation than a comprehensive list of all the things designers do.&lt;/p&gt;
+
+&lt;p&gt;Mark Boulton describes this perfectly in his article &lt;a href=&quot;https://themanual.org/read/issues/2/mark-boulton/article&quot;&gt;Visual Design is Not a Thing&lt;/a&gt;. In it, he talks about the industry’s response to Jesse James Garrett’s &lt;em&gt;The Elements of User Experience&lt;/em&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“This attitude was unfortunately reinforced by the recent rise in the opinion that user experience design—not graphic design—was the definition of good web design. … According to the industry’s perception of this model, what designers don’t do on the surface plane is design; they decorate.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Somewhere along the way, the collective makers of the web realized the importance of ux (yay!) while neglected advocating for visual design—the cast aside casualty. Instead of judging the quality of a website as a whole, user experience design became the most important factor. Yet, a users judge of a website’s credibility does not stop before visual design. If a website has a great experience and still looks horrible, users will still be confused. Prentice Mathew &lt;a href=&quot;https://medium.com/@prenticemathew/ux-specialists-are-killing-web-design-50b7d7607c13&quot;&gt;observed this&lt;/a&gt; when Gov.uk won the &lt;a href=&quot;http://www.bbc.co.uk/news/entertainment-arts-22164715&quot;&gt;“Design of the year award”&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Visual Design is still the most important pillar which supports the UX (don’t forget the “X” stands for “Experience”) framework, and most users still evaluate the credibility of a website based solely on it’s visual appeal.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This attitude is further reflected in the salary difference between &lt;a href=&quot;http://www.coroflot.com/designsalaryguide/user-experience-designer/united-states&quot;&gt;ux designers&lt;/a&gt; and &lt;a href=&quot;http://www.coroflot.com/designsalaryguide/web-designer/united-states&quot;&gt;web designers&lt;/a&gt;. UX designers are consistently paid more even though visual designers have all the skills they need to know how to be a competent ux designer on top of what they already practice. The placement of a button drives engagement while the overall style affects credibility. The choice of fonts influences the users’ disposition. A lawyer’s website set in comic sans will always prove too unprofessional and negatively accept business.&lt;/p&gt;
+
+&lt;p&gt;User experience processes—such as user testing, research, and creating personas— reinforce (or weaken) these assumptions made in visual design.&lt;/p&gt;
+
+&lt;h2&gt;An Even More Collaborative Web&lt;/h2&gt;
+
+&lt;p&gt;It’s clear we can’t neglect visual design. But we also can’t neglect visual designers. A visual or graphic designer who expands her or his understanding of user experience design best practices and process becomes a better designer overall.
+A user experience designer who learns about graphic design can better understand how design on the surface influences users. Only when both kinds of designers broaden their knowledge can they collaborate as equals and the unknown seems less mystical and scary.&lt;/p&gt;
+
+&lt;p&gt;Whether a team is made up of designers and developers in traditional roles or not, user experience design should not just be for ux designers. It should bear equal weight with all of the other roles and processes that make up creating web experiences. A great website comes from a collaborative environment where all disciplines of web creation are treated as equals.&lt;/p&gt;
+
+&lt;p&gt;For me, that means seeking out and pushing for roles that will let me practice ux and visual design while also doing frontend development. For a team, it means collaborating equally between teammates, regardless of who is working on what.&lt;/p&gt;
+
+&lt;p&gt;We’re all working towards the same goal and great ideas can come from anywhere.&lt;/p&gt;
+</summary>
+      <id>//how-the-ux-designer-killed-design.html</id>
+      <updated>2014-11-12T15:29:21Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Designing for Scale</title>
+      <link href="//designing-for-scale.html" />
+      <summary type="html">&lt;p&gt;This past Saturday, &lt;a href=&quot;http://twitter.com/felskia&quot;&gt;Ali Felski&lt;/a&gt; and I had the pleasure of doing a workshop at the &lt;a href=&quot;http://codeherconference.com/&quot;&gt;Code(Her) Conference&lt;/a&gt;. We went over our process for tackling user experience and user interface design for large web builds and the considerations we take when creating these sites. If you’d like, download our &lt;a href=&quot;/assets/img/blogs/building-for-scale.pdf&quot;&gt;slides&lt;/a&gt; for more information. For more clarification, I thought I’d outline my process for designing interfaces for scale.&lt;/p&gt;
+
+&lt;h2&gt;Why does it matter?&lt;/h2&gt;
+
+&lt;p&gt;We’ve all been on a project that seems to take a life of it’s own and morph into something unrecognizable. Projects like this soon have no clear goals and are like buildings that keep being built on top of buildings. Team members change over time, features may change over time, but design direction should stay solid throughout all this change. Designing for scale is about predicting the future of a site that’ll live on after the team is done initially building and designing.&lt;/p&gt;
+
+&lt;h2&gt;Three goals for designing for scale&lt;/h2&gt;
+
+&lt;h3&gt;1. Flexibility&lt;/h3&gt;
+
+&lt;p&gt;On larger projects, things can change rapidly. Since there are more moving parts, one change from a client could potentially mean a rework of an entire part of the site. Building a website as a system usually prevents headaches associated with these problems.&lt;/p&gt;
+
+&lt;h3&gt;2. Consistency&lt;/h3&gt;
+
+&lt;p&gt;Components that act the same will look similar across all pages so websites stay on brand and don’t confuse users.&lt;/p&gt;
+
+&lt;h3&gt;3. Speed&lt;/h3&gt;
+
+&lt;p&gt;If a new feature is discovered from user testing as being of prime importance and needs to be built right away, styles already exist to do so.&lt;/p&gt;
+
+&lt;h2&gt;Dynamic Content&lt;/h2&gt;
+
+&lt;p&gt;This is a consideration that’s paramount when designing static comps, and one which will most likely arise as a design problem when designing in-browser. In either situation, it’s inevitable that content will be both too short and too long.&lt;/p&gt;
+
+&lt;p&gt;Developers usually compensate for this by either limiting characters on input or cutting off text after a certain number of characters using an elipsis.&lt;/p&gt;
+
+&lt;p&gt;We can do better than that.&lt;/p&gt;
+
+&lt;p&gt;By asking “what if?” while designing, it’s easier to add the correct solutions for little or lots of text.&lt;/p&gt;
+
+&lt;h2&gt;Styleguide-driven design&lt;/h2&gt;
+
+&lt;p&gt;A lot of people talk about developing based off generated styles that keep consistency of visual direction throughout a website, but no one really talks about how a designer starts from functionality and gets to the point of enough designed user interface to have a complete styleguide.&lt;/p&gt;
+
+&lt;p&gt;Clients love to think in terms of pages and deliverables. Developers love reusable components and not pages. Users don’t care beyond the homepage as long as they can accomplish a task. As a designer, I need to find a compromise between presentation and creating a system that’ll grow after I’m finished with it.&lt;/p&gt;
+
+&lt;h3&gt;Process, not tools&lt;/h3&gt;
+
+&lt;p&gt;It doesn’t matter what you use to do the work. There’ll never be a magical tool that’ll do the work for you. Use the tools you’re comfortable in (or not, if you so choose), work best with your team, and help you create the best work possible. What works for me, might not work for you.&lt;/p&gt;
+
+&lt;h3&gt;Taking inventory&lt;/h3&gt;
+
+&lt;p&gt;This could take a while.&lt;/p&gt;
+
+&lt;p&gt;I start by going through every wireframe and listing out all the components by labeling them as a css class. At ISL, we’re using &lt;a href=&quot;http://bem.info/method/&quot;&gt;BEM methodology&lt;/a&gt; for our css structure, so I usually list them this way.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I screenshot all these common elements and throw them into a Sketch file for later. It helps having a visual example for each component in addition to just listing them out.&lt;/p&gt;
+
+&lt;h3&gt;Static approach&lt;/h3&gt;
+
+&lt;p&gt;Typically created using Sketch because of it’s ability to link symbols. This is where that file full of screenshots comes in handy.&lt;/p&gt;
+
+&lt;p&gt;I like to start out designing a few important pages. These pages get shown to the client so we know we’re headed in the right direction. Then the components on these pages are turned into symbols and can be used on other pages. There’s a significant back and forth here where symbols get slightly updated to become more flexible over a greater amount of pages. I also think it helps to continually look at all the pages being designed holistically to make sure everything is headed in the same design direction.&lt;/p&gt;
+
+&lt;p&gt;In the Sketch file, make sure there’s a page with all the symbols that’ll act as the base for the styleguide. Developers will love you forever for making this.&lt;/p&gt;
+
+&lt;p&gt;Not every page will be designed as a static comp. We’re aiming for the pages with the most reused components. Design just enough so it can be translated to code as soon as possible. Type looks different in photoshop, sketch, and illustrator. Elements look different at different browser sizes. There’s no replacement for evaluating a design in it’s intended medium.&lt;/p&gt;
+
+&lt;h3&gt;Inbrowser approach&lt;/h3&gt;
+
+&lt;p&gt;(This is my preferred approach, but if I’m working with designers who don’t know code, it may not be the approach chosen.)&lt;/p&gt;
+
+&lt;p&gt;I start by laying out a base style with color, typography, form inputs, etc. Everything including in this base style is extremely similar to what Brad Frost outlines as atoms in &lt;a href=&quot;http://pattern-lab.info&quot;&gt;Pattern Lab&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;After this, I can start designing components, every so often switching between pages that share those components to see how well they integrate. You can’t just design all components on their own and expect a great site. Sure, it’ll be flexible, but most likely, the ui will look pieced together. We don’t want that. We’re aiming for great, not passable. During this phase, there will be a lot of back and forth where components influence pages and pages influence components. Focus on the little details and then step back every once and a while to look at the whole thing.&lt;/p&gt;
+
+&lt;p&gt;As components are added and change, they’re linked to a styleguide that also changes. Any designer or developer can pull from that styleguide to keep consistency.&lt;/p&gt;
+
+&lt;h2&gt;Evaluate &amp;amp; Iterate&lt;/h2&gt;
+
+&lt;p&gt;Nothing’s ever 100% right the first go around. Know this and plan for it.&lt;/p&gt;
+
+&lt;p&gt;A large site doesn’t stop when the project ends, it keeps on living and evolving far after all the papers have been signed and the checks delivered.&lt;/p&gt;
+</summary>
+      <id>//designing-for-scale.html</id>
+      <updated>2014-09-15T10:29:21Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>BeardSwipe</title>
+      <link href="//beardswipe.html" />
+      <summary type="html">&lt;div class=&quot;hero&quot;&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;http://player.vimeo.com/video/90373042&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+
+&lt;h2&gt;What We Built&lt;/h2&gt;
+&lt;p&gt;We put together a full experience, including a social media campaign, website and app design, and a promo video to ensure the prank was fully believable. Users arrived at a striking single-page website (that purposefully mimicked the style of trendy startup websites) to view the full offering of the BeardSwipe app. The site drove users to a marketing video, featuring many of our bearded and not-so-bearded team members. When users clicked the &#39;Download The App&#39; button they were taken to the iStrategyLabs website and informed that they had been pranked.&lt;/p&gt;
+
+&lt;p&gt;One of the most interesting aspects of our team composition was that work was self-assigned. No one team member was told what they should work on or what process to use in approaching their responsibilities. From kickoff to launch, the entire project was created in a sum of two weeks.&lt;/p&gt;
+
+&lt;p&gt;Full website: &lt;a href=&quot;http://beardswipe.me&quot;&gt;Beardswipe.me&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--two-thirds&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image1.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--one-third&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image2.jpg&quot; alt=&quot;iOS Design&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;What I Worked on&lt;/h2&gt;
+&lt;p&gt;I choose to tackle both design and development of the product website. Knowing that it was to be released as an April Fools joke, I wanted the visual design to mock recent trends while still keeping a streamlined user experience that supported the campaign.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Wireframes&lt;/h3&gt;
+&lt;p&gt;Working to get in code as soon as possible, I did a quick mockup of interactions with notes on functionality I needed to tackle straight away in code. I handed these to my copywriter who delved into creating some of the snarky commentary.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image4.jpg&quot; alt=&quot;Wires&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image3.jpg&quot; alt=&quot;Sketches&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image5.jpg&quot; alt=&quot;Sketches&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Art Direction&lt;/h3&gt;
+
+&lt;p&gt;We wanted the website to appeal to what we liked to call the &#39;urban woodsman&#39;, a special breed of bearded man who owned both an axe and a fixed gear bicycle. To reflect this, I chose to use the gold iphone in the designs and pulled out some of that gold to use as accents.&lt;/p&gt;
+
+&lt;p&gt;I also wanted the visual design to be a nod to startup website design trends common around April 2014, as a slight mockery since the product was actually fake. This is why I choose Brandon Grotesque and Helvetica Neue as my base fonts.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image6.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/brt.gif&quot; alt=&quot;BRT&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image7.jpg&quot; alt=&quot;Responsive&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image8.jpg&quot; alt=&quot;Overlapping CSS tricks&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/beardswipe/image9.jpg&quot; alt=&quot;Full comp&quot;&gt;&lt;/p&gt;
+</summary>
+      <id>//beardswipe.html</id>
+      <updated>2014-08-28T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Everything Looks the Same: Convergence of Web Design</title>
+      <link href="//everything-looks-the-same.html" />
+      <summary type="html">&lt;p&gt;To preface, this was my original proposed topic for &lt;a href=&quot;http://contrarycon.com&quot;&gt;Contrary Con&lt;/a&gt;. If you&#39;ve never prepped for a talk for a conference before, it&#39;s a lot of hard work. Being that it was my first official conference speaking experience, it took most nights (and some mornings) the week of plus extra concepting the week prior. I have a lot more respect now for speakers who can craft engaging and cohesive talks that aren&#39;t focused around their work.&lt;/p&gt;
+
+&lt;p&gt;While I enjoyed speaking on the principles I practice for trying to create quality work and how it transcends one project to affect my future work and the work of my peers, a lot of attendees really wanted to hear about the original topic.&lt;/p&gt;
+
+&lt;p&gt;So here we go.&lt;/p&gt;
+
+&lt;h2&gt;How did we get here?&lt;/h2&gt;
+
+&lt;p&gt;If you were designing two or three years ago, you&#39;ll remember most homepages had four elements. A header, a carousel, a three column section with more content that no one read, and a very large footer with a complete sitemap and contact information.&lt;/p&gt;
+
+&lt;p&gt;In short, something very similar to this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/old-websites.jpg&quot; alt=&quot;2010 era websites&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During that time, most people thought this was the perfect layout. We kept seeing more clients request this and never stray from it. Conveniently, it worked well for clients who always wanted their content &quot;above the fold&quot;. We thought things wouldn&#39;t change too much.&lt;/p&gt;
+
+&lt;p&gt;But things did change.&lt;/p&gt;
+
+&lt;p&gt;Not too long after, responsive design emerged. Some people (including myself) adopted it early on, while others were skeptical for a long while, arguing that separate mobile sites were better. Regardless, responsive design became the norm, and as creators of the web, we adapted to this.&lt;/p&gt;
+
+&lt;p&gt;What we ended up with were longer websites where content could be delivered in more interesting layouts. These layouts were based on strict grid systems that could be easily reconfigured into a single column for small screens.&lt;/p&gt;
+
+&lt;p&gt;They ended up looking a bit like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/new-websites.jpg&quot; alt=&quot;2013 era websites&quot; /&gt;
+&lt;cite&gt;&lt;a href=&quot;http://graphicburger.com/one-page-website-wireframes/&quot;&gt;Created with One Page Wireframes&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;
+
+&lt;p&gt;But frankly, things still look the same.&lt;/p&gt;
+
+&lt;p&gt;Why is it that today we have more flexibility in delivering content, yet we&#39;re creating websites that look nearly identical to one another?&lt;/p&gt;
+
+&lt;h3&gt;Visual trends as response&lt;/h3&gt;
+
+&lt;p&gt;If you remember (or maybe you&#39;d like to forget), highly texturized, drop shadowed websites were popular at the same time we were creating websites that were only 800 pixels tall. I think a lot of the justification for creating these was based off of our layouts being so rigid. Creating a website with personality was tough when services such as Typekit and Fontdeck were just emerging.&lt;/p&gt;
+
+&lt;p&gt;Additionally, after so many of our websites were just links for a long while, it was nice to be able to include a lot of images that didn&#39;t take forever to load. It was pretty much commonplace to create websites where all the text had a 1px shadow to make it feel inset on the page, echoing actual letter-pressed, real type.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/pendulum-1.jpg&quot; alt=&quot;Pendulum&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In contrast, the minimalistic flat design was a response to this highly texturized trend.  If you remember, responsive design emerged during this time. While we were reluctant to let go of sites that could be designed &#39;pixel perfect&#39;, we realized it was simply easier to create responsive designs for existing websites if they had less decoration and less superfluous content.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/pendulum-2.jpg&quot; alt=&quot;Pendulum&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But it was more than that.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Let&#39;s take a look at some of the things that have influenced how we currently design for the web.&lt;/p&gt;
+
+&lt;h3&gt;Responsive Design&lt;/h3&gt;
+
+&lt;p&gt;Things had to change, literally.&lt;/p&gt;
+
+&lt;p&gt;As mentioned before, responsive design was a huge influence on simplifying websites.&lt;/p&gt;
+
+&lt;p&gt;Starting out, designers and developers needed to get familiar with responsive design. To accommodate changing sizes and placement of elements within responsive layouts, websites were mostly distilled down into a collection of large boxes.&lt;/p&gt;
+
+&lt;p&gt;Creating a website became more difficult to complete within the same timeframe. It&#39;s understandable that websites got simpler in response to this.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Flexibility has become a more valuable currency than specificity.&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;Matt Griffin — &lt;a href=&quot;http://alistapart.com/article/client-relationships-and-the-multi-device-web&quot;&gt;Client Relationships and the Multi-Device Web&lt;/a&gt;&lt;/cite&gt;&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h3&gt;Type&lt;/h3&gt;
+
+&lt;p&gt;I like to joke that everything is either set in Proxima Nova or Brandon Grotesque. Or maybe Gotham if the client is really &quot;progressive&quot; (aka, was convinced to pay a lot for a Hoefler &amp;amp; Co typeface).&lt;/p&gt;
+
+&lt;p&gt;It&#39;s mostly true. Take a look at &lt;a href=&quot;http://land-book.com/&quot;&gt;Land Book&lt;/a&gt; and you&#39;ll see the most recent startup homepages featured are set in these typefaces.&lt;/p&gt;
+
+&lt;p&gt;They&#39;re all modern sans-serifs that are easy to read and work with a variety of different logos. In short, very flexible. Yet, overuse dilutes any uniqueness.&lt;/p&gt;
+
+&lt;h3&gt;Bootstrap&lt;/h3&gt;
+
+&lt;p&gt;I get it. It&#39;s easy to use. &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;Bootstrap&lt;/a&gt; can be a great tool for quickly creating prototypes. However, when a product gets built using Bootstrap, it can be easy to think the work has been done.&lt;/p&gt;
+
+&lt;p&gt;It works.
+It feels like a real product.
+It has whitespace.&lt;/p&gt;
+
+&lt;p&gt;However, over time we&#39;ve noticed that websites built with bootstrap still look like bootstrap. Heck, even toolkits based off bootstrap look like bootstrap.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Deciding all the components in a toolkit before starting design is limiting designers to what&#39;s already been done, not what&#39;s possible.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h2&gt;How similar is too similar?&lt;/h2&gt;
+
+&lt;p&gt;When I came across these two websites in May of 2014, my initial thought was that someone took a hell of a lot of influence from the other. I posted to twitter with a simple reaction of &#39;huh&#39;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/BndmDgaCAAAAtZ9.png&quot; alt=&quot;May 2014&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Immediately after, I was reminded that this trend is prevalent in a lot of places. Take for example InVision&#39;s latest redesign, which also uses similar placement of user interface elements and the same font and treatment.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/Bndn8MKCMAMUz4r.png&quot; alt=&quot;May 2014&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So how similar is too similar? Is this a reflection of trends and influence or designers drawing the same conclusions?&lt;/p&gt;
+
+&lt;h2&gt;What should we do (if anything)?&lt;/h2&gt;
+
+&lt;p&gt;Most people are quick to judge today&#39;s websites, but there are some positives to their similarity.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Users know where to go. Most of the common elements on a page are in similar places and take advantage of users scanning the page in an &#39;F&#39; shaped pattern.&lt;/li&gt;
+&lt;li&gt;It&#39;s easy for startups to build first, validate their product and then add on uniqueness.&lt;/li&gt;
+&lt;li&gt;The design similarities make websites of today look a hell of a lot better than their predecessors.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;We can do better than that.&lt;/p&gt;
+
+&lt;p&gt;The web community has done a great job recently asking why certain trends exist and whether they add to the sites being created. But we shouldn&#39;t be critical for the sake of being critical.&lt;/p&gt;
+
+&lt;p&gt;As technology changes, our common web design philosophy will also change. It could be a positive response to having more flexibility in the way we create websites, or a negative responsive to using new technology in the same way.&lt;/p&gt;
+
+&lt;p&gt;We&#39;ll see. Change is inevitable.&lt;/p&gt;
+
+&lt;p&gt;Not all of the solutions we&#39;ve used in today&#39;s very minimalist era work for every project. Web designers have already moved away from exceedingly flat design trends (such as long shadows). I predict that we&#39;ll see some bit of texture emerge as the pendulum swings back away from highly minimal.&lt;/p&gt;
+
+&lt;p&gt;I&#39;d challenge all of you creating websites to think about creating something that enhances the work with ever step.&lt;/p&gt;
+</summary>
+      <id>//everything-looks-the-same.html</id>
+      <updated>2014-08-25T10:29:21Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Design Process as Scientific Method</title>
+      <link href="//design-process-as-scientific-method.html" />
+      <summary type="html">&lt;p&gt;Let&#39;s face it. The last time I thought about the scientific method, it was probably in high school. Back when the chairs for those heavy, black-topped were too tall for your knees to fit underneath and wearing safety googles meant not being able to see through a level of dust and film left on the plastic from years of science classes. I never ended up practicing anything close to science after high school so I don&#39;t have an intimate knowledge of the process, but I&#39;d like to think that there&#39;s something to be garnished from proven methodology.&lt;/p&gt;
+
+&lt;p&gt;Beyond all the awkwardness of teenage misunderstanding, one thing I never got to do in science class was actually use the scientific method as it was intended: as iteration. It builds in an understanding that failure is almost certain and we&#39;re never going to prove our hypothesis correct the first time (unless we&#39;re superhuman or cheating).&lt;/p&gt;
+
+&lt;p&gt;A traditional waterfall approach is much like the scientific method of high school, we go through the motions, but there&#39;s never a chance to go back to change our hypothesis and test again. Once one &#39;deliverable&#39; is signed off on, it&#39;s impossible to go back and change that part of the equation. If we&#39;re lucky, some testing may be done on wireframes or visual design comps, but once that phase is complete, it&#39;s very difficult to change. Waterfall protects teams from ever changing scopes and clients that can&#39;t decide on what they want, sure, but it also holds back teams from creating the best products.&lt;/p&gt;
+
+&lt;p&gt;Yet, agile doesn&#39;t work for every project. So how can we adapt our traditional design process to factor in the near certainty that we will fail, not at everything, at something? I&#39;d like to think that we&#39;re all better designers tomorrow than today, and there have definitely been projects where I could&#39;ve gone back and fixed aspects of a design based on insights learned later on. Perhaps we should be treating both user experience and visual design in a frame much like the scientific method so we can iterate and bring more rigor to a design process.&lt;/p&gt;
+
+&lt;h2&gt;Applying the scientific method to a design phase&lt;/h2&gt;
+
+&lt;p&gt;Let&#39;s take a look at the steps of the scientific method and see how to use them in terms of our own design process.&lt;/p&gt;
+
+&lt;h3&gt;Question&lt;/h3&gt;
+
+&lt;p&gt;These usually end up being more &#39;How&#39; questions than &#39;Why&#39;. Many times, these questions come from our kickoff meetings with our clients. We usually go through a few different exercises to prioritize goals. In one of our recent kickoffs, the top priorities were to increase conversions and simplify/automate specific parts of the cms. Let&#39;s take that one step further by turning them into questions. How can we increase conversions from the homepage to getting a person to sign up for a service? How can we simplify the cms so bulk content can be added and maintained automatically?&lt;/p&gt;
+
+&lt;h3&gt;Hypothesis&lt;/h3&gt;
+
+&lt;p&gt;These are the educated guesses we take when we make design decisions. Only have one button on the homepage will increase clicks to that page. Friendly, family-oriented and candid photography relates with our top personas, making it more likely they&#39;ll explore the website. People want to fill out a contact form more than sending an email to an anonymous address.&lt;/p&gt;
+
+&lt;h3&gt;Testing&lt;/h3&gt;
+
+&lt;p&gt;Design is executed. My preference is to test closest to production format (usually code), but some testing is better than none. Any time I&#39;ve done user testing, it becomes clear really quick if the assumptions I made while designing were correct or ended up confusing users. Asking the questions before designing also makes it easy to test since the questions already exist.&lt;/p&gt;
+
+&lt;h3&gt;Analysis&lt;/h3&gt;
+
+&lt;p&gt;This is where all the testing results are sorted through to identify if our hypotheses were correct or incorrect. New hypotheses, execution and testing may be needed and should be planned for now.&lt;/p&gt;
+
+&lt;h3&gt;Iteration&lt;/h3&gt;
+
+&lt;p&gt;We should assume that some of our hypotheses were wrong and build at least a phase of iteration into our design timeline before showing clients. Why? It makes it easier to defend any design decision to a client because it&#39;s been tested and proven. Instead of doing a shoulder shrug or coming up with some arbitrary design speak bullshit to defend a design, a designer can point to specific tests as reasons for decisions.&lt;/p&gt;
+
+&lt;h2&gt;How is this different than just designing and testing?&lt;/h2&gt;
+
+&lt;p&gt;Well, for starters, testing gets built into the process instead of getting placed at the end of a phase. Instead of designing while these assumptions arise, hypotheses specifically get created to test answer our key questions before starting any design. This helps narrow focus during the design phase down to the main goals identified for any web build. When testing starts, the specific things to test for are already noted through our key questions and hypotheses. Additionally, analysis of tests provides strong documentation and defense for any design decision, both for ux and visual design.&lt;/p&gt;
+
+&lt;p&gt;Adding in this methodology to a timeline may lengthen it, so any team needs to seriously consider where they need to cut the fat. (Personally, I think it exists in visual comp deliverables, but knowing code, I can be very biased.) What it does is strengthen and defend designs, helping them become better by adding in iteration and testing through specific questions and assumptions.&lt;/p&gt;
+</summary>
+      <id>//design-process-as-scientific-method.html</id>
+      <updated>2014-07-14T11:47:21Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Simple Content Audits</title>
+      <link href="//content-audits.html" />
+      <summary type="html">&lt;p&gt;When starting any redesign of a current website, you need to know the existing content you have to work with. It&#39;s the building blocks of starting a lessons learned about what worked on the current site and what didn&#39;t so you can build a better site moving forward. Complete documentation always helps when you&#39;re not exactly sure what you need moving forward.&lt;/p&gt;
+
+&lt;h2&gt;Grabbing all the content&lt;/h2&gt;
+
+&lt;p&gt;I ran &lt;a href=&quot;http://istrategylabs.com&quot;&gt;iStrategyLabs.com&lt;/a&gt; through the &lt;a href=&quot;http://www.content-insight.com/&quot;&gt;Content Analysis Tool&lt;/a&gt;, which crawls through the site grabbing all the pages and providing data including how many images, media and documents are on a page. This was a lot more thorough than going through the istrategylabs.com site by hand and listing the pages in a spreadsheet.&lt;/p&gt;
+
+&lt;p&gt;After I imported the information from the Content Analysis Tool into a Google spreadsheet, I organized the pages to reflect our existing sitemap. This was just to confirm that the tool worked as I intended and I had all the information necessary to move forward.&lt;/p&gt;
+
+&lt;h2&gt;Gathering Observations&lt;/h2&gt;
+
+&lt;p&gt;Doing an audit on existing pages, images, media and documents is great, but it isn&#39;t enough. After you have all the content, you need to go through and identify the good and not so great parts about your current content. These are the things I looked for after all the pages on the site were listed and organized into a format reflecting our current sitemap.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Duplicate information&lt;/p&gt;
+
+&lt;p&gt; This ones pretty straightforward. We found several instances of pages created for the intention of redirects. Also, several blog posts were created as project recaps when they really should&#39;ve been work case studies.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pages that were created as a temporary solution.&lt;/p&gt;
+
+&lt;p&gt; As mentioned above, project recap posts would be created in addition to work pages. Since our work section couldn&#39;t accommodate an explanation of our process, or more than a couple of paragraphs and a dozen images, blog posts were used to supplement. On our new site, we&#39;re planning on doing only case studies for all new work, solving the disconnect between work and blog posts.&lt;/p&gt;
+
+&lt;p&gt; Another outlier was the link to the case study deck underneath work. I flagged that as another place where new pages were being adapted to suit needs instead of the site working for us.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Understanding the breadth of existing content&lt;/p&gt;
+
+&lt;p&gt; I had initially thought our site would have a lot of hidden and superfluous pages, but it ended up being straightforward. Our biggest content, not surprisingly, came from blog posts and work, followed by team bios, author pages and categories. Our blog is a HUGE deal. Just imagine if all the teams wrote regularly, and not just strategy &amp;amp; clever girl.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Content in wrong areas&lt;/p&gt;
+
+&lt;p&gt; As mentioned before, our work content also existed on our blog, along with a huge amount of physical experiments that could&#39;ve been more highlighted.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Keep/Kill&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt; If you removed this section, could the site still exist and make sense?&lt;/p&gt;
+
+&lt;p&gt; We had a lengthy debate in our kickoff meeting on whether we should keep or kill individual team bios. The real question you should be asking when doing a content audit is what value that content is added to a site overall.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;Evaluating the quality of content&lt;/h2&gt;
+
+&lt;p&gt;After the types of content to trim from the site and reorganizing similar content into more sensible areas, you still need to evaluate if the content on the site is any good. Simply having these pages and content on the pages isn&#39;t enough. The content and types of content have to be great enough to keep users on the site and get them interested. Is the about page written in the best way to attract clients and potential hires? Does the work section present information in a way that entices users to keep looking or get in content with us?&lt;/p&gt;
+
+&lt;p&gt;As a designer, one of my primary goals in evaluating content is to help create a design that supports the copy and the audience it was written for. Creating a solid, cohesive experience depends entirely on the content working alongside the targeted design.&lt;/p&gt;
+
+&lt;h2&gt;What next?&lt;/h2&gt;
+
+&lt;p&gt;Now that there&#39;s great base documented, new content can be written to fill gaps and ux design can easily get started with wireframes based on identified content types needed on existing and new pages.&lt;/p&gt;
+</summary>
+      <id>//content-audits.html</id>
+      <updated>2014-07-07T10:29:21Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>EveryoneOn</title>
+      <link href="//everyoneon.html" />
+      <summary type="html">&lt;div class=&quot;hero&quot;&gt;
+    &lt;img src=&quot;/assets/img/everyoneon/hero.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+
+&lt;h2&gt;Project Overview&lt;/h2&gt;
+
+&lt;p&gt;Originally the Connect2Compete program, EveryoneOn came to iStrategyLabs to combine the two brands under one redesigned website. With a focus on information architecture and design, ISL worked with the EveryoneOn team to reorganize content and present it in a simple, digestible, mobile-friendly format.&lt;/p&gt;
+
+&lt;p&gt;The team at iStrategyLabs and I built a complete website that combined two previous websites and brands (Connect2Compete and EveryoneOn). This was especially challenging considering the wide range of audiences (children and families, job-seekers, and seniors). With a focus on information architecture and design, we worked with the EveryoneOn team to reorganize content and present it in a simple, digestible, mobile-friendly format.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+
+&lt;h2&gt;Information Architecture&lt;/h2&gt;
+
+&lt;p&gt;As mentioned, we were combining two websites together, which involved a comprehensive look at the content.&lt;/p&gt;
+
+&lt;h3&gt;What we started with&lt;/h3&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/everyoneon/image1.jpg&quot; alt=&quot;Existing Sitemap&quot;&gt;
+    &lt;/div&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Final sitemap&lt;/h3&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/everyoneon/image2.jpg&quot; alt=&quot;Final Sitemap&quot;&gt;&lt;/p&gt;
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;Wireframes&lt;/h2&gt;
+
+&lt;p&gt;This was my first experience in deliberately choosing to do in-browser wireframes. I wanted the client and our entire team to see how the website might feel with actual content at different screen sizes.&lt;/p&gt;
+
+&lt;p&gt;I also provided an annotated version of the wireframes. This allowed me to tie certain sections directly to our audience and goals.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/everyoneon/image3.jpg&quot; alt=&quot;Annotated Wireframes&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/everyoneon/image4.jpg&quot; alt=&quot;In-browser Wireframes&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/everyoneon/image5.jpg&quot; alt=&quot;In-browser Wireframes&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;Visual Design&lt;/h2&gt;
+
+&lt;h3&gt;Typography&lt;/h3&gt;
+&lt;p&gt;I wanted to choose a typefaces that were friendly and approachable to help the website seem more inviting to our wide range of audiences.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/everyoneon/type.jpg&quot; alt=&quot;Type&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h4&gt;Adelle&lt;/h4&gt;
+&lt;p&gt;Chosen because of it&#39;s personality and flexibility that, when paired with a softer typeface, adds an element of authority. In the context of this website, it was used exclusively for headlines.&lt;/p&gt;
+
+&lt;h4&gt;Proxima Nova Soft&lt;/h4&gt;
+&lt;p&gt;A more approachable rounded version of Proxima Nova. I almost always chose to pair this with Adelle to soften the slab serif.&lt;/p&gt;
+
+&lt;h4&gt;Effra&lt;/h4&gt;
+&lt;p&gt;A sans-serif known for it&#39;s clean lines and open proportions that create a geometric and modern typeface.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Color&lt;/h3&gt;
+&lt;p&gt;EveryoneOn already had a color palette of red and blue. I choose to tweak the colors slightly so that they were less harsh and more youthful while adding a darker blue to balance out whitespace.&lt;/p&gt;
+&lt;img src=&quot;/assets/img/everyoneon/color.jpg&quot; alt=&quot;iOS Design&quot;&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/everyoneon/image6.jpg&quot; alt=&quot;Large&quot;&gt;&lt;/p&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--two-thirds&quot;&gt;
+        &lt;img src=&quot;/assets/img/everyoneon/image7.jpg&quot; alt=&quot;Medium&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--one-third&quot;&gt;
+        &lt;img src=&quot;/assets/img/everyoneon/image8.jpg&quot; alt=&quot;Small&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/everyoneon/image9.jpg&quot; alt=&quot;Small&quot;&gt;
+&lt;br&gt;
+&lt;img src=&quot;/assets/img/everyoneon/image10.jpg&quot; alt=&quot;Small&quot;&gt;
+&lt;br&gt;
+&lt;img src=&quot;/assets/img/everyoneon/image11.jpg&quot; alt=&quot;Small&quot;&gt;&lt;/p&gt;
+</summary>
+      <id>//everyoneon.html</id>
+      <updated>2014-06-15T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Faking Responsive</title>
+      <link href="//faking-responsive.html" />
+      <summary type="html">&lt;p&gt;Responsive design has been forcing digital agencies for the past few years to rethink their traditional waterfall processes. It&#39;s tough enough trying to nail down a visual design when your client is deliberating over the font size of navigation items, asking questions like: &quot;Why can&#39;t we decrease the size of the carousel to view more items below the fold?&quot;&lt;/p&gt;
+
+&lt;p&gt;Yes. We all still get asked this.&lt;/p&gt;
+
+&lt;p&gt;In an ideal world, all designers would be able to flawlessly code up their designs and browser test them (because we know someone&#39;s bound to be viewing the page in IE). Presenting to clients and iterating through designs based on feedback would be as simple as changing a few backgrounds, images and placements of elements in Photoshop or Illustrator. We can&#39;t all have that. A girl can hope, right?&lt;/p&gt;
+
+&lt;p&gt;Working on a design team with several designers on the same project has taught me to be extremely flexible in the methods we use to create and present work to clients. Some designers know code. Great. Some designers are wizs at Illustrator. Also great. We all have different tools we prefer and work quickly in. I love that some people on my team know more about certain tools and we all still make great designs using different methods.&lt;/p&gt;
+
+&lt;p&gt;But at the end of the day, we&#39;re still presenting a picture of the website we intend to create. Faking responsive with static comps gets us one step closer by allowing the client to view the correct sizing of type, elements and images based on their viewport. But how do we do that?&lt;/p&gt;
+
+&lt;h2&gt;Let&#39;s make a simple page&lt;/h2&gt;
+
+&lt;p&gt;Let&#39;s start off by assuming we&#39;ll still have static comps. Because we&#39;re trying to be really nice to our developers, we&#39;re also creating separate comps for our viewports that are sized appropriately based on width.&lt;/p&gt;
+
+&lt;p&gt;I like to start in Sketch with their &#39;Web Design&#39; template, which gives us four artboards: Desktop HD at 1440 pixels wide, Desktop at 1024 pixels wide, Tablet Portrait at 768 pixels wide, and Mobile Portrait at 320 pixels wide. As a side note, we probably want to make sure we&#39;re saving these both @1x and at @2x in case our client is on a retina device.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/responsive-comps.png&quot; alt=&quot;Example of Sketch document with four different artboards&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Next, we want a simple html page with a css file attached where we list out all of our comp images. We also want to make sure we&#39;re adding a class to each image so we can reference that in css.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;body&amp;gt;
+    &amp;lt;img src=&quot;_/img/comp_desktophd.jpg&quot; alt=&quot;&quot; class=&quot;desktophd&quot;&amp;gt;
+    &amp;lt;img src=&quot;_/img/comp_desktop.jpg&quot; alt=&quot;&quot; class=&quot;desktop&quot;&amp;gt;
+    &amp;lt;img src=&quot;_/img/comp_laptop.jpg&quot; alt=&quot;&quot; class=&quot;laptop&quot;&amp;gt;
+    &amp;lt;img src=&quot;_/img/comp_tablet.jpg&quot; alt=&quot;&quot; class=&quot;tablet&quot;&amp;gt;
+    &amp;lt;img src=&quot;_/img/comp_mobile.jpg&quot; alt=&quot;&quot; class=&quot;mobile&quot;&amp;gt;
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;But this shows all the images and we only want to show the one that fits the viewport for our user. So in css, we&#39;ll hide all the elements and display only the one that corresponds to our comp width:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;@media screen and (min-width: 1024px) {
+    .desktophd, .desktop, .laptop, .tablet, .mobile {
+        display: none;
+    }
+    .desktop {
+        display: block;
+        width: 100%;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Since our desktop comp is 1024 pixels wide, we&#39;ll show that when the user&#39;s viewport is at 1024 pixels or higher while hiding everything else.&lt;/p&gt;
+
+&lt;p&gt;Repeat with each comp and we&#39;ll have something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/responsive-comps.gif&quot; alt=&quot;Viewport width adjusting to show different comps at different browser widths&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Upload to a server and now we have a url that we can send to our clients. When they open the page, only the image that fits their viewport will show so that we can be sure they&#39;re viewing our designs proportionately.&lt;/p&gt;
+
+&lt;h2&gt;Caveats&lt;/h2&gt;
+
+&lt;p&gt;This doesn&#39;t solve everything. Like the title of this post suggests, we&#39;re only faking responsive. We still have problems like not being able to show interactive elements, transitions, parallax (if you insist on using it), etc. At the end of the client meeting, the comps are still pretty pictures of a website we&#39;ll eventually make.&lt;/p&gt;
+
+&lt;p&gt;You could probably be really fancy with how you serve your images, too. But we&#39;re going for simplicity here, so that&#39;s why I wrote it the way I did.&lt;/p&gt;
+
+&lt;p&gt;This does, however, attempt to solve the issue of the client thinking designs are really really large, or wanting to know how our desktop sized comps will look on their ipad. And sometimes that&#39;s exactly what we need to get signoff on visual designs.&lt;/p&gt;
+</summary>
+      <id>//faking-responsive.html</id>
+      <updated>2014-06-04T09:58:21Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Paying for College</title>
+      <link href="//paying-for-college.html" />
+      <summary type="html">&lt;div class=&quot;hero&quot;&gt;
+&lt;img src=&quot;/assets/img/paying-for-college/image10.jpg&quot; alt=&quot;&quot;&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;The Problem&lt;/h2&gt;
+
+&lt;p&gt;Student debt can be a confusing arena where it&#39;s often difficult to understand how to compare the financial benefits of getting a college degree. Getting a college degree is often a part of the American dream, but students and parents taking on this debt often fail to realize the debt burden after school.&lt;/p&gt;
+
+&lt;h2&gt;What We Built&lt;/h2&gt;
+
+&lt;p&gt;As a part of the products team at the Consumer Financial Protection Bureau, CFPB, I primarily worked as a visual designer, prototyping my ideas in code and working with other ux designers in sprint cycles to release Paying for College, a set of tools catered towards the education life milestone. &lt;/p&gt;
+
+&lt;p&gt;See and interact with the current tool:&lt;/p&gt;
+
+&lt;a href=&quot;http://www.consumerfinance.gov/paying-for-college/compare-financial-aid-and-college-cost/&quot;&gt;Paying for College Cost Comparision Tool&lt;/a&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/paying-for-college/image11.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/paying-for-college/image12.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;What I Worked On&lt;/h2&gt;
+
+&lt;h3&gt;UX&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://brouin.com&quot;&gt;Brittany Mederos&lt;/a&gt; and I collaborated on how to build this tool, whiteboarding out different scenarios that we&#39;d both elaborate on and test. We ran into issues of how users were going to input data (if at all), how we would integrate two-year and four-year programs, and how to easily compare costs of different programs.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Interface Design&lt;/h3&gt;
+
+&lt;p&gt;Paying for College was meant to be an extension of the Consumer Financial Protection Bureau brand. It drew inspiration from light usage of color on the rest of the website while focusing primarily on interactions. One of the more interesting parts of the interface was the sticky input header that allowed users to easily switch between schools, and the sticky footer containing important debt information that would attach itself to the bottom of the page once the user reached far enough down the cost table.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--two-thirds&quot;&gt;
+        &lt;img src=&quot;/assets/img/paying-for-college/image8.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--one-third&quot;&gt;
+        &lt;img src=&quot;/assets/img/paying-for-college/image6.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/paying-for-college/image9.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/paying-for-college/image7.jpg&quot; alt=&quot;&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;!-- ![The Interface](/assets/img/cfpb-paying-for-college-tool.png)
+ --&gt;
+
+
+
+</summary>
+      <id>//paying-for-college.html</id>
+      <updated>2014-05-26T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Why I Switched to Sketch</title>
+      <link href="//why-i-switched-to-sketch.html" />
+      <summary type="html">&lt;p&gt;It&#39;s been about two months since I decided to redownload Sketch and see what all the fuss was about. Surprisingly, I ended up liking it. Quite a lot. I&#39;ve switched from grumbling about having to use Photoshop to, now, just mocking up a few components and playing with layouts in Sketch outside of the context of browser constraints or grids already set in sass.&lt;/p&gt;
+
+&lt;p&gt;But first, let me put in context why I even using a program to design at all.&lt;/p&gt;
+
+&lt;p&gt;Being a designer and frontend dev, my ideal workflow is to do everything besides design assets in browser. If I&#39;m working alone, this workflow is excellent for quickly iterating. But, when a project&#39;s team expands from a solo adventure to an expedition (yes, complete with guns, machetes and porters), it&#39;s tough to iterate in code. (Of course, that all changes if I&#39;m designing an app.)&lt;/p&gt;
+
+&lt;p&gt;My creative director and my client aren&#39;t going to understand that I&#39;m trying to carve a Statue of David out of content and code and by iteration 4, it&#39;ll be there. They want to see how it&#39;ll look. In two days. So sometimes you need to make sacrifices in your own ideal process to fit a team balance. That&#39;s where a design app comes in. There&#39;s nothing wrong with using photoshop. Lots of designers use photoshop and produce great work. Some of them code, some of them don&#39;t. We all have different processes that work for each of us.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;You do you.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;Things I enjoy now that I&#39;ve been using sketch exclusively for the past two months:&lt;/p&gt;
+
+&lt;h2&gt;Artboards &amp;amp; Pages&lt;/h2&gt;
+
+&lt;p&gt;Yup. I totally realize that you get this with illustrator. I don&#39;t disagree with you illustrator users! Artboards are awesome! They make iterating ideas quick by just drag-copying entire artboards. I can see what different interaction states look like right next to one another. If I need to create traditional comps because I know another designer may take over the work, it&#39;s easy to store a whole set of pages in one file. The organization is already set up to use and it&#39;s easy to understand.&lt;/p&gt;
+
+&lt;h2&gt;Symbols &amp;amp; Shared Styles&lt;/h2&gt;
+
+&lt;p&gt;Photoshop has this, but, let&#39;s be real, it sucks. Yesterday I imported a fellow designer&#39;s comp from Photoshop to Sketch and create a symbol out of her button style. I ended up not using the button at all in the initial design I created, but when the edits came back from the client, I needed that button and it was easily stored for me to add in a second.&lt;/p&gt;
+
+&lt;h2&gt;Type Rendering&lt;/h2&gt;
+
+&lt;p&gt;I&#39;m not spending 5 million years switching between crisp, strong, mac, mac lcd, etc. Type in Sketch is closely rendered the way it&#39;ll look in modern browsers. I like that. Then I can spend less time wondering why it doesn&#39;t look similar and move on to spending 5 million years adjusting my margins.&lt;/p&gt;
+
+&lt;h2&gt;Exporting&lt;/h2&gt;
+
+&lt;p&gt;I can geek out by exporting all my artboards and pages with &lt;a href=&quot;http://jonohunt.tumblr.com/post/84511158113/alfred-workflow-export-sketch-documents&quot;&gt;one command via Alfred&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Things I&#39;ve noticed need a bit of work:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Sketch can get a bit slow if you have a ton of artboards. I&#39;ve gotten around this by moving artboards to pages when I&#39;m mostly done with them.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Shared styles also share a color, so if you have type in a font and at one size, but want to change the color to white because it&#39;s on a dark background, you have to unlink the style first.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Sometimes resizing icons imported from illustrator can be strange. The inner shape might not resize exactly the right way.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;Overall, I&#39;ve been pretty happy with the switch and have only opened Photoshop if another design gets handed to me. I&#39;ve really been loving all the plugins that keep popping up. It seems like the majority of users are really into open source and already are active on github. Sketch has been working great for me. If you&#39;re struggling with one tool, maybe you should give something else a try for a while. If you&#39;re not, then keep on designing! It&#39;s all a means to a polished final product and whatever&#39;s going to help you produce the best work is what you should be using.&lt;/p&gt;
+</summary>
+      <id>//why-i-switched-to-sketch.html</id>
+      <updated>2014-05-15T14:32:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>What DC lacks</title>
+      <link href="//what-dc-lacks.html" />
+      <summary type="html">&lt;p&gt;I couldn&#39;t really put my finger on it until I left DC. Everyone talks about how transient this city is. I&#39;ve been victim to this common thread, having two of my best friends move to different cities in the past few months. I&#39;m happy for them to start a new adventure and gather new perspectives and experiences they weren&#39;t getting from living in DC. But eventually, most everyone packs up for somewhere new.&lt;/p&gt;
+
+&lt;p&gt;The second thing everyone talks about is the two same question you get asked when you meet someone new. I&#39;ve heard these questions differ from city to city, but it&#39;s become such of a commonality that folks expect it when you first meet.&lt;/p&gt;
+
+&lt;h2&gt;What do you do?&lt;/h2&gt;
+
+&lt;p&gt;I usually tell people I&#39;m a web designer and wait for the confused faces or the polarized comments about my CEO. It&#39;s a fun game when they&#39;re expecting me to ask them same question and I never do.&lt;/p&gt;
+
+&lt;p&gt;People usually say it&#39;s because you get judged immediately on your worth on the career climbing totem pole. I have another theory. On the surface, we&#39;re judged on the things we do, not our character. Bring up any okcupid profile and it&#39;ll list a passion for running, cooking, and traveling. You get points for being more interesting and unexpected in the things you do. Since a job makes up the majority of what a person does from day to do, it gets added to those points. It&#39;s only natural when talking about the things you do to mention (besides sleep) the thing you do the majority of the day: your job.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;In France, I&#39;ve heard, it&#39;s rude to ask people what they do.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;How much of DC&#39;s culture has permiated down into my core, making it impossible for me to divorce my career from my personality? It&#39;s extremely tough as a designer not to notice things like kerning and typography on everything, but I enjoy making a distinction between my job and my career.&lt;/p&gt;
+
+&lt;h2&gt;Where are you from?&lt;/h2&gt;
+
+&lt;p&gt;This is where I usually wait for the comments on Delaware beaches or something about incorporating in Wilmington. My conversationalist is usually looking for some commonality between the two of us, which may be likely since most everyone in DC is from somewhere else. I&#39;m from the second smallest state and I didn&#39;t live at the beach or in a corporation, so there&#39;s not much to say.&lt;/p&gt;
+
+&lt;p&gt;These questions aren&#39;t bad, but people end up complaining because they&#39;re so surface level. It&#39;s easy to start a conversation with a broad question like the two above, but we get stuck in this surface level slush instead of sinking down into the rabbit hole.&lt;/p&gt;
+
+&lt;p&gt;People who live in DC have a hidden defense mechanism. It&#39;s like they know everyone&#39;s going to leave eventually so making deep connections isn&#39;t that much of a priority. Add big government and being treated like a number to the mix and suddenly a culture of detached professionals permiates through everything.&lt;/p&gt;
+
+&lt;p&gt;I&#39;ve fallen victim to this as well. It&#39;s easy not to get too attached. But it&#39;s also monotonous. The meaty, rich parts of life come from deeper connections between people and the only way to get that is to be more empathetic in our relationships. I&#39;m going to start small and try to keep empathy in the front of my mind. It&#39;s not going to change the city, and I&#39;m not trying to solve all the problems, but it&#39;s a start. Small steps.&lt;/p&gt;
+</summary>
+      <id>//what-dc-lacks.html</id>
+      <updated>2014-04-19T00:00:00-04:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Ducklings</title>
+      <link href="//ducklings.html" />
+      <summary type="html">&lt;p&gt;Last night I taught my first class at General Assembly on the basics of HTML. Not only was it the first class of the course, but it was my first class ever. For the better part of three months I&#39;ve been dealing with impostor syndrome because I&#39;m teaching a frontend development course. As a designer. I&#39;d nervously laugh as I told people I&#39;d be sitting on a panel about the &#39;Day in the Life of a Frontend Developer&#39; when that wasn&#39;t my job title at all, and they&#39;d look at me like I was crazy for even thinking I &lt;em&gt;wasn&#39;t&lt;/em&gt; capable of being on that panel.&lt;/p&gt;
+
+&lt;p&gt;When it got time to actually teach, I wasn&#39;t nervous about being discovered as a fraud. They wouldn&#39;t have hired me if they didn&#39;t think I wasn&#39;t capable of teaching the materials. Obviously. Instead, I was more nervous about not remembering everyone&#39;s name and properly communicating the concepts to all my students.&lt;/p&gt;
+
+&lt;p&gt;Learning how to code was mostly a solitary pursuit for me. My parents tried to get my brother to learn how to program on the old Apple 2 Plus that used to sit in our office behind the Compaq loaded up with Windows 95, but I was never encouraged as much to learn. It wasn&#39;t until middle school, when I started surfing the net that I wondered how people made websites and started researching as much as I could.&lt;/p&gt;
+
+&lt;p&gt;Yet, while most developers google and sit in their own little bubbles most of the time, sometimes it&#39;s just easier to ask someone more experiences.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;There&#39;s something magical about having the support and structure that comes from a mentor.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I never really got javascript until I had a mentor and we built a webapp using knockout.js. It&#39;s funny when you take on something you think you&#39;re not capable of and things just click.&lt;/p&gt;
+
+&lt;p&gt;Now, being on the other side of that relationship, I really hoping that I can inspire my students with that same feeling of awe at building something from scratch and having it come to life. That&#39;s the feeling that lets me know I wouldn&#39;t want to be in any other career.&lt;/p&gt;
+</summary>
+      <id>//ducklings.html</id>
+      <updated>2014-04-09T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Some Highlights from Grok</title>
+      <link href="//some-highlights-from-grok.html" />
+      <summary type="html">&lt;p&gt;I was really damn excited going into my double header trip of Barcelona/Greenville. One new place, and one familiar place. Two years ago, I went to Grok for the first time and made some great friends that I&#39;ve kept in touch with on twitter and have run into over those two years at various conferences across the country.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://distilleryimage9.ak.instagram.com/5c5aeff6bb5311e3b33a12e185860505_8.jpg&quot; alt=&quot;Printing my own shirt&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What I loved about Grok the first time was still present this year. Amazingly friendly people that you can walk right up to and start talking with and 10/20s where folks who are just starting out and people who are internet famous have equal say. But this year was so much more than that.&lt;/p&gt;
+
+&lt;p&gt;It was great to see Ish Burciaga, Brittany Murray, Matt D. Smith and Jeremiah Adkins again like two years hadn&#39;t gone by. It was also amazing to meet so many new folks, even those in my own city and close by. One of my coworkers even signed up which was nice happenstance.&lt;/p&gt;
+
+&lt;p&gt;When I go to conferences, I like to choose ones that aren&#39;t technical. Why travel all the way to a new city to sit through lectures on things you probably could&#39;ve learned by reading an article? Conferences are about making relationships and getting a new perspective for a little while so that when we get back to our own cities and jobs, we can be inspired to create amazing work and continue the conversations &amp;amp; collaboration. I&#39;m definitely not planning on leaving the relationships I started building at Grok in Greenville.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://distilleryimage0.ak.instagram.com/848591d4bc3911e3b7d60002c99b1c44_8.jpg&quot; alt=&quot;Awesome photobombs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In one of our 10/20s, blogging came up, and I mentioned that I&#39;ve never successfully been able to blog. Following Matt D. Smith&#39;s advice about not spending so much time debating about the design of your site, I&#39;ve designed this website in two days and chose jekyll. Maybe this blogging thing will work. Maybe it won&#39;t. But hopefully someone will get something out of it.&lt;/p&gt;
+
+&lt;p&gt;Out of a few of my 10/20s, there was a word that kept getting mentioned that doesn&#39;t really come up in conversation much in DC. &lt;em&gt;Empathy&lt;/em&gt;. It&#39;s something that I know makes me work better, but it&#39;s so easy to be lazy (especially in DC). Empathizing with a client&#39;s mission instead of just understanding it helps me create better visual designs. Empathizing with my friends and acquaintances helps me deepen relationships.&lt;/p&gt;
+
+&lt;p&gt;I think that&#39;s the thing I was searching for when I left DC bored and ready for adventure. I was bored when I met someone new because they asked the same DC questions: &quot;What do you do&quot; &amp;amp; &quot;Where are you from originally&quot;. But really, I was avoiding empathizing and as a result created barriers between myself and any new connection.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;What was lacking wasn&#39;t something I could find by traveling, but something I was missing in myself.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;I&#39;m going back to DC knowing what I actively have to work on. I haven&#39;t answered all the questions or figured out where exactly I should be or what I should be working on, but I&#39;m a little bit closer. It&#39;s a good feeling.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s keep those conversations going, Grokers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://distilleryimage10.ak.instagram.com/c64c7854bc7e11e3affe0002c9c90082_8.jpg&quot; alt=&quot;Joseph Abrams and me with cigars&quot; /&gt;&lt;/p&gt;
+</summary>
+      <id>//some-highlights-from-grok.html</id>
+      <updated>2014-04-07T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>A Little Solo Travel</title>
+      <link href="//a-little-solo-travel.html" />
+      <summary type="html">&lt;p&gt;My mom sent me an email a few days after I booked a flight to Barcelona. Sure, it was my first time traveling  by myself to Europe, but I would only be gone for five days (a super short trip in the scheme of things). I had been to Europe more times than I could count on two hands, and traveled home from a completely different city than where my flight leaving only a year prior. So when I woke up one morning with an email in my inbox telling me that she wished I didn&#39;t go off by myself (I received a similar email from my grandmother as well), I wrote it off as motherly worry. And it was. Mostly.&lt;/p&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Confidence is a strange muscle. When you have it, everything is as easy as a fork gliding through a slice of cheesecake. It&#39;s a pretty damn sweet feeling.&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;All my life, whenever I&#39;d have to go someplace new or do something I&#39;d never done before, I&#39;d have to force myself. That funny, sick feeling in my gut would emerge and I&#39;d be so nervous that I&#39;d be planning my escape route in all possible situations. I spent most of my life being afraid of new situations and thinking I was an introvert. It took losing all my confidence completely and having a year of rebuilding to discover that I wasn&#39;t. I&#39;m just a reserved extrovert. With a lot of long pauses.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://distilleryimage9.ak.instagram.com/744ae5b0b77211e3a9cb127110f29a31_8.jpg&quot; alt=&quot;A sea pattern in the tiles on the sidewalk&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The best part about traveling solo is that you don&#39;t have to wait for anyone to make your plans. Hell, you don&#39;t even have to make plans. I still remember how upset my mother got in Prague when my father and I just decided to go sit outside at lunch for a few hours having beers instead of doing the things she had planned. So we sat for a while, enjoying the August weather, becoming fishes in our liters of beer with smug grins creeping across our faces because we only paid 30 koruna for everything. Different people have different traveling styles. Some people like to sit soak up the ambiance of a new place. Some people simply like to see the sights. Some enjoy having their itinerary mapped out entirely beforehand.&lt;/p&gt;
+
+&lt;p&gt;The second best part about traveling is that you get to strike up a conversation with anyone. I understand now why they call it striking up a conversation. Out of nothing, you strike a match and that flame that had not existed before is suddenly bright and dancing, and for a brief point in time, it&#39;s possible to light up anything or extinguish the flame in an instant. Far too often, we rely on happenstance to meet someone new instead of actively creating these moments. Once I grew my confidence, I started to look forward to these moments I could make happen. One of my best conversations was when I met a professor from Drexel at a coffee shop and started talking to him about the quirks of different cities and how it&#39;s hard to find new and interesting coffee.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://distilleryimage1.ak.instagram.com/17f31dbcb8dc11e38e6212bdd7da67ad_8.jpg&quot; alt=&quot;A selfie looking out over Barcelona from Park Guell&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;My only regret from the trip was that it was too short. Thankfully, I&#39;ve already booked another flight, this time to Seattle, since I haven&#39;t been able to get the emerald city out of my head for a year and a half.&lt;/p&gt;
+
+&lt;p&gt;Let&#39;s go!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://distilleryimage0.ak.instagram.com/7382750ab9cd11e38efb0a406416de40_8.jpg&quot; alt=&quot;Looking out over the wing of the plane at Barcelona and the coast&quot; /&gt;&lt;/p&gt;
+</summary>
+      <id>//a-little-solo-travel.html</id>
+      <updated>2014-04-05T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>CourtPlay</title>
+      <link href="//courtplay.html" />
+      <summary type="html">&lt;div class=&quot;hero&quot;&gt;
+&lt;img src=&quot;/assets/img/courtplay/image1.jpg&quot; alt=&quot;Homepage&quot;&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;Project Overview&lt;/h2&gt;
+
+&lt;p&gt;Earning a living as a professional tennis coach can be difficult at times because of the complexities of scheduling between coach, player, and court. &lt;/p&gt;
+
+&lt;p&gt;CourtPlay is an effort to make booking a tennis lesson effortless. A coach can manage their schedule, message players and receive payments via the web app. A player can search for coaches in their area, book lessons directly with them and pay them online.&lt;/p&gt;
+
+
+&lt;h2&gt;User Experience&lt;/h2&gt;
+&lt;p&gt;One of the biggest challenges was creating an interface that was simple enough for both coaches and players. This was especially challenging when we adding calendar bookings and payment of lessons through the dashboard.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/courtplay/image2.jpg&quot; alt=&quot;Userflow&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/courtplay/image3.jpg&quot; alt=&quot;Wireframes&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/courtplay/image4.jpg&quot; alt=&quot;Wireframes&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;!-- 
+![CourtPlay](/assets/img/courtplay/user-flow.jpg)
+ --&gt;
+
+
+&lt;p&gt; &lt;div class=&quot;content--post&quot;&gt;&lt;/p&gt;
+
+&lt;h2&gt;Interface Design&lt;/h2&gt;
+
+
+&lt;p&gt;&lt;/div&gt;
+&lt;img src=&quot;/assets/img/courtplay/image5.jpg&quot; alt=&quot;Dashboard&quot;&gt;&lt;/p&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/courtplay/image6.jpg&quot; alt=&quot;Dashboard messages&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/courtplay/image8.jpg&quot; alt=&quot;Profile&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/courtplay/image7.jpg&quot; alt=&quot;Dashboard&quot;&gt;&lt;/p&gt;
+
+&lt;!-- 
+![CourtPlay](/assets/img/courtplay/homepage.jpg)
+
+![CourtPlay](/assets/img/courtplay/dashboard-home.jpg)
+
+![CourtPlay](/assets/img/courtplay/icons.jpg) --&gt;
+
+</summary>
+      <id>//courtplay.html</id>
+      <updated>2014-03-20T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>CropLife</title>
+      <link href="//croplife.html" />
+      <summary type="html">&lt;div class=&quot;hero&quot;&gt;
+    &lt;img src=&quot;/assets/img/croplife/croplife-vis-home.jpg&quot; alt=&quot;Homepage&quot;&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+
+&lt;h2&gt;The Problem&lt;/h2&gt;
+
+&lt;p&gt;CropLife came to iStrategyLabs for a complete website redesign. They needed to combine two websites, croplife.org and actionforag.org, together into one site where members of the crop science community at large could search and browse through information related to the industry.&lt;/p&gt;
+
+&lt;h2&gt;What We Built&lt;/h2&gt;
+
+&lt;p&gt;We combined the two websites to create a cohesive repository of information stored in one place. Leveraging angular.js, we were able to quickly load resources, news, and case studies, making browsing through pages and pages of articles instantaneous without requiring page loads or ajax.&lt;/p&gt;
+
+&lt;p&gt;
+    &lt;a href=&quot;http://croplife.org&quot;&gt;CropLife.org&lt;/a&gt;
+&lt;/p&gt;
+
+
+&lt;h2&gt;What I Worked On&lt;/h2&gt;
+
+&lt;p&gt;I lead design through the discovery, wireframes and design phases, choosing user experiences that both fit the clients needs and that of their core user base.&lt;/p&gt;
+
+&lt;h3&gt;Sitemap&lt;/h3&gt;
+&lt;p&gt;This was a particularly large web build with a lot of different pages, so it was important to identify templates for parent and child pages at the very beginning. A thorough sitemap was also helpful in crafting a content audit of both existing websites.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/croplife/croplife-sitemap.jpg&quot; alt=&quot;Sitemap&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Wireframes&lt;/h3&gt;
+&lt;p&gt;I created static wireframes based on the templates identified from the sitemap and content audit, choosing a flexible layout for changing information. A split navigation separates the content between information about the crop science industry at large and information about CropLife as an organization. Limiting the homepage to one large background image carousel helps focus the website to the most relevant and recent news without cluttering the page, and thus, diverting attention from the most important items.&lt;/p&gt;
+
+&lt;p&gt;When creating the wireframes, I kept in mind the modularity for a large scale web build. Focusing on reusable components, I was able to start creating a framework for the whole website, lending to a cohesive experience, rather than a collection of pages.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/croplife/croplife-wireframes.jpg&quot; alt=&quot;Wireframes&quot; /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Visual Design&lt;/h3&gt;
+&lt;p&gt;Starting in Photoshop, I experimented with different visual styles on a few of the main pages, presenting these comps to the client using Invision. Once a visual style was agreed upon, I moved into in-browser design, creating a working prototype of the website that the client could use as an example for key stakeholders. &lt;/p&gt;
+
+&lt;p&gt;CropLife&#39;s existing brand had Gotham in varying weights as their main and secondary font. Since the majority of the website would be informational, with longer articles, I introduced a serif, FF Tisa, for readability and contrast.&lt;/p&gt;
+&lt;p&gt;I wanted to keep CropLife&#39;s bright green as the main focus of their brand while introducing other bright pops of color for interactions, when needed. Since CropLife already had a large repo of gorgeous crop photos, I wanted to use these as the main focal point to contrast long swatches of information in the main articles.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/croplife/croplife-vis-home2.jpg&quot; alt=&quot;Homepage&quot; /&gt;
+&lt;img src=&quot;/assets/img/croplife/croplife-vis-interior.jpg&quot; alt=&quot;Interior&quot; /&gt;
+&lt;img src=&quot;/assets/img/croplife/croplife-vis-media.jpg&quot; alt=&quot;Media&quot; /&gt;
+&lt;img src=&quot;/assets/img/croplife/croplife-vis-resources.jpg&quot; alt=&quot;Resources&quot; /&gt;&lt;/p&gt;
+</summary>
+      <id>//croplife.html</id>
+      <updated>2014-02-09T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+</feed>
