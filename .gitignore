@@ -4,3 +4,4 @@ CNAME
 Gemfile
 Gemfile.lock
 .sass-cache
+child/
