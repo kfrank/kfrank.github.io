@@ -1,6 +1,1 @@
-_site
-.DS_Store
-CNAME
-Gemfile
-Gemfile.lock
-.sass-cache
+child/
