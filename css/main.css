@@ -492,14 +492,14 @@ footer {
     letter-spacing: 0.1em; }
 
 header.home {
-  background: #06113a url(../assets/img/bg.jpg) center;
+  background: #06113a url(../assets/img/bg.jpg) top center;
   min-height: 60%;
   padding: 2em 1.5em;
   box-sizing: border-box; }
   @media screen and (min-width: 50em) {
     header.home {
       background-size: cover;
-      background-attachment: fixed;
+      background-attachment: scroll;
       padding: 2em 2.5em; } }
   header.home .title {
     position: relative;
