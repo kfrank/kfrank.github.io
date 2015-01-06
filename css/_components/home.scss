@@ -1,10 +1,10 @@
 header.home {
-	background: $dark url(../assets/img/bg.jpg) center;
+	background: $dark url(../assets/img/bg.jpg) top center;
 	min-height: 60%;
 	padding: 2em 1.5em;
 	@media screen and (min-width: 50em){
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		padding: 2em 2.5em;
 	}
 	box-sizing: border-box;
