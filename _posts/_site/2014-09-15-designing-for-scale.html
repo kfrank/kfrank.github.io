@@ -1,0 +1,73 @@
+<p>This past Saturday, <a href="http://twitter.com/felskia">Ali Felski</a> and I had the pleasure of doing a workshop at the <a href="http://codeherconference.com/">Code(Her) Conference</a>. We went over our process for tackling user experience and user interface design for large web builds and the considerations we take when creating these sites. If you’d like, download our <a href="//assets/img/blogs/building-for-scale.pdf">slides</a> for more information. For more clarification, I thought I’d outline my process for designing interfaces for scale.</p>
+
+<h2 id="why_does_it_matter">Why does it matter?</h2>
+
+<p>We’ve all been on a project that seems to take a life of it’s own and morph into something unrecognizable. Projects like this soon have no clear goals and are like buildings that keep being built on top of buildings. Team members change over time, features may change over time, but design direction should stay solid throughout all this change. Designing for scale is about predicting the future of a site that’ll live on after the team is done initially building and designing.</p>
+
+<h2 id="three_goals_for_designing_for_scale">Three goals for designing for scale</h2>
+
+<h3 id="1_flexibility">1. Flexibility</h3>
+
+<p>On larger projects, things can change rapidly. Since there are more moving parts, one change from a client could potentially mean a rework of an entire part of the site. Building a website as a system usually prevents headaches associated with these problems.</p>
+
+<h3 id="2_consistency">2. Consistency</h3>
+
+<p>Components that act the same will look similar across all pages so websites stay on brand and don’t confuse users.</p>
+
+<h3 id="3_speed">3. Speed</h3>
+
+<p>If a new feature is discovered from user testing as being of prime importance and needs to be built right away, styles already exist to do so.</p>
+
+<h2 id="dynamic_content">Dynamic Content</h2>
+
+<p>This is a consideration that’s paramount when designing static comps, and one which will most likely arise as a design problem when designing in-browser. In either situation, it’s inevitable that content will be both too short and too long.</p>
+
+<p>Developers usually compensate for this by either limiting characters on input or cutting off text after a certain number of characters using an elipsis.</p>
+
+<p>We can do better than that.</p>
+
+<p>By asking “what if?” while designing, it’s easier to add the correct solutions for little or lots of text.</p>
+
+<h2 id="styleguidedriven_design">Styleguide-driven design</h2>
+
+<p>A lot of people talk about developing based off generated styles that keep consistency of visual direction throughout a website, but no one really talks about how a designer starts from functionality and gets to the point of enough designed user interface to have a complete styleguide.</p>
+
+<p>Clients love to think in terms of pages and deliverables. Developers love reusable components and not pages. Users don’t care beyond the homepage as long as they can accomplish a task. As a designer, I need to find a compromise between presentation and creating a system that’ll grow after I’m finished with it.</p>
+
+<h3 id="process_not_tools">Process, not tools</h3>
+
+<p>It doesn’t matter what you use to do the work. There’ll never be a magical tool that’ll do the work for you. Use the tools you’re comfortable in (or not, if you so choose), work best with your team, and help you create the best work possible. What works for me, might not work for you.</p>
+
+<h3 id="taking_inventory">Taking inventory</h3>
+
+<p>This could take a while.</p>
+
+<p>I start by going through every wireframe and listing out all the components by labeling them as a css class. At ISL, we’re using <a href="http://bem.info/method/">BEM methodology</a> for our css structure, so I usually list them this way.</p>
+
+<p>Additionally, I screenshot all these common elements and throw them into a Sketch file for later. It helps having a visual example for each component in addition to just listing them out.</p>
+
+<h3 id="static_approach">Static approach</h3>
+
+<p>Typically created using Sketch because of it’s ability to link symbols. This is where that file full of screenshots comes in handy.</p>
+
+<p>I like to start out designing a few important pages. These pages get shown to the client so we know we’re headed in the right direction. Then the components on these pages are turned into symbols and can be used on other pages. There’s a significant back and forth here where symbols get slightly updated to become more flexible over a greater amount of pages. I also think it helps to continually look at all the pages being designed holistically to make sure everything is headed in the same design direction.</p>
+
+<p>In the Sketch file, make sure there’s a page with all the symbols that’ll act as the base for the styleguide. Developers will love you forever for making this.</p>
+
+<p>Not every page will be designed as a static comp. We’re aiming for the pages with the most reused components. Design just enough so it can be translated to code as soon as possible. Type looks different in photoshop, sketch, and illustrator. Elements look different at different browser sizes. There’s no replacement for evaluating a design in it’s intended medium.</p>
+
+<h3 id="inbrowser_approach">Inbrowser approach</h3>
+
+<p>(This is my preferred approach, but if I’m working with designers who don’t know code, it may not be the approach chosen.)</p>
+
+<p>I start by laying out a base style with color, typography, form inputs, etc. Everything including in this base style is extremely similar to what Brad Frost outlines as atoms in <a href="http://pattern-lab.info">Pattern Lab</a>.</p>
+
+<p>After this, I can start designing components, every so often switching between pages that share those components to see how well they integrate. You can’t just design all components on their own and expect a great site. Sure, it’ll be flexible, but most likely, the ui will look pieced together. We don’t want that. We’re aiming for great, not passable. During this phase, there will be a lot of back and forth where components influence pages and pages influence components. Focus on the little details and then step back every once and a while to look at the whole thing.</p>
+
+<p>As components are added and change, they’re linked to a styleguide that also changes. Any designer or developer can pull from that styleguide to keep consistency.</p>
+
+<h2 id="evaluate__iterate">Evaluate &amp; Iterate</h2>
+
+<p>Nothing’s ever 100% right the first go around. Know this and plan for it.</p>
+
+<p>A large site doesn’t stop when the project ends, it keeps on living and evolving far after all the papers have been signed and the checks delivered.</p>

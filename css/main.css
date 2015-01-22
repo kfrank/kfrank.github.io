@@ -492,7 +492,7 @@ footer {
     letter-spacing: 0.1em; }
 
 header.home {
-  background: #06113A url(../assets/img/bg.jpg) top center;
+  background: #06113A url(../assets/img/bg.jpg) center;
   min-height: 60%;
   padding: 2em 1.5em;
   box-sizing: border-box; }
