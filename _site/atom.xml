@@ -4,11 +4,59 @@
   <id>/</id>
   <link href="/" />
   <link href="//atom.xml" rel="self" />
-  <updated>2015-01-22T11:51:16-05:00</updated>
+  <updated>2015-02-18T09:51:49-05:00</updated>
   <rights>Copyright 2014, Klare Frank</rights>
   <author>
     <name>Klare Frank</name>
   </author>
+  
+    <entry>
+      <title>Getting Started</title>
+      <link href="//getting-started.html" />
+      <summary type="html">&lt;p&gt;About two months ago, I decided to take up running. As with anything I try to master, I gave it a scoff with slight arrogance, exclaiming, “So and so did it and is great at it, so why can’t I?!” In this case, it was my high-school aged cousin, Kevin, who continually wins state-wide cross country races while silently chanting Invictus.&lt;/p&gt;
+
+&lt;p&gt;So as my friends started a wittily named run club (“Two Quads, One Squad”) to train for a half marathon, I decided to join to see how good I could get at this thing. Since I had never been great at athletics growing up, save for a short stint on a soccer team and in a gymnastics league until I broke my arm in fourth grade, I had low expectations. My one goal: just to get out there and see how far I could go.&lt;/p&gt;
+
+&lt;p&gt;And yet, even that proved to be difficult.&lt;/p&gt;
+
+&lt;p&gt;There’s a tipping point, I learned, between when I could force my butt out the door or have my running shoes propped up, lamenting how I’m absolutely terrible at this thing and subscribing to the continual beat down that logically stemmed from the lack of practice and illogically grew from my bruised ego. In the latter, I’d be battling the forces of ‘I can’t’ for the rest of the day. In the former, I’d be liberated to squash great tasks that day.&lt;/p&gt;
+
+&lt;p&gt;Simply put, the longer I thought about going for a run, the more difficult it became and I was less likely to go and do it. (Perhaps why Nike’s famous tagline is so aptly phrased.)&lt;/p&gt;
+
+&lt;h2&gt;“I’m never going to be good anyway.”&lt;/h2&gt;
+
+&lt;p&gt;In college, perfectionist procrastination got me in big trouble when I decided there was no way my concept for cyanotypes was good enough and I failed my alternative photographic processes class. I had one last project to redeem my grade, a photo transfer project, but I also waited too long on that one too. When I arrived at the photo studio, all the supplies had already been used by my classmates and I was left to my own devices. Let me tell you, using gel medium to transfer photos onto canvas does not work and all you’ll end up with is what resembles a child’s attempt at making their own paper from scratch. So after cursing photography (and getting back into making websites a few months later as a creative outlet), I decided that any crappy work I could produce, anything that I at least tried at, was better than delivering nothing.&lt;/p&gt;
+
+&lt;p&gt;Truthfully, I spend a hell of a lot of time thinking about the proper order to do things before getting started—more than I should. I still spend a lot of time researching and sketching before getting into design. It roughly ends up being two-thirds preparation and one-third actual work. That’s not to say preparation isn’t important, but sometimes I use it as a crutch to soak and squeeze the most information out of a project when I should just be starting. You have to recognize the point when to start and force yourself on that path immediately when you know.&lt;/p&gt;
+
+&lt;h2&gt;“You won’t have enough time, just do it tomorrow.”&lt;/h2&gt;
+
+&lt;p&gt;If I end up forcing myself out to go running before I’ve reached the tipping point, the scenario usually goes something like this: &lt;em&gt;oh god—oh god—oh god—I’m going to die—just make it halfway—you’re almost there—oh god—why did I ever decided to do this—I’m going to die—ok just make it home—you’re nearly there—you can see it—oh hey this isn’t too bad—I think I could probably run another mile—good job Klare—that wasn’t too bad—I didn’t die—let’s go again tomorrow—ok that kinda felt good.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The worst part is I know the longer I try to convince myself I won’t have enough time, the less time I’ll actually have and it’ll become a self-fulfilling prophecy of nonsense. This is why identifying the tipping point is crucial, because once I start any project or activity, it becomes easier to complete as I see the end on the horizon.&lt;/p&gt;
+
+&lt;h2&gt;“Everyone will know you’re a beginner and pity you.”&lt;/h2&gt;
+
+&lt;p&gt;Something about starting always terrifies me. It’s like when you go to your first Rocky Horror show and they put a red ‘V’ on your forehead with bright red lipstick. Yeah, that’s what it feels like every time I want to try something new and know I’m going to be terrible at it. Cue falling down and tumbling over myself and calling it progress. I didn’t want to be that person that goes out and buys all the best gear ever and has Photoshop CS Infinity only to use filters and lens flares worse than teenagers on Instagram.&lt;/p&gt;
+
+&lt;p&gt;Yet, when I see a beginner or someone new to the community, all I want to do is encourage their success. This new person chose to explore something I know I love and I actually get giddy knowing she has a chance to experience the same joy I have. It’s the same with people learning frontend development, even if they aren’t as excited about it. I’ll gladly offer my time and support to help them learn because I know one of the best feelings is the aha moment of development when you create something with determination and it actually works. Pity belongs nowhere in those feelings.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Starting is sometimes the hardest part. For me, I’ve learned that knowing my weaknesses and limitations helps to craft tactics to lessen them. Sometimes it means not waiting to let my mind trick myself into thinking I can’t. Sometimes it just requires womaning up and getting things done. However, nothing is more effective than convincing myself that I can finish, whether it’s three miles or launching a website or deciding my dreams are worthy enough to try.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It matters not how strait the gate,&lt;br&gt;
+How charge with punishments the scroll, &lt;br&gt;
+I am the master of my fate,&lt;br&gt;
+I am the captain of my soul.&lt;/em&gt;&lt;br&gt;
+— William Ernest Henley&lt;/p&gt;
+</summary>
+      <id>//getting-started.html</id>
+      <updated>2015-02-18T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
   
     <entry>
       <title>Why I decided to learn how to program – a recollection from my mother</title>

@@ -6,4 +6,4 @@ category: thoughts
 published: false
 ---
 
-When I first moved to DC, I never worried about calendars.
+It's been three months since I joined the design team at Treehouse and made the switch from client work at a digital agency to online product design.
