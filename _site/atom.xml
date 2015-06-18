@@ -4,11 +4,123 @@
   <id>/</id>
   <link href="/" />
   <link href="//atom.xml" rel="self" />
-  <updated>2015-04-02T17:12:24-04:00</updated>
+  <updated>2015-06-18T10:32:26-04:00</updated>
   <rights>Copyright 2014, Klare Frank</rights>
   <author>
     <name>Klare Frank</name>
   </author>
+  
+    <entry>
+      <title>The Top 10 Terminal Commands Every New Designer Should Know</title>
+      <link href="//terminal-commands.html" />
+      <summary type="html">&lt;p&gt;You’ve probably experienced a time you’ve had a developer just sigh and take your computer from you instead of watching you entering in code to a scary looking terminal window. Wouldn’t you rather know a little bit of what they’re up to? Wouldn’t you rather figure out the basic commands of knowing how to use git (which you’ll inevitably have to use at some point)?&lt;/p&gt;
+
+&lt;p&gt;These are the &lt;em&gt;very&lt;/em&gt; basics, but they’ll certainly help with getting you familiar with using terminal and not feeling as scared about deleting everything on your computer.&lt;/p&gt;
+
+&lt;p&gt;First off, you can start using the command line by opening up the Terminal app. The easiest way to do this is to search Spotlight (shortcut: cmd + space) for Terminal.&lt;/p&gt;
+
+&lt;h2&gt;Some basic file management/navigating around files stuff&lt;/h2&gt;
+
+&lt;h4&gt;1. cd&lt;/h4&gt;
+
+&lt;p&gt;Stands for change directory (or folder). You can use this command to navigate into a folder.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd work/my-project
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Similarly, you can navigate up, or out of a folder by adding ../ to the beginning:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd ../
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;2. ls&lt;/h4&gt;
+
+&lt;p&gt;Stands for list. Lists out the contents of a folder or directory. If I want to see the contents of my Dev folder, I&#39;d type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ls Dev
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;...and then press enter. If your folder were named Development instead, you&#39;d use the next command to save you a little time.&lt;/p&gt;
+
+&lt;h4&gt;3. Tab&lt;/h4&gt;
+
+&lt;p&gt;Completes arguments. If you’re drilling down into a directory, use tab to finish the folder name so you don’t have to memorize it (or worry about spelling it wrong).&lt;/p&gt;
+
+&lt;h4&gt;4. Up and Down Arrow Keys&lt;/h4&gt;
+
+&lt;p&gt;This will let you navigate through previous commands you’ve already entered. I’ve found it’s especially helpful when using git add and push or when you need to remember that command that dev told you to use and you haven’t cleared your window.&lt;/p&gt;
+
+&lt;h4&gt;5. mkdir&lt;/h4&gt;
+
+&lt;p&gt;Stands for make directory. Enter in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir new-project
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To create a new folder within the directory you’re in.&lt;/p&gt;
+
+&lt;h4&gt;6. rm&lt;/h4&gt;
+
+&lt;p&gt;Removes. You can use this to, say, remove the directory you just created. (Hint: use tab to complete the directory name.) This command also removes files, but be careful because they do not go to the trash can. Instead, they’re deleted immediately.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm new-project/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;7. mv&lt;/h4&gt;
+
+&lt;p&gt;Created a stylesheet, but it’s in the wrong folder? Use the mv command to move the file to the correct folder.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mv style.css /stylesheets
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;8. clear&lt;/h4&gt;
+
+&lt;p&gt;Clears the current window. Have your terminal window cluttered up with stuff and just want to not be distracted? Enter the clear command to start fresh.&lt;/p&gt;
+
+&lt;h2&gt;Things to help you with development&lt;/h2&gt;
+
+&lt;h4&gt;9. What to do when you a git command and it opens this weird view you can’t get out of&lt;/h4&gt;
+
+&lt;p&gt;If you’ve ever tried to do a git commit and forgot to add a message, it’ll switch views to something that you might have trouble getting out of. This is git opening up vim for you to edit something. All you need to do to exit is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:wq
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This means write (or save) and quite. (Yes you need the colon.) Press enter and it should go back to the view that’s more familiar. If that doesn’t work, try adding an exclamation point to the end.&lt;/p&gt;
+
+&lt;p&gt;Extra points if you actually type a commit message before quitting!&lt;/p&gt;
+
+&lt;h4&gt;10. Start a webserver for a directory&lt;/h4&gt;
+
+&lt;p&gt;This’ll let you view websites you’re building or testing locally. First, cd into the directory or folder you want and then enter this command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python -m SimpleHTTPServer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you’re having trouble with the port number already being in use, add a different number onto the end of the statement. Ex:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python -m SimpleHTTPServer 8080
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;More points&lt;/h4&gt;
+
+&lt;p&gt;Intimidated when people say you should learn something like Vim, but don’t know where to start? You can enter vimtutor as a command and start learning immediately.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vimtutor
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That’s right. Terminal comes with a built in way to learn how to use it’s code editor, so no excuses.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Interested in learning more about how to use the command line? Check out &lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line&quot;&gt;The Art of Command Line&lt;/a&gt;.&lt;/p&gt;
+</summary>
+      <id>//terminal-commands.html</id>
+      <updated>2015-06-18T16:57:51Z</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
   
     <entry>
       <title>A designer’s perspective on solo travel</title>

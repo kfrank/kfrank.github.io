@@ -48,28 +48,116 @@
 
 
 
-  <time datetime="2014-04-09T16:57:51Z">
-    09 April 2014
+  <time datetime="2015-06-18T16:57:51Z">
+    18 June 2015
   </time>
 
   
-<h1 class="page-title">Ducklings</h1>
+<h1 class="page-title">The Top 10 Terminal Commands Every New Designer Should Know</h1>
   
    
   <div class="content--post">
-    <p>Last night I taught my first class at General Assembly on the basics of HTML. Not only was it the first class of the course, but it was my first class ever. For the better part of three months I've been dealing with impostor syndrome because I'm teaching a frontend development course. As a designer. I'd nervously laugh as I told people I'd be sitting on a panel about the 'Day in the Life of a Frontend Developer' when that wasn't my job title at all, and they'd look at me like I was crazy for even thinking I <em>wasn't</em> capable of being on that panel.</p>
+    <p>You’ve probably experienced a time you’ve had a developer just sigh and take your computer from you instead of watching you entering in code to a scary looking terminal window. Wouldn’t you rather know a little bit of what they’re up to? Wouldn’t you rather figure out the basic commands of knowing how to use git (which you’ll inevitably have to use at some point)?</p>
 
-<p>When it got time to actually teach, I wasn't nervous about being discovered as a fraud. They wouldn't have hired me if they didn't think I wasn't capable of teaching the materials. Obviously. Instead, I was more nervous about not remembering everyone's name and properly communicating the concepts to all my students.</p>
+<p>These are the <em>very</em> basics, but they’ll certainly help with getting you familiar with using terminal and not feeling as scared about deleting everything on your computer.</p>
 
-<p>Learning how to code was mostly a solitary pursuit for me. My parents tried to get my brother to learn how to program on the old Apple 2 Plus that used to sit in our office behind the Compaq loaded up with Windows 95, but I was never encouraged as much to learn. It wasn't until middle school, when I started surfing the net that I wondered how people made websites and started researching as much as I could.</p>
+<p>First off, you can start using the command line by opening up the Terminal app. The easiest way to do this is to search Spotlight (shortcut: cmd + space) for Terminal.</p>
 
-<p>Yet, while most developers google and sit in their own little bubbles most of the time, sometimes it's just easier to ask someone more experiences.</p>
+<h2>Some basic file management/navigating around files stuff</h2>
 
-<blockquote><p>There's something magical about having the support and structure that comes from a mentor.</p></blockquote>
+<h4>1. cd</h4>
 
-<p>I never really got javascript until I had a mentor and we built a webapp using knockout.js. It's funny when you take on something you think you're not capable of and things just click.</p>
+<p>Stands for change directory (or folder). You can use this command to navigate into a folder.</p>
 
-<p>Now, being on the other side of that relationship, I really hoping that I can inspire my students with that same feeling of awe at building something from scratch and having it come to life. That's the feeling that lets me know I wouldn't want to be in any other career.</p>
+<pre><code>cd work/my-project
+</code></pre>
+
+<p>Similarly, you can navigate up, or out of a folder by adding ../ to the beginning:</p>
+
+<pre><code>cd ../
+</code></pre>
+
+<h4>2. ls</h4>
+
+<p>Stands for list. Lists out the contents of a folder or directory. If I want to see the contents of my Dev folder, I'd type:</p>
+
+<pre><code>ls Dev
+</code></pre>
+
+<p>...and then press enter. If your folder were named Development instead, you'd use the next command to save you a little time.</p>
+
+<h4>3. Tab</h4>
+
+<p>Completes arguments. If you’re drilling down into a directory, use tab to finish the folder name so you don’t have to memorize it (or worry about spelling it wrong).</p>
+
+<h4>4. Up and Down Arrow Keys</h4>
+
+<p>This will let you navigate through previous commands you’ve already entered. I’ve found it’s especially helpful when using git add and push or when you need to remember that command that dev told you to use and you haven’t cleared your window.</p>
+
+<h4>5. mkdir</h4>
+
+<p>Stands for make directory. Enter in:</p>
+
+<pre><code>mkdir new-project
+</code></pre>
+
+<p>To create a new folder within the directory you’re in.</p>
+
+<h4>6. rm</h4>
+
+<p>Removes. You can use this to, say, remove the directory you just created. (Hint: use tab to complete the directory name.) This command also removes files, but be careful because they do not go to the trash can. Instead, they’re deleted immediately.</p>
+
+<pre><code>rm new-project/
+</code></pre>
+
+<h4>7. mv</h4>
+
+<p>Created a stylesheet, but it’s in the wrong folder? Use the mv command to move the file to the correct folder.</p>
+
+<pre><code>mv style.css /stylesheets
+</code></pre>
+
+<h4>8. clear</h4>
+
+<p>Clears the current window. Have your terminal window cluttered up with stuff and just want to not be distracted? Enter the clear command to start fresh.</p>
+
+<h2>Things to help you with development</h2>
+
+<h4>9. What to do when you a git command and it opens this weird view you can’t get out of</h4>
+
+<p>If you’ve ever tried to do a git commit and forgot to add a message, it’ll switch views to something that you might have trouble getting out of. This is git opening up vim for you to edit something. All you need to do to exit is:</p>
+
+<pre><code>:wq
+</code></pre>
+
+<p>This means write (or save) and quite. (Yes you need the colon.) Press enter and it should go back to the view that’s more familiar. If that doesn’t work, try adding an exclamation point to the end.</p>
+
+<p>Extra points if you actually type a commit message before quitting!</p>
+
+<h4>10. Start a webserver for a directory</h4>
+
+<p>This’ll let you view websites you’re building or testing locally. First, cd into the directory or folder you want and then enter this command:</p>
+
+<pre><code>python -m SimpleHTTPServer
+</code></pre>
+
+<p>If you’re having trouble with the port number already being in use, add a different number onto the end of the statement. Ex:</p>
+
+<pre><code>python -m SimpleHTTPServer 8080
+</code></pre>
+
+<h4>More points</h4>
+
+<p>Intimidated when people say you should learn something like Vim, but don’t know where to start? You can enter vimtutor as a command and start learning immediately.</p>
+
+<pre><code>vimtutor
+</code></pre>
+
+<p>That’s right. Terminal comes with a built in way to learn how to use it’s code editor, so no excuses.</p>
+
+<hr />
+
+<p>Interested in learning more about how to use the command line? Check out <a href="https://github.com/jlevy/the-art-of-command-line">The Art of Command Line</a>.</p>
 
   </div>
   <div class="nav--share">
@@ -80,17 +168,17 @@
   
   <div class="paging">
    
-    <a rel="prev" href="/some-highlights-from-grok.html" class="paging__link" id="prev">
+    <a rel="prev" href="/a-designers-perspective-on-solo-travel.html" class="paging__link" id="prev">
       <h3>Next up</h3>
       <h4>
-        Some Highlights from Grok
+        A designer’s perspective on solo travel
       </h4>
     </a>
   
   <!-- 
-    <a rel="next" href="/some-highlights-from-grok.html" class="paging__link" id="next">
+    <a rel="next" href="/a-designers-perspective-on-solo-travel.html" class="paging__link" id="next">
       <span class="paging__link__name">
-        Some Highlights from Grok
+        A designer’s perspective on solo travel
       </span>
       <span class="paging__link__arrow">
         <svg width="32" height="32" viewBox="0 0 64 64">
