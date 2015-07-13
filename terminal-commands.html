@@ -105,10 +105,15 @@
 
 <h4>6. rm</h4>
 
-<p>Removes. You can use this to, say, remove the directory you just created. (Hint: use tab to complete the directory name.) This command also removes files, but be careful because they do not go to the trash can. Instead, they’re deleted immediately.</p>
-
-<pre><code>rm new-project/
+<p>Removes a file. (Hint: use tab to complete the file name.)</p>
+<pre><code>rm file.html
 </code></pre>
+
+<p>If you’re trying to remove a directory, use:</p>
+<pre><code>rm -rf directory
+</code></pre>
+
+<p>The r in rf stands for recursive, and f in rf stands for force. Be careful because they do not go to the trash can. Instead, they’re deleted immediately.</p>
 
 <h4>7. mv</h4>
 
@@ -123,14 +128,14 @@
 
 <h2>Things to help you with development</h2>
 
-<h4>9. What to do when you a git command and it opens this weird view you can’t get out of</h4>
+<h4>9. What to do when you enter a git command and it opens this weird view you can’t get out of</h4>
 
 <p>If you’ve ever tried to do a git commit and forgot to add a message, it’ll switch views to something that you might have trouble getting out of. This is git opening up vim for you to edit something. All you need to do to exit is:</p>
 
 <pre><code>:wq
 </code></pre>
 
-<p>This means write (or save) and quite. (Yes you need the colon.) Press enter and it should go back to the view that’s more familiar. If that doesn’t work, try adding an exclamation point to the end.</p>
+<p>This means write (or save) and quit. (Yes you need the colon.) Press enter and it should go back to the view that’s more familiar. If that doesn’t work, try adding an exclamation point to the end.</p>
 
 <p>Extra points if you actually type a commit message before quitting!</p>
 
