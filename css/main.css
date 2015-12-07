@@ -43,8 +43,8 @@ audio:not([controls]) {
   display: none; }
 
 html {
-  background: white;
-  color: black;
+  background: #fff;
+  color: #000;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
@@ -238,11 +238,11 @@ html, body {
       padding-right: 2.5em; } }
 
 a {
-  color: #4a90e2;
+  color: #4A90E2;
   text-decoration: none; }
 
 body, input, textarea {
-  color: #06113a;
+  color: #06113A;
   font-family: "freight-text-pro", serif; }
 
 h1 {
@@ -252,7 +252,7 @@ h2, h3, h4, h5, h6 {
   font-family: effra, sans-serif; }
 
 pre {
-  background: #06113a;
+  background: #06113A;
   padding: 1.5em;
   border-radius: 4px;
   color: #b3b3b3; }
@@ -307,6 +307,51 @@ hr {
           .grid__item--one-third {
             width: auto;
             flex-basis: 32.625%; } } }
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #06113A;
+  font-size: 0.8em;
+  line-height: 1.375;
+  -webkit-text-size-adjust: none; }
+
+.hljs, .hljs-subst, .hljs-tag .hljs-title, .nginx .hljs-title {
+  color: #fff; }
+
+.hljs-string, .hljs-title, .hljs-constant, .hljs-parent, .hljs-tag .hljs-value, .hljs-rule .hljs-value, .hljs-preprocessor, .hljs-pragma, .hljs-name, .haml .hljs-symbol, .ruby .hljs-symbol, .ruby .hljs-symbol .hljs-string, .hljs-template_tag, .django .hljs-variable, .smalltalk .hljs-class, .hljs-addition, .hljs-flow, .hljs-stream, .bash .hljs-variable, .pf .hljs-variable, .apache .hljs-tag, .apache .hljs-cbracket, .tex .hljs-command, .tex .hljs-special, .erlang_repl .hljs-function_or_atom, .asciidoc .hljs-header, .markdown .hljs-header, .coffeescript .hljs-attribute {
+  color: #4A90E2; }
+
+.smartquote, .hljs-comment, .hljs-annotation, .diff .hljs-header, .hljs-chunk, .asciidoc .hljs-blockquote, .markdown .hljs-blockquote {
+  color: #4b5474; }
+
+.hljs-number, .hljs-date, .hljs-regexp, .hljs-literal, .hljs-hexcolor, .smalltalk .hljs-symbol, .smalltalk .hljs-char, .go .hljs-constant, .hljs-change, .lasso .hljs-variable, .makefile .hljs-variable, .asciidoc .hljs-bullet, .markdown .hljs-bullet, .asciidoc .hljs-link_url, .markdown .hljs-link_url {
+  color: #1cb18f; }
+
+.hljs-label, .hljs-javadoc, .ruby .hljs-string, .hljs-decorator, .hljs-filter .hljs-argument, .hljs-localvars, .hljs-array, .hljs-attr_selector, .hljs-important, .hljs-pseudo, .hljs-pi, .haml .hljs-bullet, .hljs-doctype, .hljs-deletion, .hljs-envvar, .hljs-shebang, .apache .hljs-sqbracket, .nginx .hljs-built_in, .tex .hljs-formula, .erlang_repl .hljs-reserved, .hljs-prompt, .asciidoc .hljs-link_label, .markdown .hljs-link_label, .vhdl .hljs-attribute, .clojure .hljs-attribute, .asciidoc .hljs-attribute, .lasso .hljs-attribute, .coffeescript .hljs-property, .hljs-phony {
+  color: #50E3C2; }
+
+.hljs-keyword, .hljs-number {
+  color: #ECEC89; }
+
+.hljs-string {
+  color: #8cb8ed; }
+
+.hljs-built_in, .hljs-title {
+  color: #4A90E2; }
+
+.hljs-params {
+  color: #50E3C2; }
+
+.asciidoc .hljs-emphasis, .markdown .hljs-emphasis {
+  font-style: italic; }
+
+.nginx .hljs-built_in {
+  font-weight: normal; }
+
+.coffeescript .javascript, .javascript .xml, .lasso .markup, .tex .hljs-formula, .xml .javascript, .xml .vbscript, .xml .css, .xml .hljs-cdata {
+  opacity: 0.5; }
+
 .header--interior nav ul {
   list-style: none;
   margin: 0;
@@ -321,7 +366,7 @@ hr {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.125em;
-  color: #06113a;
+  color: #06113A;
   border-top: 4px solid transparent;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease; }
@@ -330,8 +375,8 @@ hr {
       padding: 4.75em 1em;
       font: 400 0.875em/1 effra, sans-serif; } }
   .header--interior nav a:hover, .header--interior nav a.active {
-    color: #4a90e2;
-    border-top: 4px solid #4a90e2; }
+    color: #4A90E2;
+    border-top: 4px solid #4A90E2; }
 
 @media screen and (min-width: 50em) {
   .header--interior {
@@ -341,7 +386,7 @@ hr {
     -webkit-transition: top 0.2s ease-in-out, height 0.2s ease-in-out;
     transition: top 0.2s ease-in-out, height 0.2s ease-in-out;
     width: 100%;
-    background: white;
+    background: #fff;
     z-index: 1; } }
 .header--interior h1 {
   margin: 1em 0 1em 0.5em;
@@ -364,7 +409,7 @@ hr {
       top: -0.3em;
       left: -0.52em;
       content: "";
-      background: #06113a;
+      background: #06113A;
       width: 1.75em;
       height: 1.75em;
       z-index: -1;
@@ -376,7 +421,7 @@ hr {
     .header--interior h1 a:hover:before {
       -webkit-transform: rotate(315deg);
       transform: rotate(315deg);
-      background: #4a90e2; }
+      background: #4A90E2; }
 .header--interior nav a {
   -webkit-transition: padding 0.2s ease-in-out;
   transition: padding 0.2s ease-in-out; }
@@ -416,14 +461,14 @@ ul.social-buttons {
     height: 1em;
     width: 1em; }
     ul.social-buttons li[class*="social"] a svg {
-      fill: white;
+      fill: #fff;
       -webkit-transition: fill 0.3s ease;
       transition: fill 0.3s ease; }
     ul.social-buttons li[class*="social"] a:before {
       position: absolute;
       display: block;
       content: "";
-      background: #4a90e2;
+      background: #4A90E2;
       width: 2.5em;
       height: 2.5em;
       z-index: -1;
@@ -433,7 +478,7 @@ ul.social-buttons {
       transition: transform 0.5s ease, background 0.5s ease;
       border-radius: 4px; }
     ul.social-buttons li[class*="social"] a:hover svg {
-      fill: #06113a; }
+      fill: #06113A; }
     ul.social-buttons li[class*="social"] a:hover:before {
       -webkit-transform: rotate(135deg);
       transform: rotate(135deg); }
@@ -484,7 +529,7 @@ footer {
     footer ul.social-buttons li[class*="social"] a:before {
       background: #cccccc; }
     footer ul.social-buttons li[class*="social"] a svg {
-      fill: white; }
+      fill: #fff; }
   footer small {
     color: #cccccc;
     font: 600 1em/1 effra, sans-serif;
@@ -492,7 +537,7 @@ footer {
     letter-spacing: 0.1em; }
 
 header.home {
-  background: #06113a url(../assets/img/bg.jpg) top center;
+  background: #06113A url(../assets/img/bg.jpg) center;
   min-height: 60%;
   padding: 2em 1.5em;
   box-sizing: border-box; }
@@ -512,15 +557,15 @@ header.home {
         transform: translateY(-75%); } }
   header.home h1 a {
     font: 600 1.5rem/1 effra, sans-serif;
-    color: white;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.25em;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease; }
     header.home h1 a:hover {
-      color: #4a90e2; }
+      color: #4A90E2; }
   header.home p {
-    color: white;
+    color: #fff;
     font: 300 2em/1.25em effra, sans-serif;
     margin-top: 0.3em; }
   @media screen and (min-width: 50em) {
@@ -572,10 +617,10 @@ header.home {
         .main .tabs a {
           float: none; } } }
     .main .tabs a:hover {
-      background: #4a90e2;
-      color: white; }
+      background: #4A90E2;
+      color: #fff; }
     .main .tabs a.selected {
-      color: white; }
+      color: #fff; }
 
 .posts {
   margin: 0;
@@ -583,7 +628,7 @@ header.home {
   list-style: none; }
   .posts h2 {
     font: 1.375em/1.375 "freight-text-pro", serif;
-    color: #06113a;
+    color: #06113A;
     margin: 0; }
   .posts .type {
     font: 600 0.8em/1 effra, sans-serif;
@@ -597,12 +642,12 @@ header.home {
     border-bottom: 1px solid #f2f2f2;
     -webkit-transition: border-left 0.3s ease;
     transition: border-left 0.3s ease;
-    border-left: 0 solid #4a90e2; }
+    border-left: 0 solid #4A90E2; }
     @media screen and (min-width: 50em) {
       .posts li a {
         padding: 2em 3em; } }
     .posts li a:hover {
-      border-left: 6px solid #4a90e2; }
+      border-left: 6px solid #4A90E2; }
 
 h1.page-title {
   font-size: 2.5em;
@@ -617,19 +662,19 @@ article {
     article {
       padding-top: 12em; } }
   article a {
-    border-bottom: 1px solid #4a90e2;
+    border-bottom: 1px solid #4A90E2;
     -webkit-transition: all 0.1s ease;
     transition: all 0.1s ease; }
     article a:hover {
       -webkit-transition: all 0.1s ease;
       transition: all 0.1s ease;
-      border-bottom: 1px solid white; }
+      border-bottom: 1px solid #fff; }
   article img {
     margin: 0 auto;
     display: block; }
   article time, article .post--tag {
     font: 600 1em/1 effra, sans-serif;
-    color: #4a90e2;
+    color: #4A90E2;
     text-transform: uppercase;
     letter-spacing: 0.15em; }
   article p {
@@ -637,7 +682,7 @@ article {
     line-height: 2; }
     article p:first-child:first-letter {
       font: 3.625em/1 lust, serif;
-      color: #4a90e2;
+      color: #4A90E2;
       float: left;
       margin: 0.1em 0.25em 0 0; }
   article li {
@@ -645,7 +690,7 @@ article {
     margin: 1em 0; }
     article li p:first-child:first-letter {
       font: 1.25rem/1 "freight-text-pro", serif;
-      color: #06113a;
+      color: #06113A;
       float: none;
       margin: 0; }
   article .content--post {
@@ -656,7 +701,7 @@ article {
         margin-left: auto;
         margin-right: auto; } }
   article h2 {
-    color: #4a90e2;
+    color: #4A90E2;
     margin-top: 2.5em; }
   article h3 {
     margin-top: 2.5em;
@@ -667,7 +712,7 @@ article {
   article blockquote {
     margin: 1.5em 0 1.5em -2.5em;
     padding: 1em 0 1em 2.5em;
-    border-left: 3px solid #4a90e2; }
+    border-left: 3px solid #4A90E2; }
     @media screen and (min-width: 50em) {
       article blockquote {
         margin: 3em 0 3em -3em;
@@ -675,7 +720,7 @@ article {
     article blockquote p:first-child:first-letter {
       font: italic 1.125em/1.5 lust, serif;
       float: none;
-      color: #06113a;
+      color: #06113A;
       margin: 0; }
       @media screen and (min-width: 50em) {
         article blockquote p:first-child:first-letter {
@@ -689,7 +734,7 @@ article {
       article blockquote p cite {
         font: normal 1rem/1 effra, sans-serif; }
         article blockquote p cite a {
-          color: #4a90e2; }
+          color: #4A90E2; }
   article .paging {
     margin: 5em 0 3em;
     border-top: 1px dotted #cccccc;
@@ -698,7 +743,7 @@ article {
     article .paging h4 {
       margin: 0 0 1.5em;
       font: 2em/1 lust, serif;
-      color: #06113a; }
+      color: #06113A; }
 
 .content--intro {
   font: italic 1.25em/1.75 "freight-text-pro", serif;
@@ -729,3 +774,5 @@ article {
       content: ","; }
     .post--tags .post--tag:last-child:after {
       content: ""; }
+
+/*# sourceMappingURL=main.css.map */

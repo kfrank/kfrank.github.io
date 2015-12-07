@@ -4,18 +4,507 @@
   <id>/</id>
   <link href="/" />
   <link href="//atom.xml" rel="self" />
-<<<<<<< HEAD
-  <updated>2014-11-12T14:04:32-05:00</updated>
-=======
-  <updated>2014-09-09T15:26:11-04:00</updated>
->>>>>>> 3023464acb35cf2a1acf3294cb300aebb4175e46
+  <updated>2015-12-07T15:32:58-08:00</updated>
   <rights>Copyright 2014, Klare Frank</rights>
   <author>
     <name>Klare Frank</name>
   </author>
   
     <entry>
-<<<<<<< HEAD
+      <title>How to Work Remotely Without Losing Your Mind</title>
+      <link href="//how-to-work-remotely.html" />
+      <summary type="html">&lt;p&gt;It’s been a little over a year since I started working for Treehouse, which meant giving up the office lifestyle. My previous experience working remotely was relegated to a few snow days stuck in southern Delaware and days before holidays.&lt;/p&gt;
+
+&lt;h3&gt;1. Have a separate work and home computer&lt;/h3&gt;
+
+&lt;p&gt;It&#39;s sort of a nod to my days working in government, but I firmly believe that work should be kept separate from anything else you do on a computer. I might close one laptop at the end of the work day and immediately open another, but the perception that I&#39;m leaving work for the day helps. I don&#39;t have any work related development environments set up on my ‘home’ computer (my macbook air), so the temptation to just do one more thing isn&#39;t there. There are some exceptions, like traveling. Lugging around both my macbook pro and my air seemed ridiculous when I moved from DC to Seattle, stopping on vacation for the weekend in Vegas. I usually only take my pro with me when traveling because light travel superceeds other priorities for me.&lt;/p&gt;
+
+&lt;h3&gt;2. Have a dedicated work area&lt;/h3&gt;
+
+&lt;p&gt;But don&#39;t feel like you have to work from there all the time.&lt;/p&gt;
+
+&lt;p&gt;Since I started at Treehouse, I&#39;ve had a dedicated desk at WeWork that houses my 27&quot; monitor and a much more traditional setup. For a while, I had trouble working on anything BUT that monitor, so it helped to set it up someplace that was out of my apartment where I knew would be quiet and I could get things done. Since I&#39;ve done a ton of traveling this year, I&#39;ve gotten more used to multi-tasking on my laptop, but it&#39;s still nice to know I have a dedicated workstation where I can absolutely get my work done.&lt;/p&gt;
+
+&lt;p&gt;However, I get a lot of benefit from switching up my working locations. I find that I&#39;m much more inspired when creating new design work if I go to someplace I don&#39;t usually work from. Taking advantage of the mobility that comes with working remotely has been great, so I don&#39;t try to force myself to go into an office everyday (just most days).&lt;/p&gt;
+
+&lt;h3&gt;3. Get out of your house/apartment every day&lt;/h3&gt;
+
+&lt;p&gt;This was crucial when I lived in a 400 sq foot studio in DC. Since in person interaction was no longer a necessary part of my day to day, it was really easy to stay in for more than a day at a time. I might have some reserved tendancies, but for the most part, I&#39;m at my happiest when I get to talk to someone at least once every day.&lt;/p&gt;
+
+&lt;p&gt;Going outside every day is also crucial in the Winter, to get some more sunlight and vitamin D. I only had one set of windows in my studio that looked out onto another (taller) apartment building, so the amount of light coming in was pretty small. Now that I&#39;m in Seattle, I get less amount of light in the Winter overall, so I&#39;m trying to be proactive about taking in that sunlight when I can (even if it&#39;s behind clouds most of the time).&lt;/p&gt;
+
+&lt;p&gt;And if it&#39;s raining, you don&#39;t have to go outside, but just get out and switch locations for a little while.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;There are some other things that might be good practices, such as not lounging in your pjs all day and waking up early, but overall, I&#39;ve found these things to be more every day things than work day things (with some exceptions, of course). I&#39;d also love to have more designers to interact with on a daily basis in-person, but this is more of a nice to have and not a must have.&lt;/p&gt;
+
+&lt;p&gt;Overall, my criteria for keeping sane involves providing myself with enough tools to get my work done efficiently, and keeping myself happy by providing enough in-person interaction that I don&#39;t get from a job daily.&lt;/p&gt;
+</summary>
+      <id>//how-to-work-remotely.html</id>
+      <updated>2015-12-07T07:07:51-08:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>The Top 10 Terminal Commands Every New Designer Should Know</title>
+      <link href="//terminal-commands.html" />
+      <summary type="html">&lt;p&gt;You’ve probably experienced a time you’ve had a developer just sigh and take your computer from you instead of watching you entering in code to a scary looking terminal window. Wouldn’t you rather know a little bit of what they’re up to? Wouldn’t you rather figure out the basic commands of knowing how to use git (which you’ll inevitably have to use at some point)?&lt;/p&gt;
+
+&lt;p&gt;These are the &lt;em&gt;very&lt;/em&gt; basics, but they’ll certainly help with getting you familiar with using terminal and not feeling as scared about deleting everything on your computer.&lt;/p&gt;
+
+&lt;p&gt;First off, you can start using the command line by opening up the Terminal app. The easiest way to do this is to search Spotlight (shortcut: cmd + space) for Terminal.&lt;/p&gt;
+
+&lt;h2&gt;Some basic file management/navigating around files stuff&lt;/h2&gt;
+
+&lt;h4&gt;1. cd&lt;/h4&gt;
+
+&lt;p&gt;Stands for change directory (or folder). You can use this command to navigate into a folder.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd work/my-project
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Similarly, you can navigate up, or out of a folder by adding ../ to the beginning:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd ../
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;2. ls&lt;/h4&gt;
+
+&lt;p&gt;Stands for list. Lists out the contents of a folder or directory. If I want to see the contents of my Dev folder, I&#39;d type:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ls Dev
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;...and then press enter. If your folder were named Development instead, you&#39;d use the next command to save you a little time.&lt;/p&gt;
+
+&lt;h4&gt;3. Tab&lt;/h4&gt;
+
+&lt;p&gt;Completes arguments. If you’re drilling down into a directory, use tab to finish the folder name so you don’t have to memorize it (or worry about spelling it wrong).&lt;/p&gt;
+
+&lt;h4&gt;4. Up and Down Arrow Keys&lt;/h4&gt;
+
+&lt;p&gt;This will let you navigate through previous commands you’ve already entered. I’ve found it’s especially helpful when using git add and push or when you need to remember that command that dev told you to use and you haven’t cleared your window.&lt;/p&gt;
+
+&lt;h4&gt;5. mkdir&lt;/h4&gt;
+
+&lt;p&gt;Stands for make directory. Enter in:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir new-project
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To create a new folder within the directory you’re in.&lt;/p&gt;
+
+&lt;h4&gt;6. rm&lt;/h4&gt;
+
+&lt;p&gt;Removes. You can use this to, say, remove the directory you just created. (Hint: use tab to complete the directory name.) This command also removes files, but be careful because they do not go to the trash can. Instead, they’re deleted immediately.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rm new-project/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;7. mv&lt;/h4&gt;
+
+&lt;p&gt;Created a stylesheet, but it’s in the wrong folder? Use the mv command to move the file to the correct folder.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mv style.css /stylesheets
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;8. clear&lt;/h4&gt;
+
+&lt;p&gt;Clears the current window. Have your terminal window cluttered up with stuff and just want to not be distracted? Enter the clear command to start fresh.&lt;/p&gt;
+
+&lt;h2&gt;Things to help you with development&lt;/h2&gt;
+
+&lt;h4&gt;9. What to do when you a git command and it opens this weird view you can’t get out of&lt;/h4&gt;
+
+&lt;p&gt;If you’ve ever tried to do a git commit and forgot to add a message, it’ll switch views to something that you might have trouble getting out of. This is git opening up vim for you to edit something. All you need to do to exit is:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;:wq
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This means write (or save) and quite. (Yes you need the colon.) Press enter and it should go back to the view that’s more familiar. If that doesn’t work, try adding an exclamation point to the end.&lt;/p&gt;
+
+&lt;p&gt;Extra points if you actually type a commit message before quitting!&lt;/p&gt;
+
+&lt;h4&gt;10. Start a webserver for a directory&lt;/h4&gt;
+
+&lt;p&gt;This’ll let you view websites you’re building or testing locally. First, cd into the directory or folder you want and then enter this command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python -m SimpleHTTPServer
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you’re having trouble with the port number already being in use, add a different number onto the end of the statement. Ex:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python -m SimpleHTTPServer 8080
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4&gt;More points&lt;/h4&gt;
+
+&lt;p&gt;Intimidated when people say you should learn something like Vim, but don’t know where to start? You can enter vimtutor as a command and start learning immediately.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;vimtutor
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That’s right. Terminal comes with a built in way to learn how to use it’s code editor, so no excuses.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Interested in learning more about how to use the command line? Check out &lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line&quot;&gt;The Art of Command Line&lt;/a&gt;.&lt;/p&gt;
+</summary>
+      <id>//terminal-commands.html</id>
+      <updated>2015-06-18T09:57:51-07:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>A designer’s perspective on solo travel</title>
+      <link href="//a-designers-perspective-on-solo-travel.html" />
+      <summary type="html">&lt;p&gt;Anyone who talks with me regularly will tell you that I have a strong case of wanderlust. If I haven’t traveled anywhere in a while, my conversations will usually include something along the lines of ‘Damn, I can’t wait to get out of here and go to ____’, tips on searching for cheap plane flights, or lol’ing at myself because I booked a flight without taking a second to think about it. Traveling tends to occupy a good portion of my thoughts, but I attribute it to my thirst for continually new experiences and having spent most of my college years majoring in Global Studies.&lt;/p&gt;
+
+&lt;h2&gt;Things I’ve Learned From Solo Travel&lt;/h2&gt;
+
+&lt;h3&gt;1. Trust that things will work out&lt;/h3&gt;
+
+&lt;p&gt;My most recent trip to Croatia and Slovenia involved a lot of traveling to get to my next destination. Altogether, I took five flights, one bus, two trains, and rented a car to drive about five hours. I was paranoid that every one of my travel arrangements wouldn’t work out and spent a lot of time researching on tripadvisor about other people’s experiences prior to traveling.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/11055644_371692649690612_1050535963_n.jpg&quot; alt=&quot;Dubrovnik&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But the bus from Dubrovnik to Split was waiting at the bus station when I arrived, clearly marked and impossible not to spot, and left promptly with only around fifteen people occupying the coach seats.&lt;/p&gt;
+
+&lt;p&gt;The car rental agency didn’t even ask any questions when I offered up a debit card instead of credit. I didn’t even have to turn on the GPS to find my way out of the city onto the main highway because the signage was so clear and hard not to miss.&lt;/p&gt;
+
+&lt;p&gt;When I purchased my train ticket an hour before I was leaving Zagreb, the attendant spoke very little English, but I was able to communicate a round-trip ticket to Ljubljana. Even though I probably had a very confused look on my face when she handed me a ticket with handwritten destinations, I was able to get from Zagreb to Ljubljana and back painlessly (even with border control).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11015602_1617397625160658_187306894_n.jpg&quot; alt=&quot;Border Control between Croatia and Slovenia&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you’re traveling alone, there’s no one there to ask dumb questions to reassure yourself that everything’s going to work out just fine. But it’s not worth the extra pain involved in worrying if you got the right address, or if you communicated the right thing, or if the train you’re about to get on is actually going to the city you want (tip: just check the time, trains are pretty punctual). Things will work out more often than not, and if it doesn’t, hey, it’s an adventure.&lt;/p&gt;
+
+&lt;p&gt;When I’m designing, especially in UX, there’s usually a need to thoroughly research everything and while this is great for figuring out if users know where to click or if you’re really off from your target goal, most of the time there’s more than one solution. The amount of time spent researching might reveal that one solution is a little bit better than another, but is it worth the time spent researching beforehand or would it have just been better to launch and tweek later? (I lean more towards the latter.)&lt;/p&gt;
+
+&lt;h3&gt;2. Learn to let go a bit of control&lt;/h3&gt;
+
+&lt;p&gt;Along those lines, it’s really easy to want to know all the details of something before getting into a project or going on a trip. Quite a few years ago, I used to have so much anxiety about going anywhere new that I’d make sure to look on a map beforehand. And then google street view the shit out of it. And double check transit times. And nervously play with my hair for an hour before convincing myself out of going.&lt;/p&gt;
+
+&lt;p&gt;Same thing goes for doing days worth of design research on something I should’ve just jumped into and kicked around. Having a little bit of research to nudge a designer along in a certain direction is great, but it’s much better to just jump into something and figure out the right solution than spend time researching what the right solution may be. Because no one else has solved your problem yet.&lt;/p&gt;
+
+&lt;p&gt;Towards the end of the trip, I started to let go of looking into every detail to make myself more comfortable with where I was going, how I was getting there, and what I was doing. I forgot to take screenshots of maps to places I was staying and instead relied on my general sense of direction, people (actual real people!), and wayfinding. These days, it’s more commonplace to turn first to the internet to look something up or ask a question when it’s probably quicker just asking in person. It’s ok to feel a little lost, but trust that you’ll find where you need to be.&lt;/p&gt;
+
+&lt;h3&gt;3. Be friendly and say hi to just about everyone&lt;/h3&gt;
+
+&lt;p&gt;Seriously. We could all just a bit more of this in our everyday lives. Think of your best friend and all the amazing things you’ve done together. Now just imagine all the people you encounter that you could potentially have similar experiences with. Once you start treating everyone as a potential friend and are open, traveling alone doesn’t seem so lonely.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xap1/t51.2885-15/1538412_938577112829495_280045765_n.jpg&quot; alt=&quot;Ljubljana&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I met some great, friendly people throughout my trip who were able to show my around their city and give me an experience I probably wouldn’t have been able to have on my own.&lt;/p&gt;
+
+&lt;p&gt;But don’t stop there.&lt;/p&gt;
+
+&lt;p&gt;It’s really easy to get sucked back into the old ways of being so closed off in DC. Traveling alone helps me break free of that, speak my mind and realize I have a ton of interests other than just work and traveling. Every time I travel, I always try to bring a little bit more friendliness and openness back with me.&lt;/p&gt;
+
+&lt;p&gt;One caveat though, always be a little bit cautious and make sure you’re staying safe. Just because you’re traveling to a different city doesn’t mean you can just go wild. The same sort of city rules apply.&lt;/p&gt;
+
+&lt;h3&gt;4. Learn to just be&lt;/h3&gt;
+
+&lt;p&gt;Be alone. Be present. Be an actual human being instead of a robot tied to a phone.&lt;/p&gt;
+
+&lt;p&gt;My first night in Dubrovnik went something a little like this:
+Holy crap this is an awesome place to stay, hell yes bathrobes. &lt;em&gt;Pats self on back and gets ready for bed.&lt;/em&gt; Now just to plug in my phon— Well, damn. Forgot my adapter.&lt;/p&gt;
+
+&lt;p&gt;For the first half of the trip, I went without a phone charger, so I HAD to reserved the battery for picture-taking instead of wasting it all on twitter, meerkat, or whatever everyone was into during that time.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xpf1/t51.2885-15/10808621_486050114876248_1907485950_n.jpg&quot; alt=&quot;Plitvice National Park&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This has also been the second solo trip I decided not to get a sim card for my phone in order to use it on local cell networks. That meant no google maps, foursquare, etc. outside of any wifi networks. The longer I stopped looking at my phone, the less I kept reaching for it, instead just taking in the sights for as long as I wanted.&lt;/p&gt;
+
+&lt;p&gt;Not being surrounded by friends, in real life or virtually, most of the time also meant a lot of alone time. Just me. Chilling with my thoughts about life and things. I finished the one book I brought three days into my trip and spent most of my four hour bus ride from Dubrovnik to Split staring out the window at the gorgeous coastline and riveria. Not for one second would I have traded that for seeing someone’s tweet or reading a book.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11084856_867417309971923_497227918_n.jpg&quot; alt=&quot;Ljubljana&quot; /&gt;&lt;/p&gt;
+</summary>
+      <id>//a-designers-perspective-on-solo-travel.html</id>
+      <updated>2015-04-02T09:57:51-07:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Guest Post — Balancing Work and Home is Key</title>
+      <link href="//work-life-balance.html" />
+      <summary type="html">&lt;p&gt;&lt;i&gt;I see a lot of my peers in situations that lead them to long hours at work, working on weekends, and taking naps at work. At some companies, this behavior is encouraged and seen as a sign of dedication. At others (&lt;a href=&quot;http://www.washingtonpost.com/local/at-some-start-ups-fridays-are-so-casual-everyone-can-stay-home/2015/02/06/31e8407e-9d1c-11e4-96cc-e858eba91ced_story.html&quot;&gt;such as I the one I work at&lt;/a&gt;), time outside of work is valued to prevent burnout and promote smarter work. &lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;My mother, Louisa Frank, taught herself how to program in the early ‘80s and has been an inspiration for me working in technology. She later moved into a leadership role in the technology department at a large bank, managing a whole team of project managers and developers. Even though we’re a generation apart and she was in the banking industry, not a startup culture, I can see a lot of parallels between our experiences, especially when it comes to companies promoting a culture of being always available for work.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Her takeaway? It’s the experiences and people that matter. You’re probably not going to remember that deadline you may have missed by an hour if you had’t stayed up late, but you will remember a missed opportunity to spend with family or friends.&lt;/i&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;i&gt;Spread the love where it counts.&lt;/i&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+
+&lt;p&gt;Some of us are aware that there is nothing more important than family, but many people cannot balance their home life and work life appropriately. Not everyone knows that home is as important, if not more, than work. I heard, once, that you should think about what you want written on your tombstone when you die. Will it say that you lived your life loving your family or that you lived your life at work, hardly ever seeing your family? Balance is important. I’ve seen more than one marriage fall apart because the individual cannot maintain a good balance in and out of the office.&lt;/p&gt;
+
+&lt;p&gt;I was lucky. I have a very understanding spouse and kids that are proud of me and support me, as well. Not everyone is so blessed. However, even with a supportive family, I had to work hard at a balance between work and home. Did I achieve it? I’ll be the first to admit that I didn’t, but I wasn’t too far off balance, even with the long hours I put in at the office. There are a few times that I regretted not being able to drop everything and rush home, but it worked out, in the end.&lt;/p&gt;
+
+&lt;p&gt;When I hired people, I told them, up front, that everyone often had to work overtime to support technical issues, bring in a project on time, or complete new installations and updates. Most times overtime could be planned ahead. For instance, if we were doing an install of new software, we would know this ahead of time and be able to predict when we’d be spending more hours at work than at home. What couldn’t be accounted for were those emergencies that popped up, and they were numerous, and they sucked at our personal time like a vampire sucks blood from his victim.&lt;/p&gt;
+
+&lt;p&gt;As a manager, it is important to be aware of how much time your people spend at work, or working. It is so simple to become burned out by working too much, and so easy to see family life fall apart. Everyone is different in how much balance they need, but it is not only up to you, as an individual, to ensure you are getting it, but up to you, as a manager, to be aware if your people are balancing properly. Balance keeps everyone happy, and in top mental shape to perform at work. Happy people help projects come in on time and budget.&lt;/p&gt;
+
+&lt;p&gt;As a woman, with children, I think I was able to sympathize with many of my people when they needed time at home. I also think I had more awareness of the balance between work and family, not only for my own situation, but for my people, too.&lt;/p&gt;
+
+&lt;p&gt;In order to balance my work and home life, I often planned vacations away, with my husband and kids. That’s something I enjoyed, but we also spent quality time at home playing games, swimming, cooking, watching television, and other things. I remember well standing, soaking wet in my swim suit, on the phone at a Disney water park, and sitting on a bench outside of the Haunted Mansion, again, on the phone. I was contacted to get on production support issues. While my husband and the kids had a blast, I put in my time on the phone helping get the issue fixed.&lt;/p&gt;
+
+&lt;p&gt;Why not make it a rule to never contact people while on vacation? I thought of that rule. For my own team, when one of my developers went on vacation, I made sure he left his pager (yeah, we had pagers back then) at the office. If it was a dire emergency, I knew how to get in touch with him, but otherwise, no one else was allowed to bother him, or her, while they were away. Now-a-days, everyone has a mobile phone, so it is easy to contact someone. Texting is a way of life. If I were out in the workforce, now, I’d tell my people to ignore all calls/texts from anyone except me.&lt;/p&gt;
+
+&lt;p&gt;Having that precious, uninterrupted time spent with your spouse, friend, or family is important for that balance. Not getting it can quickly lead to burnout. Does it hurt not to be able to contact the one person that might get the issue solved quickly? You bet! But in the long run, it makes others more self-sufficient, forcing them to learn the software and how to fix it, and it helped me to learn, as a manager, the capabilities of my people.&lt;/p&gt;
+
+&lt;p&gt;Another time, I was on a call, on and off, throughout the night and into the morning. I was behind closed doors in my home office, but I had the phone on speaker with the volume low so as not to disturb anyone else. My parents were, at the time, temporarily living in my basement, having decided to move back near their children and grandchildren after retirement. I thought everyone was asleep. Imagine my surprise when my father strode into my office, wearing only his underwear. He stomped right up to my desk and stood over the phone and said something like,&lt;/p&gt;
+
+&lt;p&gt;“You quit that damn job!”&lt;/p&gt;
+
+&lt;p&gt;He then calmly left the room. Since I was on speaker, everyone on the call heard him. There was silence on the other end of the line. No one spoke for almost a whole minute then someone, I don’t know who, diffused the situation by saying something funny, but I could tell everyone on the call was thinking the same thing as me: “What the heck am I doing?” It made me review my work/home balance to make sure I wasn’t going overboard. I stepped back a bit, after that incident.&lt;/p&gt;
+
+&lt;p&gt;I said I had an understanding spouse and kids that supported me. Really, though, my kids knew my office at work inside and out because they spent a lot of time there. Often, on the weekends, they went in to the office with me. It was their home away from home. They knew the vending machine selections by heart. It also gave them time to get to know my developers and my bosses and it gave me time with the kids, even though I was working. My developer’s kids spent time in the office, too, so it was not uncommon. I remember someone’s kid riding their tricycle around and around the office cubes while we worked.&lt;/p&gt;
+
+&lt;p&gt;(Those connections that my kids made when they were young, visiting my office were put to use later on to their benefit. My son scored a summer job when he was in college, working with another team at my company, which lead, eventually, to a full time job in the technology world when he finished college. My daughter used her work connections to get a recommendation from one of my very senior bosses to the college of her choice. She met that super senior boss at a wedding we were invited to when she was younger, and, when it came time to apply to colleges, he remembered her.)&lt;/p&gt;
+
+&lt;p&gt;Did I quit that damn job? In actuality, I quit five times over the thirteen years I worked there, but every time I quit, someone talked me out of it. When I quit for the final time, number six, it was for real. At that time, the company had totally changed. If it hadn’t, I’d probably still be there. I have never regretted that final decision.&lt;/p&gt;
+
+&lt;p&gt;Maybe I should have quit that job sooner. I ended up making a lot of money, enough to take the whole family wherever we wanted on vacation each year. We didn’t want for lack of funds. That was for sure, and I got to treat my family to all sorts of new adventures that I wouldn’t want to trade for anything, but was it worth it to have to spend all that time away from them? I’ll never know. I’m still married, and my kids have grown and started their own careers, and I have regrets that I didn’t spend enough time with them, but I think I did the best I could in balancing my career and my home life. It was important to me back then, and it is still important to me. It should be important to everyone.&lt;/p&gt;
+
+&lt;p&gt;OK. So what am I getting at? Do you need to spend hours and hours at work to get ahead? No. You need to create a good balance between your work life and your home life so that you are satisfied you are doing the best you can with both. You must also use your after hours work time wisely and get the most out of it. Be aware of your balance and work at keeping it healthy.&lt;/p&gt;
+
+&lt;p&gt;I learned many lessons in my long career in technology, climbing the ladder rung by rung to the executive level. I used those lessons wisely, and, even today, still use them. I also include them in all my books. They are still relevant, no matter what the job. I’ve changed careers from being a technology executive to working at becoming a writer, yet my past lessons still come into play for me. Even though I’m older and there’s a new generation out there in the working world, it’s surprising how so much changes, but so much stays the same.&lt;/p&gt;
+
+&lt;hr&gt;
+
+
+&lt;p&gt;&lt;i&gt;Louisa Frank is a retired Senior Vice President of Technology at Bank of America. A few years ago, she retired early and revisited her programming roots, amongst other things, learning HTML and CSS, programming and maintaining a website for a non-profit firm and her own website, &lt;a href=&quot;http://thisislafrank.com&quot;&gt;thisislafrank.com&lt;/a&gt;, in addition to writing. You can contact her at her website or at &lt;a href=&quot;mailto:thisislafrank@gmail.com&quot;&gt;thisislafrank@gmail.com&lt;/a&gt;.&lt;/i&gt;&lt;/p&gt;
+</summary>
+      <id>//work-life-balance.html</id>
+      <updated>2015-03-03T08:57:51-08:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Getting Started</title>
+      <link href="//getting-started.html" />
+      <summary type="html">&lt;p&gt;About two months ago, I decided to take up running. As with anything I try to master, I gave it a scoff with slight arrogance, exclaiming, “So and so did it and is great at it, so why can’t I?!” In this case, it was my high-school aged cousin, Kevin, who continually wins state-wide cross country races while silently chanting Invictus.&lt;/p&gt;
+
+&lt;p&gt;So as my friends started a wittily named run club (“Two Quads, One Squad”) to train for a half marathon, I decided to join to see how good I could get at this thing. Since I had never been great at athletics growing up, save for a short stint on a soccer team and in a gymnastics league until I broke my arm in fourth grade, I had low expectations. My one goal: just to get out there and see how far I could go.&lt;/p&gt;
+
+&lt;p&gt;And yet, even that proved to be difficult.&lt;/p&gt;
+
+&lt;p&gt;There’s a tipping point, I learned, between when I could force my butt out the door or have my running shoes propped up, lamenting how I’m absolutely terrible at this thing and subscribing to the continual beat down that logically stemmed from the lack of practice and illogically grew from my bruised ego. In the latter, I’d be battling the forces of ‘I can’t’ for the rest of the day. In the former, I’d be liberated to squash great tasks that day.&lt;/p&gt;
+
+&lt;p&gt;Simply put, the longer I thought about going for a run, the more difficult it became and I was less likely to go and do it. (Perhaps why Nike’s famous tagline is so aptly phrased.)&lt;/p&gt;
+
+&lt;h2&gt;“I’m never going to be good anyway.”&lt;/h2&gt;
+
+&lt;p&gt;In college, perfectionist procrastination got me in big trouble when I decided there was no way my concept for cyanotypes was good enough and I failed my alternative photographic processes class. I had one last project to redeem my grade, a photo transfer project, but I also waited too long on that one too. When I arrived at the photo studio, all the supplies had already been used by my classmates and I was left to my own devices. Let me tell you, using gel medium to transfer photos onto canvas does not work and all you’ll end up with is what resembles a child’s attempt at making their own paper from scratch. So after cursing photography (and getting back into making websites a few months later as a creative outlet), I decided that any crappy work I could produce, anything that I at least tried at, was better than delivering nothing.&lt;/p&gt;
+
+&lt;p&gt;Truthfully, I spend a hell of a lot of time thinking about the proper order to do things before getting started—more than I should. I still spend a lot of time researching and sketching before getting into design. It roughly ends up being two-thirds preparation and one-third actual work. That’s not to say preparation isn’t important, but sometimes I use it as a crutch to soak and squeeze the most information out of a project when I should just be starting. You have to recognize the point when to start and force yourself on that path immediately when you know.&lt;/p&gt;
+
+&lt;h2&gt;“You won’t have enough time, just do it tomorrow.”&lt;/h2&gt;
+
+&lt;p&gt;If I end up forcing myself out to go running before I’ve reached the tipping point, the scenario usually goes something like this: &lt;em&gt;oh god—oh god—oh god—I’m going to die—just make it halfway—you’re almost there—oh god—why did I ever decided to do this—I’m going to die—ok just make it home—you’re nearly there—you can see it—oh hey this isn’t too bad—I think I could probably run another mile—good job Klare—that wasn’t too bad—I didn’t die—let’s go again tomorrow—ok that kinda felt good.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The worst part is I know the longer I try to convince myself I won’t have enough time, the less time I’ll actually have and it’ll become a self-fulfilling prophecy of nonsense. This is why identifying the tipping point is crucial, because once I start any project or activity, it becomes easier to complete as I see the end on the horizon.&lt;/p&gt;
+
+&lt;h2&gt;“Everyone will know you’re a beginner and pity you.”&lt;/h2&gt;
+
+&lt;p&gt;Something about starting always terrifies me. It’s like when you go to your first Rocky Horror show and they put a red ‘V’ on your forehead with bright red lipstick. Yeah, that’s what it feels like every time I want to try something new and know I’m going to be terrible at it. Cue falling down and tumbling over myself and calling it progress. I didn’t want to be that person that goes out and buys all the best gear ever and has Photoshop CS Infinity only to use filters and lens flares worse than teenagers on Instagram.&lt;/p&gt;
+
+&lt;p&gt;Yet, when I see a beginner or someone new to the community, all I want to do is encourage their success. This new person chose to explore something I know I love and I actually get giddy knowing she has a chance to experience the same joy I have. It’s the same with people learning frontend development, even if they aren’t as excited about it. I’ll gladly offer my time and support to help them learn because I know one of the best feelings is the aha moment of development when you create something with determination and it actually works. Pity belongs nowhere in those feelings.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Starting is sometimes the hardest part. For me, I’ve learned that knowing my weaknesses and limitations helps to craft tactics to lessen them. Sometimes it means not waiting to let my mind trick myself into thinking I can’t. Sometimes it just requires womaning up and getting things done. However, nothing is more effective than convincing myself that I can finish, whether it’s three miles or launching a website or deciding my dreams are worthy enough to try.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;It matters not how strait the gate,&lt;br&gt;
+How charge with punishments the scroll, &lt;br&gt;
+I am the master of my fate,&lt;br&gt;
+I am the captain of my soul.&lt;/em&gt;&lt;br&gt;
+— William Ernest Henley&lt;/p&gt;
+</summary>
+      <id>//getting-started.html</id>
+      <updated>2015-02-18T08:57:51-08:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Why I decided to learn how to program – a recollection from my mother</title>
+      <link href="//why-i-decided-to-learn-to-program.html" />
+      <summary type="html">&lt;p&gt;&lt;i&gt;My mother, Louisa Frank, taught herself how to program in the early ‘80s and has been an inspiration for me also learning how to code. I constantly remind myself that if she could do it, so can I. She’s been a fantastic example of a successful woman in our industry — in both programming AND leadership. I’ve asked her to share some of her experiences throughout her career in technology.&lt;/i&gt;&lt;/p&gt;
+
+&lt;hr&gt;
+
+
+&lt;p&gt;I stumbled onto computers quite by accident. I needed a job to help pay for college, and the campus newspaper advertised an opening for a typist. This was in the early ‘80s, when typewriters were still common. I had no idea what the job entailed, but I knew how to type, rather slowly.&lt;/p&gt;
+
+&lt;p&gt;I took one typing course, a filler course, in high school. Telling me that typing was a skill that any girl needed to learn, my parents encouraged me to take the course. While it was mostly girls, there were a handful of boys in my class. They signed up for the class so that they could watch the teacher for a whole period. She was young, fresh out of school, and pretty, and she flirted with all the boys in the class and they lapped up her attention.&lt;/p&gt;
+
+&lt;p&gt;“A,S,D,F,L,K,J,H,” she would shout as all the students dutifully pressed the appropriate key, clacking away in unison.&lt;/p&gt;
+
+&lt;p&gt;Later, I used my typing skill to complete my writing assignments for high school and then for college. My electronic typewriter that I’d received for Christmas went with me when I moved into my first dorm, much as a laptop or tablet computer goes with most students today.&lt;/p&gt;
+
+&lt;p&gt;School was expensive, and to help pay the bills, I searched for a part-time job, preferably on campus, so that I could juggle my class time and work time. This was how I spotted the advertisement. My room mate encourage me to go see about it. I fretted that I couldn’t type that quickly and made frequent use of correction tape to fix my mistakes.&lt;/p&gt;
+
+&lt;p&gt;“So what?” she said. “Go and find out about it. Maybe they won’t make you take a typing test. Maybe they don’t care how fast you can type or how accurately. You never know until you ask. That’s how I got my job.”&lt;/p&gt;
+
+&lt;p&gt;She worked in the library, filing returned books. She knew nothing about library science, but had applied, anyway.&lt;/p&gt;
+
+&lt;p&gt;The department advertising the job was located in a little brick house with a wide front porch that I later found out was used as an extra conference room. When I walked in the door, I was surprised to see large, upright boxes on long tables lining the former living room and dining room of the converted residence. In front of each box was a chair, and people sat in those chairs looking intently onto the front of the boxes, or typing on the keyboards resting on the tables. Those “boxes” turned out to be computer terminals, and the people were actually looking at graphical displays on their screens.&lt;/p&gt;
+
+&lt;p&gt;“When can you start? Today?” the man named Keith asked me when I told him I was inquiring about the job. He didn’t ask me how many words a minute I could type, or even want to know if I was any good. He was so desperate for someone to fill the position, anyone willing to do the work was fine with him.&lt;/p&gt;
+
+&lt;p&gt;Keith sat me down at one of the terminals and explained my new position. I would be entering questions into a database. When students wanted to practice taking the C.P.A. exam, they could run a program which would randomly pull these questions from storage and display them on the screen. The student could then input the answer and find out their score when they finished.&lt;/p&gt;
+
+&lt;p&gt;I must have typed thousands of questions into the computer, but the more I typed, the more I became fascinated about the computer, the program the students used to take the practice exam, and the database that held the questions. I asked question after question of Keith.&lt;/p&gt;
+
+&lt;p&gt;“How does the computer know which question to get from the database?”&lt;/p&gt;
+
+&lt;p&gt;“How does the program work?”&lt;/p&gt;
+
+&lt;p&gt;“How does it the computer know to light up one little spot here and not over there?”&lt;/p&gt;
+
+&lt;p&gt;And on and on. I knew almost nothing about computers. I had a calculator that could do math, but that was about it. I didn’t have any courses that required computers and computer science was a brand new major at the university, exclusive and difficult to get into. Those that majored in computer science used the very large Burroughs computer that required punched cards. Or, computer science students sat down at a terminal, a large device that had a keyboard in front and a ream of paper fed into the back, somewhat like an overlarge typewriter on a stand. Commands were entered by the user, onto the keyboard just like a typewriter, and printed on the paper in the back. When a program was compiled, the computer took over and printed the result onto the paper. (I’d used this type of terminal in high school when my physics teacher let me and a few other students play games on it in the lab during our free period.)&lt;/p&gt;
+
+&lt;p&gt;Keith showed me the program behind the practice C.P.A. exam and I was surprised how easy it was to read. I started learning all I could about the programming language and the other applications that ran on this computer. This was not the powerful Burroughs computer that the computer science majors used. This was totally different. It was a CDC computer running what was called PLATO (Programmed Logic for Automated Teaching Operations). Housing several thousand instructional programs and displaying them on graphics terminals worldwide, it used a language called TUTOR, with commands written in English, programs compiled, and displayed on the screen, not punched on a card and fed into the machine.&lt;/p&gt;
+
+&lt;p&gt;I thought it looked easy to write a program, and I was very interested in the how behind the ones I saw running on the screens, so I decided I was going to write my own. I thought up the subject, Architectural Drawing. I was very much into drafting because I was an engineering major. I would try to write an instructional programming that taught simple concepts of drafting. I borrowed a book on TUTOR and I got started all on my own.&lt;/p&gt;
+
+&lt;p&gt;A graphical program, my Architectural Drawing application drew drafting plans on the screen via my programming commands, provided instructions to the user, then displayed a question/answer quiz at the end. It took the student step-by-step through the process of making an accurate draft of a simple building.&lt;/p&gt;
+
+&lt;p&gt;When I was done with my program, and very proud of it, I showed it to by boss, Keith.&lt;/p&gt;
+
+&lt;p&gt;He took one look at it and exclaimed,“You, my dear, are no longer a typist. You are a computer programmer!”&lt;/p&gt;
+
+&lt;p&gt;From that day forward, I stopped typing C.P.A. questions into the computer. I was assigned to create instructional applications, instead. I learned how to use a database to hold my graphics and display them quickly, drawing cartoon characters, accounting graphs, and guidance principles on the screen, in addition to instructions for the user. I loved it! I was hooked.&lt;/p&gt;
+
+&lt;p&gt;I was also very lucky to have Keith for a boss and to have started my programming career on the CDC computer. Keith very much fostered learning and encouraged me. He guided me by making suggestions on what to research and how to fix bugs, for instance. He gave me one-on-one instruction, something I never would have received had I been a student in the Computer Science department. Keith taught me that I could do almost anything I wanted, including computer programming.&lt;/p&gt;
+
+&lt;p&gt;I knew, after that first program, what I wanted to do for a career. I wanted to be a programmer. There was a satisfaction, after a long day sitting in front of a terminal, programming, compiling, and debugging, to see the results of my labor up on the screen. I’m artistic by nature, and programming let my creative side go wild. Writing a program was not only figuring out the commands needed and putting them in the right sequence, it was giving me creative license to develop my application, from start to finish, begin to end (the first and last commands of the program), in the way I saw fit to achieve the desired result on the screen. It was like putting together a puzzle, figuring out which pieces connected to which, finding all the corners and edge pieces and filling in the middle, tossing out one piece in favor of another, until, at the end, the whole puzzle came together to form a perfectly running, bug-free application.&lt;/p&gt;
+
+&lt;p&gt;I’ve seen code that looks like a work of art, in itself, with all the commands lined up just so, and indented likewise. I’ve seen code that looks like a hurricane passed through. Each person has their own signature they depart upon their own code, their own artistic signature, good or bad. Good companies allow their software developers to use their own style, to a point. It helps keep the developer happy, and often gets results much quicker than if they must conform to rigid standards. It also keeps the developer thinking creatively about how to complete that assignment, how to get what the client wants up on the screen in the most efficient, most economical, but most beneficial way, and how to fix production problems quickly and creatively when each minute that ticks by means thousands of dollars lost to the company.&lt;/p&gt;
+
+&lt;p&gt;I went on to write many more programs in my first position at the university, then was hired full time. Once I graduated, I continued to work for this department at the university for a few more years before moving on and up in my career working with software.&lt;/p&gt;
+
+&lt;hr&gt;
+
+
+&lt;p&gt;&lt;i&gt;Louisa Frank is a retired Senior Vice President of Technology at Bank of America. After starting her career at the University of Delaware Plato Project, she went on to work in several major companies, progressing from software developer to software team leader, software manager, and finally technology executive. A few years ago, she retired early and revisited her programming roots, amongst other things, learning HTML and CSS, programming and maintaining a website for a non-profit firm, Water Is Life Kenya, and maintaining her own website, &lt;a href=&quot;http://thisislafrank.com&quot;&gt;thisislafrank.com&lt;/a&gt;. You can contact her at her website or at &lt;a href=&quot;mailto:thisislafrank@gmail.com&quot;&gt;thisislafrank@gmail.com&lt;/a&gt;.&lt;/i&gt;&lt;/p&gt;
+</summary>
+      <id>//why-i-decided-to-learn-to-program.html</id>
+      <updated>2015-01-12T08:57:51-08:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Lessons and Resolutions</title>
+      <link href="//lessons-and-resolutions.html" />
+      <summary type="html">&lt;p&gt;I don’t make resolutions. Ever since sixth grade when we had to write our new years resolutions on sheets of colored construction paper to hang up in the hallway, I’ve always thought of them as an opportunity for disappointment. I think I came up with something vague like ‘be better’. Seriously. I was kinda a hipster kid who hated boy bands and thought being like everyone else was the worst thing ever.&lt;/p&gt;
+
+&lt;p&gt;I still have never made a new years resolution. Sure, I’ve had goals and dreams, but I’ve always tried never to put a definite time on them and assume that the right time will come around. If it doesn’t, I’ll probably be too annoyed with myself and make it happen.&lt;/p&gt;
+
+&lt;p&gt;This year I decided to choose something every month to focus on. Once that month was done, I’d either have forgotten what I was doing or evaluate, pick a new goal, and move on.&lt;/p&gt;
+
+&lt;p&gt;Here’s a few of the things I focused on in 2014:&lt;/p&gt;
+
+&lt;h2&gt;Be an active listener&lt;/h2&gt;
+
+&lt;p&gt;Sometimes I have this simultaneous conversation in my head every time I meet someone for the first time. It usually goes like: What am I going to say next? What can I come up with to make them think I’m interesting. Avoid awkward pauses. Cmon. Aww shit. You just forgot their name.&lt;/p&gt;
+
+&lt;p&gt;Icebreakers are fine when you first meet someone, but the best conversations just happen naturally out of mentioning the randomest things. To do that, you have to actually listen to the conversation and not try to act some play or figure our what’s next. It’ll come naturally if you’re paying attention and are actually interested. If not, count it as an off day and move on.&lt;/p&gt;
+
+&lt;h2&gt;Spend time away from a screen&lt;/h2&gt;
+
+&lt;p&gt;I gave up Netflix in 2014, save for a brief two days in February obviously reserved for a House of Cards marathon, which forced me to read books for entertainment whenever I was home. I was rarely ever home, but I did manage to finish a good dozen of books this year. I also realized that tv shows come up a LOT in normal conversation, which most of the time made me feel like a strange time traveler with a blank look on my face. I also brewed more beers this year than last and spent more time on a plane than probably in the past five years.&lt;/p&gt;
+
+&lt;h2&gt;Stress less&lt;/h2&gt;
+
+&lt;p&gt;I know when I’m stressed out because I wake up with an aching jaw or find myself clenching my teeth in the middle of the day. Which I didn’t really think was that big a problem until my dentist told me I had partially fractured a molar. Seriously. Stress is bad for your health. Find ways to get past it, whether it’s removing yourself from a situation, talking it out, or meditating.&lt;/p&gt;
+
+&lt;h2&gt;Make exercise a habit&lt;/h2&gt;
+
+&lt;p&gt;Growing up, I never ran under a ten minute mile. Despite not being overweight, I always dreaded gym class. I think it’s one of those things where you try something once and think you’re not good at it so you decide you’re not athletic (or artistic) and have a self-assigned label plastered on you all your life. But kids are rarely told you can still be great at something even if you suck the first time. So I stuck to individual sports, like biking.&lt;/p&gt;
+
+&lt;p&gt;In my adult life, I’ve never really had that much luck making it a habit, but after working at a desk for years and having to deal with some moderate scoliosis, I really wanted to build up better posture (or as better as I can).&lt;/p&gt;
+
+&lt;h2&gt;Drink less alcohol, drink more water&lt;/h2&gt;
+
+&lt;p&gt;This was a tough one, since DC is very much a social drinking city and I made Monday night happy hours a thing. Also since I brew beer. But, damn, there’s only so much drinking a person can do in one day before they decide it’s time to just grow up. Bye bye all day epic brunches. It’s for the best.&lt;/p&gt;
+
+&lt;h2&gt;Go your own way&lt;/h2&gt;
+
+&lt;p&gt;This year I made my first solo trip to Europe. Barcelona, specifically. It’s a great way to build confidence, especially in a city where I didn’t know either of the languages. (I studied German in high school and college, not Spanish like most people in America.) There’s things I used to get shy about, like talking to strangers or going out to eat by myself. On a solo trip, you have to get over those fears pretty quickly otherwise you’re going to be hungry and miss out on meeting some great people.&lt;/p&gt;
+
+&lt;p&gt;Now if I need to do something I’ve never done before, I assume since I could navigate a foreign city and make it back home in one piece, it won’t be too bad. I recently booked my second solo trip for a longer duration.&lt;/p&gt;
+
+&lt;h2&gt;Work on something that matters&lt;/h2&gt;
+
+&lt;p&gt;I mostly decided to become a Developer in Residence at General Assembly this year because I had always been interested in education and mentoring. After seeing a good friend go from learning almost no html and css to getting a second job as a frontend dev in two years, I realized there’s nothing more amazing than that first aha moment someone has when learning how to be a developer. This year, it’s most all of my work as been about education or providing opportunities, especially since I switched jobs to join the team at Treehouse. I’m really grateful that I never have to question the morality of what I create.&lt;/p&gt;
+
+&lt;p&gt;It’s been a great year and I’ve learned a hell of a lot about myself. Honestly, I’m probably the most confident I’ve been in years and can’t wait to show all of you want I’m working on and planning for next year.&lt;/p&gt;
+
+&lt;p&gt;Thanks &amp;amp; Happy New Year.&lt;/p&gt;
+</summary>
+      <id>//lessons-and-resolutions.html</id>
+      <updated>2014-12-31T07:16:21-08:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Switching to Vim</title>
+      <link href="//switching-to-vim.html" />
+      <summary type="html">&lt;p&gt;The first time I started using vim, it was more a necessity than by choice. It was a little bit too late for me to walk to work one morning and still make my morning meeting, so I did what I always did, rode my bike. Not even ten seconds after I had mounted and pushed away from my apartment building, my pedal collided with the oh so lovely marble curbs of dc and I was suddenly flying over my handlebars on one of the busiest streets in the morning. It could’ve been worse. I only ended up with a minor scrape on my leg, but the brunt of my fall had been stopped by my dominant hand. Riding the rest of the way to work that morning, I could barely squeeze the breaks properly and knew I had to lay off it for a few days in order for my hand to have a chance to heal.&lt;/p&gt;
+
+&lt;p&gt;Designing with one hand is a challenge. It’s nearly impossible to do in Photoshop or Sketch, which both require complicated multi-keyed commands to execute even the most basic tasks. Just try drawing a rectangle with one hand on a trackpad. It doesn’t really work. Switching to a mouse didn’t even occur to me. I had been using a trackpad ever since my sophomore year of college when I used to play some pretty intense World of Warcraft on a MacBook Pro.&lt;/p&gt;
+
+&lt;p&gt;I had heard about vim being great for only using keyboard commands, and ditching a trackpad meant one less thing for me to worry about. Everyone who had successfuly switched over to vim praised how much faster it could be. I didn’t have much to lose and at least I knew I could type with one hand, so I decided to try it out.&lt;/p&gt;
+
+&lt;h2&gt;Tips for Switching to Vim&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Don’t expect to be that quick starting out. Hell. I was a lot slower. There’s a ton of commands you need to memorize, just like with any design program, and they’re probably not ones you’re familiar with. &lt;a href=&quot;http://cheetyr.com/vim&quot;&gt;Vim Cheetyr&lt;/a&gt; helps a ton. Just have that open all the time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Start with small commands, and when you find yourself doing something a lot slower than in Sublime Text, look up a shortcut. There’s always a shortcut.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Learn how to set up a .vimrc file. Setting up your preferences (especially syntax highlighting) helps tremendously.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Don’t expect to code the same way as you did in Sublime Text. This isn’t like upgrading a version. Expect that everything is different and, again, always question if you can be doing something quicker.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;h2&gt;Things I’ve learned&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;It’s a hell of a lot easier to use vim with one hand than sublime text, sketch, or photoshop.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It takes practice, but eventually it is way faster.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Github merge messages seem a hell of a lot less scary. And you know the commands to quit properly instead of panicing and quitting terminal.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It helps a lot with focusing on one task, especially since it’s a lot easier to work in one file at a time.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;It makes you feel like you’re in a secret club that’s visible to everyone but they don’t understand how awesome it is.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;p&gt;It’s been a few months since I first tried vim out, but overall, I’m enjoying it a lot more. With everything, it takes a bit of practice to learn, but it makes me feel like I’m driving a manual over an automatic; I’m just closer to the code. And, if I ever sprain my hand again, I’ll know I can still get things done.&lt;/p&gt;
+</summary>
+      <id>//switching-to-vim.html</id>
+      <updated>2014-12-23T04:34:51-08:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
       <title>How the UX Designer killed Design</title>
       <link href="//how-the-ux-designer-killed-design.html" />
       <summary type="html">&lt;p&gt;It’s the same question that comes up during every interview: “If you could choose between only designing and only coding, which would it be?” The first time I was asked that, it caught me off guard, mostly because I hadn’t experienced one separate from the other.&lt;/p&gt;
@@ -72,7 +561,7 @@ A user experience designer who learns about graphic design can better understand
 &lt;p&gt;We’re all working towards the same goal and great ideas can come from anywhere.&lt;/p&gt;
 </summary>
       <id>//how-the-ux-designer-killed-design.html</id>
-      <updated>2014-11-14T10:29:21Z</updated>
+      <updated>2014-11-12T07:29:21-08:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -81,11 +570,11 @@ A user experience designer who learns about graphic design can better understand
     <entry>
       <title>Designing for Scale</title>
       <link href="//designing-for-scale.html" />
-      <summary type="html">&lt;p&gt;This past Saturday, &lt;a href=&quot;http://twitter.com/felskia&quot;&gt;Ali Felski&lt;/a&gt; and I had the pleasure of doing a workshop at the &lt;a href=&quot;http://codeherconference.com/&quot;&gt;Code(Her) Conference&lt;/a&gt;. We went over our process for tackling user experience and user interface design for large web builds and the considerations we take when creating these sites. If you&#39;d like, download our &lt;a href=&quot;/assets/img/blogs/building-for-scale.pdf&quot;&gt;slides&lt;/a&gt; for more information. For more clarification, I thought I&#39;d outline my process for designing interfaces for scale.&lt;/p&gt;
+      <summary type="html">&lt;p&gt;This past Saturday, &lt;a href=&quot;http://twitter.com/felskia&quot;&gt;Ali Felski&lt;/a&gt; and I had the pleasure of doing a workshop at the &lt;a href=&quot;http://codeherconference.com/&quot;&gt;Code(Her) Conference&lt;/a&gt;. We went over our process for tackling user experience and user interface design for large web builds and the considerations we take when creating these sites. If you’d like, download our &lt;a href=&quot;/assets/img/blogs/building-for-scale.pdf&quot;&gt;slides&lt;/a&gt; for more information. For more clarification, I thought I’d outline my process for designing interfaces for scale.&lt;/p&gt;
 
 &lt;h2&gt;Why does it matter?&lt;/h2&gt;
 
-&lt;p&gt;We&#39;ve all been on a project that seems to take a life of it&#39;s own and morph into something unrecognizable. Projects like this soon have no clear goals and are like buildings that keep being built on top of buildings. Team members change over time, features may change over time, but design direction should stay solid throughout all this change. Designing for scale is about predicting the future of a site that&#39;ll live on after the team is done initially building and designing.&lt;/p&gt;
+&lt;p&gt;We’ve all been on a project that seems to take a life of it’s own and morph into something unrecognizable. Projects like this soon have no clear goals and are like buildings that keep being built on top of buildings. Team members change over time, features may change over time, but design direction should stay solid throughout all this change. Designing for scale is about predicting the future of a site that’ll live on after the team is done initially building and designing.&lt;/p&gt;
 
 &lt;h2&gt;Three goals for designing for scale&lt;/h2&gt;
 
@@ -95,7 +584,7 @@ A user experience designer who learns about graphic design can better understand
 
 &lt;h3&gt;2. Consistency&lt;/h3&gt;
 
-&lt;p&gt;Components that act the same will look similar across all pages so websites stay on brand and don&#39;t confuse users.&lt;/p&gt;
+&lt;p&gt;Components that act the same will look similar across all pages so websites stay on brand and don’t confuse users.&lt;/p&gt;
 
 &lt;h3&gt;3. Speed&lt;/h3&gt;
 
@@ -103,72 +592,70 @@ A user experience designer who learns about graphic design can better understand
 
 &lt;h2&gt;Dynamic Content&lt;/h2&gt;
 
-&lt;p&gt;This is a consideration that&#39;s paramount when designing static comps, and one which will most likely arise as a design problem when designing in-browser. In either situation, it&#39;s inevitable that content will be both too short and too long.&lt;/p&gt;
+&lt;p&gt;This is a consideration that’s paramount when designing static comps, and one which will most likely arise as a design problem when designing in-browser. In either situation, it’s inevitable that content will be both too short and too long.&lt;/p&gt;
 
 &lt;p&gt;Developers usually compensate for this by either limiting characters on input or cutting off text after a certain number of characters using an elipsis.&lt;/p&gt;
 
 &lt;p&gt;We can do better than that.&lt;/p&gt;
 
-&lt;p&gt;By asking &quot;what if?&quot; while designing, it&#39;s easier to add the correct solutions for little or lots of text.&lt;/p&gt;
+&lt;p&gt;By asking “what if?” while designing, it’s easier to add the correct solutions for little or lots of text.&lt;/p&gt;
 
 &lt;h2&gt;Styleguide-driven design&lt;/h2&gt;
 
 &lt;p&gt;A lot of people talk about developing based off generated styles that keep consistency of visual direction throughout a website, but no one really talks about how a designer starts from functionality and gets to the point of enough designed user interface to have a complete styleguide.&lt;/p&gt;
 
-&lt;p&gt;Clients love to think in terms of pages and deliverables. Developers love reusable components and not pages. Users don&#39;t care beyond the homepage as long as they can accomplish a task. As a designer, I need to find a compromise between presentation and creating a system that&#39;ll grow after I&#39;m finished with it.&lt;/p&gt;
+&lt;p&gt;Clients love to think in terms of pages and deliverables. Developers love reusable components and not pages. Users don’t care beyond the homepage as long as they can accomplish a task. As a designer, I need to find a compromise between presentation and creating a system that’ll grow after I’m finished with it.&lt;/p&gt;
 
 &lt;h3&gt;Process, not tools&lt;/h3&gt;
 
-&lt;p&gt;It doesn&#39;t matter what you use to do the work. There&#39;ll never be a magical tool that&#39;ll do the work for you. Use the tools you&#39;re comfortable in (or not, if you so choose), work best with your team, and help you create the best work possible. What works for me, might not work for you.&lt;/p&gt;
+&lt;p&gt;It doesn’t matter what you use to do the work. There’ll never be a magical tool that’ll do the work for you. Use the tools you’re comfortable in (or not, if you so choose), work best with your team, and help you create the best work possible. What works for me, might not work for you.&lt;/p&gt;
 
 &lt;h3&gt;Taking inventory&lt;/h3&gt;
 
 &lt;p&gt;This could take a while.&lt;/p&gt;
 
-&lt;p&gt;I start by going through every wireframe and listing out all the components by labeling them as a css class. At ISL, we&#39;re using &lt;a href=&quot;http://bem.info/method/&quot;&gt;BEM methodology&lt;/a&gt; for our css structure, so I usually list them this way.&lt;/p&gt;
+&lt;p&gt;I start by going through every wireframe and listing out all the components by labeling them as a css class. At ISL, we’re using &lt;a href=&quot;http://bem.info/method/&quot;&gt;BEM methodology&lt;/a&gt; for our css structure, so I usually list them this way.&lt;/p&gt;
 
 &lt;p&gt;Additionally, I screenshot all these common elements and throw them into a Sketch file for later. It helps having a visual example for each component in addition to just listing them out.&lt;/p&gt;
 
 &lt;h3&gt;Static approach&lt;/h3&gt;
 
-&lt;p&gt;Typically created using Sketch because of it&#39;s ability to link symbols. This is where that file full of screenshots comes in handy.&lt;/p&gt;
+&lt;p&gt;Typically created using Sketch because of it’s ability to link symbols. This is where that file full of screenshots comes in handy.&lt;/p&gt;
 
-&lt;p&gt;I like to start out designing a few important pages. These pages get shown to the client so we know we&#39;re headed in the right direction. Then the components on these pages are turned into symbols and can be used on other pages. There&#39;s a significant back and forth here where symbols get slightly updated to become more flexible over a greater amount of pages. I also think it helps to continually look at all the pages being designed holistically to make sure everything is headed in the same design direction.&lt;/p&gt;
+&lt;p&gt;I like to start out designing a few important pages. These pages get shown to the client so we know we’re headed in the right direction. Then the components on these pages are turned into symbols and can be used on other pages. There’s a significant back and forth here where symbols get slightly updated to become more flexible over a greater amount of pages. I also think it helps to continually look at all the pages being designed holistically to make sure everything is headed in the same design direction.&lt;/p&gt;
 
-&lt;p&gt;In the Sketch file, make sure there&#39;s a page with all the symbols that&#39;ll act as the base for the styleguide. Developers will love you forever for making this.&lt;/p&gt;
+&lt;p&gt;In the Sketch file, make sure there’s a page with all the symbols that’ll act as the base for the styleguide. Developers will love you forever for making this.&lt;/p&gt;
 
-&lt;p&gt;Not every page will be designed as a static comp. We&#39;re aiming for the pages with the most reused components. Design just enough so it can be translated to code as soon as possible. Type looks different in photoshop, sketch, and illustrator. Elements look different at different browser sizes. There&#39;s no replacement for evaluating a design in it&#39;s intended medium.&lt;/p&gt;
+&lt;p&gt;Not every page will be designed as a static comp. We’re aiming for the pages with the most reused components. Design just enough so it can be translated to code as soon as possible. Type looks different in photoshop, sketch, and illustrator. Elements look different at different browser sizes. There’s no replacement for evaluating a design in it’s intended medium.&lt;/p&gt;
 
 &lt;h3&gt;Inbrowser approach&lt;/h3&gt;
 
-&lt;p&gt;(This is my preferred approach, but if I&#39;m working with designers who don&#39;t know code, it may not be the approach chosen.)&lt;/p&gt;
+&lt;p&gt;(This is my preferred approach, but if I’m working with designers who don’t know code, it may not be the approach chosen.)&lt;/p&gt;
 
 &lt;p&gt;I start by laying out a base style with color, typography, form inputs, etc. Everything including in this base style is extremely similar to what Brad Frost outlines as atoms in &lt;a href=&quot;http://pattern-lab.info&quot;&gt;Pattern Lab&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;After this, I can start designing components, every so often switching between pages that share those components to see how well they integrate. You can&#39;t just design all components on their own and expect a great site. Sure, it&#39;ll be flexible, but most likely, the ui will look pieced together. We don&#39;t want that. We&#39;re aiming for great, not passable. During this phase, there will be a lot of back and forth where components influence pages and pages influence components. Focus on the little details and then step back every once and a while to look at the whole thing.&lt;/p&gt;
+&lt;p&gt;After this, I can start designing components, every so often switching between pages that share those components to see how well they integrate. You can’t just design all components on their own and expect a great site. Sure, it’ll be flexible, but most likely, the ui will look pieced together. We don’t want that. We’re aiming for great, not passable. During this phase, there will be a lot of back and forth where components influence pages and pages influence components. Focus on the little details and then step back every once and a while to look at the whole thing.&lt;/p&gt;
 
-&lt;p&gt;As components are added and change, they&#39;re linked to a styleguide that also changes. Any designer or developer can pull from that styleguide to keep consistency.&lt;/p&gt;
+&lt;p&gt;As components are added and change, they’re linked to a styleguide that also changes. Any designer or developer can pull from that styleguide to keep consistency.&lt;/p&gt;
 
 &lt;h2&gt;Evaluate &amp;amp; Iterate&lt;/h2&gt;
 
-&lt;p&gt;Nothing&#39;s ever 100% right the first go around. Know this and plan for it.&lt;/p&gt;
+&lt;p&gt;Nothing’s ever 100% right the first go around. Know this and plan for it.&lt;/p&gt;
 
-&lt;p&gt;A large site doesn&#39;t stop when the project ends, it keeps on living and evolving far after all the papers have been signed and the checks delivered.&lt;/p&gt;
+&lt;p&gt;A large site doesn’t stop when the project ends, it keeps on living and evolving far after all the papers have been signed and the checks delivered.&lt;/p&gt;
 </summary>
       <id>//designing-for-scale.html</id>
-      <updated>2014-09-15T10:29:21Z</updated>
+      <updated>2014-09-15T03:29:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
     </entry>
   
     <entry>
-=======
->>>>>>> 3023464acb35cf2a1acf3294cb300aebb4175e46
       <title>BeardSwipe</title>
       <link href="//beardswipe.html" />
       <summary type="html">&lt;div class=&quot;hero&quot;&gt;
-&lt;div class=&#39;embed-container&#39;&gt;&lt;iframe src=&#39;http://player.vimeo.com/video/90373042&#39; frameborder=&#39;0&#39; webkitAllowFullScreen mozallowfullscreen allowFullScreen&gt;&lt;/iframe&gt;&lt;/div&gt;
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;http://player.vimeo.com/video/90373042&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;allowfullscreen&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 &lt;/div&gt;
 
 
@@ -265,7 +752,7 @@ A user experience designer who learns about graphic design can better understand
 &lt;p&gt;&lt;img src=&quot;/assets/img/beardswipe/image9.jpg&quot; alt=&quot;Full comp&quot;&gt;&lt;/p&gt;
 </summary>
       <id>//beardswipe.html</id>
-      <updated>2014-08-28T16:57:51Z</updated>
+      <updated>2014-08-28T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -393,7 +880,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;I&#39;d challenge all of you creating websites to think about creating something that enhances the work with ever step.&lt;/p&gt;
 </summary>
       <id>//everything-looks-the-same.html</id>
-      <updated>2014-08-25T10:29:21Z</updated>
+      <updated>2014-08-25T03:29:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -441,7 +928,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Adding in this methodology to a timeline may lengthen it, so any team needs to seriously consider where they need to cut the fat. (Personally, I think it exists in visual comp deliverables, but knowing code, I can be very biased.) What it does is strengthen and defend designs, helping them become better by adding in iteration and testing through specific questions and assumptions.&lt;/p&gt;
 </summary>
       <id>//design-process-as-scientific-method.html</id>
-      <updated>2014-07-14T11:47:21Z</updated>
+      <updated>2014-07-14T04:47:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -496,7 +983,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Now that there&#39;s great base documented, new content can be written to fill gaps and ux design can easily get started with wireframes based on identified content types needed on existing and new pages.&lt;/p&gt;
 </summary>
       <id>//content-audits.html</id>
-      <updated>2014-07-07T10:29:21Z</updated>
+      <updated>2014-07-07T03:29:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -617,7 +1104,7 @@ It has whitespace.&lt;/p&gt;
 &lt;img src=&quot;/assets/img/everyoneon/image11.jpg&quot; alt=&quot;Small&quot;&gt;&lt;/p&gt;
 </summary>
       <id>//everyoneon.html</id>
-      <updated>2014-06-15T16:57:51Z</updated>
+      <updated>2014-06-15T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -685,7 +1172,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;This does, however, attempt to solve the issue of the client thinking designs are really really large, or wanting to know how our desktop sized comps will look on their ipad. And sometimes that&#39;s exactly what we need to get signoff on visual designs.&lt;/p&gt;
 </summary>
       <id>//faking-responsive.html</id>
-      <updated>2014-06-04T09:58:21Z</updated>
+      <updated>2014-06-04T02:58:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -773,7 +1260,7 @@ It has whitespace.&lt;/p&gt;
 
 </summary>
       <id>//paying-for-college.html</id>
-      <updated>2014-05-26T16:57:51Z</updated>
+      <updated>2014-05-26T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -824,7 +1311,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Overall, I&#39;ve been pretty happy with the switch and have only opened Photoshop if another design gets handed to me. I&#39;ve really been loving all the plugins that keep popping up. It seems like the majority of users are really into open source and already are active on github. Sketch has been working great for me. If you&#39;re struggling with one tool, maybe you should give something else a try for a while. If you&#39;re not, then keep on designing! It&#39;s all a means to a polished final product and whatever&#39;s going to help you produce the best work is what you should be using.&lt;/p&gt;
 </summary>
       <id>//why-i-switched-to-sketch.html</id>
-      <updated>2014-05-15T14:32:51Z</updated>
+      <updated>2014-05-15T07:32:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -858,7 +1345,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;I&#39;ve fallen victim to this as well. It&#39;s easy not to get too attached. But it&#39;s also monotonous. The meaty, rich parts of life come from deeper connections between people and the only way to get that is to be more empathetic in our relationships. I&#39;m going to start small and try to keep empathy in the front of my mind. It&#39;s not going to change the city, and I&#39;m not trying to solve all the problems, but it&#39;s a start. Small steps.&lt;/p&gt;
 </summary>
       <id>//what-dc-lacks.html</id>
-      <updated>2014-04-19T00:00:00-04:00</updated>
+      <updated>2014-04-19T00:00:00-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -882,7 +1369,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Now, being on the other side of that relationship, I really hoping that I can inspire my students with that same feeling of awe at building something from scratch and having it come to life. That&#39;s the feeling that lets me know I wouldn&#39;t want to be in any other career.&lt;/p&gt;
 </summary>
       <id>//ducklings.html</id>
-      <updated>2014-04-09T16:57:51Z</updated>
+      <updated>2014-04-09T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -918,7 +1405,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://distilleryimage10.ak.instagram.com/c64c7854bc7e11e3affe0002c9c90082_8.jpg&quot; alt=&quot;Joseph Abrams and me with cigars&quot; /&gt;&lt;/p&gt;
 </summary>
       <id>//some-highlights-from-grok.html</id>
-      <updated>2014-04-07T16:57:51Z</updated>
+      <updated>2014-04-07T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -948,7 +1435,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://distilleryimage0.ak.instagram.com/7382750ab9cd11e38efb0a406416de40_8.jpg&quot; alt=&quot;Looking out over the wing of the plane at Barcelona and the coast&quot; /&gt;&lt;/p&gt;
 </summary>
       <id>//a-little-solo-travel.html</id>
-      <updated>2014-04-05T16:57:51Z</updated>
+      <updated>2014-04-05T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1021,7 +1508,7 @@ It has whitespace.&lt;/p&gt;
 
 </summary>
       <id>//courtplay.html</id>
-      <updated>2014-03-20T16:57:51Z</updated>
+      <updated>2014-03-20T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1086,7 +1573,7 @@ It has whitespace.&lt;/p&gt;
 &lt;img src=&quot;/assets/img/croplife/croplife-vis-resources.jpg&quot; alt=&quot;Resources&quot; /&gt;&lt;/p&gt;
 </summary>
       <id>//croplife.html</id>
-      <updated>2014-02-09T16:57:51Z</updated>
+      <updated>2014-02-09T08:57:51-08:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
