@@ -8,7 +8,7 @@ baseurl: ""
 
 markdown: rdiscount
 permalink: :title.html
-pygments: true
+highlighter: true
 
 # Google Analytics
 ga_domain: http://klare.io
