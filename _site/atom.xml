@@ -4,11 +4,116 @@
   <id>/</id>
   <link href="/" />
   <link href="//atom.xml" rel="self" />
-  <updated>2015-12-29T12:58:33-08:00</updated>
+  <updated>2016-05-31T17:10:00-04:00</updated>
   <rights>Copyright 2014, Klare Frank</rights>
   <author>
     <name>Klare Frank</name>
   </author>
+  
+    <entry>
+      <title>Treehouse Techdegrees</title>
+      <link href="//techdegrees.html" />
+      <summary type="html">&lt;div class=&quot;content--post&quot;&gt;
+
+&lt;h2&gt;What We Built&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Full website: &lt;a href=&quot;http://serviceyr.org&quot;&gt;serviceyr.org&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--two-thirds&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image1.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--one-third&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image2.jpg&quot; alt=&quot;iOS Design&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;What I Worked on&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;User Experience&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image4.jpg&quot; alt=&quot;Wires&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image3.jpg&quot; alt=&quot;Sketches&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image5.jpg&quot; alt=&quot;Sketches&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Art Direction&lt;/h3&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image6.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/brt.gif&quot; alt=&quot;BRT&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image7.jpg&quot; alt=&quot;Responsive&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image8.jpg&quot; alt=&quot;Overlapping CSS tricks&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/beardswipe/image9.jpg&quot; alt=&quot;Full comp&quot;&gt;&lt;/p&gt;
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Frontend Development&lt;/h3&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</summary>
+      <id>//techdegrees.html</id>
+      <updated>2015-12-15T11:57:51-05:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
   
     <entry>
       <title>How to Work Remotely Without Losing Your Mind</title>
@@ -42,7 +147,263 @@
 &lt;p&gt;Overall, my criteria for keeping sane involves providing myself with enough tools to get my work done efficiently, and keeping myself happy by providing enough in-person interaction that I don&#39;t get from a job daily.&lt;/p&gt;
 </summary>
       <id>//how-to-work-remotely.html</id>
-      <updated>2015-12-07T07:07:51-08:00</updated>
+      <updated>2015-12-07T10:07:51-05:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Treehouse Exercises</title>
+      <link href="//treehouse-local-exercises.html" />
+      <summary type="html">&lt;div class=&quot;content--post&quot;&gt;
+
+&lt;h2&gt;What We Built&lt;/h2&gt;
+&lt;p&gt;When I first joined this team, I identified that Treehouse students still lacked real-world skills and had no &lt;/p&gt;
+
+&lt;p&gt;Full website: &lt;a href=&quot;http://serviceyr.org&quot;&gt;serviceyr.org&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--two-thirds&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image1.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--one-third&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image2.jpg&quot; alt=&quot;iOS Design&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;What I Worked on&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;User Experience&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image4.jpg&quot; alt=&quot;Wires&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image3.jpg&quot; alt=&quot;Sketches&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image5.jpg&quot; alt=&quot;Sketches&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Art Direction&lt;/h3&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image6.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/brt.gif&quot; alt=&quot;BRT&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image7.jpg&quot; alt=&quot;Responsive&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/beardswipe/image8.jpg&quot; alt=&quot;Overlapping CSS tricks&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/beardswipe/image9.jpg&quot; alt=&quot;Full comp&quot;&gt;&lt;/p&gt;
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Frontend Development&lt;/h3&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</summary>
+      <id>//treehouse-local-exercises.html</id>
+      <updated>2015-09-15T12:57:51-04:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Treehouse Career Program</title>
+      <link href="//career-program.html" />
+      <summary type="html">&lt;div class=&quot;content--post&quot;&gt;
+
+    &lt;h2&gt;Career Projects&lt;/h2&gt;
+    &lt;p&gt;The Treehouse Career Program was an existing program when I joined the team, but it still lacked helping students develop fundamental job skills to help them get hired.&lt;/p&gt;
+    &lt;p&gt;Through auditing and talking with students, I identified that Treehouse students still lacked real-world skills and did not have a portfolio of work to show they were capable of the skills they knew. This problem could be solved through directing students to build projects, at first on their own, to gain problem solving skills, and then with teams, to gain skills in working in a team dynamic.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h2&gt;My Process&lt;/h2&gt;
+    &lt;p&gt;I started the process by creating user flows for how a student would typically navigate through the projects portion of the career program. After that, wireframes are usually created to win over key decision makers and help them understand the experience without getting influenced by the design.&lt;/p&gt;
+    &lt;p&gt;However, the key decision makers were already very familiar with the look and feel of our app. Since we already had a well-defined set of styles to use throughout the Treehouse app, I choose to prototype most all of my designs in code for quicker iterations. This helped me work closer with the developers on my team and get ideas tested sooner rather than relying on assumptions.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h3&gt;Iteration one&lt;/h3&gt;
+    &lt;p&gt;I started out by designing a userflow so my entire time was on the same page in regards to how our students would go about completing the projects.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item&quot;&gt;
+        &lt;img src=&quot;/assets/img/career-program/image2.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h3&gt;Design &amp;amp; Development&lt;/h3&gt;
+    &lt;p&gt;From there, I began mockup up the screens in code using our existing stylesheets. Using our own code made it really easy for me to get a sense for our system as a new team member and show in real-time what projects might look like to stakeholders.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/career-program/image3.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image6.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image7.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/career-program/image4.png&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image5.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image8.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h3&gt;Iteration two&lt;/h3&gt;
+    &lt;p&gt;After we agreed on the flow and the basic designs, I started refining the visual designs and certain parts of the user experience. I ended up creating 3 custom icons that would start grayed out and get filled in with color as a student progressed futher by manipulating svg elements.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/career-program/image9.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image10.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/career-program/image12.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image13.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+
+    &lt;h2&gt;Project Reviews&lt;/h2&gt;
+    &lt;p&gt;After we had students actively creating projects, we decided another important skill for them to learn was how to properly critique their peers work as well as receive feedback and improve upon their work. For this, we decided to implement a review system where students would receive feedback from both their peers and professionals.&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h3&gt;User experience&lt;/h3&gt;
+    &lt;p&gt;Reviews meant allowing a somewhat complicated process, so I started out with a userflow detailing all the steps a student would take to complete a peer review while including the content I thought was necessary to each page or state.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item&quot;&gt;
+        &lt;img src=&quot;/assets/img/career-program/image14.jpg&quot; alt=&quot;Usrflows for reviews&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h3&gt;Design &amp;amp; Development&lt;/h3&gt;
+    &lt;p&gt;As before, I did most of my work in code, occassionally using sketch to create new design patterns quicker and see how those would look before implementing. This approached was much faster and allowed for quick iter&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/career-program/image15.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image16.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image17.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/career-program/image18.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image19.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/career-program/image20.jpg&quot; alt=&quot;Visual designs&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h2&gt;Key takeaways&lt;/h2&gt;
+    &lt;p&gt;As I had access to two slack rooms where students were actively collaboration on projects, I was able to quickly understand their goals and how they worked to create systems that would benefit them. These projects helped inform most of the work that was done over the span of a month to create Treehouse Techdegrees, as further iterations of both projects and reviews were added to the new Techdegree program.&lt;/p&gt;
+&lt;/div&gt;
+
+</summary>
+      <id>//career-program.html</id>
+      <updated>2015-08-01T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -154,7 +515,188 @@
 &lt;p&gt;Interested in learning more about how to use the command line? Check out &lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line&quot;&gt;The Art of Command Line&lt;/a&gt;.&lt;/p&gt;
 </summary>
       <id>//terminal-commands.html</id>
-      <updated>2015-06-18T09:57:51-07:00</updated>
+      <updated>2015-06-18T12:57:51-04:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Building a music player with javascript</title>
+      <link href="//building-a-music-player.html" />
+      <summary type="html">&lt;p&gt;I will preface this by saying I’m no expert in building javascript web apps from scratch. When my friend Courtney approached me with the idea to do a parody of our friends weekly playlist, This Week’s Playlist, I figured at the very least it would be a great way to exercise some js skills while putting my love of all types of music out there. This Week’s Playlist is a curated weekly playlist of (mostly) new music. Part of our goal for our parody, Next Week’s Playlist (launching on April Fool’s Day, of course), was to also focus on mostly new music, predicting what should be on next week’s This Week’s Playlist.&lt;/p&gt;
+
+&lt;p&gt;I decided early on to test myself by only using pure javascript instead of relying on jquery. The first time I decided to not use jquery was on my coding assignment for my job application to Treehouse, where the functionality I wanted to accomplish was so small that adding an extra second of load time just to make five lines of code work seemed superfluous. While I knew there would be significantly more lines of code needed for Next Week’s Playlist, it seemed like a good opportunity to test out building in pure javascript.&lt;/p&gt;
+
+&lt;h2&gt;Planning out the functionality&lt;/h2&gt;
+
+&lt;p&gt;I started by compiling a list of things we wanted the site to do, starting with the bare minimum needed for it to work:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When a user clicks on a song, play the song&lt;/li&gt;
+&lt;li&gt;If a user clicks on a song that is playing, pause the song&lt;/li&gt;
+&lt;li&gt;When a song ends, play the next song&lt;/li&gt;
+&lt;li&gt;When a user presses the spacebar for the first time, play the first song&lt;/li&gt;
+&lt;li&gt;When a user presses the spacebar and a song is playing, pause the song&lt;/li&gt;
+&lt;li&gt;When a user presses the spacebar and a song is paused, play the song&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;We also wanted to add a feature to allow for links to external music services (if the song was available) and decided on a maximum of three: soundcloud, spotify, and rdio:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;When a user clicks on a links button, toggle the links to external music services&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Starting with interactions&lt;/h2&gt;
+
+&lt;p&gt;I usually start projects by laying out the interactions. In this case, it’s a spacebar press and when a track gets clicked.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Get all elements with a class of track
+var trackList = document.querySelectorAll(&#39;.track&#39;);
+
+// When the spacebar is pressed
+document.addEventListener(&#39;keypress&#39;, function(key){
+  if( key.keyCode == 32 ){
+
+  }
+});
+
+// When .track is clicked
+function playPause(){
+  trackList[i].addEventListener(&#39;click&#39;, function(e){
+
+  });
+}
+
+// Applying the function to all .track elements
+for ( i=0; i &amp;lt; trackList.length; i++ ) {
+  playPause();
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Using track index instead of attributes&lt;/h2&gt;
+
+&lt;p&gt;This Week’s Playlist works by getting the value of the audio attribute on a selected track. Since all tracks are meant to be listed in numerical order, I decided to take this a step forward and get the index (+1) of the selected track.&lt;/p&gt;
+
+&lt;p&gt;We’ll use a function to find the index of the selected song (either the song that is clicked or the song that is playing):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;function findIndex(el){
+  var i=1;
+  while(el.previousSibling){
+    el = el.previousSibling;
+    if(el.nodeType === 1){
+      i++;
+    }
+  }
+  return i;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Adding play and paused classes&lt;/h2&gt;
+
+&lt;p&gt;Next, I added in the appropriate classes based on my base interactions. (Note that we’re still not introducing sound yet.)&lt;/p&gt;
+
+&lt;p&gt;First, we’ll need a function to check for if an element has a class:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// A function to check if an element has a class
+function hasClass(el, cls) { 
+  return el.className &amp;amp;&amp;amp; new RegExp(&#39;(\\s|^)&#39; + cls + &#39;(\\s|$)&#39;).test(el.className);
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For a spacebar press, I’ll add a class of playing to the first song if nothing has been played yet, and a class of activated to the playlist so that I can style it a bit.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// When the spacebar is pressed
+document.addEventListener(&#39;keypress&#39;, function(key){
+  if( key.keyCode == 32 ){
+    // If no songs have been played yet
+    if (document.querySelectorAll(&#39;.playing&#39;).length == 0) {
+      index = 0, // Setting the song index
+      trackList[index].parentNode.classList.add(&#39;playing&#39;),
+      document.querySelectorAll(&#39;.playlist&#39;)[0].classList.add(&#39;activated&#39;);
+    } else if ( trackList[index].parentNode.classList[1] == &#39;paused&#39; ) {
+    // If a user pressed the spacebar when a song is paused, play the song
+      trackList[index].parentNode.classList.remove(&#39;paused&#39;);
+    } else {
+    // If a user pressed the spacebar when a song is playing, pause the song
+      trackList[index].parentNode.classList.add(&#39;paused&#39;);
+    }
+    key.preventDefault();
+  }
+});
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For a song click, we&#39;ll add similar classes of activated, playing, and paused:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// When .track is clicked
+function playPause(){
+  trackList[i].addEventListener(&#39;click&#39;, function(e){
+    // Saves li instead of a
+    var selected = this.parentNode;
+    // Finds index of the selected li
+    index = findIndex(selected);
+
+    // If a song is being played for the first time, add a class to .playlist
+    if( !hasClass(document.querySelectorAll(&#39;.playlist&#39;)[0], &#39;activated&#39;) ){
+      document.querySelectorAll(&#39;.playlist&#39;)[0].classList.add(&#39;activated&#39;);
+    }
+
+    // If selected 
+    if( hasClass(selected, &#39;playing&#39;) || (document.querySelectorAll(&#39;.playing&#39;).length !== 0)){
+      if (!hasClass(selected, &#39;playing&#39;) &amp;amp;&amp;amp; (document.querySelectorAll(&#39;.playing&#39;).length !== 0)) {
+        if (selected.parentNode.hasChildNodes()){
+          var children = selected.parentNode.childNodes;
+          for (var i = 1; i &amp;lt; children.length; i+=2) {
+            children[i].classList.remove(&#39;playing&#39;,&#39;paused&#39;);
+          }
+        };
+      }
+    } 
+
+      e.preventDefault();
+
+      return song.play(),
+      selected.classList.add(&#39;playing&#39;);
+      if (!hasClass(selected, &#39;paused&#39;) &amp;amp;&amp;amp; song.currentTime &amp;gt; 0) {
+        song.pause(),
+        selected.classList.add(&#39;paused&#39;);
+      } else {
+
+      }
+      !hasClass(selected, &#39;paused&#39;) &amp;amp;&amp;amp; song.currentTime &amp;gt; 0 ? (song.pause(), selected.classList.add(&#39;paused&#39;)) : hasClass(selected, &#39;paused&#39;) &amp;amp;&amp;amp; song.currentTime &amp;gt; 0 &amp;amp;&amp;amp; selected.classList.remove(&#39;paused&#39;); !1;
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Adding in extra features&lt;/h2&gt;
+
+&lt;p&gt;One of the big requests that Courtney received was the ability to scrub through a track. I use this a lot on Soundcloud and Rdio to see if the track has enough pull to even consider listening all the way through and eventually put on Next Week’s Playlist.&lt;/p&gt;
+
+&lt;p&gt;To accomplish this, we need to track the position of the mouse click along one axis in the progress bar.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Get click point
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;From there, we can calculate the percentage and apply it to the track.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Apply it to current audio
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Criticisms&lt;/h2&gt;
+
+&lt;p&gt;The way I used javascript requires everything in the html to be in its proper order. Using jquery to grab a sibling by element instead of using javascript to grab a sibling by node index is a lot more forgiving.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(this).siblings(&#39;li&#39;).children(&#39;.track&#39;);
+
+// compared to:
+
+this.parentNode.childNodes[0];
+&lt;/code&gt;&lt;/pre&gt;
+</summary>
+      <id>//building-a-music-player.html</id>
+      <updated>2015-04-14T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -225,67 +767,7 @@ Holy crap this is an awesome place to stay, hell yes bathrobes. &lt;em&gt;Pats s
 &lt;p&gt;&lt;img src=&quot;https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11084856_867417309971923_497227918_n.jpg&quot; alt=&quot;Ljubljana&quot; /&gt;&lt;/p&gt;
 </summary>
       <id>//a-designers-perspective-on-solo-travel.html</id>
-      <updated>2015-04-02T09:57:51-07:00</updated>
-      <author>
-        <name>Klare Frank</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Guest Post — Balancing Work and Home is Key</title>
-      <link href="//work-life-balance.html" />
-      <summary type="html">&lt;p&gt;&lt;i&gt;I see a lot of my peers in situations that lead them to long hours at work, working on weekends, and taking naps at work. At some companies, this behavior is encouraged and seen as a sign of dedication. At others (&lt;a href=&quot;http://www.washingtonpost.com/local/at-some-start-ups-fridays-are-so-casual-everyone-can-stay-home/2015/02/06/31e8407e-9d1c-11e4-96cc-e858eba91ced_story.html&quot;&gt;such as I the one I work at&lt;/a&gt;), time outside of work is valued to prevent burnout and promote smarter work. &lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;My mother, Louisa Frank, taught herself how to program in the early ‘80s and has been an inspiration for me working in technology. She later moved into a leadership role in the technology department at a large bank, managing a whole team of project managers and developers. Even though we’re a generation apart and she was in the banking industry, not a startup culture, I can see a lot of parallels between our experiences, especially when it comes to companies promoting a culture of being always available for work.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Her takeaway? It’s the experiences and people that matter. You’re probably not going to remember that deadline you may have missed by an hour if you had’t stayed up late, but you will remember a missed opportunity to spend with family or friends.&lt;/i&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;i&gt;Spread the love where it counts.&lt;/i&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-
-&lt;p&gt;Some of us are aware that there is nothing more important than family, but many people cannot balance their home life and work life appropriately. Not everyone knows that home is as important, if not more, than work. I heard, once, that you should think about what you want written on your tombstone when you die. Will it say that you lived your life loving your family or that you lived your life at work, hardly ever seeing your family? Balance is important. I’ve seen more than one marriage fall apart because the individual cannot maintain a good balance in and out of the office.&lt;/p&gt;
-
-&lt;p&gt;I was lucky. I have a very understanding spouse and kids that are proud of me and support me, as well. Not everyone is so blessed. However, even with a supportive family, I had to work hard at a balance between work and home. Did I achieve it? I’ll be the first to admit that I didn’t, but I wasn’t too far off balance, even with the long hours I put in at the office. There are a few times that I regretted not being able to drop everything and rush home, but it worked out, in the end.&lt;/p&gt;
-
-&lt;p&gt;When I hired people, I told them, up front, that everyone often had to work overtime to support technical issues, bring in a project on time, or complete new installations and updates. Most times overtime could be planned ahead. For instance, if we were doing an install of new software, we would know this ahead of time and be able to predict when we’d be spending more hours at work than at home. What couldn’t be accounted for were those emergencies that popped up, and they were numerous, and they sucked at our personal time like a vampire sucks blood from his victim.&lt;/p&gt;
-
-&lt;p&gt;As a manager, it is important to be aware of how much time your people spend at work, or working. It is so simple to become burned out by working too much, and so easy to see family life fall apart. Everyone is different in how much balance they need, but it is not only up to you, as an individual, to ensure you are getting it, but up to you, as a manager, to be aware if your people are balancing properly. Balance keeps everyone happy, and in top mental shape to perform at work. Happy people help projects come in on time and budget.&lt;/p&gt;
-
-&lt;p&gt;As a woman, with children, I think I was able to sympathize with many of my people when they needed time at home. I also think I had more awareness of the balance between work and family, not only for my own situation, but for my people, too.&lt;/p&gt;
-
-&lt;p&gt;In order to balance my work and home life, I often planned vacations away, with my husband and kids. That’s something I enjoyed, but we also spent quality time at home playing games, swimming, cooking, watching television, and other things. I remember well standing, soaking wet in my swim suit, on the phone at a Disney water park, and sitting on a bench outside of the Haunted Mansion, again, on the phone. I was contacted to get on production support issues. While my husband and the kids had a blast, I put in my time on the phone helping get the issue fixed.&lt;/p&gt;
-
-&lt;p&gt;Why not make it a rule to never contact people while on vacation? I thought of that rule. For my own team, when one of my developers went on vacation, I made sure he left his pager (yeah, we had pagers back then) at the office. If it was a dire emergency, I knew how to get in touch with him, but otherwise, no one else was allowed to bother him, or her, while they were away. Now-a-days, everyone has a mobile phone, so it is easy to contact someone. Texting is a way of life. If I were out in the workforce, now, I’d tell my people to ignore all calls/texts from anyone except me.&lt;/p&gt;
-
-&lt;p&gt;Having that precious, uninterrupted time spent with your spouse, friend, or family is important for that balance. Not getting it can quickly lead to burnout. Does it hurt not to be able to contact the one person that might get the issue solved quickly? You bet! But in the long run, it makes others more self-sufficient, forcing them to learn the software and how to fix it, and it helped me to learn, as a manager, the capabilities of my people.&lt;/p&gt;
-
-&lt;p&gt;Another time, I was on a call, on and off, throughout the night and into the morning. I was behind closed doors in my home office, but I had the phone on speaker with the volume low so as not to disturb anyone else. My parents were, at the time, temporarily living in my basement, having decided to move back near their children and grandchildren after retirement. I thought everyone was asleep. Imagine my surprise when my father strode into my office, wearing only his underwear. He stomped right up to my desk and stood over the phone and said something like,&lt;/p&gt;
-
-&lt;p&gt;“You quit that damn job!”&lt;/p&gt;
-
-&lt;p&gt;He then calmly left the room. Since I was on speaker, everyone on the call heard him. There was silence on the other end of the line. No one spoke for almost a whole minute then someone, I don’t know who, diffused the situation by saying something funny, but I could tell everyone on the call was thinking the same thing as me: “What the heck am I doing?” It made me review my work/home balance to make sure I wasn’t going overboard. I stepped back a bit, after that incident.&lt;/p&gt;
-
-&lt;p&gt;I said I had an understanding spouse and kids that supported me. Really, though, my kids knew my office at work inside and out because they spent a lot of time there. Often, on the weekends, they went in to the office with me. It was their home away from home. They knew the vending machine selections by heart. It also gave them time to get to know my developers and my bosses and it gave me time with the kids, even though I was working. My developer’s kids spent time in the office, too, so it was not uncommon. I remember someone’s kid riding their tricycle around and around the office cubes while we worked.&lt;/p&gt;
-
-&lt;p&gt;(Those connections that my kids made when they were young, visiting my office were put to use later on to their benefit. My son scored a summer job when he was in college, working with another team at my company, which lead, eventually, to a full time job in the technology world when he finished college. My daughter used her work connections to get a recommendation from one of my very senior bosses to the college of her choice. She met that super senior boss at a wedding we were invited to when she was younger, and, when it came time to apply to colleges, he remembered her.)&lt;/p&gt;
-
-&lt;p&gt;Did I quit that damn job? In actuality, I quit five times over the thirteen years I worked there, but every time I quit, someone talked me out of it. When I quit for the final time, number six, it was for real. At that time, the company had totally changed. If it hadn’t, I’d probably still be there. I have never regretted that final decision.&lt;/p&gt;
-
-&lt;p&gt;Maybe I should have quit that job sooner. I ended up making a lot of money, enough to take the whole family wherever we wanted on vacation each year. We didn’t want for lack of funds. That was for sure, and I got to treat my family to all sorts of new adventures that I wouldn’t want to trade for anything, but was it worth it to have to spend all that time away from them? I’ll never know. I’m still married, and my kids have grown and started their own careers, and I have regrets that I didn’t spend enough time with them, but I think I did the best I could in balancing my career and my home life. It was important to me back then, and it is still important to me. It should be important to everyone.&lt;/p&gt;
-
-&lt;p&gt;OK. So what am I getting at? Do you need to spend hours and hours at work to get ahead? No. You need to create a good balance between your work life and your home life so that you are satisfied you are doing the best you can with both. You must also use your after hours work time wisely and get the most out of it. Be aware of your balance and work at keeping it healthy.&lt;/p&gt;
-
-&lt;p&gt;I learned many lessons in my long career in technology, climbing the ladder rung by rung to the executive level. I used those lessons wisely, and, even today, still use them. I also include them in all my books. They are still relevant, no matter what the job. I’ve changed careers from being a technology executive to working at becoming a writer, yet my past lessons still come into play for me. Even though I’m older and there’s a new generation out there in the working world, it’s surprising how so much changes, but so much stays the same.&lt;/p&gt;
-
-&lt;hr&gt;
-
-
-&lt;p&gt;&lt;i&gt;Louisa Frank is a retired Senior Vice President of Technology at Bank of America. A few years ago, she retired early and revisited her programming roots, amongst other things, learning HTML and CSS, programming and maintaining a website for a non-profit firm and her own website, &lt;a href=&quot;http://thisislafrank.com&quot;&gt;thisislafrank.com&lt;/a&gt;, in addition to writing. You can contact her at her website or at &lt;a href=&quot;mailto:thisislafrank@gmail.com&quot;&gt;thisislafrank@gmail.com&lt;/a&gt;.&lt;/i&gt;&lt;/p&gt;
-</summary>
-      <id>//work-life-balance.html</id>
-      <updated>2015-03-03T08:57:51-08:00</updated>
+      <updated>2015-04-02T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -333,7 +815,7 @@ I am the captain of my soul.&lt;/em&gt;&lt;br&gt;
 — William Ernest Henley&lt;/p&gt;
 </summary>
       <id>//getting-started.html</id>
-      <updated>2015-02-18T08:57:51-08:00</updated>
+      <updated>2015-02-18T11:57:51-05:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -403,7 +885,7 @@ I am the captain of my soul.&lt;/em&gt;&lt;br&gt;
 &lt;p&gt;&lt;i&gt;Louisa Frank is a retired Senior Vice President of Technology at Bank of America. After starting her career at the University of Delaware Plato Project, she went on to work in several major companies, progressing from software developer to software team leader, software manager, and finally technology executive. A few years ago, she retired early and revisited her programming roots, amongst other things, learning HTML and CSS, programming and maintaining a website for a non-profit firm, Water Is Life Kenya, and maintaining her own website, &lt;a href=&quot;http://thisislafrank.com&quot;&gt;thisislafrank.com&lt;/a&gt;. You can contact her at her website or at &lt;a href=&quot;mailto:thisislafrank@gmail.com&quot;&gt;thisislafrank@gmail.com&lt;/a&gt;.&lt;/i&gt;&lt;/p&gt;
 </summary>
       <id>//why-i-decided-to-learn-to-program.html</id>
-      <updated>2015-01-12T08:57:51-08:00</updated>
+      <updated>2015-01-12T11:57:51-05:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -459,7 +941,7 @@ I am the captain of my soul.&lt;/em&gt;&lt;br&gt;
 &lt;p&gt;Thanks &amp;amp; Happy New Year.&lt;/p&gt;
 </summary>
       <id>//lessons-and-resolutions.html</id>
-      <updated>2014-12-31T07:16:21-08:00</updated>
+      <updated>2014-12-31T10:16:21-05:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -498,7 +980,7 @@ I am the captain of my soul.&lt;/em&gt;&lt;br&gt;
 &lt;p&gt;It’s been a few months since I first tried vim out, but overall, I’m enjoying it a lot more. With everything, it takes a bit of practice to learn, but it makes me feel like I’m driving a manual over an automatic; I’m just closer to the code. And, if I ever sprain my hand again, I’ll know I can still get things done.&lt;/p&gt;
 </summary>
       <id>//switching-to-vim.html</id>
-      <updated>2014-12-23T04:34:51-08:00</updated>
+      <updated>2014-12-23T07:34:51-05:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -561,7 +1043,90 @@ A user experience designer who learns about graphic design can better understand
 &lt;p&gt;We’re all working towards the same goal and great ideas can come from anywhere.&lt;/p&gt;
 </summary>
       <id>//how-the-ux-designer-killed-design.html</id>
-      <updated>2014-11-12T07:29:21-08:00</updated>
+      <updated>2014-11-12T10:29:21-05:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Service Year</title>
+      <link href="//service-year.html" />
+      <summary type="html">&lt;div class=&quot;content--post&quot;&gt;
+
+&lt;h2&gt;What We Built&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Full website: &lt;a href=&quot;http://serviceyr.org&quot;&gt;serviceyr.org&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;What I Worked on&lt;/h2&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;Art Direction&lt;/h3&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--one-third&quot;&gt;
+        &lt;img src=&quot;/assets/img/service-year/serviceyear_moodboards_concept-1_sample-profile.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--two-thirds&quot;&gt;
+        &lt;img src=&quot;/assets/img/service-year/serviceyear_moodboards_concept-1_board.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--two-thirds&quot;&gt;
+        &lt;img src=&quot;/assets/img/service-year/serviceyear_moodboards_concept-2_board.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--one-third&quot;&gt;
+        &lt;img src=&quot;/assets/img/service-year/serviceyear_moodboards_concept-2_sample-profile.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--one-third&quot;&gt;
+        &lt;img src=&quot;/assets/img/service-year/serviceyear_moodboards_concept-3_sample-profile.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--two-thirds&quot;&gt;
+        &lt;img src=&quot;/assets/img/service-year/serviceyear_moodboards_concept-3_board.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h3&gt;Frontend Development&lt;/h3&gt;
+    &lt;img src=&quot;/assets/img/service-year/admin.jpg&quot; alt=&quot;Web&quot;&gt;
+    &lt;p&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+</summary>
+      <id>//service-year.html</id>
+      <updated>2014-11-01T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -645,7 +1210,7 @@ A user experience designer who learns about graphic design can better understand
 &lt;p&gt;A large site doesn’t stop when the project ends, it keeps on living and evolving far after all the papers have been signed and the checks delivered.&lt;/p&gt;
 </summary>
       <id>//designing-for-scale.html</id>
-      <updated>2014-09-15T03:29:21-07:00</updated>
+      <updated>2014-09-15T06:29:21-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -752,7 +1317,7 @@ A user experience designer who learns about graphic design can better understand
 &lt;p&gt;&lt;img src=&quot;/assets/img/beardswipe/image9.jpg&quot; alt=&quot;Full comp&quot;&gt;&lt;/p&gt;
 </summary>
       <id>//beardswipe.html</id>
-      <updated>2014-08-28T09:57:51-07:00</updated>
+      <updated>2014-08-28T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -880,7 +1445,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;I&#39;d challenge all of you creating websites to think about creating something that enhances the work with ever step.&lt;/p&gt;
 </summary>
       <id>//everything-looks-the-same.html</id>
-      <updated>2014-08-25T03:29:21-07:00</updated>
+      <updated>2014-08-25T06:29:21-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -928,7 +1493,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Adding in this methodology to a timeline may lengthen it, so any team needs to seriously consider where they need to cut the fat. (Personally, I think it exists in visual comp deliverables, but knowing code, I can be very biased.) What it does is strengthen and defend designs, helping them become better by adding in iteration and testing through specific questions and assumptions.&lt;/p&gt;
 </summary>
       <id>//design-process-as-scientific-method.html</id>
-      <updated>2014-07-14T04:47:21-07:00</updated>
+      <updated>2014-07-14T07:47:21-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -983,7 +1548,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Now that there&#39;s great base documented, new content can be written to fill gaps and ux design can easily get started with wireframes based on identified content types needed on existing and new pages.&lt;/p&gt;
 </summary>
       <id>//content-audits.html</id>
-      <updated>2014-07-07T03:29:21-07:00</updated>
+      <updated>2014-07-07T06:29:21-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1104,7 +1669,7 @@ It has whitespace.&lt;/p&gt;
 &lt;img src=&quot;/assets/img/everyoneon/image11.jpg&quot; alt=&quot;Small&quot;&gt;&lt;/p&gt;
 </summary>
       <id>//everyoneon.html</id>
-      <updated>2014-06-15T09:57:51-07:00</updated>
+      <updated>2014-06-15T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1172,7 +1737,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;This does, however, attempt to solve the issue of the client thinking designs are really really large, or wanting to know how our desktop sized comps will look on their ipad. And sometimes that&#39;s exactly what we need to get signoff on visual designs.&lt;/p&gt;
 </summary>
       <id>//faking-responsive.html</id>
-      <updated>2014-06-04T02:58:21-07:00</updated>
+      <updated>2014-06-04T05:58:21-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1260,7 +1825,7 @@ It has whitespace.&lt;/p&gt;
 
 </summary>
       <id>//paying-for-college.html</id>
-      <updated>2014-05-26T09:57:51-07:00</updated>
+      <updated>2014-05-26T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1311,7 +1876,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Overall, I&#39;ve been pretty happy with the switch and have only opened Photoshop if another design gets handed to me. I&#39;ve really been loving all the plugins that keep popping up. It seems like the majority of users are really into open source and already are active on github. Sketch has been working great for me. If you&#39;re struggling with one tool, maybe you should give something else a try for a while. If you&#39;re not, then keep on designing! It&#39;s all a means to a polished final product and whatever&#39;s going to help you produce the best work is what you should be using.&lt;/p&gt;
 </summary>
       <id>//why-i-switched-to-sketch.html</id>
-      <updated>2014-05-15T07:32:51-07:00</updated>
+      <updated>2014-05-15T10:32:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1345,7 +1910,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;I&#39;ve fallen victim to this as well. It&#39;s easy not to get too attached. But it&#39;s also monotonous. The meaty, rich parts of life come from deeper connections between people and the only way to get that is to be more empathetic in our relationships. I&#39;m going to start small and try to keep empathy in the front of my mind. It&#39;s not going to change the city, and I&#39;m not trying to solve all the problems, but it&#39;s a start. Small steps.&lt;/p&gt;
 </summary>
       <id>//what-dc-lacks.html</id>
-      <updated>2014-04-19T00:00:00-07:00</updated>
+      <updated>2014-04-19T00:00:00-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1369,7 +1934,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Now, being on the other side of that relationship, I really hoping that I can inspire my students with that same feeling of awe at building something from scratch and having it come to life. That&#39;s the feeling that lets me know I wouldn&#39;t want to be in any other career.&lt;/p&gt;
 </summary>
       <id>//ducklings.html</id>
-      <updated>2014-04-09T09:57:51-07:00</updated>
+      <updated>2014-04-09T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1405,7 +1970,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://distilleryimage10.ak.instagram.com/c64c7854bc7e11e3affe0002c9c90082_8.jpg&quot; alt=&quot;Joseph Abrams and me with cigars&quot; /&gt;&lt;/p&gt;
 </summary>
       <id>//some-highlights-from-grok.html</id>
-      <updated>2014-04-07T09:57:51-07:00</updated>
+      <updated>2014-04-07T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1435,7 +2000,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://distilleryimage0.ak.instagram.com/7382750ab9cd11e38efb0a406416de40_8.jpg&quot; alt=&quot;Looking out over the wing of the plane at Barcelona and the coast&quot; /&gt;&lt;/p&gt;
 </summary>
       <id>//a-little-solo-travel.html</id>
-      <updated>2014-04-05T09:57:51-07:00</updated>
+      <updated>2014-04-05T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1508,7 +2073,7 @@ It has whitespace.&lt;/p&gt;
 
 </summary>
       <id>//courtplay.html</id>
-      <updated>2014-03-20T09:57:51-07:00</updated>
+      <updated>2014-03-20T12:57:51-04:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1573,7 +2138,7 @@ It has whitespace.&lt;/p&gt;
 &lt;img src=&quot;/assets/img/croplife/croplife-vis-resources.jpg&quot; alt=&quot;Resources&quot; /&gt;&lt;/p&gt;
 </summary>
       <id>//croplife.html</id>
-      <updated>2014-02-09T08:57:51-08:00</updated>
+      <updated>2014-02-09T11:57:51-05:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>

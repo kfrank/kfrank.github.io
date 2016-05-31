@@ -154,6 +154,18 @@ function playPause(){
 
 One of the big requests that Courtney received was the ability to scrub through a track. I use this a lot on Soundcloud and Rdio to see if the track has enough pull to even consider listening all the way through and eventually put on Next Week’s Playlist.
 
+To accomplish this, we need to track the position of the mouse click along one axis in the progress bar.
+
+```
+// Get click point
+```
+
+From there, we can calculate the percentage and apply it to the track.
+
+```
+// Apply it to current audio
+```
+
 ##Criticisms
 
 The way I used javascript requires everything in the html to be in its proper order. Using jquery to grab a sibling by element instead of using javascript to grab a sibling by node index is a lot more forgiving.

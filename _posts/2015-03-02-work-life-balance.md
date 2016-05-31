@@ -3,7 +3,7 @@ layout: post
 title: Guest Post — Balancing Work and Home is Key
 date: 2015-03-03 16:57:51
 category: thoughts
-published: true
+published: false
 ---
 
 <i>I see a lot of my peers in situations that lead them to long hours at work, working on weekends, and taking naps at work. At some companies, this behavior is encouraged and seen as a sign of dedication. At others ([such as I the one I work at](http://www.washingtonpost.com/local/at-some-start-ups-fridays-are-so-casual-everyone-can-stay-home/2015/02/06/31e8407e-9d1c-11e4-96cc-e858eba91ced_story.html)), time outside of work is valued to prevent burnout and promote smarter work. </i>
