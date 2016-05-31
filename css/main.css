@@ -537,13 +537,13 @@ footer {
     letter-spacing: 0.1em; }
 
 header.home {
-  background: #000 url(../assets/img/bg.jpg) center bottom no-repeat;
-  background-size: 100%;
+  background: #06113A url(../assets/img/bg.jpg) center;
   min-height: 60%;
   padding: 2em 1.5em;
   box-sizing: border-box; }
   @media screen and (min-width: 50em) {
     header.home {
+      background-size: cover;
       background-attachment: scroll;
       padding: 2em 2.5em; } }
   header.home .title {
@@ -552,7 +552,9 @@ header.home {
     @media screen and (min-width: 50em) {
       header.home .title {
         position: relative;
-        top: 10%; } }
+        top: 50%;
+        -webkit-transform: translateY(-75%);
+        transform: translateY(-75%); } }
   header.home h1 a {
     font: 600 1.5rem/1 effra, sans-serif;
     color: #fff;
