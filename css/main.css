@@ -556,18 +556,19 @@ header.home {
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(0,0,0,0.2);
-      background: -moz-linear-gradient(left, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 50%);
-      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.2)), color-stop(50%, rgba(0,0,0,0)));
-      background: -webkit-linear-gradient(left, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 50%);
-      background: -o-linear-gradient(left, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 50%);
-      background: -ms-linear-gradient(left, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 50%);
-      background: linear-gradient(to right, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0) 50%);
+      background: rgba(0,0,0,0.4);
+      background: -moz-linear-gradient(left, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 50%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0.4)), color-stop(50%, rgba(0,0,0,0)));
+      background: -webkit-linear-gradient(left, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 50%);
+      background: -o-linear-gradient(left, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 50%);
+      background: -ms-linear-gradient(left, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 50%);
+      background: linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 50%);
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
     }}
   header.home .title {
     position: relative;
-    margin-bottom: 4em; }
+    margin-bottom: 4em;
+    z-index: 5;}
     @media screen and (min-width: 50em) {
       header.home .title {
         position: relative;
@@ -581,7 +582,9 @@ header.home {
     letter-spacing: 0.25em;
     -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
-    z-index: 5;}
+    z-index: 5;
+    cursor: pointer;
+  }
     header.home h1 a:hover {
       color: #4A90E2; }
   header.home p {
