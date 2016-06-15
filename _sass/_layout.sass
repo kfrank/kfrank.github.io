@@ -1,0 +1,178 @@
+/**
+ * Global
+ */
+
++component('list')
+  &-inline
+    @extend %clear-ul
+  &-item
+    +when('inline')
+      display: inline-block
+
+/**
+ * Index
+ */
+
+body
+  +media-query($on-medium)
+    margin: 20px
+
+.wrapper
+  background: $background-color
+  max-width: 1200px
+  margin: 0 auto
+  +media-query($on-medium)
+    margin-bottom: 20px
+
+// Hero
+
++component('hero')
+  position: relative
+  background: $background-alt-color
+  @extend %grid
+  +media-max($on-small)
+    padding: 0 5%
+  +media-query($on-medium)
+    height: 70vw
+  +media-query($on-large)
+    height: 50vw
+  +media-query($on-xlarge)
+    height: 40vw
+    max-height: 600px
+
+  &-content
+    height: 100%
+
+  &-img
+    margin: 10% 0 10% -20px
+    overflow: hidden
+    position: relative
+    display: none
+    +media-query($on-medium)
+      display: block
+    img
+      max-width: initial
+      max-height: 100%
+      +position(absolute, right 0)
+    +media-query($on-large)
+      margin: 6% 0 6% -20px
+      
+
+  &-content, &-img
+    @extend %grid-item--half
+    
+  &-logo, &-title, &-break, &-nav
+    +media-query($on-medium)
+      margin-left: -5%
+
+  &-align
+    @extend %vertical-align
+    +media-max($on-small)
+      transform: none
+    
+  &-logo
+    margin-top: 2em
+    margin-bottom: 0.25em
+
+  &-title
+    color: #fff
+    font: 900 2.5em/1.35 $secondary-font-family
+    margin-top: 1em
+    margin-bottom: 1em
+    +media-query($on-medium)
+      padding-right: 10%
+    +media-query($on-large)
+      margin-top: 0.5em
+      margin-bottom: 0.5em
+      font: 900 3em/1.35 $secondary-font-family
+
+  &-nav
+    font: 700 0.875em/1 $base-font-family
+    letter-spacing: 0.3em
+    text-transform: uppercase
+    .list
+      &-link
+        padding: 1em 
+        color: #fff
+      &-item
+        padding: 3em 0
+        &:first-child
+          .list-link
+            padding-left: 0
+
+// Work List
++component('section')
+
+.section-heading
+  font: 700 1.125em/1 $base-font-family
+  letter-spacing: 0.3em
+  text-transform: uppercase
+  +when('projects')
+    display: inline-block
+    margin: 3.5em 5% 1em
+    padding-left: 100px
+    position: relative
+    &:before
+      content: ""
+      background: url(../img/swiggle.svg)
+      +position(absolute, bottom 4px left 0)
+      width: 73px
+      height: 10px
+
++component('work-list')
+  @extend %clear-ul
+  @extend %grid
+  flex-wrap: wrap
+  margin-top: -4em
+  padding-bottom: 4em
+
+  &-link:hover
+    text-decoration: none
+
+  &-item
+    @extend %grid-item--half
+    padding: 0 5%
+    margin-bottom: 1em
+    box-sizing: border-box
+    &:nth-child(odd)
+      margin-top: 6em
+
+  &-img
+    position: relative
+    box-sizing: border-box
+    &.empty
+      width: 100%
+      height: 300px
+      background: $brand-color
+    &:before
+      content: ""
+      +position(absolute, bottom 2em left 5% right 5%)
+      width: 0
+      height: 2px
+      background: $text-color
+      opacity: 1
+      transition: all 0.3s ease
+      +when('link:hover')
+        opacity: 1
+        width: 90%
+
+  &-content
+    position: relative
+    color: $text-color
+    margin: -1.75em 5% 0
+    transition: all 0.2s ease
+    +when('link:hover')
+      transform: translateY(3em)
+
+  &-heading
+    font: 900 1.5em/1.3 $secondary-font-family
+    margin-bottom: 0.375em
+    @supports (font: 900 2rem/1.3 $secondary-font-family)
+      font: 900 2.25rem/1.3 $secondary-font-family
+
+  &-description
+    font: 300 1.125em/1.75 $base-font-family
+
+
+
+

@@ -1,0 +1,214 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure
+  margin: 0
+  padding: 0
+
+
+
+
+/**
+ * Basic styling
+ */
+body
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family
+  color: $text-color
+  background-color: #fff
+  -webkit-text-size-adjust: 100%
+  -webkit-font-feature-settings: "kern" 1
+  -moz-font-feature-settings: "kern" 1
+  -o-font-feature-settings: "kern" 1
+  font-feature-settings: "kern" 1
+  font-kerning: normal
+  -webkit-font-smoothing: antialiased
+  text-rendering: optimizeLegibility
+
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, %vertical-rhythm
+  margin-bottom: $spacing-unit / 2
+
+
+/**
+ * Images
+ */
+img
+  max-width: 100%
+  vertical-align: middle
+
+
+/**
+ * Figures
+ */
+figure > img
+  display: block
+
+
+figcaption
+  font-size: $small-font-size
+
+
+/**
+ * Lists
+ */
+ul, ol
+  margin-left: $spacing-unit
+
+li
+  > ul, > ol
+    margin-bottom: 0
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6
+  font-weight: $base-font-weight
+
+
+
+/**
+ * Links
+ */
+a
+  color: $brand-color
+  text-decoration: none
+
+  // &:visited
+  //   color: darken($brand-color, 15%)
+
+  &:hover
+    color: $text-color
+    text-decoration: underline
+
+
+/**
+ * Blockquotes
+ */
+blockquote
+  color: $grey-color
+  border-left: 4px solid $grey-color-light
+  padding-left: $spacing-unit / 2
+  font-size: 18px
+  letter-spacing: -1px
+  font-style: italic
+
+  > :last-child
+    margin-bottom: 0
+
+
+/**
+ * Code formatting
+ */
+pre, code
+  font-size: 15px
+  border: 1px solid $grey-color-light
+  border-radius: 3px
+  background-color: #eef
+
+code
+  padding: 1px 5px
+
+pre
+  padding: 8px 12px
+  overflow-x: auto
+
+  > code
+    border: 0
+    padding-right: 0
+    padding-left: 0
+
+//Padding mixin
+@mixin padding($top, $right, $bottom, $left)
+  padding-top: $top
+  padding-right: $right
+  padding-bottom: $bottom
+  padding-left: $left
+
+//Margin mixin
+@mixin margin($top, $right, $bottom, $left)
+  margin-top: $top
+  margin-right: $right
+  margin-bottom: $bottom
+  margin-left: $left
+
+@mixin position($position, $args)
+  position: $position
+  
+  $offsets: top right bottom left
+
+  @each $o in $offsets
+    $i: index($args, $o)
+    @if $i and $i + 1 <= length($args) and type-of( nth($args, $i + 1) ) == number
+      #{$o}: nth($args, $i + 1)
+
+
+/**
+ * Clearfix
+ */
+%clearfix
+
+  &:after
+    content: ""
+    display: table
+    clear: both
+
+/**
+ * Text align
+ */
+
+%text
+  @each $direction in (left, center, right)
+    &-#{$direction}
+      text-align: #{$direction}
+
+/**
+ * Vertical align
+ */
+
+%vertical-align
+  position: relative
+  top: 50%
+  transform: translateY(-50%)
+
+%clear-ul
+  margin: 0
+  padding: 0
+  list-style: none
+
+@mixin aspect-ratio($width, $height)
+  position: relative
+  &:before
+    display: block
+    content: ""
+    width: 100%
+    padding-top: ($height / $width) * 100%
+
+  > *
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+
+/**
+ * Icons
+ */
+.icon
+
+  > svg
+    display: inline-block
+    width: 16px
+    height: 16px
+    vertical-align: middle
+
+    path
+      fill: $grey-color
+

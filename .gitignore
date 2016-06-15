@@ -1,6 +1,3 @@
-.DS_Store
-CNAME
-Gemfile
-Gemfile.lock
+_site
 .sass-cache
-child/
+.jekyll-metadata
