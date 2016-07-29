@@ -542,10 +542,10 @@ header.home {
   min-height: 60%;
   padding: 2em 1.5em;
   box-sizing: border-box;
-  position: relative;}
+  position: relative;
+  background-size: cover;}
   @media screen and (min-width: 50em) {
     header.home {
-      background-size: cover;
       background-attachment: scroll;
       padding: 2em 2.5em; }
     header.home:after {
