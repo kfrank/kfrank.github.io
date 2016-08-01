@@ -558,7 +558,7 @@ header.home {
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.25em; }
-  header.home a {
+  header.home .title a {
     font: 400 0.875em/1 effra, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.25em;
