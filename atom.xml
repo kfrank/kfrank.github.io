@@ -4,45 +4,225 @@
   <id>/</id>
   <link href="/" />
   <link href="//atom.xml" rel="self" />
-  <updated>2016-05-31T17:15:23-04:00</updated>
+  <updated>2016-08-01T10:58:36-07:00</updated>
   <rights>Copyright 2014, Klare Frank</rights>
   <author>
     <name>Klare Frank</name>
   </author>
   
     <entry>
-      <title>How to Work Remotely Without Losing Your Mind</title>
-      <link href="//how-to-work-remotely.html" />
-      <summary type="html">&lt;p&gt;It’s been a little over a year since I started working for Treehouse, which meant giving up the office lifestyle. My previous experience working remotely was relegated to a few snow days stuck in southern Delaware and days before holidays.&lt;/p&gt;
+      <title>Techdegree Landing Page</title>
+      <link href="//techdegrees.html" />
+      <summary type="html">&lt;div class=&quot;content--post&quot;&gt;
 
-&lt;h3&gt;1. Have a separate work and home computer&lt;/h3&gt;
+&lt;p&gt;After designing and building the ui experience for Techdegree projects, local exercises, and exams, I switched over to the marketing team to help create the front-facing experience.&lt;/p&gt;
 
-&lt;p&gt;It&#39;s sort of a nod to my days working in government, but I firmly believe that work should be kept separate from anything else you do on a computer. I might close one laptop at the end of the work day and immediately open another, but the perception that I&#39;m leaving work for the day helps. I don&#39;t have any work related development environments set up on my ‘home’ computer (my macbook air), so the temptation to just do one more thing isn&#39;t there. There are some exceptions, like traveling. Lugging around both my macbook pro and my air seemed ridiculous when I moved from DC to Seattle, stopping on vacation for the weekend in Vegas. I usually only take my pro with me when traveling because light travel superceeds other priorities for me.&lt;/p&gt;
+&lt;p&gt;For the Techdegree program, we wanted to mature the Treehouse brand and take the visual style from something that was very round and heavy on illustrations to incorporating more diverse photography depicting real people and using more professional-leaning colors.&lt;/p&gt;
 
-&lt;h3&gt;2. Have a dedicated work area&lt;/h3&gt;
+&lt;p&gt;View the live page: &lt;a href=&quot;http://teamtreehouse.com/techdegree&quot;&gt;Techdegree home&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;But don&#39;t feel like you have to work from there all the time.&lt;/p&gt;
+&lt;h2&gt;Full Version&lt;/h2&gt;
 
-&lt;p&gt;Since I started at Treehouse, I&#39;ve had a dedicated desk at WeWork that houses my 27&quot; monitor and a much more traditional setup. For a while, I had trouble working on anything BUT that monitor, so it helped to set it up someplace that was out of my apartment where I knew would be quiet and I could get things done. Since I&#39;ve done a ton of traveling this year, I&#39;ve gotten more used to multi-tasking on my laptop, but it&#39;s still nice to know I have a dedicated workstation where I can absolutely get my work done.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;p&gt;However, I get a lot of benefit from switching up my working locations. I find that I&#39;m much more inspired when creating new design work if I go to someplace I don&#39;t usually work from. Taking advantage of the mobility that comes with working remotely has been great, so I don&#39;t try to force myself to go into an office everyday (just most days).&lt;/p&gt;
 
-&lt;h3&gt;3. Get out of your house/apartment every day&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/img/techdegree-marketing/techdegree-marketing-full@2x.jpg&quot; alt=&quot;Full comp&quot;&gt;&lt;/p&gt;
 
-&lt;p&gt;This was crucial when I lived in a 400 sq foot studio in DC. Since in person interaction was no longer a necessary part of my day to day, it was really easy to stay in for more than a day at a time. I might have some reserved tendancies, but for the most part, I&#39;m at my happiest when I get to talk to someone at least once every day.&lt;/p&gt;
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h3&gt;User Flows&lt;/h3&gt;
+&lt;p&gt;Since current students could also sign up for Techdegree, we needed a clear flow that included both them and potential students being directed through the page. Current students could signup using two different routes, through the techdegree page and also through their account settings, but both would end up at the same place. I created this userflow (using templates and icons I also designed) to make that clear.&lt;/p&gt;
+&lt;img src=&quot;/assets/img/techdegree-marketing/techdegree-marketing-userflow.png&quot; alt=&quot;Full comp&quot;&gt;
+&lt;/div&gt;
 
-&lt;p&gt;Going outside every day is also crucial in the Winter, to get some more sunlight and vitamin D. I only had one set of windows in my studio that looked out onto another (taller) apartment building, so the amount of light coming in was pretty small. Now that I&#39;m in Seattle, I get less amount of light in the Winter overall, so I&#39;m trying to be proactive about taking in that sunlight when I can (even if it&#39;s behind clouds most of the time).&lt;/p&gt;
 
-&lt;p&gt;And if it&#39;s raining, you don&#39;t have to go outside, but just get out and switch locations for a little while.&lt;/p&gt;
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+&lt;h2&gt;Wireframes&lt;/h2&gt;
+&lt;p&gt;This page went through a couple rounds of iterations where we refined copy and removed a few sections to speed up launch time. I decided to included comments for each section while creating wireframes to set the tone of the page and make sure each section had a specific purpose. This included adding two quesitons to each section: &#39;Who is this for?&#39; and &#39;What value does this add?&#39;. Each question would help inform how to design for the audience and which strengths to play.&lt;/p&gt;
+
+&lt;img src=&quot;/assets/img/techdegree-marketing/techdegree-marketing-sketch.jpg&quot; alt=&quot;Full comp&quot;&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/techdegree-marketing/techdegree-marketing-wireframes-comments.jpg&quot; alt=&quot;Full comp&quot;&gt;&lt;/p&gt;
+</summary>
+      <id>//techdegrees.html</id>
+      <updated>2016-05-20T09:57:51-07:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Local Exercises</title>
+      <link href="//treehouse-local-exercises.html" />
+      <summary type="html">&lt;div class=&quot;content--post&quot;&gt;
+
+    &lt;h2&gt;Context&lt;/h2&gt;
+    &lt;p&gt;This project started off brainstorming the most effective and easiest ways a student would be able to sync their work with Treehouse. Through a Techdegree program, we would give students code challenges they would need to complete using code editors or IDEs on their computer. This is especially important for iOS and Java tracks, as the level of challenges was more than simply completing a code string in browser. We also wanted to give students the ability to use code checking features available in their IDEs and code editors. This would help them get more comfortable with writing code like a professional.&lt;/p&gt;
+    &lt;p&gt;We ultimately decided to go with an experience that we could develop quickly and iterate on later. This decision was made so we could easily test the effectiveness of having students complete exercises on their computers and understand how that fit within our learning experience. To make this easy, we decided to let users upload their code and we would run several tests on it to check if it passed or failed, then give students the proper feedback in either scenerio.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h2&gt;Userflows&lt;/h2&gt;
+    &lt;p&gt;I started out by designing a userflow so my entire time was on the same page in regards to how our students would go about completing the projects.&lt;/p&gt;
+
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises_userflow@2x.png&quot; alt=&quot;Userflow&quot;&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h2&gt;Wireframes&lt;/h2&gt;
+    &lt;p&gt;I started off by creating wireframe prototypes in code using Treehouse&#39;s existing pattern library. Following the layout of our previous code challenges, I created screens that followed the userflow I had laid out and my team agreed upon. This made it easier for the developers I was working with to start in on integrating the flow and building out the experience while I was refining visual designs.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-wireframes-01@2x.png&quot; alt=&quot;Wireframes&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-wireframes-02@2x.png&quot; alt=&quot;Wireframes&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-wireframes-03@2x.png&quot; alt=&quot;Wireframes&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-wireframes-04@2x.png&quot; alt=&quot;Wireframes&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h2&gt;Visual Design&lt;/h2&gt;
+    &lt;h3&gt;Refining the UI&lt;/h3&gt;
+    &lt;p&gt;After my team further discussed the wireframe and flow, I refined the layout and visual designs of the screens, moving the primary actions to the top in a centralized area and adding feedback and tips to create context for students around the experience.&lt;/p&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-comps-01@2x.png&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-comps-03-loading@2x.png&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-comps-03c-loading-ended@2x.png&quot; alt=&quot;Visual designs&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;grid__item grid__item--half&quot;&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-comps-02-upload@2x.png&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-comps-03b-loading-results@2x.png&quot; alt=&quot;Visual designs&quot;&gt;
+        &lt;br&gt;
+        &lt;img src=&quot;/assets/img/local-exercises/local-exercises-comps-04-complete@2x.png&quot; alt=&quot;Visual designs&quot;&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&quot;content--post&quot;&gt;
+    &lt;h3&gt;Creating the Pinata&lt;/h3&gt;
+    &lt;p&gt;For the first iteration of local exerices, we realized we would have a period of time that the uploaded code would need to be run through several tests. Since this would take some time, and we weren&#39;t quite sure how long, I knew that students would need some sort of feedback to indicate tests were still running smoothly.&lt;/p&gt;
+    &lt;p&gt;Instead of creating a loading animation or progress bar, I decided to make the experience more interactive and give sudents something fun to do while they waited, hence the pinata. Students could interact with the pinata and it would serve as a little &#39;easter egg&#39; to add delight to an otherwise mundane, non-user focused part of the experience.&lt;/p&gt;
+    &lt;img src=&quot;/assets/img/local-exercises/pinata.jpg&quot; alt=&quot;Pinata&quot;&gt;
+    &lt;p&gt;I illustrated the pinata in Adobe Illustrator before exporting it to svg. From there, I experimented in &lt;a href=&quot;http://codepen.io/klare/pen/gPQLzy&quot;&gt;Codepen with Greensock&#39;s tweening library&lt;/a&gt; to animate it in a back and forth swinging motion . From there I added click events and animated the eyes rolling and the pinata swinging even further up and away based on how far from the center a person clicked. &lt;a href=&quot;http://codepen.io/klare/pen/eZEPaq&quot;&gt;See Codepen experiement&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+</summary>
+      <id>//treehouse-local-exercises.html</id>
+      <updated>2016-03-30T09:57:51-07:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>Being Creative When You’re Just Not Feeling It</title>
+      <link href="//being-creative-when-youre-not-feeling-it.html" />
+      <summary type="html">&lt;p&gt;I have a confession: I used the tips outlined for this post to write it. I wasn’t feeling inspired or creative enough to just sit down and start writing. Sometimes that happens, but as a designer with deadlines and teammates relying on me to execute great work, there’s no possibility of pushing off a project because I’m not feeling 110% up to it. When I’m not feeling that creative, I just have to suck it up, push through, and do the work anyway.&lt;/p&gt;
+
+&lt;p&gt;We’ve largely been tricked into this notion that a low point in creativity is a block, like an impassible boulder in a trail, and that great work comes from moments of divine inspiration. When we don’t have that inspiration we sit around, lost and frustrated, waiting for it to appear in a lightning-like moment that’ll bring about clarity. In reality, these aha moments strike about as often as lightning and most of us don’t have the luxury of waiting.&lt;/p&gt;
+
+&lt;p&gt;I like to think of inspiration as a short cut in the process of creating, like an easier switchback up the mountain. Without it, the journey is straight up, fighting against the tough climb in elevation. Through perseverance, both paths still lead to a magnificent view at the top. There is no secret to creativity: it’s just about not giving up. Instead of sitting around waiting for inspiration to strike, do something about it and fight back.&lt;/p&gt;
+
+&lt;p&gt;Here are three tactics I use to reignite and keep my creativity flowing, so when I’m not feeling it I can still execute great work.&lt;/p&gt;
+
+&lt;h2&gt;1. Change your perspective&lt;/h2&gt;
+
+&lt;blockquote&gt;&lt;p&gt;Change will lead to insight far more often than insight will lead to change. — Milton Erikson&lt;/p&gt;&lt;/blockquote&gt;
+
+&lt;h3&gt;Rethink what creativity is&lt;/h3&gt;
+
+&lt;p&gt;When I show my work to friends, I am told all the time, ‘I couldn’t do that, I’m just not creative enough.’ This really irks me. The lie commonly told about creativity is that it’s an innate ability: some people have it and some don’t.&lt;/p&gt;
+
+&lt;p&gt;In the article &lt;a href=&quot;http://99u.com/articles/35045/5-creativity-myths-you-probably-believe&quot;&gt;5 Creativity Myths You Probably Believe&lt;/a&gt;, Christian Jarrett writes:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Not only is it a simplification to label creativity as the exclusive domain of the right-brain, it’s also mistaken to claim that some people are right-brained and some people left-brained. In 2013, researchers scanned the brains of over a thousand people and &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071275&quot;&gt;found no evidence for this way of categorizing people&lt;/a&gt;. Calling someone right-brained” or “left-brained” is as useful as saying that someone is Virgo or Pisces.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Creativity isn’t the preserve of one side of the brain, and it isn’t a talent confined to people with a special kind of brain. Real neuroscience says: if you’re human and you’ve got a brain, you’re capable of being creative.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Science proves it: you can’t blame a lack of creativity on something you do or don’t have. I always respond to those who claim they aren’t creative by saying that perceived creativity is more a matter of hard work and practice. If you work at being creative everyday, over time you’ll realize that your creativity levels aren’t constant. Some days you might feel completely inspired, and others it’ll be hard to work, but it’s ok as long as you continue practicing creativity and feel more comfortable beginning projects, large or small.&lt;/p&gt;
+
+&lt;h3&gt;Literally change your perspective&lt;/h3&gt;
+
+&lt;p&gt;When I’m feeling stuck, I pack up my computer and set up at a different location. Usually it’s going to a coffeeshop or the library and working for a couple hours, but if I’m feeling especially uninspired, I’ll go to a different city for a week. If you aren’t remote, move from your desk and try a new spot in the office. Sometimes even a simple move can do a lot for making you feel less stuck.&lt;/p&gt;
+
+&lt;p&gt;I use this method of changing locations a lot. I’ve learned that getting out of what I consider comfortable is a great way to explore new ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The reason such travels are mentally useful involves a quirk of cognition, in which problems that feel “close” — and the closeness can be physical, temporal or even emotional — get contemplated in a more concrete manner. As a result, when we think about things that are nearby, our thoughts are constricted, bound by a more limited set of associations. While this habit can be helpful — it allows us to focus on the facts at hand — it also inhibits our imagination.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— Jonah Lehrer, &lt;a href=&quot;http://www.theguardian.com/travel/2010/mar/14/why-travel-makes-you-smarter?page=all&quot;&gt;Why travel makes you smarter&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Imagination is exactly what I sometimes need to start an illustration for part of a page or think about how a new layout could enhance an experience. When I’m forced outside of my comfort zone, my brain is pushed to respond in new ways, and those new ideas are what’s needed when I’m starting a project.&lt;/p&gt;
+
+&lt;h2&gt;2. Make it a habit&lt;/h2&gt;
+
+&lt;p&gt;I started a new experiment a few weeks ago to see if I could gradually increase how creative I felt. For thirty minutes every day, I do something creative that doesn’t involve staring at a screen. I’ve mostly been hand lettering, doing watercolor landscapes, and woodworking. I have a tendency to overthink problems before I start them, which can be useful for some UX problems, but other times it can backfire. Honestly some days I miss doing my thirty minutes, but overall it’s increased my drive to just start creating.&lt;/p&gt;
+
+&lt;p&gt;Other designers have taken thirty day challenges when they’re in creative blocks with wildly successful results. Jessica Hische started doing a daily illustrative drop (or initial) cap in September 2009 to keep her motivated and inspired when work was slow which helped launch her lettering career. If you’re not feeling inspired to start, How Design has a 30-day challenge with an idea every day.&lt;/p&gt;
+
+&lt;p&gt;By allowing myself to just create for the sake of making, I’m more open to let ideas through that I’d otherwise ignore. By making it a daily habit, I’m assured that I’m capable of executing creative work, and have ideas to draw from when I get stuck. The more I feel I’m creating regularly, filling in those gaps when work is slow and boosting creativity with short projects without expectations, the more confident I feel to start work projects.&lt;/p&gt;
+
+&lt;h2&gt;3. Get out from behind the screen&lt;/h2&gt;
+
+&lt;p&gt;Halfway through writing this, I got stuck staring at an unchanging screen and thought it would be a perfect time to recharge with a short walk to the library. After all, it was sunny outside and having just gotten through an entire Seattle winter, it’s been a rare sight. Removing myself from the problem gives my brain enough time to think about other things and be inspired by different surrounds.&lt;/p&gt;
+
+&lt;p&gt;In fact, in a March 2016 study called &lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/13546783.2016.1141798?journalCode=ptar20&amp;amp;&quot;&gt;Insightful Solutions Are Correct More Often Than Analytical Solutions&lt;/a&gt;, a research team tested participants in their strategies in finding solutions. They found that participants who gave their ideas time to develop by were more likely arrive at the correct answer than participants who forced through a problem with analytical thought, which sometimes lead to sloppy and rushed mistakes.&lt;/p&gt;
+
+&lt;p&gt;Even if it may seem counterintuitive to put aside work and seek out inspiration in other forms, it can often lead to better results. So go take that walk. Go for a run. Give your brain a short break.&lt;/p&gt;
+
+&lt;h2&gt;If you’re still uninspired, work through it&lt;/h2&gt;
+
+&lt;p&gt;When I’m beginning a page design, I like to start by outlining all the components of the page I think I need. It helps to wrap my mind around all the pieces that’ll make up the whole. Sometimes the act of starting, whether that’s the whole layout or an illustration in the page, is enough of a push to get me inspired to complete a project.&lt;/p&gt;
+
+&lt;p&gt;It also helps to go low fidelity and start sketching basic ideas (even if you don’t think you can sketch well). There’s a good reason why logo designers fill up pages full of ideas before arriving at a solution. Sketching is a low pressure and a faster way to get ideas out. Even if you feel silly sketching an idea, remember it’s only living in a sketchbook you’ll see.&lt;/p&gt;
+
+&lt;p&gt;Another quick tactic is scrolling through inspiration. As much as Dribbble is criticized for delivering pixel perfect work, it still serves as a great way to get inspired. One of my go-to ways is to search by color, which helps me understand quickly which colors look great together instead of going through a trial and error in Sketch or Illustrator.&lt;/p&gt;
+
+&lt;p&gt;Finally, get feedback. If you’re absolutely stuck, you probably haven’t asked for help yet. Colleagues can look at work with fresh eyes and introduce new ideas that you wouldn’t have thought of, which can be exactly what you need when you’re stuck in your own head.&lt;/p&gt;
+
+&lt;p&gt;I want to end with this quote from Jonathan Fields that reiterates how starting a project is never completely easy, but that’s ok:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Nothing truly innovative, nothing that has advanced art, business, design, or humanity, was ever created in the face of genuine certainty or perfect information. Because the only way to be certain before you begin is if the thing you seek to do has already been done.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;— Jonathan Fields, &lt;a href=&quot;http://www.amazon.com/exec/obidos/ASIN/1591845661/braipick-20&quot;&gt;Uncertainty: Turning Fear and Doubt into Fuel for Brilliance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;There are some other things that might be good practices, such as not lounging in your pjs all day and waking up early, but overall, I&#39;ve found these things to be more every day things than work day things (with some exceptions, of course). I&#39;d also love to have more designers to interact with on a daily basis in-person, but this is more of a nice to have and not a must have.&lt;/p&gt;
-
-&lt;p&gt;Overall, my criteria for keeping sane involves providing myself with enough tools to get my work done efficiently, and keeping myself happy by providing enough in-person interaction that I don&#39;t get from a job daily.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post was originally published on &lt;a href=&quot;https://medium.com/treehouse-engineering/being-creative-when-you-re-just-not-feeling-it-9dd55034207d#.sbiaoqgkz&quot;&gt;Medium&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 </summary>
-      <id>//how-to-work-remotely.html</id>
-      <updated>2015-12-07T10:07:51-05:00</updated>
+      <id>//being-creative-when-youre-not-feeling-it.html</id>
+      <updated>2016-03-23T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -193,7 +373,45 @@
 
 </summary>
       <id>//career-program.html</id>
-      <updated>2015-08-01T12:57:51-04:00</updated>
+      <updated>2015-08-01T09:57:51-07:00</updated>
+      <author>
+        <name>Klare Frank</name>
+      </author>
+    </entry>
+  
+    <entry>
+      <title>How to Work Remotely Without Losing Your Mind</title>
+      <link href="//how-to-work-remotely.html" />
+      <summary type="html">&lt;p&gt;It’s been a little over a year since I started working for Treehouse, which meant giving up the office lifestyle. My previous experience working remotely was relegated to a few snow days stuck in southern Delaware and days before holidays.&lt;/p&gt;
+
+&lt;h3&gt;1. Have a separate work and home computer&lt;/h3&gt;
+
+&lt;p&gt;It&#39;s sort of a nod to my days working in government, but I firmly believe that work should be kept separate from anything else you do on a computer. I might close one laptop at the end of the work day and immediately open another, but the perception that I&#39;m leaving work for the day helps. I don&#39;t have any work related development environments set up on my ‘home’ computer (my macbook air), so the temptation to just do one more thing isn&#39;t there. There are some exceptions, like traveling. Lugging around both my macbook pro and my air seemed ridiculous when I moved from DC to Seattle, stopping on vacation for the weekend in Vegas. I usually only take my pro with me when traveling because light travel superceeds other priorities for me.&lt;/p&gt;
+
+&lt;h3&gt;2. Have a dedicated work area&lt;/h3&gt;
+
+&lt;p&gt;But don&#39;t feel like you have to work from there all the time.&lt;/p&gt;
+
+&lt;p&gt;Since I started at Treehouse, I&#39;ve had a dedicated desk at WeWork that houses my 27&quot; monitor and a much more traditional setup. For a while, I had trouble working on anything BUT that monitor, so it helped to set it up someplace that was out of my apartment where I knew would be quiet and I could get things done. Since I&#39;ve done a ton of traveling this year, I&#39;ve gotten more used to multi-tasking on my laptop, but it&#39;s still nice to know I have a dedicated workstation where I can absolutely get my work done.&lt;/p&gt;
+
+&lt;p&gt;However, I get a lot of benefit from switching up my working locations. I find that I&#39;m much more inspired when creating new design work if I go to someplace I don&#39;t usually work from. Taking advantage of the mobility that comes with working remotely has been great, so I don&#39;t try to force myself to go into an office everyday (just most days).&lt;/p&gt;
+
+&lt;h3&gt;3. Get out of your house/apartment every day&lt;/h3&gt;
+
+&lt;p&gt;This was crucial when I lived in a 400 sq foot studio in DC. Since in person interaction was no longer a necessary part of my day to day, it was really easy to stay in for more than a day at a time. I might have some reserved tendancies, but for the most part, I&#39;m at my happiest when I get to talk to someone at least once every day.&lt;/p&gt;
+
+&lt;p&gt;Going outside every day is also crucial in the Winter, to get some more sunlight and vitamin D. I only had one set of windows in my studio that looked out onto another (taller) apartment building, so the amount of light coming in was pretty small. Now that I&#39;m in Seattle, I get less amount of light in the Winter overall, so I&#39;m trying to be proactive about taking in that sunlight when I can (even if it&#39;s behind clouds most of the time).&lt;/p&gt;
+
+&lt;p&gt;And if it&#39;s raining, you don&#39;t have to go outside, but just get out and switch locations for a little while.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;There are some other things that might be good practices, such as not lounging in your pjs all day and waking up early, but overall, I&#39;ve found these things to be more every day things than work day things (with some exceptions, of course). I&#39;d also love to have more designers to interact with on a daily basis in-person, but this is more of a nice to have and not a must have.&lt;/p&gt;
+
+&lt;p&gt;Overall, my criteria for keeping sane involves providing myself with enough tools to get my work done efficiently, and keeping myself happy by providing enough in-person interaction that I don&#39;t get from a job daily.&lt;/p&gt;
+</summary>
+      <id>//how-to-work-remotely.html</id>
+      <updated>2015-07-30T08:07:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -305,78 +523,192 @@
 &lt;p&gt;Interested in learning more about how to use the command line? Check out &lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line&quot;&gt;The Art of Command Line&lt;/a&gt;.&lt;/p&gt;
 </summary>
       <id>//terminal-commands.html</id>
-      <updated>2015-06-18T12:57:51-04:00</updated>
+      <updated>2015-06-18T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
     </entry>
   
     <entry>
-      <title>A designer’s perspective on solo travel</title>
-      <link href="//a-designers-perspective-on-solo-travel.html" />
-      <summary type="html">&lt;p&gt;Anyone who talks with me regularly will tell you that I have a strong case of wanderlust. If I haven’t traveled anywhere in a while, my conversations will usually include something along the lines of ‘Damn, I can’t wait to get out of here and go to ____’, tips on searching for cheap plane flights, or lol’ing at myself because I booked a flight without taking a second to think about it. Traveling tends to occupy a good portion of my thoughts, but I attribute it to my thirst for continually new experiences and having spent most of my college years majoring in Global Studies.&lt;/p&gt;
+      <title>Building a music player with pure javascript</title>
+      <link href="//building-a-music-player.html" />
+      <summary type="html">&lt;p&gt;I will preface this by saying I’m no expert in building javascript web apps from scratch. Most of the work I do using Javascript involves page interactions, working with apis, and prototyping. When my friend Courtney approached me with the idea to do a parody of our friends weekly playlist, This Week’s Playlist, I figured at the very least it would be a great way to exercise some js skills while putting my love of all types of music out there. This Week’s Playlist is a curated weekly playlist of (mostly) new music. Part of our goal for our parody, Next Week’s Playlist (launching on April Fool’s Day, of course), was to also focus on mostly new music, predicting what should be on next week’s This Week’s Playlist.&lt;/p&gt;
 
-&lt;h2&gt;Things I’ve Learned From Solo Travel&lt;/h2&gt;
+&lt;p&gt;I decided early on to test myself by only using pure javascript instead of relying on jquery. The first time I decided to not use jquery was on my coding assignment for my job application to Treehouse, where the functionality I wanted to accomplish was so small that adding an extra second of load time just to make five lines of code work seemed superfluous. While I knew there would be significantly more lines of code needed for Next Week’s Playlist, it seemed like a good opportunity to test out building in pure javascript.&lt;/p&gt;
 
-&lt;h3&gt;1. Trust that things will work out&lt;/h3&gt;
+&lt;h2&gt;Planning out the functionality&lt;/h2&gt;
 
-&lt;p&gt;My most recent trip to Croatia and Slovenia involved a lot of traveling to get to my next destination. Altogether, I took five flights, one bus, two trains, and rented a car to drive about five hours. I was paranoid that every one of my travel arrangements wouldn’t work out and spent a lot of time researching on tripadvisor about other people’s experiences prior to traveling.&lt;/p&gt;
+&lt;p&gt;I started by compiling a list of things we wanted the site to do, starting with the bare minimum needed for it to work:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-e-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-15/11055644_371692649690612_1050535963_n.jpg&quot; alt=&quot;Dubrovnik&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When a user clicks on a song, play the song&lt;/li&gt;
+&lt;li&gt;If a user clicks on a song that is playing, pause the song&lt;/li&gt;
+&lt;li&gt;When a song ends, play the next song&lt;/li&gt;
+&lt;li&gt;When a user presses the spacebar for the first time, play the first song&lt;/li&gt;
+&lt;li&gt;When a user presses the spacebar and a song is playing, pause the song&lt;/li&gt;
+&lt;li&gt;When a user presses the spacebar and a song is paused, play the song&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;But the bus from Dubrovnik to Split was waiting at the bus station when I arrived, clearly marked and impossible not to spot, and left promptly with only around fifteen people occupying the coach seats.&lt;/p&gt;
 
-&lt;p&gt;The car rental agency didn’t even ask any questions when I offered up a debit card instead of credit. I didn’t even have to turn on the GPS to find my way out of the city onto the main highway because the signage was so clear and hard not to miss.&lt;/p&gt;
+&lt;p&gt;We also wanted to add a feature to allow for links to external music services (if the song was available) and decided on a maximum of three: soundcloud, spotify, and rdio:&lt;/p&gt;
 
-&lt;p&gt;When I purchased my train ticket an hour before I was leaving Zagreb, the attendant spoke very little English, but I was able to communicate a round-trip ticket to Ljubljana. Even though I probably had a very confused look on my face when she handed me a ticket with handwritten destinations, I was able to get from Zagreb to Ljubljana and back painlessly (even with border control).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When a user clicks on a links button, toggle the links to external music services&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-c-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11015602_1617397625160658_187306894_n.jpg&quot; alt=&quot;Border Control between Croatia and Slovenia&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;When you’re traveling alone, there’s no one there to ask dumb questions to reassure yourself that everything’s going to work out just fine. But it’s not worth the extra pain involved in worrying if you got the right address, or if you communicated the right thing, or if the train you’re about to get on is actually going to the city you want (tip: just check the time, trains are pretty punctual). Things will work out more often than not, and if it doesn’t, hey, it’s an adventure.&lt;/p&gt;
+&lt;h2&gt;Starting with interactions&lt;/h2&gt;
 
-&lt;p&gt;When I’m designing, especially in UX, there’s usually a need to thoroughly research everything and while this is great for figuring out if users know where to click or if you’re really off from your target goal, most of the time there’s more than one solution. The amount of time spent researching might reveal that one solution is a little bit better than another, but is it worth the time spent researching beforehand or would it have just been better to launch and tweek later? (I lean more towards the latter.)&lt;/p&gt;
+&lt;p&gt;I usually start projects by laying out the interactions. In this case, it’s a spacebar press and when a track gets clicked.&lt;/p&gt;
 
-&lt;h3&gt;2. Learn to let go a bit of control&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;// Get all elements with a class of track
+var trackList = document.querySelectorAll(&#39;.track&#39;);
 
-&lt;p&gt;Along those lines, it’s really easy to want to know all the details of something before getting into a project or going on a trip. Quite a few years ago, I used to have so much anxiety about going anywhere new that I’d make sure to look on a map beforehand. And then google street view the shit out of it. And double check transit times. And nervously play with my hair for an hour before convincing myself out of going.&lt;/p&gt;
+// When the spacebar is pressed
+document.addEventListener(&#39;keypress&#39;, function(key){
+  if( key.keyCode == 32 ){
 
-&lt;p&gt;Same thing goes for doing days worth of design research on something I should’ve just jumped into and kicked around. Having a little bit of research to nudge a designer along in a certain direction is great, but it’s much better to just jump into something and figure out the right solution than spend time researching what the right solution may be. Because no one else has solved your problem yet.&lt;/p&gt;
+  }
+});
 
-&lt;p&gt;Towards the end of the trip, I started to let go of looking into every detail to make myself more comfortable with where I was going, how I was getting there, and what I was doing. I forgot to take screenshots of maps to places I was staying and instead relied on my general sense of direction, people (actual real people!), and wayfinding. These days, it’s more commonplace to turn first to the internet to look something up or ask a question when it’s probably quicker just asking in person. It’s ok to feel a little lost, but trust that you’ll find where you need to be.&lt;/p&gt;
+// When .track is clicked
+function playPause(){
+  trackList[i].addEventListener(&#39;click&#39;, function(e){
 
-&lt;h3&gt;3. Be friendly and say hi to just about everyone&lt;/h3&gt;
+  });
+}
 
-&lt;p&gt;Seriously. We could all just a bit more of this in our everyday lives. Think of your best friend and all the amazing things you’ve done together. Now just imagine all the people you encounter that you could potentially have similar experiences with. Once you start treating everyone as a potential friend and are open, traveling alone doesn’t seem so lonely.&lt;/p&gt;
+// Applying the function to all .track elements
+for ( i=0; i &amp;lt; trackList.length; i++ ) {
+  playPause();
+}
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xap1/t51.2885-15/1538412_938577112829495_280045765_n.jpg&quot; alt=&quot;Ljubljana&quot; /&gt;&lt;/p&gt;
+&lt;h2&gt;Using track index instead of attributes&lt;/h2&gt;
 
-&lt;p&gt;I met some great, friendly people throughout my trip who were able to show my around their city and give me an experience I probably wouldn’t have been able to have on my own.&lt;/p&gt;
+&lt;p&gt;This Week’s Playlist works by getting the value of the audio attribute on a selected track. Since all tracks are meant to be listed in numerical order, I decided to take this a step forward and get the index (+1) of the selected track.&lt;/p&gt;
 
-&lt;p&gt;But don’t stop there.&lt;/p&gt;
+&lt;p&gt;We’ll use a function to find the index of the selected song (either the song that is clicked or the song that is playing):&lt;/p&gt;
 
-&lt;p&gt;It’s really easy to get sucked back into the old ways of being so closed off in DC. Traveling alone helps me break free of that, speak my mind and realize I have a ton of interests other than just work and traveling. Every time I travel, I always try to bring a little bit more friendliness and openness back with me.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;function findIndex(el){
+  var i=1;
+  while(el.previousSibling){
+    el = el.previousSibling;
+    if(el.nodeType === 1){
+      i++;
+    }
+  }
+  return i;
+}
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;One caveat though, always be a little bit cautious and make sure you’re staying safe. Just because you’re traveling to a different city doesn’t mean you can just go wild. The same sort of city rules apply.&lt;/p&gt;
+&lt;h2&gt;Adding play and paused classes&lt;/h2&gt;
 
-&lt;h3&gt;4. Learn to just be&lt;/h3&gt;
+&lt;p&gt;Next, I added in the appropriate classes based on my base interactions. (Note that we’re still not introducing sound yet.)&lt;/p&gt;
 
-&lt;p&gt;Be alone. Be present. Be an actual human being instead of a robot tied to a phone.&lt;/p&gt;
+&lt;p&gt;First, we’ll need a function to check for if an element has a class:&lt;/p&gt;
 
-&lt;p&gt;My first night in Dubrovnik went something a little like this:
-Holy crap this is an awesome place to stay, hell yes bathrobes. &lt;em&gt;Pats self on back and gets ready for bed.&lt;/em&gt; Now just to plug in my phon— Well, damn. Forgot my adapter.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// A function to check if an element has a class
+function hasClass(el, cls) { 
+  return el.className &amp;amp;&amp;amp; new RegExp(&#39;(\\s|^)&#39; + cls + &#39;(\\s|$)&#39;).test(el.className);
+}
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;For the first half of the trip, I went without a phone charger, so I HAD to reserved the battery for picture-taking instead of wasting it all on twitter, meerkat, or whatever everyone was into during that time.&lt;/p&gt;
+&lt;p&gt;For a spacebar press, I’ll add a class of playing to the first song if nothing has been played yet, and a class of activated to the playlist so that I can style it a bit.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xpf1/t51.2885-15/10808621_486050114876248_1907485950_n.jpg&quot; alt=&quot;Plitvice National Park&quot; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// When the spacebar is pressed
+document.addEventListener(&#39;keypress&#39;, function(key){
+  if( key.keyCode == 32 ){
+    // If no songs have been played yet
+    if (document.querySelectorAll(&#39;.playing&#39;).length == 0) {
+      index = 0, // Setting the song index
+      trackList[index].parentNode.classList.add(&#39;playing&#39;),
+      document.querySelectorAll(&#39;.playlist&#39;)[0].classList.add(&#39;activated&#39;);
+    } else if ( trackList[index].parentNode.classList[1] == &#39;paused&#39; ) {
+    // If a user pressed the spacebar when a song is paused, play the song
+      trackList[index].parentNode.classList.remove(&#39;paused&#39;);
+    } else {
+    // If a user pressed the spacebar when a song is playing, pause the song
+      trackList[index].parentNode.classList.add(&#39;paused&#39;);
+    }
+    key.preventDefault();
+  }
+});
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;This has also been the second solo trip I decided not to get a sim card for my phone in order to use it on local cell networks. That meant no google maps, foursquare, etc. outside of any wifi networks. The longer I stopped looking at my phone, the less I kept reaching for it, instead just taking in the sights for as long as I wanted.&lt;/p&gt;
+&lt;p&gt;For a song click, we&#39;ll add similar classes of activated, playing, and paused:&lt;/p&gt;
 
-&lt;p&gt;Not being surrounded by friends, in real life or virtually, most of the time also meant a lot of alone time. Just me. Chilling with my thoughts about life and things. I finished the one book I brought three days into my trip and spent most of my four hour bus ride from Dubrovnik to Split staring out the window at the gorgeous coastline and riveria. Not for one second would I have traded that for seeing someone’s tweet or reading a book.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;// When .track is clicked
+function playPause(){
+  trackList[i].addEventListener(&#39;click&#39;, function(e){
+    // Saves li instead of a
+    var selected = this.parentNode;
+    // Finds index of the selected li
+    index = findIndex(selected);
 
-&lt;p&gt;&lt;img src=&quot;https://igcdn-photos-d-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-15/11084856_867417309971923_497227918_n.jpg&quot; alt=&quot;Ljubljana&quot; /&gt;&lt;/p&gt;
+    // If a song is being played for the first time, add a class to .playlist
+    if( !hasClass(document.querySelectorAll(&#39;.playlist&#39;)[0], &#39;activated&#39;) ){
+      document.querySelectorAll(&#39;.playlist&#39;)[0].classList.add(&#39;activated&#39;);
+    }
+
+    // If selected 
+    if( hasClass(selected, &#39;playing&#39;) || (document.querySelectorAll(&#39;.playing&#39;).length !== 0)){
+      if (!hasClass(selected, &#39;playing&#39;) &amp;amp;&amp;amp; (document.querySelectorAll(&#39;.playing&#39;).length !== 0)) {
+        if (selected.parentNode.hasChildNodes()){
+          var children = selected.parentNode.childNodes;
+          for (var i = 1; i &amp;lt; children.length; i+=2) {
+            children[i].classList.remove(&#39;playing&#39;,&#39;paused&#39;);
+          }
+        };
+      }
+    } 
+
+      e.preventDefault();
+
+      return song.play(),
+      selected.classList.add(&#39;playing&#39;);
+      if (!hasClass(selected, &#39;paused&#39;) &amp;amp;&amp;amp; song.currentTime &amp;gt; 0) {
+        song.pause(),
+        selected.classList.add(&#39;paused&#39;);
+      } else {
+
+      }
+      !hasClass(selected, &#39;paused&#39;) &amp;amp;&amp;amp; song.currentTime &amp;gt; 0 ? (song.pause(), selected.classList.add(&#39;paused&#39;)) : hasClass(selected, &#39;paused&#39;) &amp;amp;&amp;amp; song.currentTime &amp;gt; 0 &amp;amp;&amp;amp; selected.classList.remove(&#39;paused&#39;); !1;
+  });
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Adding in extra features&lt;/h2&gt;
+
+&lt;p&gt;One of the big requests that Courtney received was the ability to scrub through a track. I use this a lot on Soundcloud and Rdio to see if the track has enough pull to even consider listening all the way through and eventually put on Next Week’s Playlist.&lt;/p&gt;
+
+&lt;p&gt;To accomplish this, we need to track the position of the mouse click along one axis in the progress bar.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Get click point
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;From there, we can calculate the percentage and apply it to the track.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Apply it to current audio
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Criticisms&lt;/h2&gt;
+
+&lt;p&gt;The way I used javascript requires everything in the html to be in its proper order. Using jquery to grab a sibling by element instead of using javascript to grab a sibling by node index is a lot more forgiving.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$(this).siblings(&#39;li&#39;).children(&#39;.track&#39;);
+
+// compared to:
+
+this.parentNode.childNodes[0];
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2&gt;Takeaways&lt;/h2&gt;
+
+&lt;p&gt;While this was an interesting exercise in creating something using pure javascript, it could be done easier using libraries. It also doesn&#39;t take into consideration pulling in tracks from different sources; it&#39;s definitely a first iteration. That being said, we shouldn&#39;t be automatically turning to JQuery for everything, especially when it could be written as simply and load way faster without a library.&lt;/p&gt;
 </summary>
-      <id>//a-designers-perspective-on-solo-travel.html</id>
-      <updated>2015-04-02T12:57:51-04:00</updated>
+      <id>//building-a-music-player.html</id>
+      <updated>2015-04-15T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -424,7 +756,7 @@ I am the captain of my soul.&lt;/em&gt;&lt;br&gt;
 — William Ernest Henley&lt;/p&gt;
 </summary>
       <id>//getting-started.html</id>
-      <updated>2015-02-18T11:57:51-05:00</updated>
+      <updated>2015-02-18T08:57:51-08:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -494,63 +826,7 @@ I am the captain of my soul.&lt;/em&gt;&lt;br&gt;
 &lt;p&gt;&lt;i&gt;Louisa Frank is a retired Senior Vice President of Technology at Bank of America. After starting her career at the University of Delaware Plato Project, she went on to work in several major companies, progressing from software developer to software team leader, software manager, and finally technology executive. A few years ago, she retired early and revisited her programming roots, amongst other things, learning HTML and CSS, programming and maintaining a website for a non-profit firm, Water Is Life Kenya, and maintaining her own website, &lt;a href=&quot;http://thisislafrank.com&quot;&gt;thisislafrank.com&lt;/a&gt;. You can contact her at her website or at &lt;a href=&quot;mailto:thisislafrank@gmail.com&quot;&gt;thisislafrank@gmail.com&lt;/a&gt;.&lt;/i&gt;&lt;/p&gt;
 </summary>
       <id>//why-i-decided-to-learn-to-program.html</id>
-      <updated>2015-01-12T11:57:51-05:00</updated>
-      <author>
-        <name>Klare Frank</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>Lessons and Resolutions</title>
-      <link href="//lessons-and-resolutions.html" />
-      <summary type="html">&lt;p&gt;I don’t make resolutions. Ever since sixth grade when we had to write our new years resolutions on sheets of colored construction paper to hang up in the hallway, I’ve always thought of them as an opportunity for disappointment. I think I came up with something vague like ‘be better’. Seriously. I was kinda a hipster kid who hated boy bands and thought being like everyone else was the worst thing ever.&lt;/p&gt;
-
-&lt;p&gt;I still have never made a new years resolution. Sure, I’ve had goals and dreams, but I’ve always tried never to put a definite time on them and assume that the right time will come around. If it doesn’t, I’ll probably be too annoyed with myself and make it happen.&lt;/p&gt;
-
-&lt;p&gt;This year I decided to choose something every month to focus on. Once that month was done, I’d either have forgotten what I was doing or evaluate, pick a new goal, and move on.&lt;/p&gt;
-
-&lt;p&gt;Here’s a few of the things I focused on in 2014:&lt;/p&gt;
-
-&lt;h2&gt;Be an active listener&lt;/h2&gt;
-
-&lt;p&gt;Sometimes I have this simultaneous conversation in my head every time I meet someone for the first time. It usually goes like: What am I going to say next? What can I come up with to make them think I’m interesting. Avoid awkward pauses. Cmon. Aww shit. You just forgot their name.&lt;/p&gt;
-
-&lt;p&gt;Icebreakers are fine when you first meet someone, but the best conversations just happen naturally out of mentioning the randomest things. To do that, you have to actually listen to the conversation and not try to act some play or figure our what’s next. It’ll come naturally if you’re paying attention and are actually interested. If not, count it as an off day and move on.&lt;/p&gt;
-
-&lt;h2&gt;Spend time away from a screen&lt;/h2&gt;
-
-&lt;p&gt;I gave up Netflix in 2014, save for a brief two days in February obviously reserved for a House of Cards marathon, which forced me to read books for entertainment whenever I was home. I was rarely ever home, but I did manage to finish a good dozen of books this year. I also realized that tv shows come up a LOT in normal conversation, which most of the time made me feel like a strange time traveler with a blank look on my face. I also brewed more beers this year than last and spent more time on a plane than probably in the past five years.&lt;/p&gt;
-
-&lt;h2&gt;Stress less&lt;/h2&gt;
-
-&lt;p&gt;I know when I’m stressed out because I wake up with an aching jaw or find myself clenching my teeth in the middle of the day. Which I didn’t really think was that big a problem until my dentist told me I had partially fractured a molar. Seriously. Stress is bad for your health. Find ways to get past it, whether it’s removing yourself from a situation, talking it out, or meditating.&lt;/p&gt;
-
-&lt;h2&gt;Make exercise a habit&lt;/h2&gt;
-
-&lt;p&gt;Growing up, I never ran under a ten minute mile. Despite not being overweight, I always dreaded gym class. I think it’s one of those things where you try something once and think you’re not good at it so you decide you’re not athletic (or artistic) and have a self-assigned label plastered on you all your life. But kids are rarely told you can still be great at something even if you suck the first time. So I stuck to individual sports, like biking.&lt;/p&gt;
-
-&lt;p&gt;In my adult life, I’ve never really had that much luck making it a habit, but after working at a desk for years and having to deal with some moderate scoliosis, I really wanted to build up better posture (or as better as I can).&lt;/p&gt;
-
-&lt;h2&gt;Drink less alcohol, drink more water&lt;/h2&gt;
-
-&lt;p&gt;This was a tough one, since DC is very much a social drinking city and I made Monday night happy hours a thing. Also since I brew beer. But, damn, there’s only so much drinking a person can do in one day before they decide it’s time to just grow up. Bye bye all day epic brunches. It’s for the best.&lt;/p&gt;
-
-&lt;h2&gt;Go your own way&lt;/h2&gt;
-
-&lt;p&gt;This year I made my first solo trip to Europe. Barcelona, specifically. It’s a great way to build confidence, especially in a city where I didn’t know either of the languages. (I studied German in high school and college, not Spanish like most people in America.) There’s things I used to get shy about, like talking to strangers or going out to eat by myself. On a solo trip, you have to get over those fears pretty quickly otherwise you’re going to be hungry and miss out on meeting some great people.&lt;/p&gt;
-
-&lt;p&gt;Now if I need to do something I’ve never done before, I assume since I could navigate a foreign city and make it back home in one piece, it won’t be too bad. I recently booked my second solo trip for a longer duration.&lt;/p&gt;
-
-&lt;h2&gt;Work on something that matters&lt;/h2&gt;
-
-&lt;p&gt;I mostly decided to become a Developer in Residence at General Assembly this year because I had always been interested in education and mentoring. After seeing a good friend go from learning almost no html and css to getting a second job as a frontend dev in two years, I realized there’s nothing more amazing than that first aha moment someone has when learning how to be a developer. This year, it’s most all of my work as been about education or providing opportunities, especially since I switched jobs to join the team at Treehouse. I’m really grateful that I never have to question the morality of what I create.&lt;/p&gt;
-
-&lt;p&gt;It’s been a great year and I’ve learned a hell of a lot about myself. Honestly, I’m probably the most confident I’ve been in years and can’t wait to show all of you want I’m working on and planning for next year.&lt;/p&gt;
-
-&lt;p&gt;Thanks &amp;amp; Happy New Year.&lt;/p&gt;
-</summary>
-      <id>//lessons-and-resolutions.html</id>
-      <updated>2014-12-31T10:16:21-05:00</updated>
+      <updated>2015-01-12T08:57:51-08:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -589,70 +865,7 @@ I am the captain of my soul.&lt;/em&gt;&lt;br&gt;
 &lt;p&gt;It’s been a few months since I first tried vim out, but overall, I’m enjoying it a lot more. With everything, it takes a bit of practice to learn, but it makes me feel like I’m driving a manual over an automatic; I’m just closer to the code. And, if I ever sprain my hand again, I’ll know I can still get things done.&lt;/p&gt;
 </summary>
       <id>//switching-to-vim.html</id>
-      <updated>2014-12-23T07:34:51-05:00</updated>
-      <author>
-        <name>Klare Frank</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>How the UX Designer killed Design</title>
-      <link href="//how-the-ux-designer-killed-design.html" />
-      <summary type="html">&lt;p&gt;It’s the same question that comes up during every interview: “If you could choose between only designing and only coding, which would it be?” The first time I was asked that, it caught me off guard, mostly because I hadn’t experienced one separate from the other.&lt;/p&gt;
-
-&lt;p&gt;To a young and naive me, coding was what my Dad did in his home office with five terminal windows open. It reminded me of when he worked in an actual office and there was a warm, humming server room with wires everywhere making tangled nests behind the server racks. It was a mystical place where I didn’t know what those big, tall racks did, or how someone could manipulate real, physical things to make connected systems work. I definitely didn’t do that.&lt;/p&gt;
-
-&lt;p&gt;Design was something that people graduated from school with a degree in where they put together their final book project and gushed over typefaces. Fonts designed for screens were barely available when I was first looking for a job and while I knew what proper spacing was and could call myself a designer, I definitely knew nothing about print. I didn’t have a degree in it. That single, lacking, piece of paper fueled my imposter syndrome for years following. I still can’t call line-height leading when I’m not looking at type on a screen.&lt;/p&gt;
-
-&lt;p&gt;Early on, even before I knew that graduating with a degree in Global Studies would yield nothing more than having a comprehensive understanding of countries on a map, my idols were the ones creating the web. They were the ones pushing for better type rendering on screens, responsive design, more whitespace, easier organization of frontend code, and simplifying web experiences. In my mind, these were all the same people and if I was ever going to be a great designer who also influenced the future of the web, I needed to be doing all these things.&lt;/p&gt;
-
-&lt;p&gt;So when the question was posed to me, I said neither. Without one or the other, I would easily become bored and uninterested, probably lamenting the loss of using skills I enjoyed using every day. Being a designer who practiced neither user experience design nor frontend development meant I was potentially crippling myself from being a master in the craft.&lt;/p&gt;
-
-&lt;p&gt;Despite that, visual design has consistently been my most challenging aspect of design. It’s taken a while to get to a point where I could illustrate anything I thought was of decent quality. I’ve nearly (and probably) cried over designs that weren’t coming together and sometimes wished I would’ve had an education from a design school because maybe it would’ve made things easier. Yet, I’ve always stuck with it and pushed through the muck to chisel out something I can be somewhat proud of.&lt;/p&gt;
-
-&lt;h2&gt;A Fork in the Road&lt;/h2&gt;
-
-&lt;p&gt;As I’m in the midst of transitioning jobs, I’ve been dwelling upon the few pivotal opportunities where I could’ve chosen to do only user experience design. It would’ve set me down a track based solely on facts, research, and testing. And while those are all necessary parts of design, I never did choose that path.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;Choosing to specialize and be a user experience designer simply felt like giving up.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;Even when I was placed on teams and titled the ‘visual designer’ and paired with user experience designers and frontend developers, I tried to never be complacent in my role, always choosing constant collaboration over strict role delegation.&lt;/p&gt;
-
-&lt;p&gt;And maybe that’s because I’ve always felt a visual designer is more than colors and type and spacing and how things &lt;em&gt;feel&lt;/em&gt;. It’s a balance of the analytic and the aesthetic. To be the best designer I can, it takes a strong understanding of how the web works, the trends (good or bad), and the best practices.&lt;/p&gt;
-
-&lt;p&gt;Siloing is for suckers.&lt;/p&gt;
-
-&lt;h2&gt;A Visual Designer is a UX Designer is a Designer&lt;/h2&gt;
-
-&lt;p&gt;User experience design doesn’t stop at gray boxes; it extends to how a user responds to a page, and that includes how it looks as well as how it functions. It’s more than making a site ‘look pretty’ or coloring in boxes.&lt;/p&gt;
-
-&lt;p&gt;That’s one of the reasons the chart from &lt;a href=&quot;http://www.uxisnotui.com/downloads/without-title.png&quot;&gt;uxisnotui.com&lt;/a&gt; became so popular. While it’s important to help people understand all the different aspects that make up creating a user experience, somehow the column titled “How UX Wants to be Seen” got replaced with “UX Designers” and the column “How UX is Typically Seen” replaced with “Visual Designers”, making it more of a role delegation than a comprehensive list of all the things designers do.&lt;/p&gt;
-
-&lt;p&gt;Mark Boulton describes this perfectly in his article &lt;a href=&quot;https://themanual.org/read/issues/2/mark-boulton/article&quot;&gt;Visual Design is Not a Thing&lt;/a&gt;. In it, he talks about the industry’s response to Jesse James Garrett’s &lt;em&gt;The Elements of User Experience&lt;/em&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“This attitude was unfortunately reinforced by the recent rise in the opinion that user experience design—not graphic design—was the definition of good web design. … According to the industry’s perception of this model, what designers don’t do on the surface plane is design; they decorate.”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Somewhere along the way, the collective makers of the web realized the importance of ux (yay!) while neglected advocating for visual design—the cast aside casualty. Instead of judging the quality of a website as a whole, user experience design became the most important factor. Yet, a users judge of a website’s credibility does not stop before visual design. If a website has a great experience and still looks horrible, users will still be confused. Prentice Mathew &lt;a href=&quot;https://medium.com/@prenticemathew/ux-specialists-are-killing-web-design-50b7d7607c13&quot;&gt;observed this&lt;/a&gt; when Gov.uk won the &lt;a href=&quot;http://www.bbc.co.uk/news/entertainment-arts-22164715&quot;&gt;“Design of the year award”&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;“Visual Design is still the most important pillar which supports the UX (don’t forget the “X” stands for “Experience”) framework, and most users still evaluate the credibility of a website based solely on it’s visual appeal.”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This attitude is further reflected in the salary difference between &lt;a href=&quot;http://www.coroflot.com/designsalaryguide/user-experience-designer/united-states&quot;&gt;ux designers&lt;/a&gt; and &lt;a href=&quot;http://www.coroflot.com/designsalaryguide/web-designer/united-states&quot;&gt;web designers&lt;/a&gt;. UX designers are consistently paid more even though visual designers have all the skills they need to know how to be a competent ux designer on top of what they already practice. The placement of a button drives engagement while the overall style affects credibility. The choice of fonts influences the users’ disposition. A lawyer’s website set in comic sans will always prove too unprofessional and negatively accept business.&lt;/p&gt;
-
-&lt;p&gt;User experience processes—such as user testing, research, and creating personas— reinforce (or weaken) these assumptions made in visual design.&lt;/p&gt;
-
-&lt;h2&gt;An Even More Collaborative Web&lt;/h2&gt;
-
-&lt;p&gt;It’s clear we can’t neglect visual design. But we also can’t neglect visual designers. A visual or graphic designer who expands her or his understanding of user experience design best practices and process becomes a better designer overall.
-A user experience designer who learns about graphic design can better understand how design on the surface influences users. Only when both kinds of designers broaden their knowledge can they collaborate as equals and the unknown seems less mystical and scary.&lt;/p&gt;
-
-&lt;p&gt;Whether a team is made up of designers and developers in traditional roles or not, user experience design should not just be for ux designers. It should bear equal weight with all of the other roles and processes that make up creating web experiences. A great website comes from a collaborative environment where all disciplines of web creation are treated as equals.&lt;/p&gt;
-
-&lt;p&gt;For me, that means seeking out and pushing for roles that will let me practice ux and visual design while also doing frontend development. For a team, it means collaborating equally between teammates, regardless of who is working on what.&lt;/p&gt;
-
-&lt;p&gt;We’re all working towards the same goal and great ideas can come from anywhere.&lt;/p&gt;
-</summary>
-      <id>//how-the-ux-designer-killed-design.html</id>
-      <updated>2014-11-12T10:29:21-05:00</updated>
+      <updated>2014-12-23T04:34:51-08:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -736,7 +949,7 @@ A user experience designer who learns about graphic design can better understand
 &lt;p&gt;A large site doesn’t stop when the project ends, it keeps on living and evolving far after all the papers have been signed and the checks delivered.&lt;/p&gt;
 </summary>
       <id>//designing-for-scale.html</id>
-      <updated>2014-09-15T06:29:21-04:00</updated>
+      <updated>2014-09-15T03:29:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -843,7 +1056,7 @@ A user experience designer who learns about graphic design can better understand
 &lt;p&gt;&lt;img src=&quot;/assets/img/beardswipe/image9.jpg&quot; alt=&quot;Full comp&quot;&gt;&lt;/p&gt;
 </summary>
       <id>//beardswipe.html</id>
-      <updated>2014-08-28T12:57:51-04:00</updated>
+      <updated>2014-08-28T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -971,7 +1184,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;I&#39;d challenge all of you creating websites to think about creating something that enhances the work with ever step.&lt;/p&gt;
 </summary>
       <id>//everything-looks-the-same.html</id>
-      <updated>2014-08-25T06:29:21-04:00</updated>
+      <updated>2014-08-25T03:29:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1019,7 +1232,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Adding in this methodology to a timeline may lengthen it, so any team needs to seriously consider where they need to cut the fat. (Personally, I think it exists in visual comp deliverables, but knowing code, I can be very biased.) What it does is strengthen and defend designs, helping them become better by adding in iteration and testing through specific questions and assumptions.&lt;/p&gt;
 </summary>
       <id>//design-process-as-scientific-method.html</id>
-      <updated>2014-07-14T07:47:21-04:00</updated>
+      <updated>2014-07-14T04:47:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1074,7 +1287,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Now that there&#39;s great base documented, new content can be written to fill gaps and ux design can easily get started with wireframes based on identified content types needed on existing and new pages.&lt;/p&gt;
 </summary>
       <id>//content-audits.html</id>
-      <updated>2014-07-07T06:29:21-04:00</updated>
+      <updated>2014-07-07T03:29:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1195,7 +1408,7 @@ It has whitespace.&lt;/p&gt;
 &lt;img src=&quot;/assets/img/everyoneon/image11.jpg&quot; alt=&quot;Small&quot;&gt;&lt;/p&gt;
 </summary>
       <id>//everyoneon.html</id>
-      <updated>2014-06-15T12:57:51-04:00</updated>
+      <updated>2014-06-15T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1263,7 +1476,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;This does, however, attempt to solve the issue of the client thinking designs are really really large, or wanting to know how our desktop sized comps will look on their ipad. And sometimes that&#39;s exactly what we need to get signoff on visual designs.&lt;/p&gt;
 </summary>
       <id>//faking-responsive.html</id>
-      <updated>2014-06-04T05:58:21-04:00</updated>
+      <updated>2014-06-04T02:58:21-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1351,7 +1564,7 @@ It has whitespace.&lt;/p&gt;
 
 </summary>
       <id>//paying-for-college.html</id>
-      <updated>2014-05-26T12:57:51-04:00</updated>
+      <updated>2014-05-26T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1402,7 +1615,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Overall, I&#39;ve been pretty happy with the switch and have only opened Photoshop if another design gets handed to me. I&#39;ve really been loving all the plugins that keep popping up. It seems like the majority of users are really into open source and already are active on github. Sketch has been working great for me. If you&#39;re struggling with one tool, maybe you should give something else a try for a while. If you&#39;re not, then keep on designing! It&#39;s all a means to a polished final product and whatever&#39;s going to help you produce the best work is what you should be using.&lt;/p&gt;
 </summary>
       <id>//why-i-switched-to-sketch.html</id>
-      <updated>2014-05-15T10:32:51-04:00</updated>
+      <updated>2014-05-15T07:32:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1436,7 +1649,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;I&#39;ve fallen victim to this as well. It&#39;s easy not to get too attached. But it&#39;s also monotonous. The meaty, rich parts of life come from deeper connections between people and the only way to get that is to be more empathetic in our relationships. I&#39;m going to start small and try to keep empathy in the front of my mind. It&#39;s not going to change the city, and I&#39;m not trying to solve all the problems, but it&#39;s a start. Small steps.&lt;/p&gt;
 </summary>
       <id>//what-dc-lacks.html</id>
-      <updated>2014-04-19T00:00:00-04:00</updated>
+      <updated>2014-04-19T00:00:00-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1460,7 +1673,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;Now, being on the other side of that relationship, I really hoping that I can inspire my students with that same feeling of awe at building something from scratch and having it come to life. That&#39;s the feeling that lets me know I wouldn&#39;t want to be in any other career.&lt;/p&gt;
 </summary>
       <id>//ducklings.html</id>
-      <updated>2014-04-09T12:57:51-04:00</updated>
+      <updated>2014-04-09T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1496,37 +1709,7 @@ It has whitespace.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;http://distilleryimage10.ak.instagram.com/c64c7854bc7e11e3affe0002c9c90082_8.jpg&quot; alt=&quot;Joseph Abrams and me with cigars&quot; /&gt;&lt;/p&gt;
 </summary>
       <id>//some-highlights-from-grok.html</id>
-      <updated>2014-04-07T12:57:51-04:00</updated>
-      <author>
-        <name>Klare Frank</name>
-      </author>
-    </entry>
-  
-    <entry>
-      <title>A Little Solo Travel</title>
-      <link href="//a-little-solo-travel.html" />
-      <summary type="html">&lt;p&gt;My mom sent me an email a few days after I booked a flight to Barcelona. Sure, it was my first time traveling  by myself to Europe, but I would only be gone for five days (a super short trip in the scheme of things). I had been to Europe more times than I could count on two hands, and traveled home from a completely different city than where my flight leaving only a year prior. So when I woke up one morning with an email in my inbox telling me that she wished I didn&#39;t go off by myself (I received a similar email from my grandmother as well), I wrote it off as motherly worry. And it was. Mostly.&lt;/p&gt;
-
-&lt;blockquote&gt;&lt;p&gt;Confidence is a strange muscle. When you have it, everything is as easy as a fork gliding through a slice of cheesecake. It&#39;s a pretty damn sweet feeling.&lt;/p&gt;&lt;/blockquote&gt;
-
-&lt;p&gt;All my life, whenever I&#39;d have to go someplace new or do something I&#39;d never done before, I&#39;d have to force myself. That funny, sick feeling in my gut would emerge and I&#39;d be so nervous that I&#39;d be planning my escape route in all possible situations. I spent most of my life being afraid of new situations and thinking I was an introvert. It took losing all my confidence completely and having a year of rebuilding to discover that I wasn&#39;t. I&#39;m just a reserved extrovert. With a lot of long pauses.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://distilleryimage9.ak.instagram.com/744ae5b0b77211e3a9cb127110f29a31_8.jpg&quot; alt=&quot;A sea pattern in the tiles on the sidewalk&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The best part about traveling solo is that you don&#39;t have to wait for anyone to make your plans. Hell, you don&#39;t even have to make plans. I still remember how upset my mother got in Prague when my father and I just decided to go sit outside at lunch for a few hours having beers instead of doing the things she had planned. So we sat for a while, enjoying the August weather, becoming fishes in our liters of beer with smug grins creeping across our faces because we only paid 30 koruna for everything. Different people have different traveling styles. Some people like to sit soak up the ambiance of a new place. Some people simply like to see the sights. Some enjoy having their itinerary mapped out entirely beforehand.&lt;/p&gt;
-
-&lt;p&gt;The second best part about traveling is that you get to strike up a conversation with anyone. I understand now why they call it striking up a conversation. Out of nothing, you strike a match and that flame that had not existed before is suddenly bright and dancing, and for a brief point in time, it&#39;s possible to light up anything or extinguish the flame in an instant. Far too often, we rely on happenstance to meet someone new instead of actively creating these moments. Once I grew my confidence, I started to look forward to these moments I could make happen. One of my best conversations was when I met a professor from Drexel at a coffee shop and started talking to him about the quirks of different cities and how it&#39;s hard to find new and interesting coffee.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://distilleryimage1.ak.instagram.com/17f31dbcb8dc11e38e6212bdd7da67ad_8.jpg&quot; alt=&quot;A selfie looking out over Barcelona from Park Guell&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;My only regret from the trip was that it was too short. Thankfully, I&#39;ve already booked another flight, this time to Seattle, since I haven&#39;t been able to get the emerald city out of my head for a year and a half.&lt;/p&gt;
-
-&lt;p&gt;Let&#39;s go!&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://distilleryimage0.ak.instagram.com/7382750ab9cd11e38efb0a406416de40_8.jpg&quot; alt=&quot;Looking out over the wing of the plane at Barcelona and the coast&quot; /&gt;&lt;/p&gt;
-</summary>
-      <id>//a-little-solo-travel.html</id>
-      <updated>2014-04-05T12:57:51-04:00</updated>
+      <updated>2014-04-07T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1599,7 +1782,7 @@ It has whitespace.&lt;/p&gt;
 
 </summary>
       <id>//courtplay.html</id>
-      <updated>2014-03-20T12:57:51-04:00</updated>
+      <updated>2014-03-20T09:57:51-07:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>
@@ -1664,7 +1847,7 @@ It has whitespace.&lt;/p&gt;
 &lt;img src=&quot;/assets/img/croplife/croplife-vis-resources.jpg&quot; alt=&quot;Resources&quot; /&gt;&lt;/p&gt;
 </summary>
       <id>//croplife.html</id>
-      <updated>2014-02-09T11:57:51-05:00</updated>
+      <updated>2014-02-09T08:57:51-08:00</updated>
       <author>
         <name>Klare Frank</name>
       </author>

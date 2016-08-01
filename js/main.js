@@ -15,12 +15,15 @@ $(document).ready(function() {
   $('.tabs a').click(function(){
     var postType = $(this).attr('href');
 
+    console.log(postType);
+
     $('.posts a').hide();
     $('.type--' + postType.substring(1)).show();
 
     if( $(this).hasClass('selected') ) {
       $(this).removeClass('selected');
       $('.posts a').show();
+      document.location.href = String( document.location.href ).replace( postType, "" );
     } else {
       $('.tabs a').removeClass('selected');
       $(this).addClass('selected');
