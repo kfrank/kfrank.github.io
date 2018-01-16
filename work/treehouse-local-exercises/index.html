@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Klare Frank, Product Designer</title>
+  <link rel="stylesheet" href="../../css/style-2018.css">
+</head>
+<body>
+  <header class="header-work vh-80-md brand-bg-green">
+    <nav class="absolute-md z-3-xs p-tb-1-xs p-lr-1-xs p-lr-2-md">
+      <div class="flex-block-md flex-justify-between-md">
+        <a href="../../index.html" data-icon="K" class="logo block-xs">Klare Frank</a>
+        <ul class="list-unstyled text-left-xs">
+          <li class="inline-block-xs"><a href="../../index.html#about" class="text-color-white text-9-xs text-8-md ls-mid caps">About</a></li>
+          <li class="inline-block-xs m-l-05-xs m-l-1-md"><a href="../../index.html#work" class="text-color-white text-9-xs text-8-md ls-mid caps">Work</a></li>
+          <li class="inline-block-xs m-l-05-xs m-l-1-md"><a href="../../index.html#contact" class="text-color-white text-9-xs text-8-md ls-mid caps">Connect</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="vh-80-md header">
+      <div class="m-0-xs z-1-xs p-t-5-md relative-xs header-container">
+        <div class="relative-xs drop-shadow header-bg header-bg-green" style="background-image: url('../../img/local-exercises.jpg')">
+        </div>
+        <div class="absolute-md p-lr-3-xs p-lr-4-md header-copy">
+          <div class="z-3-xs header-copy-wrap">
+            <div class="header-copy-inner">
+              <h1 style="line-height: 1.3" class="text-color-white caps bold ls-mid text-7-xs type-primary" >Treehouse</h1>
+              <h2 style="max-width: 35rem" class="text-color-white bolder m-t-2-xs text-2-xs text-1-md m-b-05-xs m-b-0-md">Local Exercises</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <section class="brand-bg-white p-b-4-md">
+    <div class="col-max">
+      <div class="p-tb-4-md p-lr-3-xs m-lr-2-xs m-l-0-md m-r-1-md">
+          <div class="col-75-md col-center">
+            <h1 class="text-3-xs text-2-lg m-t-3-xs bold">Syncing lessons with student work on desktop code editors</h1>
+            <p class="m-t-2-xs">Treehouse students needed a way to complete work using their own IDEs and code editors and we needed to check that work to identify if they were successfully learning content.</p>
+            <p>This project started off brainstorming the most effective and easiest ways a student would be able to sync their work with Treehouse. Through a Techdegree program, we would give students code challenges they would need to complete using code editors or IDEs on their computer. This is especially important for iOS and Java tracks, as the level of challenges was more than simply completing a code string in browser. We also wanted to give students the ability to use code checking features available in their IDEs and code editors. This would help them get more comfortable with writing code like a professional.</p>
+            <p>We ultimately decided to go with an experience that we could develop quickly and iterate on later. This decision was made so we could easily test the effectiveness of having students complete exercises on their computers and understand how that fit within our learning experience. To make this easy, we decided to let users upload their code and we would run several tests on it to check if it passed or failed, then give students the proper feedback in either scenerio.</p>
+            <h2 class="text-4-xs text-3-lg m-t-3-xs bold">Process</h2>
+            <h3 class="text-5-xs text-4-lg m-t-3-xs bold">1. Ideation</h3>
+            <p class="m-t-1-xs">I started out by designing a userflow so my entire time was on the same page in regards to how our students would go about completing the projects.</p>
+            <div class="col-75-lg col-center">
+            <img src="local-exercises_userflow@2x.png" alt="" class="w-fit-xs">
+            </div>
+            <p class="m-b-3-xs">I started off by creating wireframe prototypes in code using Treehouse's existing pattern library. Following the layout of our previous code challenges, I created screens that followed the userflow I had laid out and my team agreed upon. This made it easier for the developers I was working with to start in on integrating the flow and building out the experience while I was refining visual designs.</p>
+          </div>
+          <div class="col-100-md col-center">
+            <div class="flex-block-md">
+              <div class="flex-basis-50-md p-r-05-xs">
+                <img src="local-exercises-wireframes-01@2x.png" alt="" class="w-fit-xs">
+                <img src="local-exercises-wireframes-03@2x.png" alt="" class="w-fit-xs">
+              </div>
+              <div class="flex-basis-50-md p-l-05-xs">
+                <img src="local-exercises-wireframes-02@2x.png" alt="" class="w-fit-xs">
+                <img src="local-exercises-wireframes-04@2x.png" alt="" class="w-fit-xs">
+              </div>
+            </div>
+          </div>
+          <div class="col-75-md col-center">
+            <h3 class="text-5-xs text-4-lg m-t-3-xs bold">2. Design &amp; Prototype</h3>
+            <p class="m-t-1-xs">After my team further discussed the wireframe and flow, I refined the layout and visual designs of the screens, moving the primary actions to the top in a centralized area and adding feedback and tips to create context for students around the experience.</p>
+          </div>
+          <div class="col-100-md">
+            <div class="flex-block-md m-t-2-xs">
+              <div class="flex-basis-50-md p-r-05-xs"><img src="local-exercises-comps-01@2x.png" alt="" class="w-fit-xs"><img src="local-exercises-comps-03b-loading-results@2x.png" alt="" class="w-fit-xs"></div>
+              <div class="flex-basis-50-md p-l-05-xs"><img src="local-exercises-comps-03c-loading-ended@2x.png" alt="" class="w-fit-xs"><img src="local-exercises-comps-04-complete@2x.png" alt="" class="w-fit-xs"></div>
+            </div>
+          </div>
+          <div class="col-75-md col-center">
+            <h3 class="text-5-xs text-4-lg m-t-3-xs bold">3. Designing for the in-between moments</h3>
+            <p class="m-t-1-xs">For the first iteration of local exerices, we realized we would have a period of time that the uploaded code would need to be run through several tests. Since this would take some time, and we weren't quite sure how long, I knew that students would need some sort of feedback to indicate tests were still running smoothly.</p>
+            <p>Instead of creating a loading animation or progress bar, I decided to make the experience more interactive and give sudents something fun to do while they waited, hence the pinata. Students could interact with the pinata and it would serve as a little 'easter egg' to add delight to an otherwise mundane, non-user focused part of the experience.</p>
+            <p>I illustrated the pinata in Adobe Illustrator before exporting it to svg. From there, I experimented in <a href="http://codepen.io/klare/pen/gPQLzy">Codepen with Greensock's tweening library</a> to animate it in a back and forth swinging motion . From there I added click events and animated the eyes rolling and the pinata swinging even further up and away based on how far from the center a person clicked.</p>
+            <div class="col-75-lg col-center m-t-2-xs">
+              <img src="pinata.jpg" class="w-fit-xs" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="z-1-xs relative-xs brand-bg-d-blue p-b-1-xs m-t-2-xs">
+    <div class="flex-block-md flex-item-center-md">
+      <div class="contact-img flex-basis-70-md"></div>
+      <div class="flex-basis-30-md contact-copy">
+        <div class="relative-xs z-1-xs p-2-xs p-lr-4-xs text-center-xs text-left-md">
+          <h1 class="text-2-xs m-b-1-xs m-b-2-md bold text-color-white m-t-1-xs">Connect</h1>
+          <ul class="list-unstyled">
+            <li><a href="mailto:klare.frank@gmail.com" class="text-color-white">klare.frank@gmail.com</a></li>
+            <li><a href="http://twitter.com/klare" class="text-color-white">twitter.com/klare</a></li>
+            <li><a href="http://dribbble.com/klare" class="text-color-white">dribbble.com/klare</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p class="p-lr-4-xs brand-color-black text-9-xs text-center-xs m-t-2-xs m-b-05-xs">Copyright © 2018 Klare Frank. Portraits by Michelle Moore.</p>
+  </section>
+</body>
+</html>
