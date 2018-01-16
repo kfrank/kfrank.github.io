@@ -159,7 +159,7 @@ html {
 
 body {
   font-size: 1rem;
-  font-family: "Maax", "Work Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400; }
 
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #323648;
   display: block;
   font-weight: 200;
-  font-family: "Noe Display", Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   margin: 0;
   line-height: 1.1;
   text-rendering: optimizeLegibility;
@@ -179,11 +179,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0.9; }
 
 .type-primary {
-  font-family: "Maax", "Work Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-style: normal; }
 
 .type-secondary {
-  font-family: "Noe Display", Georgia, serif;
+  font-family: "Playfair Display", Georgia, serif;
   font-style: normal; }
 
 .ls-small {
@@ -214,7 +214,7 @@ h5 {
   font-size: 1.75rem; }
 
 h6 {
-  font-size: 1.125rem; }
+  font-size: 1.325rem; }
 
 @media screen {
   .text-0-xs {
@@ -236,10 +236,10 @@ h6 {
     font-size: 1.75rem; }
 
   .text-6-xs {
-    font-size: 1.125rem; }
+    font-size: 1.325rem; }
 
   .text-7-xs {
-    font-size: 1rem; }
+    font-size: 1.125rem; }
 
   .text-8-xs {
     font-size: 0.875rem; }
@@ -266,10 +266,10 @@ h6 {
     font-size: 1.75rem; }
 
   .text-6-sm {
-    font-size: 1.125rem; }
+    font-size: 1.325rem; }
 
   .text-7-sm {
-    font-size: 1rem; }
+    font-size: 1.125rem; }
 
   .text-8-sm {
     font-size: 0.875rem; }
@@ -296,10 +296,10 @@ h6 {
     font-size: 1.75rem; }
 
   .text-6-md {
-    font-size: 1.125rem; }
+    font-size: 1.325rem; }
 
   .text-7-md {
-    font-size: 1rem; }
+    font-size: 1.125rem; }
 
   .text-8-md {
     font-size: 0.875rem; }
@@ -326,10 +326,10 @@ h6 {
     font-size: 1.75rem; }
 
   .text-6-lg {
-    font-size: 1.125rem; }
+    font-size: 1.325rem; }
 
   .text-7-lg {
-    font-size: 1rem; }
+    font-size: 1.125rem; }
 
   .text-8-lg {
     font-size: 0.875rem; }
@@ -356,10 +356,10 @@ h6 {
     font-size: 1.75rem; }
 
   .text-6-xl {
-    font-size: 1.125rem; }
+    font-size: 1.325rem; }
 
   .text-7-xl {
-    font-size: 1rem; }
+    font-size: 1.125rem; }
 
   .text-8-xl {
     font-size: 0.875rem; }
@@ -373,7 +373,7 @@ hr {
 
 p {
   color: #6E6D6D;
-  font-family: "Maax", "Work Sans", Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 1.125rem;
   line-height: 1.625;
   margin: 0;
@@ -793,8 +793,8 @@ ol {
   color: #105C68;
   cursor: pointer;
   display: inline-block;
-  font-family: "Maax", "Work Sans", Helvetica, sans-serif;
-  font-size: 1rem;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 1.125rem;
   font-weight: 500;
   padding: 0.5em 1em;
   position: relative;
@@ -8342,7 +8342,7 @@ nav ul a, #contact ul a {
   .logo:before {
     position: absolute;
     content: attr(data-icon);
-    font-family: "Noe Display", Georgia, serif;
+    font-family: "Playfair Display", Georgia, serif;
     color: #B34A00;
     font-size: 1.25rem;
     left: 0.625em;
