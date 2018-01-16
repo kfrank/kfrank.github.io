@@ -166,7 +166,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #323648;
   display: block;
-  font-weight: 200;
+  font-weight: 400;
   font-family: "Playfair Display", Georgia, serif;
   margin: 0;
   line-height: 1.1;
@@ -395,7 +395,7 @@ p + .button {
   font-weight: normal; }
 
 .bold {
-  font-weight: 500; }
+  font-weight: 700; }
 
 strong,
 .bolder {
@@ -795,7 +795,7 @@ ol {
   display: inline-block;
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 1.125rem;
-  font-weight: 500;
+  font-weight: 700;
   padding: 0.5em 1em;
   position: relative;
   text-align: center;
@@ -8346,7 +8346,7 @@ nav ul a, #contact ul a {
     color: #B34A00;
     font-size: 1.25rem;
     left: 0.625em;
-    line-height: 2;
+    line-height: 1.75;
     z-index: 1;
     font-weight: 600;
     font-smooth: always;
