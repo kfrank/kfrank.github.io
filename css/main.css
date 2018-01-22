@@ -246,7 +246,7 @@ body, input, textarea {
   font-family: "freight-text-pro", serif; }
 
 h1 {
-  font-family: lust, serif; }
+  font-family: "Playfair Display", georgia, serif; }
 
 h2, h3, h4, h5, h6 {
   font-family: effra, sans-serif; }
@@ -653,7 +653,9 @@ header.home {
 
 h1.page-title {
   font-size: 2.5em;
-  line-height: 1.25; }
+  line-height: 1.25;
+  font-weight: 600;
+  margin-bottom: 2rem; }
   @media screen and (min-width: 50em) {
     h1.page-title {
       font-size: 4.5em; } }
@@ -683,7 +685,7 @@ article {
     font-size: 1.25rem;
     line-height: 2; }
     article p:first-child:first-letter {
-      font: 3.625em/1 lust, serif;
+      font: 3.625em/1 "Playfair Display", georgia, serif;
       color: #4A90E2;
       float: left;
       margin: 0.1em 0.25em 0 0; }
@@ -691,7 +693,7 @@ article {
     font-size: 1.25rem;
     margin: 1em 0; }
     article li p:first-child:first-letter {
-      font: 1.25rem/1 "freight-text-pro", serif;
+      font: 1.25rem/1 "Open Sans", "freight-text-pro", serif;
       color: #06113A;
       float: none;
       margin: 0; }
@@ -703,36 +705,40 @@ article {
         margin-left: auto;
         margin-right: auto; } }
   article h2 {
-    color: #4A90E2;
-    margin-top: 2.5em; }
+    /*color: #4A90E2;*/
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: 600; }
   article h3 {
-    margin-top: 2.5em;
-    text-transform: uppercase; }
+    margin-top: 1.5em;
+    margin-bottom: 2rem;
+    font-weight: 600; }
   article h4 {
-    letter-spacing: 0.05em;
-    margin-top: 2.5em; }
+    margin-top: 1.5em;
+    font-weight: 600;
+    margin-bottom: .5rem }
   article blockquote {
-    margin: 1.5em 0 1.5em -2.5em;
+    margin: 1.5em 0 0 -2.5em;
     padding: 1em 0 1em 2.5em;
     border-left: 3px solid #4A90E2; }
     @media screen and (min-width: 50em) {
       article blockquote {
-        margin: 3em 0 3em -3em;
-        padding: 2em 0 2em 3em; } }
+        margin: 3em 0 0 -3em;
+        padding: 2em 0 1em 3em; } }
     article blockquote p:first-child:first-letter {
-      font: italic 1.125em/1.5 lust, serif;
+      font: italic 1.125em/1.5 "Playfair Display", georgia, serif;
       float: none;
-      color: #06113A;
+      color: #6E6D6D;
       margin: 0; }
       @media screen and (min-width: 50em) {
         article blockquote p:first-child:first-letter {
-          font: italic 1em/1.5 lust, serif; } }
+          font: italic 1em/1.5 "Playfair Display", georgia, serif; } }
     article blockquote p {
       margin: 0;
-      font: italic 1.5em/1.5 lust, serif; }
+      font: italic 1.5em/1.5 "Playfair Display", georgia, serif; }
       @media screen and (min-width: 50em) {
         article blockquote p {
-          font: italic 2.5em/1.5 lust, serif; } }
+          font: italic 2em/1.5 "Playfair Display", georgia, serif; } }
       article blockquote p cite {
         font: normal 1rem/1 effra, sans-serif; }
         article blockquote p cite a {
@@ -742,10 +748,23 @@ article {
     border-top: 1px dotted #cccccc;
     border-bottom: 1px dotted #cccccc;
     text-align: center; }
+    article .paging h3 {
+      color: #355C81;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+      font-family: "Open Sans", Helvetica, sans-serif;
+      font-size: 0.875rem;
+      margin-top: 2rem;
+      letter-spacing: 0.1rem;
+    }
     article .paging h4 {
-      margin: 0 0 1.5em;
-      font: 2em/1 lust, serif;
-      color: #06113A; }
+      margin: 0 0 1.25em;
+      font: 700 2em/1 "Playfair Display", georgia, serif;
+      color: #06113A;
+      transition: .2s ease all; }
+    article .paging:hover h4 {
+      color: #355C81;
+    }
 
 .content--intro {
   font: italic 1.25em/1.75 "freight-text-pro", serif;
