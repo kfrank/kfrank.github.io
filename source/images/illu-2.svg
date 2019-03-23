@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="84px" viewBox="0 0 100 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>illu 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Artboard-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(0.000000, -657.000000)">
+        <g id="header" transform="translate(-43.000000, 0.000000)" stroke="#488391" stroke-width="2">
+            <g id="illu-2" transform="translate(0.000000, 658.000000)">
+                <path d="M78.6030066,24 C87.8685156,24.2254615 83.7767356,82.0433336 77,82" id="Line-7-Copy" stroke-linecap="round" stroke-linejoin="round" transform="translate(80.500000, 53.000000) scale(-1, 1) translate(-80.500000, -53.000000) "></path>
+                <path d="M69.6030066,24 C78.8685156,24.2254615 74.7767356,82.0433336 68,82" id="Line-7-Copy-2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M63.5652174,22.5 L88.4347826,22.5" id="Line-7" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M67.5555556,13.5 L85.8973045,13.5" id="Line-7-Copy-4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M75.9836695,9 L76.0163305,0" id="Line-7-Copy-5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M60,18 L92,18" id="Line-7-Copy-3" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group-8" transform="translate(79.000000, 39.000000)">
+                    <polyline id="Line-10" stroke-linecap="round" stroke-linejoin="round" points="7.73684211 15.68 9.92179593 17.4089682 12.7679694 16.3820428 14.759481 17.92 17.6842105 17.0680545"></polyline>
+                    <polyline id="Line-10-Copy" stroke-linecap="round" stroke-linejoin="round" transform="translate(51.394737, 12.320000) rotate(-12.000000) translate(-51.394737, -12.320000) " points="46.4210526 11.2 48.6060065 12.9289682 51.4521799 11.9020428 53.4436915 13.44 56.3684211 12.5880545"></polyline>
+                    <path d="M32.4210526,26.88 L38.3157895,26.88" id="Line-9" stroke-linecap="square"></path>
+                    <polygon id="Triangle" stroke-linecap="round" stroke-linejoin="round" points="12.1578947 6.72 24.3157895 26.88 0 26.88"></polygon>
+                    <polygon id="Triangle-Copy" stroke-linecap="round" stroke-linejoin="round" points="50.8421053 0 63 26.88 38.6842105 26.88"></polygon>
+                    <polyline id="Line-8" stroke-linecap="round" stroke-linejoin="round" points="16.5789474 16.130383 23.2220846 12.32 32.0526316 26.8716596 23.9444788 26.88"></polyline>
+                    <polyline id="Line-8-Copy" stroke-linecap="round" stroke-linejoin="round" points="26.5263158 15.6664603 33.6712357 10.08 43.1052632 15.68"></polyline>
+                </g>
+                <g id="Group-8-Copy" transform="translate(0.000000, 40.000000)" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="Line-10-Copy" transform="translate(51.394737, 12.320000) scale(-1, 1) rotate(-12.000000) translate(-51.394737, -12.320000) " points="46.4210526 11.2 48.6060065 12.9289682 51.4521799 11.9020428 53.4436915 13.44 56.3684211 12.5880545"></polyline>
+                    <polygon id="Triangle-Copy" points="50.8421053 0 63 26.88 38.6842105 26.88"></polygon>
+                    <polyline id="Line-8-Copy" points="26.5263158 15.6664603 33.6712357 10.08 43.1052632 15.68"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

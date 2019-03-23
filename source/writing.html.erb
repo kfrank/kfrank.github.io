@@ -1,0 +1,22 @@
+---
+blog: writing
+---
+<section class="ph5-l ph3 ph4-ns">
+  <div class="mw9 center">
+    <h1 class="mb2 mt0 sans-serif fw3 pb3">Writing</h1>
+    <% blog.articles.each do |article| %>
+    <article class="pt3 pb5 flex-ns b--solid bb-0 br-0 bl-0 b--light-gray text-fade">
+      <div class="article-meta fb-40-ns pr4-ns">
+        <a href="<%= article.url %>">
+          <h2 class="lh-title black f4-ns f5 mt3-ns"><%= article.title %></h2>
+        </a>
+        <time class="sans-serif"><%= article.date.strftime('%B %Y') %></time>
+      </div>
+      <div class="article-intro fb-60-ns">
+        <%= article.summary %>
+        <a href="<%= article.url %>" class="button">Read more</a>
+      </div>
+    </article>
+    <% end %>
+  </div>
+</section>

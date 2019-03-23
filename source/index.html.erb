@@ -1,0 +1,25 @@
+---
+blog: writing
+---
+
+<header id="hero">
+  <div class="mw9 center">
+    <div class="flex-l items-center-l relative">
+      <div class="hero-content">
+        <h1 class="text-fade text-in">Klare Frank</h1>
+        <p class="text-fade text-in">
+          A holistic digital product designer spanning strategy, research, ux,
+          visual design, and front-end development
+        </p>
+        <a href="#work" class="button mr3-ns mb3 mb0-ns text-fade text-in">View Projects</a>
+        <a href="#writing" class="button text-fade text-in">Read Articles</a>
+      </div>
+      <div class="hero-img">
+        <%= image_tag 'hero-klare-1.jpg', :class => "hero-img-1 fade" %> <%=
+        image_tag 'hero-klare-2.jpg', :class => "hero-img-2 fade" %>
+      </div>
+    </div>
+  </div>
+</header>
+
+<%= partial "about" %> <%= partial "writing" %> <%= partial "career" %> <%= partial "work" %>

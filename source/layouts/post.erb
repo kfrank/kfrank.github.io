@@ -1,0 +1,37 @@
+<% wrap_layout :layout do %>
+<section class="ph5-l ph3 ph4-ns mb6-ns mb4">
+  <div class="mw7 center">
+    <time datetime="" class="sans-serif db mt2"><%= current_article.date.strftime('%B %d %Y') %></time>
+    <h1 class="mt2 f1 mb4"><%= current_article.title %></h1>
+
+    <%= yield %>
+  </div>
+
+  <aside>
+    <div class="mw7 center">
+      <ul class="flex items-center justify-between list pl0 bt b--light-gray pt3">
+        <li>
+          <% prev_article = current_article.previous_article %>
+          <% if prev_article %>
+          <p>
+            <span class="f5 db b sans-serif">Previous Post</span>
+            <a href="<%= prev_article.url %>" rel="prev" title="Previous article: <%= prev_article.title %>">
+              <%= prev_article.title %> </a>
+          </p>
+          <% end %>
+        </li>
+        <li class="tr">
+          <% next_article = current_article.next_article %>
+          <% if next_article %>
+          <p>
+            <span class="f5 db b sans-serif">Next Post</span>
+            <a href="<%= next_article.url %>" rel="next" title="Next article: <%= next_article.title %>">
+              <%= next_article.title %> </a>
+          </p>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </aside>
+</section>
+<% end %>

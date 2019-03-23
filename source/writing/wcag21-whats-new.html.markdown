@@ -1,0 +1,43 @@
+---
+title: "WCAG 2.1: What’s new and why does it matter?"
+date: 2018-02-23
+---
+
+I’ve been diving deeper into accessible design since I’m working on a project for a woman with retinitis pigmentosa. From my research, I came across an update that's happening this year to the [Web Content Accessibility Guidelines (WCAG) from 2.0 to 2.1](https://www.w3.org/TR/WCAG21/). While it's not a huge jump in versions, and given that 2.1 is meant to backwards compatible with 2.0, the update still includes some important considerations.
+
+##Mobile
+
+The last major release of WCAG was in December 2008, probably around the time many of us were getting our first smartphones if you were really on top of new technology. (I didn't even get an iPhone until 2011). Jump to now, and most people, including my grandparents, have a smartphone and maybe an iPad.
+
+Introducing a lot of new devices with touch and gestures added a complexity to web content that didn’t exist in 2008. The majority of this 2.1 update surrounds mobile considerations. Some of the new success criteria are things that are just plain good design decisions. That includes things like:
+
+- Recommended target size of 44x44 pixels: We’ve seen this in recommended button size, but this just extends it out to all things that are click- or tap- able.
+- Simple gestures and undo for accidental tapping: While we (designers) might think things like shaking a device or introducing new gestures are novel, they’re usually so \*\$&@ing confusing and making everyone learn something new because your product is special will probably make users drop off at alarmingly high speeds. Keep it simple, make sure you can operate interactions with a single pointer (especially useful for motor impairments or people using a single switch input). Don’t add on tilting or shaking interactions unless they're necessary, or have a backup for people who might find this difficult.
+
+##Cognitive
+
+There were also major updates to CSS since WCAG 2.0 was published nearly ten years ago. We (front-end devs) got to use fancy new things like transitions and keyframes, and started putting together amazing canvas and svg animations, which add a greater visual engagement. Problem is, these new modules introduced some cognitive issues. Specifically:
+
+- Animations from Interactions: If your canvas glitch animation is giving people headaches, make sure there’s a way to disable it. If you don’t know if it will make people easy, test it out first on a few people to find out before pushing.
+
+There’s also some success criteria additions which address some of the annoyances with websites most people have:
+
+- Interruptions: You’re trying to buy a new shirt online, are going to click on an item in the navigation and WOOMP hello pop-up demanding you sign up for their newsletter. Interruptions suggest websites not have pop-up interruptions when people are trying to focus on something.
+- Timeouts: You’ve been researching flights for your amazing trip around the world. You’ve made some pretty good progress on one site, but want to check another booking site and switch over. By the time you get back to the first site, woah, where'd everything go?!. Your session has ended. Timeouts suggests letting users know well in advance when there’s a timeout and you could lose your progress.
+
+##Low Vision
+
+WCAG 2.0 did a fairly good job at addressing potential visual issues, so there’s not too many updates in this category. WCAG 2.1 is finally including a success criteria around proper text spacing and another for expanding contrast ratios to non-text UI elements (buttons, icons, etc.), which are generally great design guidelines to follow. One more important success criteria being added:
+
+- Reflow: This has to deal with sites that have scrolling in two dimensions, both a normal vertical scroll and horizontally scrolling elements. This layout has gotten more popular over the past few years with several video streaming sites using the pattern to display groups of video content. There’s an issue though, since all this additional content may not be obvious to people with low vision issues.
+
+##How future proof is 2.1?
+
+WCAG 2.0 stood up fairly well to web content over the past ten years. Generally, the guidelines that were written still apply to today’s web content, mostly because they’re made up of good design considerations. The one concerning thing is that the majority of new success criteria surround mobile considerations. As we continue to introduce new ways of accessing web content (VR on web, Voice UIs, etc.), how do these guidelines adapt? There’s already work being done on WCAG 3.0, and since that’s a huge version jump, I can surmise a lot of these new technologies may be addressed in that version.
+
+--
+
+Want an overview of all the changes as of February 20, 2018? I created this poster on the WCAG 2.1 timeline, a visual of their git commits, and an overview of the new success criteria:
+
+<a class="button mv2" href="/images/writing/klarefrank_wcag-2point1_022218.pdf">Download WCAG 2.1 Overview PDF</a>
+<a href="/images/writing/klarefrank_wcag-2point1_022218.pdf" class="img"><img src="/images/writing/klarefrank_wcag-2point1.jpg" alt="WCAG 2.1 overview. Download pdf for accessible text"></a>

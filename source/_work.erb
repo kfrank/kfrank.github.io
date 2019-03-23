@@ -1,0 +1,20 @@
+<section id="work" class="mb5">
+  <div class="mw9 center">
+    <h1 class="text-fade mb3-ns">Selected work</h1>
+    <% blog('work').articles.each do |article| %>
+    <article class="work" id="work-<%= article.data.prefix %>">
+      <div class="work-img">
+        <img src="/images/work-<%= article.data.prefix %>-1.png" class="fade" alt="<%= article.data.alt %>" />
+      </div>
+      <div class="work-copy">
+        <h2 class="text-fade"><%= article.data.company %></h2>
+        <a href="<%= article.url %>">
+          <h3 class="text-fade"><%= article.title %></h3>
+        </a>
+        <p><%= article.summary %></p>
+        <a href="<%= article.url %>" class="button text-fade">Read case study</a>
+      </div>
+    </article>
+    <% end %>
+  </div>
+</section>
