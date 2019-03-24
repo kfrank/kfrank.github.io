@@ -52,8 +52,9 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   blog.name = "work"
   blog.prefix = "work"
-
   blog.sources = "{title}.html"
+  blog.permalink = "{title}"
+  blog.layout = "caseStudy"
 
   # blog.tag_template = "work/tag.html"
   # blog.calendar_template = "work/calendar.html"
