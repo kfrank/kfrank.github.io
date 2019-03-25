@@ -1,32 +1,46 @@
 <% wrap_layout :layout do %>
 <section class="ph5-l ph3 ph4-ns mb6-ns mb4">
   <div class="mw7 center">
-    <time datetime="" class="sans-serif db mt2"><%= current_article.date.strftime('%B %d %Y') %></time>
-    <h1 class="mt2 f1 mb4"><%= current_article.title %></h1>
+    <h1 class="mt2 mb0 f1-ns f2 lh-title"><%= current_article.title %></h1>
+    <time datetime="" class="mt0 f3-ns f4 mb0 sans-serif fw3"
+      ><%= current_article.date.strftime('%B %d %Y') %></time
+    >
 
     <%= yield %>
   </div>
 
-  <aside>
+  <aside class="mt4">
     <div class="mw7 center">
-      <ul class="flex items-center justify-between list pl0 bt b--light-gray pt3">
+      <ul
+        class="flex-ns items-center justify-between list pl0 bt b--light-gray pt3"
+      >
         <li>
-          <% prev_article = current_article.previous_article %>
-          <% if prev_article %>
+          <% prev_article = current_article.previous_article %> <% if
+          prev_article %>
           <p>
             <span class="f5 db b sans-serif">Previous Post</span>
-            <a href="<%= prev_article.url %>" rel="prev" title="Previous article: <%= prev_article.title %>">
-              <%= prev_article.title %> </a>
+            <a
+              href="<%= prev_article.url %>"
+              rel="prev"
+              title="Previous article: <%= prev_article.title %>"
+            >
+              <%= prev_article.title %>
+            </a>
           </p>
           <% end %>
         </li>
-        <li class="tr">
-          <% next_article = current_article.next_article %>
-          <% if next_article %>
+        <li class="tr-ns">
+          <% next_article = current_article.next_article %> <% if next_article
+          %>
           <p>
             <span class="f5 db b sans-serif">Next Post</span>
-            <a href="<%= next_article.url %>" rel="next" title="Next article: <%= next_article.title %>">
-              <%= next_article.title %> </a>
+            <a
+              href="<%= next_article.url %>"
+              rel="next"
+              title="Next article: <%= next_article.title %>"
+            >
+              <%= next_article.title %>
+            </a>
           </p>
           <% end %>
         </li>

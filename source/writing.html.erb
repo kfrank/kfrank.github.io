@@ -1,20 +1,25 @@
 ---
 blog: writing
 ---
-<section class="ph5-l ph3 ph4-ns">
+
+<section class="ph5-l ph3 ph4-ns" id="writing">
   <div class="mw9 center">
     <h1 class="mb2 mt0 sans-serif fw3 pb3">Writing</h1>
     <% blog.articles.each do |article| %>
-    <article class="pt3 pb5 flex-ns b--solid bb-0 br-0 bl-0 b--light-gray text-fade">
+    <article
+      class="pv4 grid-ns br-0 bb-0 bl-0 b--solid b--light-gray bw2 text-fade"
+    >
       <div class="article-meta fb-40-ns pr4-ns">
-        <a href="<%= article.url %>">
-          <h2 class="lh-title black f4-ns f5 mt3-ns"><%= article.title %></h2>
+        <a href="<%= article.url %>" class="link near-black">
+          <h2 class="mt2 mb1 f3 serif lh-title"><%= article.title %></h2>
         </a>
-        <time class="sans-serif"><%= article.date.strftime('%B %Y') %></time>
+        <time class="f4 sans-serif"
+          ><%= article.date.strftime('%B %d, %Y') %></time
+        >
       </div>
       <div class="article-intro fb-60-ns">
         <%= article.summary %>
-        <a href="<%= article.url %>" class="button">Read more</a>
+        <a href="<%= article.url %>" class="button mt2 dib">Read more</a>
       </div>
     </article>
     <% end %>

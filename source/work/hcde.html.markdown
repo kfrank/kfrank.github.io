@@ -39,3 +39,5 @@ process:
     images:
       - image: work-hcde-8.gif
 ---
+
+<a href="http://klare.io/fly-happy" class="button">View the live prototype</a>

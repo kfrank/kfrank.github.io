@@ -2,24 +2,29 @@
 blog: writing
 ---
 
-<header id="hero">
+<header id="hero" class="ph4-ns ph3 mb5 bg-washed-yellow relative">
   <div class="mw9 center">
-    <div class="flex-l items-center-l relative">
-      <div class="hero-content">
-        <h1 class="text-fade text-in">Klare Frank</h1>
-        <p class="text-fade text-in">
-          A holistic digital product designer spanning strategy, research, ux,
-          visual design, and front-end development
+    <div class="hero-grid relative grid grid-columns-2-ns gc3 ga-c">
+      <div class="hero-content tl-ns tc pt0-l pv5-ns pt3 pb5 mb5-ns">
+        <h1 class="text-fade text-in serif f1 mb0 lh-title">Klare Frank</h1>
+        <p class="text-fade text-in sans-serif f3 mt3 mb5-ns lh-title">
+          A holistic digital product designer at the intersection of design and
+          development.
         </p>
-        <a href="#work" class="button mr3-ns mb3 mb0-ns text-fade text-in">View Projects</a>
-        <a href="#writing" class="button text-fade text-in">Read Articles</a>
+        <a
+          href="#writing"
+          class="button mr3-ns mb3 mb0-ns text-fade text-in dib"
+          >Read Articles</a
+        >
+        <a href="#work" class="button  text-fade text-in dib">View Projects</a>
       </div>
-      <div class="hero-img">
+      <div class="hero-img relative pl4-ns">
         <%= image_tag 'hero-klare-1.jpg', :class => "hero-img-1 fade" %> <%=
-        image_tag 'hero-klare-2.jpg', :class => "hero-img-2 fade" %>
+        image_tag 'hero-klare-2.jpg', :class => "hero-img-2 fade dn db-ns" %>
       </div>
     </div>
   </div>
 </header>
 
-<%= partial "about" %> <%= partial "writing" %> <%= partial "career" %> <%= partial "work" %>
+<%= partial "about" %> <%= partial "writing" %> <%= partial "career" %> <%=
+partial "work" %>

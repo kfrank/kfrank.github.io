@@ -1,20 +1,26 @@
-<section id="writing">
+<section id="writing" class="pv4-ns pb0">
   <div class="mw9 center">
     <div class="flex justify-between items-center">
-      <h1 class="text-fade">Writing</h1>
-      <a href="/writing" class="link text-fade">View all articles</a>
+      <h1 class="text-fade sans-serif fw3">Writing</h1>
+      <a href="/writing" class="button text-fade">View all articles</a>
     </div>
-    <% blog('writing').articles[0...3].each do |article| %>
-    <article>
+    <% blog('writing').articles[0...4].each do |article| %>
+    <article class="pv4 grid-ns br-0 bb-0 bl-0 b--solid b--light-gray bw2">
       <div class="article-meta">
-        <a href="<%= article.url %>">
-          <h2 class="text-fade"><%= article.title %></h2>
+        <a href="<%= article.url %>" class="link near-black">
+          <h2 class="text-fade mt2 mb1 f3 serif lh-title">
+            <%= article.title %>
+          </h2>
         </a>
-        <time class="text-fade"><%= article.date.strftime('%B %Y') %></time>
+        <time class="text-fade f4 sans-serif"
+          ><%= article.date.strftime('%B %Y') %></time
+        >
       </div>
       <div class="article-intro">
         <%= article.summary %>
-        <a href="<%= article.url %>" class="button text-fade">Read more</a>
+        <a href="<%= article.url %>" class="button text-fade mt2 dib"
+          >Read more</a
+        >
       </div>
     </article>
     <% end %>

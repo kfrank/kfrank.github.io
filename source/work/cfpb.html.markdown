@@ -31,14 +31,11 @@ process:
       - paragraph: Paying for College was meant to be an extension of the Consumer Financial Protection Bureau brand. It drew inspiration from the light usage of color on the rest of the website while focusing primarily on interactions. One of the more interesting parts of the interface was the sticky input header that allowed users to easily switch between schools, and the sticky footer containing important debt information that would attach itself to the bottom of the page once the user reached far enough down the cost table.
     images:
       - image: work-cfpb-6.jpg
-      - image: work-cfpb-5.jpg
       - image: work-cfpb-7.jpg
       - image: work-cfpb-4.jpg
 ---
 
 As a part of the product team at the Consumer Financial Protection Bureau, CFPB, I prototyped my designs in code and worked with other UX designers in sprint cycles to release Paying for College, a set of tools catered towards the education life milestone.
-
-Paying for College is a tool to help prospective college students and their families decipher how much a college degree actually costs. The cost comparison worksheet computes the actual cost of the chosen schools by comparing tuition, books, and other expenses, estimated post-school debt and overall debt burden.
 
 ## Awards
 

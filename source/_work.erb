@@ -1,18 +1,33 @@
-<section id="work" class="mb5">
+<section id="work" class="mb2">
   <div class="mw9 center">
-    <h1 class="text-fade mb3-ns">Selected work</h1>
+    <h1
+      class="text-fade sans-serif fw3 br-0 bt-0 bl-0 b--solid b--light-gray bw2 pb3"
+    >
+      Selected work
+    </h1>
     <% blog('work').articles.each do |article| %>
-    <article class="work" id="work-<%= article.data.prefix %>">
+    <article
+      class="work pv2 grid grid-columns-2-ns gc4 ga-c"
+      id="work-<%= article.data.prefix %>"
+    >
       <div class="work-img">
-        <img src="/images/work-<%= article.data.prefix %>-1.png" class="fade" alt="<%= article.data.alt %>" />
+        <img
+          src="/images/work-<%= article.data.prefix %>-1.png"
+          class="fade"
+          alt="<%= article.data.alt %>"
+        />
       </div>
-      <div class="work-copy">
-        <h2 class="text-fade"><%= article.data.company %></h2>
-        <a href="<%= article.url %>">
-          <h3 class="text-fade"><%= article.title %></h3>
+      <div class="work-copy mb4">
+        <h2 class="text-fade mt3 f4 mb0"><%= article.data.company %></h2>
+        <a href="<%= article.url %>" class="link black">
+          <h3 class="text-fade sans-serif f2 fw3 lh-title mt0 mb3">
+            <%= article.title %>
+          </h3>
         </a>
-        <p><%= article.summary %></p>
-        <a href="<%= article.url %>" class="button text-fade">Read case study</a>
+        <p class="mb4 text-fade lh-copy"><%= article.data.summary %></p>
+        <a href="<%= article.url %>" class="button text-fade dib"
+          >Read case study</a
+        >
       </div>
     </article>
     <% end %>
