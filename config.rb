@@ -63,7 +63,7 @@ end
 
 activate :directory_indexes
 
-page "/feed.xml", layout: false
+# page "/feed.xml", layout: false
 # Reload the browser automatically whenever files change
 # configure :development do
 #   activate :livereload
@@ -75,6 +75,11 @@ page "/feed.xml", layout: false
 #     "Helping"
 #   end
 # end
+
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'master'
+end
 
 # Build-specific configuration
 configure :build do

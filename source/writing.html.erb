@@ -13,9 +13,7 @@ blog: writing
         <a href="<%= article.url %>" class="link near-black">
           <h2 class="mt2 mb1 f3 serif lh-title"><%= article.title %></h2>
         </a>
-        <time class="f4 sans-serif"
-          ><%= article.date.strftime('%B %d, %Y') %></time
-        >
+        <time class="f4 sans-serif"><%= article.date.strftime('%B %Y') %></time>
       </div>
       <div class="article-intro fb-60-ns">
         <%= article.summary %>

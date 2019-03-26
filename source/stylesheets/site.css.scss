@@ -45,6 +45,16 @@ body {
     color: white;
   }
 }
+hr {
+  border: 0;
+  height: 2px;
+  @extend .bg-light-gray;
+  margin: 2rem 0;
+}
+
+.post li {
+  @extend .mb2;
+}
 #nav-main h1 {
   position: relative;
 }
@@ -186,7 +196,7 @@ footer {
 #writing article {
   grid-template-columns: 40% 1fr;
   column-gap: 2rem;
-  a:hover {
+  a:not(.button):hover {
     color: $dark-orange;
   }
 }
@@ -265,4 +275,18 @@ p a {
 
 #contact ul {
   margin-left: -1rem;
+}
+
+.video {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 }
