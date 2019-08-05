@@ -1,5 +1,5 @@
 ---
-title: Working Full-time While Getting a Masters Engineering Degree
+title: Is Getting a Master's in HCDE Worth It?
 date: 2019-04-09 19:11 UTC
 tags:
 ---
