@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-class BlogPostTemplate extends React.Component {
+class WorkPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
@@ -17,6 +17,7 @@ class BlogPostTemplate extends React.Component {
           description={post.frontmatter.description || post.excerpt}
         />
         <h1>{post.frontmatter.title}</h1>
+        <h2>{post.frontmatter.company}</h2>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         {/* <hr />
 
@@ -41,10 +42,10 @@ class BlogPostTemplate extends React.Component {
   }
 }
 
-export default BlogPostTemplate
+export default WorkPostTemplate
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query WorkPostBySlug($slug: String!) {
     site {
       siteMetadata {
         title
@@ -59,6 +60,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        company
         posttype
       }
     }

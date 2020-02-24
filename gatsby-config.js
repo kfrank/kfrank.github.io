@@ -1,30 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog & Porfolio`,
-    author: `Ali Salah`,
-    description: `A starter blog & portfolio for gatsby.`,
-    siteUrl: `https://gatsby-starter-blog-and-portfolio-demo.netlify.com/`,
+    title: `Klare Frank, product designer`,
+    author: `Klare Frank`,
+    description: `Klare Frank is a design and product leader in Seattle.`,
+    siteUrl: `https://klare.io`,
     social: {
-      twitter: `alisalahio`,
+      twitter: `klare`,
     },
-    projects: [
-      {
-        title: `Gatsby Starter Blog & Portfolio!`,
-        description: `Gatsby official starter with portfolio section added!`,
-        url: `https://gatsby-starter-blog-and-portfolio.netlify.com/`,
-        moreLinks: [
-          {
-            type: `Github`,
-            url: `https://github.com/alisalahio/gatsby-starter-blog-and-portfolio`,
-          },
-        ],
-      },
-      {
-        title: `React`,
-        description: `React's homepage is created with Gatsby!`,
-        url: `https://reactjs.org/`,
-      },
-    ],
   },
   plugins: [
     {
@@ -32,6 +14,13 @@ module.exports = {
       options: {
         path: `${__dirname}/content/blog`,
         name: `blog`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/projects`,
+        name: `project`,
       },
     },
     {
@@ -86,11 +75,5 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
   ],
 }

@@ -1,9 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 
-import Projects from "../components/projects"
-import Posts from "../components/posts"
-import Info from "../components/info"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -15,9 +12,7 @@ class Index extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO />
-        <Posts />
-        <Projects />
-        <Info />
+        <h1>Contact</h1>
       </Layout>
     )
   }

@@ -1,27 +1,25 @@
-/**
- * Projects component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-
-import { rhythm, scale } from "../utils/typography"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 const Projects = () => {
   const data = useStaticQuery(graphql`
     query ProjectsQuery {
-      site {
-        siteMetadata {
-          projects {
-            title
-            url
-            description
-            moreLinks {
-              type
-              url
+      allMarkdownRemark(
+        sort: { order: DESC, fields: [frontmatter___date] }
+        filter: { frontmatter: { posttype: { eq: "project" } } }
+      ) {
+        edges {
+          node {
+            excerpt
+            fields {
+              slug
+            }
+            frontmatter {
+              date(formatString: "MMMM DD, YYYY")
+              title
+              description
+              company
+              posttype
             }
           }
         }
@@ -29,62 +27,30 @@ const Projects = () => {
     }
   `)
 
-  const { projects } = data.site.siteMetadata
+  const projects = data.allMarkdownRemark.edges
+
   return (
-    <div>
-      <div>
-        <h3
-          style={{
-            ...scale(0.2),
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-            marginBottom: 0,
-            color: "grey",
-            textTransform: "uppercase",
-          }}
-        >
-          Recent Projects
-        </h3>
-      </div>
-      <div>
-        {projects.map(project => {
-          const { title, description, url, moreLinks } = project
-          return (
-            <div key={title}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <a
-                  href={url}
-                  style={{ boxShadow: `none` }}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {title}
-                </a>
+    <section>
+      <h2>Case Studies</h2>
+      {projects.map(({ node }) => {
+        const title = node.frontmatter.title || node.fields.slug
+        return (
+          <>
+            <div key={node.fields.slug}>
+              <h3>
+                <Link to={node.fields.slug}>{title}</Link>
               </h3>
-              <p>
-                {description}
-                {moreLinks &&
-                  moreLinks.map(link => (
-                    <a
-                      key={link.url}
-                      href={link.url}
-                      style={{ marginLeft: 10 }}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {link.type}
-                    </a>
-                  ))}
-              </p>
+              <p
+                dangerouslySetInnerHTML={{
+                  __html: node.frontmatter.description || node.excerpt,
+                }}
+              />
             </div>
-          )
-        })}
-      </div>
-    </div>
+          </>
+        )
+      })}
+      <Link to="/work">View all case studies </Link>
+    </section>
   )
 }
 
