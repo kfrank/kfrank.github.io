@@ -1,0 +1,28 @@
+@import "../styles/colors.scss";
+
+.hero {
+  height: 75vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.heroContent {
+  margin-bottom: 2rem;
+  h1 {
+    font: 300 3.75rem/1.1 "Recoleta", serif;
+    max-width: 40rem;
+    margin-bottom: 0;
+  }
+  p {
+    font: 1.25rem/1.4 "Barlow", serif;
+    max-width: 35rem;
+  }
+}
+figure {
+  width: 63%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

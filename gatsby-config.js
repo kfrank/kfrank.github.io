@@ -2,7 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Klare Frank, product designer`,
     author: `Klare Frank`,
-    description: `Klare Frank is a design and product leader in Seattle.`,
+    authorFirst: `Klare`,
+    authorLast: `Frank`,
+    intro: `Klare Frank is a cross‑functional design and product leader`,
+    description: `Hello! I'm currently working to build better development tools and support the front-end design and dev community at CodePen.`,
     siteUrl: `https://klare.io`,
     social: {
       twitter: `klare`,
@@ -73,7 +76,9 @@ module.exports = {
         icon: `content/assets/gatsby-icon.png`,
       },
     },
+    `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
   ],
 }

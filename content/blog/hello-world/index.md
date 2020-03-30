@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Why I’m never brushing off my “unrelated” liberal arts degree again.
 date: "2015-05-01T22:12:03.284Z"
 posttype: blog
 ---

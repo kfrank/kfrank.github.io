@@ -1,4 +1,5 @@
 import React from "react"
+import styles from "./posts.module.scss"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 const Posts = () => {
@@ -29,25 +30,22 @@ const Posts = () => {
   const posts = data.allMarkdownRemark.edges
 
   return (
-    <section>
-      <h2>Writing</h2>
+    <section className={styles.postList}>
+      <h2 data-sal="slide-down" data-sal-duration="500">
+        Writing
+      </h2>
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <>
-            <div key={node.fields.slug}>
-              <h3>
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
-          </>
+          <Link to={node.fields.slug} className={styles.postLink}>
+            <h3>{title}</h3>
+            <p
+              dangerouslySetInnerHTML={{
+                __html: node.frontmatter.description || node.excerpt,
+              }}
+            />
+            <span className={styles.postLinkAction}>Read the Article</span>
+          </Link>
         )
       })}
       <Link to="/writing">View all articles</Link>

@@ -1,7 +1,8 @@
 ---
-title: The New Imposter Syndrome
+title: Project-based Learning & the Techdegree Program
 date: "2015-05-06T23:46:37.121Z"
-posttype: blog
+company: CodePen
+posttype: project
 ---
 
 Wow! I love blogging so much already.

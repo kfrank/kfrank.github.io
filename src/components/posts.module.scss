@@ -1,0 +1,17 @@
+@import "../styles/colors.scss";
+
+.postLink {
+  text-decoration: none;
+  color: $dark;
+  h3 {
+    font: 300 2.5rem/1.1 "Recoleta", serif;
+    margin: 0.75rem 0;
+  }
+}
+.postLinkAction {
+  font: 600 1.125rem/1 "Barlow Condensed", sans-serif;
+  text-transform: uppercase;
+  color: $primary;
+  margin-top: 2.5rem;
+  display: block;
+}

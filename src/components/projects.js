@@ -1,4 +1,5 @@
 import React from "react"
+import styles from "./projects.module.scss"
 import { useStaticQuery, graphql, Link } from "gatsby"
 
 const Projects = () => {
@@ -30,26 +31,20 @@ const Projects = () => {
   const projects = data.allMarkdownRemark.edges
 
   return (
-    <section>
+    <section className={styles.projectList}>
       <h2>Case Studies</h2>
       {projects.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
-          <>
-            <div key={node.fields.slug}>
-              <h3>
-                <Link to={node.fields.slug}>{title}</Link>
-              </h3>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-              />
-            </div>
-          </>
+          <Link to={node.fields.slug} className={styles.projectLink}>
+            <h3>{node.frontmatter.company}</h3>
+            <h4>{title}</h4>
+            <span className={styles.projectLinkAction}>
+              Read the Case Study
+            </span>
+          </Link>
         )
       })}
-      <Link to="/work">View all case studies </Link>
     </section>
   )
 }
