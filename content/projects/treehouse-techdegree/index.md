@@ -1,8 +1,9 @@
 ---
 title: Project-based Learning & the Techdegree Program
-date: "2015-05-06T23:46:37.121Z"
-company: CodePen
+date: "2020-05-01T22:12:03.284Z"
+company: Treehouse
 posttype: project
+intro: "Treehouse Techdegrees is an in-depth program aimed at getting students skills to land jobs in the tech industry. Over the course of the program, students complete 12 peer-reviewed projects to create a polished portfolio."
 ---
 
 Wow! I love blogging so much already.

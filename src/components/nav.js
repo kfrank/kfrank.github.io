@@ -20,7 +20,7 @@ export default () => (
         data-sal="slide-down"
         data-sal-duration="500"
       >
-        <h1>
+        <h1 className="split-text">
           <Link>
             <span>{data.site.siteMetadata.authorFirst}</span>
             <span>{data.site.siteMetadata.authorLast}</span>

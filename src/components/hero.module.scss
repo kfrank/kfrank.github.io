@@ -1,21 +1,27 @@
 @import "../styles/colors.scss";
+@import "../styles/mixins.scss";
 
 .hero {
   height: 75vh;
   min-height: 500px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
   position: relative;
+  background-color: #5a7672;
+  margin-top: -5rem;
+  padding-top: 3rem;
+  color: #fff;
+  @include wrapper;
 }
 .heroContent {
   margin-bottom: 2rem;
   h1 {
-    font: 300 3.75rem/1.1 "Recoleta", serif;
-    max-width: 40rem;
+    font: 600 4rem/1.14 "Recoleta", serif;
     margin-bottom: 0;
   }
   p {
-    font: 1.25rem/1.4 "Barlow", serif;
+    font: 300 1.375rem/1.5 "Barlow", serif;
     max-width: 35rem;
   }
 }

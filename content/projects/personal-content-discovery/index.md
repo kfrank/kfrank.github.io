@@ -1,8 +1,9 @@
 ---
 title: “How the !#*$ do I find my stuff?”
-date: "2015-05-06T23:46:37.121Z"
+date: "2020-05-01T22:12:03.284Z"
 company: CodePen
 posttype: project
+intro: "This is hard."
 ---
 
 Wow! I love blogging so much already.

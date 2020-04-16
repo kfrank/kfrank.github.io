@@ -28,9 +28,7 @@ export default () => (
             {data.site.siteMetadata.description}
           </p>
         </div>
-        <figure>
-          <img src={HeroImg} alt="Klare" />
-        </figure>
+        <figure>{/* <img src={HeroImg} alt="Klare" /> */}</figure>
       </header>
     )}
   />

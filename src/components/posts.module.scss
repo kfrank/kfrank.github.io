@@ -1,17 +1,33 @@
 @import "../styles/colors.scss";
+@import "../styles/mixins.scss";
 
+.postList {
+  @include wrapper;
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+  }
+}
 .postLink {
   text-decoration: none;
   color: $dark;
+  display: block;
+  // grid-column: 2 / 2;
+  // &:first-child {
+  //   grid-column: 1 / 2;
+  // }
   h3 {
-    font: 300 2.5rem/1.1 "Recoleta", serif;
+    font: 600 2rem/1.1 "Recoleta", serif;
     margin: 0.75rem 0;
+  }
+  p {
+    line-height: 1.4;
   }
 }
 .postLinkAction {
-  font: 600 1.125rem/1 "Barlow Condensed", sans-serif;
-  text-transform: uppercase;
+  @include link;
   color: $primary;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   display: block;
 }

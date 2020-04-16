@@ -1,0 +1,12 @@
+@mixin wrapper {
+  padding-left: 12.4%;
+  padding-right: 12.4%;
+}
+
+@mixin link {
+  font: 500 1rem/1.4 "Barlow Condensed", sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $dark;
+}
