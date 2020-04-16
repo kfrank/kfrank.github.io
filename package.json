@@ -15,6 +15,7 @@
     "gatsby-plugin-google-analytics": "^2.1.4",
     "gatsby-plugin-manifest": "^2.2.4",
     "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-postcss": "^2.2.2",
     "gatsby-plugin-react-helmet": "^3.1.2",
     "gatsby-plugin-sass": "^2.1.29",
     "gatsby-plugin-scroll-reveal": "^0.0.6",
@@ -31,7 +32,8 @@
     "prismjs": "^1.17.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from "gatsby"
 export default () => (
   <StaticQuery
     query={graphql`
-      query HeadingQuery {
+      query FooterQuery {
         site {
           siteMetadata {
             authorFirst
@@ -15,12 +15,8 @@ export default () => (
       }
     `}
     render={data => (
-      <header
-        className={`flex container relative items-center justify-between mx-auto z-10 pt-2 px-3 ${styles.globalHeader}`}
-        data-sal="slide-down"
-        data-sal-duration="500"
-      >
-        <h1 className="m-0">
+      <footer className={styles.globalHeader}>
+        <h1 className="split-text">
           <Link>
             <span>{data.site.siteMetadata.authorFirst}</span>
             <span>{data.site.siteMetadata.authorLast}</span>
@@ -42,7 +38,7 @@ export default () => (
             Contact
           </Link>
         </nav>
-      </header>
+      </footer>
     )}
   />
 )
