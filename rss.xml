@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Klare Frank, product designer]]></title><description><![CDATA[Hello! I'm currently working to build better development tools and support the front-end design and dev community at CodePen.]]></description><link>https://klare.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 17 Jul 2020 19:33:58 GMT</lastBuildDate><item><title><![CDATA[Why I’m never brushing off my “unrelated” liberal arts degree again.]]></title><description><![CDATA[This is my first post on my new fake blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a…]]></description><link>https://klare.io/are-liberal-arts-degrees-worth-it/</link><guid isPermaLink="false">https://klare.io/are-liberal-arts-degrees-worth-it/</guid><pubDate>Fri, 01 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This is my first post on my new fake blog! How exciting!&lt;/p&gt;
+&lt;p&gt;I’m sure I’ll write a lot more interesting things in the future.&lt;/p&gt;
+&lt;p&gt;Oh, and here’s a great quote from this Wikipedia on
+&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;salted duck eggs&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A salted duck egg is a Chinese preserved food product made by soaking duck
+eggs in brine, or packing each egg in damp, salted charcoal. In Asian
+supermarkets, these eggs are sometimes sold covered in a thick layer of salted
+charcoal paste. The eggs may also be sold with the salted paste removed,
+wrapped in plastic, and vacuum packed. From the salt curing process, the
+salted duck eggs have a briny aroma, a gelatin-like egg white and a
+firm-textured, round yolk that is bright orange-red in color.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAEEBf/aAAwDAQACEAMQAAABgik0dXC//8QAGRABAAMBAQAAAAAAAAAAAAAAAQACEhEy/9oACAEBAAEFAkqW2DlnRj73yf/EABcRAQADAAAAAAAAAAAAAAAAAAAREkH/2gAIAQMBAT8B1WX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQL/2gAIAQIBAT8Bi6f/xAAbEAABBAMAAAAAAAAAAAAAAAAAAQIRISIxMv/aAAgBAQAGPwK9GNocyS8hCj//xAAbEAADAQADAQAAAAAAAAAAAAABESEAMUGBof/aAAgBAQABPyGxNMfrLHmCDZmAzzvJJDjEQCHv/9oADAMBAAIAAwAAABDIL//EABYRAQEBAAAAAAAAAAAAAAAAAAERAP/aAAgBAwEBPxARhylZv//EABgRAAIDAAAAAAAAAAAAAAAAAAABESFR/9oACAECAQE/EFoktI//xAAdEAEBAAICAwEAAAAAAAAAAAABEQAxIWFBcYHh/9oACAEBAAE/EEbMLQ0fMHDVaPIXyI4pk4JUnWacNCtO8ojDE9TGIYES7/Jn/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Chinese Salty Egg&quot;
+        title=&quot;Chinese Salty Egg&quot;
+        src=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg&quot;
+        srcset=&quot;/static/8058f3f26913fea3b6a89a73344fe94a/a80bd/salty_egg.jpg 148w,
+/static/8058f3f26913fea3b6a89a73344fe94a/1c91a/salty_egg.jpg 295w,
+/static/8058f3f26913fea3b6a89a73344fe94a/1c72d/salty_egg.jpg 590w,
+/static/8058f3f26913fea3b6a89a73344fe94a/a8a14/salty_egg.jpg 885w,
+/static/8058f3f26913fea3b6a89a73344fe94a/fbd2c/salty_egg.jpg 1180w,
+/static/8058f3f26913fea3b6a89a73344fe94a/e1596/salty_egg.jpg 2048w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Paying for College – The College Cost Comparison Tool]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://klare.io/paying-for-college/</link><guid isPermaLink="false">https://klare.io/paying-for-college/</guid><pubDate>Fri, 01 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[“How the !#*$ do I find my stuff?”]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://klare.io/personal-content-discovery/</link><guid isPermaLink="false">https://klare.io/personal-content-discovery/</guid><pubDate>Fri, 01 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Project-based Learning & the Techdegree Program]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://klare.io/treehouse-techdegree/</link><guid isPermaLink="false">https://klare.io/treehouse-techdegree/</guid><pubDate>Fri, 01 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Volunteer Engagement and Retention in Nonprofit Community Orgs]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://klare.io/volunteer-engagement-and-retention-for-nonprofits/</link><guid isPermaLink="false">https://klare.io/volunteer-engagement-and-retention-for-nonprofits/</guid><pubDate>Fri, 01 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Making Social Not Suck]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://klare.io/making-social-not-suck/</link><guid isPermaLink="false">https://klare.io/making-social-not-suck/</guid><pubDate>Fri, 01 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Redesigning the Flight Booking Experience]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://klare.io/flight-booking/</link><guid isPermaLink="false">https://klare.io/flight-booking/</guid><pubDate>Fri, 01 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Designing a Pragmatic Roadmap]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://klare.io/designing-a-pragmatic-roadmap/</link><guid isPermaLink="false">https://klare.io/designing-a-pragmatic-roadmap/</guid><pubDate>Fri, 01 May 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Putting the "Systems" in Design Systems]]></title><description><![CDATA[Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in…]]></description><link>https://klare.io/putting-the-systems-in-design-systems/</link><guid isPermaLink="false">https://klare.io/putting-the-systems-in-design-systems/</guid><pubDate>Tue, 28 Apr 2020 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean. A small river named
+Duden flows by their place and supplies it with the necessary regelialia.&lt;/p&gt;
+&lt;h2&gt;On deer horse aboard tritely yikes and much&lt;/h2&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;This however showed weasel&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Well uncritical so misled&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;this is very interesting&lt;/li&gt;
+&lt;li&gt;this too&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Goodness much until that fluid owl&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When she reached the first hills of the &lt;strong&gt;Italic Mountains&lt;/strong&gt;, she had a last
+view back on the skyline of her hometown &lt;em&gt;Bookmarksgrove&lt;/em&gt;, the headline of
+&lt;a href=&quot;http://google.com&quot;&gt;Alphabet Village&lt;/a&gt; and the subline of her own road, the Line
+Lane. Pityful a rhetoric question ran over her cheek, then she continued her
+way. On her way she met a copy.&lt;/p&gt;
+&lt;h3&gt;Overlaid the jeepers uselessly much excluding&lt;/h3&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with
+&lt;a href=&quot;http://google.com&quot;&gt;Longe and Parole&lt;/a&gt; and dragged her into their agency, where
+they abused her for their projects again and again. And if she hasn’t been
+rewritten, then they are still using her.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
+right at the coast of the Semantics, a large language ocean.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It is a paradisematic country, in which roasted parts of sentences fly into your
+mouth. Even the all-powerful Pointing has no control about the blind texts it is
+an almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar.&lt;/p&gt;
+&lt;h3&gt;According a funnily until pre-set or arrogant well cheerful&lt;/h3&gt;
+&lt;p&gt;The Big Oxmox advised her not to do so, because there were thousands of bad
+Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
+didn’t listen. She packed her seven versalia, put her initial into the belt and
+made herself on the way.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;So baboon this&lt;/li&gt;
+&lt;li&gt;Mounted militant weasel gregariously admonishingly straightly hey&lt;/li&gt;
+&lt;li&gt;Dear foresaw hungry and much some overhung&lt;/li&gt;
+&lt;li&gt;Rash opossum less because less some amid besides yikes jeepers frenetic
+impassive fruitlessly shut&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When she reached the first hills of the Italic Mountains, she had a last view
+back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
+Village and the subline of her own road, the Line Lane. Pityful a rhetoric
+question ran over her cheek, then she continued her way. On her way she met a
+copy.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and
+return to its own, safe country.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But nothing the copy said could convince her and so it didn’t take long until a
+few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
+and dragged her into their agency, where they abused her for their projects
+again and again. And if she hasn’t been rewritten, then they are still using
+her. Far far away, behind the word mountains, far from the countries Vokalia and
+Consonantia, there live the blind texts.&lt;/p&gt;
+&lt;h4&gt;Silent delightfully including because before one up barring chameleon&lt;/h4&gt;
+&lt;p&gt;Separated they live in Bookmarksgrove right at the coast of the Semantics, a
+large language ocean. A small river named Duden flows by their place and
+supplies it with the necessary regelialia. It is a paradisematic country, in
+which roasted parts of sentences fly into your mouth.&lt;/p&gt;
+&lt;p&gt;Even the all-powerful Pointing has no control about the blind texts it is an
+almost unorthographic life One day however a small line of blind text by the
+name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
+advised her not to do so, because there were thousands of bad Commas, wild
+Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.&lt;/p&gt;
+&lt;h5&gt;Wherever far wow thus a squirrel raccoon jeez jaguar this from along&lt;/h5&gt;
+&lt;p&gt;She packed her seven versalia, put her initial into the belt and made herself on
+the way. When she reached the first hills of the Italic Mountains, she had a
+last view back on the skyline of her hometown Bookmarksgrove, the headline of
+Alphabet Village and the subline of her own road, the Line Lane. Pityful a
+rhetoric question ran over her cheek, then she continued her way. On her way she
+met a copy.&lt;/p&gt;
+&lt;h6&gt;Slapped cozy a that lightheartedly and far&lt;/h6&gt;
+&lt;p&gt;The copy warned the Little Blind Text, that where it came from it would have
+been rewritten a thousand times and everything that was left from its origin
+would be the word “and” and the Little Blind Text should turn around and return
+to its own, safe country. But nothing the copy said could convince her and so it
+didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
+with Longe and Parole and dragged her into their agency, where they abused her
+for their projects again and again.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The “New” Imposter Syndrome]]></title><description><![CDATA[Wow! I love blogging so much already. Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the…]]></description><link>https://klare.io/the-new-imposter-syndrome/</link><guid isPermaLink="false">https://klare.io/the-new-imposter-syndrome/</guid><pubDate>Wed, 01 Apr 2020 23:46:37 GMT</pubDate><content:encoded>&lt;p&gt;Wow! I love blogging so much already.&lt;/p&gt;
+&lt;p&gt;Did you know that “despite its name, salted duck eggs can also be made from
+chicken eggs, though the taste and texture will be somewhat different, and the
+egg yolk will be less rich.”?
+(&lt;a href=&quot;http://en.wikipedia.org/wiki/Salted_duck_egg&quot;&gt;Wikipedia Link&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Yeah, I didn’t either.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[“Vacationing” and Designing During the Pandemic]]></title><description><![CDATA[This past week was a very strange time to take a “vacation”. I’ve always been in a believer in actually going somewhere when taking time off…]]></description><link>https://klare.io/vacationing-and-designing-during-the-pandemic/</link><guid isPermaLink="false">https://klare.io/vacationing-and-designing-during-the-pandemic/</guid><pubDate>Mon, 30 Mar 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This past week was a very strange time to take a “vacation”. I’ve always been in a believer in actually going somewhere when taking time off. That it’s better to get out of your normal environment to do a reset by exploring new places and experiences. Or, at the very least, relaxing in a hotel room in a comfy bed, stuffing my face with takeout, and watching HGTV with zero obligations. But all of that is pretty much impossible right now.&lt;/p&gt;
+&lt;p&gt;My boyfriend and I had a great trip planned to Portugal during my spring break before my last quarter ever of grad school. We were excited that we got great deals on our flights. One flight we booked with credit card points on Air France in business class after snagging a great deal as we were taxing out from our gate in Singapore to fly to Bali last year. Our return was supposed to be the first leg of a round-trip flight from LHR -&gt; SEA on British Airways in first class, after we found an insanely good deal that would’ve made economical sense given all the mileage points we could count towards getting MVP Gold status on Alaska Air.&lt;/p&gt;
+&lt;p&gt;My boyfriend, having attended an aeronautical university for his undergrad and graduate degrees, gets really excited to fly certain routes. We were stoked to be able to experience one of the best first-class lounges in the world. It was something worth looking forward to after busting my ass in grad school AND designing and releasing so many features at work in Q1. I really needed a break, a reset, and something to look forward to.&lt;/p&gt;
+&lt;p&gt;So when we realized our vacation wasn’t happening, and that I’d probably lose $3000 I’d put towards the trip (fuuuuuuuuuu. I’m not rich, people.), I was pretty bummed but also at a loss for what exactly to do. My day to day life hasn’t changed that much at all, especially since I was working from home regularly before. Despite that, it’s still weird.&lt;/p&gt;
+&lt;p&gt;There’s this strange thing going on right now in a lot of parts of life where on the one hand, you kind of have to go on and pretend life is completely normal (as long as it’s a six feet distance from others). On the other hand, shit’s crazy and I catch myself thinking how can we possibly go on like normal when everything’s so messed up and so much about our society has changed already? How do you cope with that? No one knows. We’re all just trying to figure it out. And probably baking bread with our own sourdough starters.&lt;/p&gt;
+&lt;p&gt;One thing I knew immediately that the stress wouldn’t reset itself. I had to come up with some sort of plan to not let it all build and cause havoc on my body. So I decided to take my planned time off work anyway, scoped down to a week, because if there was something I could do and had control over, it was removing one source of low-level stress from my life for a short period. Seems weird. It was probably the worst vacation I’ve ever had, but it did give me a lot of time for introspection. In some ways, it was a reset. Maybe not the reset I needed, but at least it was something.&lt;/p&gt;
+&lt;p&gt;Here’s what I did:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I took two trips outside my house. They were thrilling, in the way you’d think obsessively washing your hands and disinfecting every surface of your car is thrilling. One to go to Costco to get a bunch of meat, and one to pick up my farmers market produce box and some beer from a local brewery that doesn’t have the benefit of amazing distribution networks.&lt;/li&gt;
+&lt;li&gt;Came up with a solid exercise plan I followed every day that’s included strength training with a set of 10lb dumbbells and some resistance bands, lots of yoga, pilates, barre, and climbing the three flights of stairs in our house over and over again. It’s taken me a while to get to this point, because making a plan that works with your schedule and energy level is hard. We’re not exercising outside anymore. My boyfriend is in an at-risk group and it’s not worth the risk for us. (We also live across the street from a park and it’s mildly stressful to see people still driving to congregate there.)&lt;/li&gt;
+&lt;li&gt;Cooked every day and shared it on instagram because cooking makes people happy. My boyfriend is happy eating the same thing every day (chicken, brown rice, and steamed mixed vegetables), so it’s definitely a low pressure situation. I enjoy the creative challenge of using what I have on hand.&lt;/li&gt;
+&lt;li&gt;Did some art. I used to do a lot of art before I started grad school. It was awesome and made me feel accomplished. I missed that.&lt;/li&gt;
+&lt;li&gt;Read an entire book all day. I really missed the luxury of being able to start a book in the morning with a cup of coffee and read it straight through in a single day without feeling like I had any other obligations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And here’s some stuff I thought about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I know I’m going to have some sort of existential crisis when I finish grad school because I won’t be working towards some larger goal anymore. I thought a lot about what I want my next big goal to be and how I want to thoughtfully spend that time I’ll get back.
+That they named it social distancing when it is actually physical distancing.&lt;/li&gt;
+&lt;li&gt;It’s fine to not appear to be doing much. Some of us have already been energy-drained because of physical conditions and need to take all our extra energy to figure out how to not let stress affect our immune systems.&lt;/li&gt;
+&lt;li&gt;Twitter has become even more of a toxic ‘you should’ve done more’ and blame-game shouting match, unfortunately. Even health organizations recommend limiting the amount of time you spend reading the news.&lt;/li&gt;
+&lt;li&gt;It’s ok to feel depressed because of canceled events and vacations. If someone is, it doesn’t mean they’re not equally upset about how this situation has been handled on a national level or how extreme inequalities have been further revealed.&lt;/li&gt;
+&lt;li&gt;Everyone needs a support system for dealing with day to day stress. I started adding 20 minutes of restorative yoga on to the end of my workouts. I highly recommend guided meditation, even if you think it’s not your thing. Or just spending some time laying on the (clean) floor or exercise mat.&lt;/li&gt;
+&lt;li&gt;Everyone needs social interaction, even people who think they’re introverts. I had a hunch this was true, and wish I could’ve done a research study on it. It’s still a good idea to have those virtual happy hours and phone calls.&lt;/li&gt;
+&lt;li&gt;The next time you go to the grocery store, buy some dark chocolate. It’s also full of magnesium which is good for your immune system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I’m sure a lot of people are also feeling the same way: wanting to get some social interaction, wanting to creating something, trying to feel productive, languishing their regular schedules and canceled plans, and possibly actually grieving. So what does this actually mean for a designing in uncertain times? I’ve decided that it doesn’t mean saving the world through design. I’ve decided instead to try to help ease stress a little for everyone by continuing to focus on making tools for remote work and creative expression easier to use. Even though that was my mission before, it doesn’t mean we’re all carrying on like everything is normal. It’s not, but we still have to work and need to create (hopefully something other than thousands of loaves of bread) as a form of our own self-care, and hopefully it’ll help some people destress and not worry about at least a few things in this crazy world.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[What My Remote Set-Up Looks Like After Five Years]]></title><description><![CDATA[Hey everyone! I’ve been working remotely for about five years now with three different companies (CodePen, Vox Media, and Treehouse) in two…]]></description><link>https://klare.io/my-remote-setup/</link><guid isPermaLink="false">https://klare.io/my-remote-setup/</guid><pubDate>Mon, 05 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Hey everyone! I’ve been working remotely for about five years now with three different companies (CodePen, Vox Media, and Treehouse) in two different cities (DC and Seattle). I read those “how to work remotely” blog posts from time to time and the biggest thing I realize is that &lt;strong&gt;there’s no one great setup for everyone&lt;/strong&gt;. Many people swear to having an established routine (I really don’t), or that they absolutely can’t work without a large monitor (I did for mostly four years), or that they need to have a standing desk and can’t work anywhere else.&lt;/p&gt;
+&lt;p&gt;All of those things are great if they work for you! However, it’s important to realize that people have different working styles and habits they develop over the course of working remotely, and each of those styles have been custom-made for them. Some people work best only at a desk in an office, while some people can’t possible do their best work there. I’m sort of in-between. Here’s what works for me:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/writing/D9160WRU4AAdC8A.jpg&quot; alt=&quot;Our Office&quot;&gt;
+&lt;em&gt;Our Small Office, with all the Legos.&lt;/em&gt;&lt;/p&gt;
+&lt;h2&gt;The Desk&lt;/h2&gt;
+&lt;p&gt;As you would suspect, I have a desk to work from. However, this is a recent development. Prior to two months ago, I didn’t have a dedicated desk and only worked on my sofa or at my dining table. This is mostly because I lived in two expensive cities and couldn’t afford a two bedroom place on my own.&lt;/p&gt;
+&lt;p&gt;When I first started working remotely, I lived in a studio apartment in DC without space for a dedicated desk. I used my dining table for just about everything (eating, art projects, working, brewing beer, folding my clothes…), so when I moved into a space that could accommodate a desk, I was so used to using my table that it didn’t even seem necessary. What was the point when I couldn’t even close the door on my work?&lt;/p&gt;
+&lt;p&gt;To get around the problem of disconnecting myself from my work, I made sure never to do anything on my work laptop outside of working hours. Even if I ended up working on a side project, the end of the day was symbolically linked to closing one laptop and opening another for fun time. Disconnecting from work is a theme throughout all remote work strategies, and something I encourage.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/writing/IMG_2377.JPG&quot; alt=&quot;Ikea desk with curved widescreen monitor and macbook pro on stand.&quot;&gt;
+&lt;em&gt;The desk set-up I share with my boyfriend, who works in a rocket factory.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Today I’m lucky enough to have an entire room that’s an office. I only have to share it with my boyfriend (Bf) and his legos. Since bedrooms in Seattle are super small, we decided to combine our desks together. I use the desk for work during the day, and he uses the desk when he gets home from work in the evening to game.&lt;/p&gt;
+&lt;h3&gt;Our Setup&lt;/h3&gt;
+&lt;p&gt;My stuff mostly stays on the right side of the desk (with the exception of the dock for the Switch), while his stuff mostly stays on the left side of the desk. My keyboard, trackpad, and mouse move off under my stand when he uses the desk, and I usually push his keyboard and mouse under the monitor when I’m working.&lt;/p&gt;
+&lt;p&gt;It’s not the perfect setup. We can’t agree on a height for the desk. I want it taller to fit the chair arms underneath and get the monitor at my eye level. He usually has it set lower (idk how that works though, because he’s taller than me but somehow that’s eye level?) I also haven’t found a webcam that’s a good enough quality to allow me to take meetings. But for the most part, it works pretty well. Hell, I don’t even mind being surrounded by legos.&lt;/p&gt;
+&lt;h4&gt;The desk itself&lt;/h4&gt;
+&lt;p&gt;It’s the &lt;a href=&quot;https://www.ikea.com/us/en/catalog/products/S29084966/&quot;&gt;Skarsta&lt;/a&gt; from Ikea. Bf bought it and I had no objections. I like that it’s a nice large size and heigh adjustable. I always thought about making my own wood top for it since I’m really into woodworking, but I really like the smooth feel of it. I honestly don’t care that it’s not fancy.&lt;/p&gt;
+&lt;h4&gt;The chair&lt;/h4&gt;
+&lt;p&gt;It’s also from Ikea. Bf also bought this before we moved into together and I had no objections. Whatever. It’s a chair. If I don’t like it, I’ll go sit somewhere else.&lt;/p&gt;
+&lt;h4&gt;The monitor&lt;/h4&gt;
+&lt;p&gt;Oh boy. This is where things got tricky. Bf had a three monitor set up before. I was using a Thunderbolt Display I’ve had for six years. We were both pretty set in our ways until we finally compromised on a wide-curved monitor. We ended up with the &lt;a href=&quot;https://www.amazon.com/Dell-Alienware-Monitor-Resolution-Overclocked/dp/B0777RY75V/ref=sr_1_2?crid=2BMV90OLKPGK2&amp;#x26;keywords=alienware+curved+monitor&amp;#x26;qid=1564015202&amp;#x26;s=gateway&amp;#x26;sprefix=alienware+curved%2Caps%2C199&amp;#x26;sr=8-2&quot;&gt;Alienware 1900R&lt;/a&gt;. It doesn’t seem as crisp as my old thunderbolt, but it’s perfectly fine for designing. I hardly ever use my laptop as a second screen when I’m plugged in. We had to get a hdmi switcher for it to allow Bf to play the Switch on this monitor, since it only has one display port input and one hdmi input.&lt;/p&gt;
+&lt;h4&gt;The speakers&lt;/h4&gt;
+&lt;p&gt;I didn’t realize the Thunderbolt Display had basically everything in it and other monitors didn’t just because I had been using it for so long. We ended up ditching Bf’s five speaker set up before in favor of a two speaker &lt;a href=&quot;https://www.amazon.com/Bose-Companion-III-Multimedia-Speakers/dp/B00CD1PTF0/ref=sr_1_4?keywords=bose+speakers&amp;#x26;qid=1564015511&amp;#x26;s=gateway&amp;#x26;sr=8-4&quot;&gt;Bose Companion 2 Series&lt;/a&gt; setup that takes up way less space on the desk. They sound equally good, if not better, and also have two inputs that allow both of our computers to be hooked up to them.&lt;/p&gt;
+&lt;h4&gt;Maneuvering&lt;/h4&gt;
+&lt;p&gt;I use an Apple keyboard and trackpad. Trackpads are really nice for doing things in Figma when you need to zoom around artboards all the time. I used to only use trackpads, and even played World of Warcraft in a top raiding guild for a while only a trackpad. Then Bf convinced me to get a mouse to play Heroes of the Storm with him and I found it to be much better for doing work in CAD programs. Now I use both. I use a &lt;a href=&quot;https://www.amazon.com/Logitech-Anywhere-Wireless-Cross-Computer-Control/dp/B071VK5KXN?ref_=bl_dp_s_web_2529810011&quot;&gt;Logitech MX Anywhere&lt;/a&gt; when I’m at the desk.&lt;/p&gt;
+&lt;h4&gt;Also on my side of the desk&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;The &lt;a href=&quot;https://www.amazon.com/Rain-Design-mStand-Laptop-Patented/dp/B000OOYECC/ref=sr_1_3?crid=1QO78PBK1N7O4&amp;#x26;keywords=rain+design+mstand&amp;#x26;qid=1564015593&amp;#x26;s=gateway&amp;#x26;sprefix=rain+design+m%2Caps%2C202&amp;#x26;sr=8-3&quot;&gt;Rain Design mstand&lt;/a&gt; I’ve had since I started working remotely.&lt;/li&gt;
+&lt;li&gt;A notebook I hardly ever draw in (I am not a sketch it out type of designer) with some sharpies and pencils.&lt;/li&gt;
+&lt;li&gt;An everything dongle. Because you need one of those when your only ports are usb-c. I bought some random brand off Amazon called Charjen Pro. It works and is very un-fancy. I really just wanted one with an hdmi input in case I needed it for a random projector at school.&lt;/li&gt;
+&lt;li&gt;A Nintendo Switch dock. I don’t use this. This is Bf’s. It’s only there because he steals the speaker input for my computer to use for the switch.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;On Bf’s side of the desk&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Switch controller&lt;/li&gt;
+&lt;li&gt;PS4 + controller&lt;/li&gt;
+&lt;li&gt;Bose headphones&lt;/li&gt;
+&lt;li&gt;A usb input hub&lt;/li&gt;
+&lt;li&gt;His custom built computer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The sofa&lt;/h2&gt;
+&lt;p&gt;Sometimes I like doing work while lounging on the sofa in our great room. There’s days where I only work for the sofa, and some days when I don’t at all. While our office has a window in it, there’s a lot more natural light on this floor which is huge bonus for me, especially during the winter months when there’s hardly any sun at all in Seattle.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/writing/IMG_1226.JPG&quot; alt=&quot;Ikea desk with curved widescreen monitor and macbook pro on stand.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I know some people are like “WHAT?? You can work DAYS without an external monitor??” Well, If you’re shocked now, you’d better be sitting down for the next part. I’ve worked &lt;strong&gt;entire years&lt;/strong&gt; without even setting up my external monitor. I went so long I didn’t even know I needed a new dongle to connect to it. Not being tied to working at a desk or a monitor has really trained me how to work in different settings.&lt;/p&gt;
+&lt;p&gt;Working from your parent’s place for a week? Yeah, you can’t bring your monitor on the plane with you. Want to cowork with your friends in LA, Austin, SF, or wherever? Yep, still not going to bring a monitor, and coworking spaces definitely don’t have them at the hot desks. In all those cases, you’ve still got to do the work and adapt to not having a huge monitor. I’ve become so accustomed to changing my working locations that screen size isn’t a big deal anymore.&lt;/p&gt;
+&lt;h3&gt;The sofa&lt;/h3&gt;
+&lt;p&gt;A &lt;a href=&quot;https://www.lovesac.com/search/modular-furniture/sectionals&quot;&gt;Sactional&lt;/a&gt; from Lovesac with Grey Slub Tweed covers.&lt;/p&gt;
+&lt;h3&gt;The lap desk&lt;/h3&gt;
+&lt;p&gt;A &lt;a href=&quot;https://www.amazon.com/LapGear-Designer-Desk-phone-holder/dp/B07N9JD6YQ?ref_=bl_dp_s_web_5317313011&amp;#x26;th=1&quot;&gt;LapGear desk&lt;/a&gt; with phone holder on Amazon. I actually have two of these in the same color, one for upstairs and one for the sofa in the office. It’s nice not having my legs burned by my computer.&lt;/p&gt;
+&lt;h3&gt;The other sofa&lt;/h3&gt;
+&lt;p&gt;My old &lt;a href=&quot;https://www.crateandbarrel.com/petrie-sofa/s106389&quot;&gt;Crate and Barrel Petrie&lt;/a&gt; sofa is also in the office. I work on it sometimes, but I mostly go upstairs if I want to be on a sofa because of the natural light.&lt;/p&gt;
+&lt;h2&gt;The island&lt;/h2&gt;
+&lt;p&gt;Spoiler alert: It’s not what you think of when you think remote work and islands.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/writing/IMG_7998.JPG&quot; alt=&quot;Ikea desk with curved widescreen monitor and macbook pro on stand.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Sometimes I work from the island in our kitchen. I like to think I’d alternate between sitting and standing, but I really don’t. I’m just here for the coffee. It’s like eight feet from the sofa.&lt;/p&gt;
+&lt;h2&gt;Bonus workspace: the roof deck&lt;/h2&gt;
+&lt;p&gt;Sometimes when it’s nice out and I need more vitamin D, I’ll go up to the roof to work. We’ve got a large table with an umbrella that keeps the glare on my laptop down while I soak in the Seattle skyline and watch ships go in and out of Elliott Bay (the tugboats are my favorite!).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/writing/IMG_2981.jpg&quot; alt=&quot;Ikea desk with curved widescreen monitor and macbook pro on stand.&quot;&gt;&lt;/p&gt;
+&lt;p&gt;That’s mostly it! Very occassionaly, I work from a coffeeshop. When I’m so tired of being at home that I just HAVE to work in another place. This is usually because I haven’t talked to another human being in a few days. But most of the time, work from home means work from home: pants on, no makeup, making homemade pizza for lunch. And It’s been working very well for me.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Is Getting a Master's in HCDE Worth It?]]></title><description><![CDATA[I’ve been getting a lot more requests from people in the industry who are interested in getting a masters degree and want to know if it’s…]]></description><link>https://klare.io/is-getting-a-masters-in-hcde-worth-it/</link><guid isPermaLink="false">https://klare.io/is-getting-a-masters-in-hcde-worth-it/</guid><pubDate>Tue, 09 Apr 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been getting a lot more requests from people in the industry who are interested in getting a masters degree and want to know if it’s worth it. The short answer is: I don’t know. There’s many factors that should go into making this decision, time and money being major ones. It’s different for everyone. I can only share my experiences from my perspective as a designer that’s been working in the product/design/engineering tech industry for over eight years.&lt;/p&gt;
+&lt;p&gt;As of writing this, I’m 37/48 credits into my master’s degree at the University of Washington in the &lt;a href=&quot;https://www.hcde.washington.edu/ms/&quot;&gt;Human Centered Design and Engineering&lt;/a&gt; (HCDE) program. This is a 48 credit program with classes mostly at night, the majority of the 4-credit ones being from 6-10pm. This makes it fairly doable for people who work during the day to attend classes part-time, though half of the people in this program are full-time students. Most of those full-time students are comprised of people right out of undergrad or people who got fed up with their degree taking so long and quit their jobs to speed up the process. HCDE also lists out the &lt;a href=&quot;https://www.hcde.washington.edu/mission#demographics&quot;&gt;program demographics&lt;/a&gt; if you’re interested.&lt;/p&gt;
+&lt;h2&gt;Motivations&lt;/h2&gt;
+&lt;p&gt;My motivations for attending this program were to 1) gain leadership skills to bring my career to the next level, 2) fill the gaps in my knowledge gained from on-the-job training. I’d say most student’s motivations for being in the program are to get a good job at a great company upon graduation. They’re either people straight out of undergrad or people who are switching careers. I’m really not the norm as I don’t want to switch careers and don’t want to get a new job.&lt;/p&gt;
+&lt;h3&gt;Leadership skills?&lt;/h3&gt;
+&lt;p&gt;So far, I have switched jobs to a much higher leadership/decision-making role since I started this program. However, I do not think getting a master’s degree had anything to do with that. I attribute this mostly to being held back from promotions in previous jobs due to discrimination. In one role, I was given feedback in my quarterly review that I should smile more and be more energetic (aka bubbly) in meetings. (I’m not this type of person and can’t change to be that.) In another, I was told to look at the seniority chart where attributes for each position level were listed and identify where I could improve to get to the next level. I identified all the things I was doing at the senior level to management, was still denied a promotion, and was never informed on what I could do to reach that level. When I applied to grad school, I thought having a graduate degree would make me stand out and help me be promoted to a leadership role. It didn’t; I just needed to join a team that believed in me,didn’t hold me back, and didn’t discriminated against me. I honestly believe even if I had completed my masters degree in those past roles, I still would’ve never been promoted.&lt;/p&gt;
+&lt;h3&gt;Filling Knowledge Gaps&lt;/h3&gt;
+&lt;p&gt;HCDE has &lt;em&gt;definitely&lt;/em&gt; filled gaps in my knowledge, however. This is a &lt;em&gt;very&lt;/em&gt; research-oriented program. If you’re interested in gaining more knowledge about UX research, this is the one for you. I’ve used techniques I’ve learned in classes directly in my job. For instance, I started a qualitative research project surrounding what makes a good front-end dev community because of what I learned in my qualitative research class. I never thought that I’d be taking HCI theories and applying them to my work (I’m super mega practical), but I’ve done that too to help predict certain behaviors. I’ve also taken group exercises and conducted them with our whole team at CodePen, as was the case with our affinity mapping exercise last year at our team meetup in Bend. So, yeah, all of those things have really made me more confident in trying out different methods in my full-time job. It’s 100% made me more well rounded from a different perspective than what I would’ve gotten with my industry-only training.&lt;/p&gt;
+&lt;h2&gt;Time &amp;#x26; Money&lt;/h2&gt;
+&lt;p&gt;As for time commitments, I usually take 4-6 credits a quarter, which amounts to 1 to 1.5 classes a week. It’s a fairly doable workload and definitely possible to manage. I equate it to being an expensive hobby. I have taken 9 credits in a previous quarter and am currently taking 10 credits this quarter. That’s a lot. At that point, grad school and work are your life and it’s hard to fit anything else in (sorry HOA board). If anything else major in your life comes up, it’s going to be hard to balance everything. And something most likely will come up. Hopefully things won’t literally catch on fire like they did the last time I took one of these high workloads. I highly recommend against taking 8-10 credits a quarter while working full-time unless you have to.&lt;/p&gt;
+&lt;p&gt;Which leads me to the big question: is it worth the money? So far I’ve spent about $24k of my own money in the past year and a half on grad school and still have about $9k left to spend. That’s a lot of money. I could’ve outright bought a new car for that. Based on my previous experience working on student debt data at the Consumer Financial Protection Bureau, I absolutely did not want to take out any student loans to pay for this. I had to do the math before even applying to see if I could afford to pay for it. This is mostly because I will never recoup any of the cost with a job promotion, like most masters degrees promise. I’m not planning on getting a new job or job promotion with a salary bump significant enough to offset this cost. This is mostly why I refer to my master’s degree as an expensive hobby. I don’t think of it as an investment.&lt;/p&gt;
+&lt;h2&gt;Is it worth it?&lt;/h2&gt;
+&lt;p&gt;IMO, it’s only worth it if you 1) absolutely need the career boast and network to get into the industry, 2) if your employer is paying for all or part of your degree, or 3) you really want the opportunity to teach in a program which requires a masters (many don’t). When I started, my employer paid for $4k a year (almost the equivalent of one 4-credit class). That was enough to offset the cost to justify me attending. It’s still a significant amount to spend and sometimes I honestly wonder if it was worth it, but I’m in so far now that it makes more sense to just finish. Most people working in industry who have masters degrees (or even just undergrad degrees) don’t even do anything related to their degrees. I would 100% approach this from the perspective that it’s not an investment and you’re getting this degree for you. Also people who like to say grad school is the best time and you have the most freedom to do anything are probably referring to Ph.D programs, not masters degrees. Somehow they all get lumped together.&lt;/p&gt;
+&lt;p&gt;That’s not to say I haven’t had any fun in the program (I definitely have!) or haven’t meet some of the most dedicated and brilliant people (I also have!). I’ve really enjoyed the time I’ve spent in the HCDE program so far and it’s been part of the success in getting me out of a burnout rut I was in prior to joining CodePen. There’s been some very fun projects I’ve worked on that have led me to consider problems in different ways, learn new things, and advance my mentoring skills. While there are days I really wonder if I made the right choice spending this much money on something, there’s others where I’m really proud of my accomplishments. Is it worth it? I still don’t know, but I’m definitely in a better place now than when I started the program.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building a physical git device with Arduino]]></title><description><![CDATA[Last Fall I got to delve into the world of physical computing via Arduino for one of my grad school classes at the University of Washington…]]></description><link>https://klare.io/building-a-physical-git-device/</link><guid isPermaLink="false">https://klare.io/building-a-physical-git-device/</guid><pubDate>Thu, 20 Dec 2018 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Last Fall I got to delve into the world of physical computing via Arduino for one of my grad school classes at the University of Washington. For this class, everyone got to choose their own project to work on (with most all of these being individual projects). Having free reign was a bit alarming at first since I prefer to deal with constraints of real-life issues. We had several guest speakers who work on physical installations or devices come and talk about their work, which helped a lot in generating some ideas. A few speakers, including &lt;a href=&quot;https://blinkux.com/ideas/welcome_tectonic&quot;&gt;Kelly Franznick from Blink UX&lt;/a&gt; &amp;#x26; &lt;a href=&quot;https://www.instagram.com/lmnts_/&quot;&gt;Plamena Milusheva from LMN Architects&lt;/a&gt;, worked on light installations, and while doing an art installation was something I was contemplating, I also wanted my project to solve some sort of problem I could relate to.&lt;/p&gt;
+&lt;div class=&quot;video&quot;&gt;&lt;iframe frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; type=&quot;text/html&quot; src=&quot;https://www.youtube.com/embed/c4LboT1_8qg?autoplay=0&amp;fs=0&amp;iv_load_policy=3&amp;showinfo=0&amp;rel=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;origin=https://youtubeembedcode.com&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+*An overview of the project in video format*
+&lt;p&gt;Since I’ve been working remotely for the past four years, primarily surrounded by a lot of developers, I ultimately decided to build a prototype for an idea that combined those two realms. What I built was a box intended to sit on a desk next to a computer and would connect with your team’s main GitHub or GitLab repo. It is comprised of three parts: 1.) a branch selector, 2.) a grid of coworkers which lights up when commits are made to the selected branch, and 3.) a soft potentiometer which allows the user to push and pull code to that branch.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/writing/gitbit-sketch.jpg&quot; alt=&quot;Sketch including indicator lights, led panel, knobs, and buttons&quot;&gt;
+&lt;em&gt;My original idea sketch&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Be warned, this is a fairly rough prototype. Given that I needed to dedicate most my time to the actual build, I didn’t do any user research, so the practicality of this device is in essence only; it doesn’t consider all the weird git merge errors you’d have to solve or the use cases of what it’s like working on different dev teams. It also doesn’t consider the implications all these notifications could bring up. I hate having any notifications active in Slack, so I’m 99.9% sure having cool lights that pop up would bug the hell out of me. (I’m decidedly the one on the right.)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://66.media.tumblr.com/a9339a0a6857c28f416a7e131c219150/tumblr_nnbxtzkzBB1urogowo1_r5_1280.jpg&quot; alt=&quot;Lots of app badge notifications v. No app badge notifications&quot;&gt;
+&lt;em&gt;&lt;a href=&quot;https://2kindsofpeople.tumblr.com/post/117279808986&quot;&gt;2 Kinds of People&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;With that being said, I feel like having a physical device for remote workers might be a nice way to connect them together. It doesn’t HAVE to be a device like this, but playing with a string of leds and a nice tuner knob was pretty damn fun, so I went with it.&lt;/p&gt;
+&lt;h2&gt;How the Final Prototype works&lt;/h2&gt;
+&lt;p&gt;The Arduino plugs into the computer’s usb for power and serial communication with Processing to execute bash scripts via the computer’s terminal. Two potentiometers, one knob and one linear, and a hidden demo button on the back of the device act as user inputs. A LCD, LED strip (contains both team LEDs and swipe LEDs) are outputs on the device.&lt;/p&gt;
+&lt;div class=&quot;tc&quot;&gt;
+&lt;img src=&quot;/images/writing/schematic.jpg&quot; alt=&quot;Schematic for the GitBit Device&quot;&gt;&lt;/div&gt;
+&lt;p&gt;When a user plugs in the gitbit device to their computer, the device will initialize by lighting up the leds in a sequence and turning on the LCD to display the active branch.&lt;/p&gt;
+&lt;p&gt;A user can change branches by turning the potentiometer knob to the right of the LCD. The code checks for a change on the potentiometer knob through analog input. It maps the value to the length of the vector containing branch names and then prints the name associated with the mapped knob value to the LCD.&lt;/p&gt;
+&lt;p&gt;The demo button on the back of the box checks for a press and then lights up a random LED within the list of team LEDs to start off bright green and fade to blue over 20 seconds. The fading animation was designed to help users detect more recent team member commits.&lt;/p&gt;
+&lt;p&gt;The soft linear potentiometer, or touchbar, detects an analog value and maps the value down to between 0 and 10 to account for value variance. Once one side of the touchbar is pressed, the code will change the gesture state to in progress. If the gesture is fully completed (a swipe across the entire soft potentiometer), the gesture state changes to complete. If a gesture state is complete, a “push” or “pull” string is printed to the serial corresponding to the direction. Additionally, an animation sequence will light up the five LEDs above the touchbar to indicate progress and then either the left (for pull) or right (for push) in green to indicate the action is complete.&lt;/p&gt;
+&lt;p&gt;If Processing is running, it will check the Arduino serial for strings containing a value or pull or push. If either string exists, the code will execute a corresponding bash script to either pull from or push to the predefined Github repository.&lt;/p&gt;
+&lt;h2&gt;The First Prototype&lt;/h2&gt;
+&lt;p&gt;To start out, I prototyped all the physical parts together with some VERY rough code. I wanted at the very least to make sure everything worked together. I was traveling to Japan the following week for vacation, so I really wanted to get everything down while my mind was still fresh. To complete this prototype I used:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;An Adafruit Metro&lt;/li&gt;
+&lt;li&gt;Half-sized breadboard&lt;/li&gt;
+&lt;li&gt;LCD with soldered backpack&lt;/li&gt;
+&lt;li&gt;Two buttons&lt;/li&gt;
+&lt;li&gt;An LED&lt;/li&gt;
+&lt;li&gt;A potentiometer knob&lt;/li&gt;
+&lt;li&gt;Lots of poorly organized cables&lt;/li&gt;
+&lt;li&gt;Two resistors&lt;/li&gt;
+&lt;li&gt;A demo button to simulate a coworker making a commit&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once I had the basics working, I cut out a cardboard face for the prototype so I could also see what it might look like and do some rudimentary user tests to make sure the parts I had picked out were the right ones for the tasks. I also replaced the single LED with a &lt;a href=&quot;https://www.amazon.com/gp/product/B01AG923GI/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&amp;#x26;psc=1&quot;&gt;string of individually addressable LEDs&lt;/a&gt; so I could control all the lights from only three pins.&lt;/p&gt;
+&lt;div class=&quot;grid-ns grid-columns-2-ns ga1-ns&quot;&gt;
+&lt;div class=&quot;article-image &quot;&gt;&lt;img src=&quot;/images/writing/gitbit-img-3.jpg&quot; alt=&quot;Arduino, breadboard, and wires for buttons and an lcd screen&quot;&gt;
+&lt;em&gt;Prototyping all the parts&lt;/em&gt;&lt;/div&gt;
+&lt;div class=&quot;article-image&quot;&gt;&lt;img src=&quot;/images/writing/gitbit-img-2.jpg&quot; alt=&quot;First prototype of GitBit with a cardboard front&quot;&gt;
+&lt;em&gt;Adding on the cardboard face&lt;/em&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This worked out fairly well as a first prototype, but it had some major issues:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I really wanted it to feel more solid, and I was afraid of touching or moving the entire device for fear of it falling apart.&lt;/li&gt;
+&lt;li&gt;I also was interested in introducing swiping functionality, as a touch potentiometer strip would solve the issue of the potentiometer knob being in the last used position (pull or push) when in real life, we may push or pull multiple times before doing the other. However, I didn’t want to lose the knob entirely, because it was pretty smooth and a real joy to use.&lt;/li&gt;
+&lt;li&gt;Any animation used a delay function which prevented any other action from occurring while that animation was running. I was planning on having some long indicator light animations, and this wasn’t going to cut it.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Despite having some issues, I put it all down to go on vacation.&lt;/p&gt;
+&lt;h2&gt;Second Prototype&lt;/h2&gt;
+&lt;p&gt;Fast-forward three weeks through many bowls of ramen.&lt;/p&gt;
+&lt;p&gt;I still had a very crucial issue with my first prototype: activating any LED animation prevented any other action from occurring. Luckily, my boyfriend, who is a C++ programmer for ground control systems for rockets (the space-traveling kind), got wind that programming in Arduino had a lot of crossover with C++ and he wanted to help. I ended up learning a lot about C++ and just how different (and similar) it is to Javascript than I ever thought possible.&lt;/p&gt;
+&lt;h3&gt;Refactoring the code&lt;/h3&gt;
+&lt;p&gt;With his help, I had to change all of the animations to run based on time instead of delay, by comparing the current time to the start time in milliseconds and storing that value in an update function for the LED. The update functions for the button, the selectableLCD, and the swiper also use an update function to check states.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;virtual void update() {
+    switch (getState()) {
+    case AnimationState::READY:
+        _led-&gt;off();
+        return;
+    case AnimationState::RUNNING:
+        {
+
+        uint32_t currentTime = millis();
+        if (checkComplete(currentTime)) {
+            _state = AnimationState::COMPLETE;
+            return;
+        }
+
+        Color currentColor = {
+            linearInterpolation(_startValue.red, _endValue.red, currentTime),
+            linearInterpolation(_startValue.green, _endValue.green, currentTime),
+            linearInterpolation(_startValue.blue, _endValue.blue, currentTime)
+        };
+
+        _led-&gt;setColor(currentColor);
+        return;
+        }
+    case AnimationState::COMPLETE:
+        _led-&gt;setColor(_endValue);
+        return;
+    }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Creating classes for multiple kinds of animations (fading, dual color fading) and groups of animations (parallel and sequential) made it easier to have the same level of control over color and duration while not having to repeat the same code over and over again for multiple lights. One of my favorite things about the way LEDs and animations were coded is that you can create multiple LED animations and push them to a vector, and then use the sequential animation class update functions to execute the entire sequence of animations. There were definitely a lot of things to play with here that I could’ve created an entire project focused just around LED animations.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;void createPushPullAnimations() {
+  std::vector&lt;Animation*&gt; sequentialScript;
+  for (uint8_t i = 6; i &lt; 11; i++) {
+    sequentialScript.push_back(new SolidColorAnimation(leds[i], BLUE, 250));
+  }
+
+  progressAnimation = new SequentialAnimation(sequentialScript);
+  pushCompleteAnimation = new SolidColorAnimation(leds[10], GREEN, 1000);
+  pullCompleteAnimation = new SolidColorAnimation(leds[6], GREEN, 1000);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We also moved most everything related to each action (swiping, switching branches, commits) into their own headers and left the main .ino file for configuration and executing the actual update functions for each part. Separating out the code into headers and classes helped organize it a lot better than my first prototype which included everything in the main .ino file but separated out actions into functions.&lt;/p&gt;
+&lt;h3&gt;Actually pushing to GitHub&lt;/h3&gt;
+&lt;p&gt;To make things a bit more fun, I wanted to get the soft potentiometer push and pull functionality actually working. To do this, I read Arduino’s serial for the text ‘push’ or ‘pull’, this then executed a bash script via Processing that would write ‘commit’ to the readme file on the repository. Pretty basic for a command, but I wanted to show that it was at least possible to do. You can still see the commits done over the course of the whole class demo night on the public repo: &lt;a href=&quot;https://github.com/kfrank/gitbit-output&quot;&gt;https://github.com/kfrank/gitbit-output&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd /Users/klarefrank/Dev/gitbit-output
+echo &quot;commit&quot; &gt;&gt; README.md
+git add -A
+git commit -m &quot;commit via gitbit device&quot;
+git push git@github.com:kfrank/gitbit-output.git master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;Bash script for pushing&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Creating the final physical prototype&lt;/h3&gt;
+&lt;p&gt;Beyond the code, I also had to physically make the new box for the device. To do this, I used my Dremel the cut out some .25” plywood and tacked the sides together with wood glue and a nail gun. I drilled holes through the top to insert all of the components, duct taped the LED strip to the inside of the top, and screwed down the Adafruit Metro and breadboard inside the box. I decided to keep the LED strip together in case I wanted to program it for something else later. Overall the box made everything very sturdy to transport over to school for the final demo.&lt;/p&gt;
+&lt;div class=&quot;grid-ns grid-columns-2-ns ga1-ns&quot;&gt;
+&lt;div class=&quot;article-image &quot;&gt;&lt;img src=&quot;/images/writing/gitbit-img-4.jpg&quot; alt=&quot;Arduino, breadboard, and wires for buttons and an lcd screen&quot;&gt;
+&lt;em&gt;The inside of the box before connecting all the pins&lt;/em&gt;&lt;/div&gt;
+&lt;div class=&quot;article-image&quot;&gt;&lt;img src=&quot;/images/writing/gitbit-img-5.jpg&quot; alt=&quot;First prototype of GitBit with a cardboard front&quot;&gt;
+&lt;em&gt;Looking inside the box with everything connected&lt;/em&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;I also ended up switching out the two buttons next to the LCD for the sweet potentiometer knob I was using before for pushing and pulling. Since this was a fixed list for this demo, it made sense to be able to just keep the knob in its last position.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Overall, it was a fairly fun project to work on. I’ve since donated most of my parts to a fellow grad student, but kept the LED strip in case I want to use it for another project with a more robust board. I definitely feel Arduino projects are extremely easy to jump into, especially with the wide range of projects and demos available on the &lt;a href=&quot;https://www.adafruit.com/&quot;&gt;Adafruit website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/writing/gitbit-img-1.jpg&quot; alt=&quot;Photo of the GitBit box made out of plywood&quot;&gt;
+&lt;em&gt;The GitBit Prototype&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[WCAG 2.1: What’s new and why does it matter?]]></title><description><![CDATA[I’ve been diving deeper into accessible design since I’m working on a project for a woman with retinitis pigmentosa. From my research, I…]]></description><link>https://klare.io/wcag2-point-1-whats-new/</link><guid isPermaLink="false">https://klare.io/wcag2-point-1-whats-new/</guid><pubDate>Fri, 23 Feb 2018 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I’ve been diving deeper into accessible design since I’m working on a project for a woman with retinitis pigmentosa. From my research, I came across an update that’s happening this year to the &lt;a href=&quot;https://www.w3.org/TR/WCAG21/&quot;&gt;Web Content Accessibility Guidelines (WCAG) from 2.0 to 2.1&lt;/a&gt;. While it’s not a huge jump in versions, and given that 2.1 is meant to backwards compatible with 2.0, the update still includes some important considerations.&lt;/p&gt;
+&lt;h2&gt;Mobile&lt;/h2&gt;
+&lt;p&gt;The last major release of WCAG was in December 2008, probably around the time many of us were getting our first smartphones if you were really on top of new technology. (I didn’t even get an iPhone until 2011). Jump to now, and most people, including my grandparents, have a smartphone and maybe an iPad.&lt;/p&gt;
+&lt;p&gt;Introducing a lot of new devices with touch and gestures added a complexity to web content that didn’t exist in 2008. The majority of this 2.1 update surrounds mobile considerations. Some of the new success criteria are things that are just plain good design decisions. That includes things like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Recommended target size of 44x44 pixels: We’ve seen this in recommended button size, but this just extends it out to all things that are click- or tap- able.&lt;/li&gt;
+&lt;li&gt;Simple gestures and undo for accidental tapping: While we (designers) might think things like shaking a device or introducing new gestures are novel, they’re usually so *$&amp;#x26;@ing confusing and making everyone learn something new because your product is special will probably make users drop off at alarmingly high speeds. Keep it simple, make sure you can operate interactions with a single pointer (especially useful for motor impairments or people using a single switch input). Don’t add on tilting or shaking interactions unless they’re necessary, or have a backup for people who might find this difficult.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Cognitive&lt;/h2&gt;
+&lt;p&gt;There were also major updates to CSS since WCAG 2.0 was published nearly ten years ago. We (front-end devs) got to use fancy new things like transitions and keyframes, and started putting together amazing canvas and svg animations, which add a greater visual engagement. Problem is, these new modules introduced some cognitive issues. Specifically:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Animations from Interactions: If your canvas glitch animation is giving people headaches, make sure there’s a way to disable it. If you don’t know if it will make people easy, test it out first on a few people to find out before pushing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There’s also some success criteria additions which address some of the annoyances with websites most people have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interruptions: You’re trying to buy a new shirt online, are going to click on an item in the navigation and WOOMP hello pop-up demanding you sign up for their newsletter. Interruptions suggest websites not have pop-up interruptions when people are trying to focus on something.&lt;/li&gt;
+&lt;li&gt;Timeouts: You’ve been researching flights for your amazing trip around the world. You’ve made some pretty good progress on one site, but want to check another booking site and switch over. By the time you get back to the first site, woah, where’d everything go?!. Your session has ended. Timeouts suggests letting users know well in advance when there’s a timeout and you could lose your progress.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Low Vision&lt;/h2&gt;
+&lt;p&gt;WCAG 2.0 did a fairly good job at addressing potential visual issues, so there’s not too many updates in this category. WCAG 2.1 is finally including a success criteria around proper text spacing and another for expanding contrast ratios to non-text UI elements (buttons, icons, etc.), which are generally great design guidelines to follow. One more important success criteria being added:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Reflow: This has to deal with sites that have scrolling in two dimensions, both a normal vertical scroll and horizontally scrolling elements. This layout has gotten more popular over the past few years with several video streaming sites using the pattern to display groups of video content. There’s an issue though, since all this additional content may not be obvious to people with low vision issues.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;How future proof is 2.1?&lt;/h2&gt;
+&lt;p&gt;WCAG 2.0 stood up fairly well to web content over the past ten years. Generally, the guidelines that were written still apply to today’s web content, mostly because they’re made up of good design considerations. The one concerning thing is that the majority of new success criteria surround mobile considerations. As we continue to introduce new ways of accessing web content (VR on web, Voice UIs, etc.), how do these guidelines adapt? There’s already work being done on WCAG 3.0, and since that’s a huge version jump, I can surmise a lot of these new technologies may be addressed in that version.&lt;/p&gt;
+&lt;p&gt;—&lt;/p&gt;
+&lt;p&gt;Want an overview of all the changes as of February 20, 2018? I created this poster on the WCAG 2.1 timeline, a visual of their git commits, and an overview of the new success criteria:&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;button mv2&quot; href=&quot;/images/writing/klarefrank_wcag-2point1_022218.pdf&quot;&gt;Download WCAG 2.1 Overview PDF&lt;/a&gt;
+&lt;a href=&quot;/images/writing/klarefrank_wcag-2point1_022218.pdf&quot; class=&quot;img&quot;&gt;&lt;img src=&quot;/images/writing/klarefrank_wcag-2point1.jpg&quot; alt=&quot;WCAG 2.1 overview. Download pdf for accessible text&quot;&gt;&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Being Creative When You’re Just Not Feeling It]]></title><description><![CDATA[I have a confession: I used the my first outline for this post to write it. I wasn’t feeling inspired or creative enough to just sit down…]]></description><link>https://klare.io/being-creative-when-youre-not-feeling-it/</link><guid isPermaLink="false">https://klare.io/being-creative-when-youre-not-feeling-it/</guid><pubDate>Wed, 23 Mar 2016 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I have a confession: I used the my first outline for this post to write it. I wasn’t feeling inspired or creative enough to just sit down and start writing. Sometimes that happens, but as a designer with deadlines and teammates relying on me to execute great work, there’s no possibility of pushing off a project because I’m not feeling 110% up to it. When I’m not feeling that creative, I just have to suck it up, push through, and do the work anyway.&lt;/p&gt;
+&lt;p&gt;We’ve largely been tricked into this notion that a low point in creativity is a block, like an impassible boulder in a trail, and that great work comes from moments of divine inspiration. When we don’t have that inspiration we sit around, lost and frustrated, waiting for it to appear in a lightning-like moment that’ll bring about clarity. In reality, these aha moments strike about as often as lightning and most of us don’t have the luxury of waiting.&lt;/p&gt;
+&lt;p&gt;I like to think of inspiration as a short cut in the process of creating, like an easier switchback up the mountain. Without it, the journey is straight up, fighting against the tough climb in elevation. Through perseverance, both paths still lead to a magnificent view at the top. There is no secret to creativity: it’s just about not giving up. Instead of sitting around waiting for inspiration to strike, do something about it and fight back.&lt;/p&gt;
+&lt;p&gt;Here are three tactics I use to reignite and keep my creativity flowing, so when I’m not feeling it I can still execute great work.&lt;/p&gt;
+&lt;h2&gt;1. Change your perspective&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Change will lead to insight far more often than insight will lead to change. — Milton Erikson&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;Rethink what creativity is&lt;/h3&gt;
+&lt;p&gt;When I show my work to friends, I am told all the time, ‘I couldn’t do that, I’m just not creative enough.’ This really irks me. The lie commonly told about creativity is that it’s an innate ability: some people have it and some don’t.&lt;/p&gt;
+&lt;p&gt;In the article &lt;a href=&quot;http://99u.com/articles/35045/5-creativity-myths-you-probably-believe&quot;&gt;5 Creativity Myths You Probably Believe&lt;/a&gt;, Christian Jarrett writes:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Not only is it a simplification to label creativity as the exclusive domain of the right-brain, it’s also mistaken to claim that some people are right-brained and some people left-brained. In 2013, researchers scanned the brains of over a thousand people and &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0071275&quot;&gt;found no evidence for this way of categorizing people&lt;/a&gt;. Calling someone right-brained” or “left-brained” is as useful as saying that someone is Virgo or Pisces.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Creativity isn’t the preserve of one side of the brain, and it isn’t a talent confined to people with a special kind of brain. Real neuroscience says: if you’re human and you’ve got a brain, you’re capable of being creative.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Science proves it: you can’t blame a lack of creativity on something you do or don’t have. I always respond to those who claim they aren’t creative by saying that perceived creativity is more a matter of hard work and practice. If you work at being creative everyday, over time you’ll realize that your creativity levels aren’t constant. Some days you might feel completely inspired, and others it’ll be hard to work, but it’s ok as long as you continue practicing creativity and feel more comfortable beginning projects, large or small.&lt;/p&gt;
+&lt;h3&gt;Literally change your perspective&lt;/h3&gt;
+&lt;p&gt;When I’m feeling stuck, I pack up my computer and set up at a different location. Usually it’s going to a coffeeshop or the library and working for a couple hours, but if I’m feeling especially uninspired, I’ll go to a different city for a week. If you aren’t remote, move from your desk and try a new spot in the office. Sometimes even a simple move can do a lot for making you feel less stuck.&lt;/p&gt;
+&lt;p&gt;I use this method of changing locations a lot. I’ve learned that getting out of what I consider comfortable is a great way to explore new ideas.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The reason such travels are mentally useful involves a quirk of cognition, in which problems that feel “close” — and the closeness can be physical, temporal or even emotional — get contemplated in a more concrete manner. As a result, when we think about things that are nearby, our thoughts are constricted, bound by a more limited set of associations. While this habit can be helpful — it allows us to focus on the facts at hand — it also inhibits our imagination.&lt;/p&gt;
+&lt;p&gt;— Jonah Lehrer, Why travel makes you smarter&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Imagination is exactly what I sometimes need to start an illustration for part of a page or think about how a new layout could enhance an experience. When I’m forced outside of my comfort zone, my brain is pushed to respond in new ways, and those new ideas are what’s needed when I’m starting a project.&lt;/p&gt;
+&lt;h2&gt;2. Make it a habit&lt;/h2&gt;
+&lt;p&gt;I started a new experiment a few weeks ago to see if I could gradually increase how creative I felt. For thirty minutes every day, I do something creative that doesn’t involve staring at a screen. I’ve mostly been hand lettering, doing watercolor landscapes, and woodworking. I have a tendency to overthink problems before I start them, which can be useful for some UX problems, but other times it can backfire. Honestly some days I miss doing my thirty minutes, but overall it’s increased my drive to just start creating.&lt;/p&gt;
+&lt;p&gt;Other designers have taken thirty day challenges when they’re in creative blocks with wildly successful results. Jessica Hische started doing a daily illustrative drop (or initial) cap in September 2009 to keep her motivated and inspired when work was slow which helped launch her lettering career. If you’re not feeling inspired to start, How Design has a 30-day challenge with an idea every day.&lt;/p&gt;
+&lt;p&gt;By allowing myself to just create for the sake of making, I’m more open to let ideas through that I’d otherwise ignore. By making it a daily habit, I’m assured that I’m capable of executing creative work, and have ideas to draw from when I get stuck. The more I feel I’m creating regularly, filling in those gaps when work is slow and boosting creativity with short projects without expectations, the more confident I feel to start work projects.&lt;/p&gt;
+&lt;h2&gt;3. Get out from behind the screen&lt;/h2&gt;
+&lt;p&gt;Halfway through writing this, I got stuck staring at an unchanging screen and thought it would be a perfect time to recharge with a short walk to the library. After all, it was sunny outside and having just gotten through an entire Seattle winter, it’s been a rare sight. Removing myself from the problem gives my brain enough time to think about other things and be inspired by different surrounds.&lt;/p&gt;
+&lt;p&gt;In fact, in a March 2016 study called &lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/13546783.2016.1141798?journalCode=ptar20&amp;#x26;&quot;&gt;Insightful Solutions Are Correct More Often Than Analytical Solutions&lt;/a&gt;, a research team tested participants in their strategies in finding solutions. They found that participants who gave their ideas time to develop by were more likely arrive at the correct answer than participants who forced through a problem with analytical thought, which sometimes lead to sloppy and rushed mistakes.&lt;/p&gt;
+&lt;p&gt;Even if it may seem counterintuitive to put aside work and seek out inspiration in other forms, it can often lead to better results. So go take that walk. Go for a run. Give your brain a short break.&lt;/p&gt;
+&lt;h2&gt;If you’re still uninspired, work through it&lt;/h2&gt;
+&lt;p&gt;When I’m beginning a page design, I like to start by outlining all the components of the page I think I need. It helps to wrap my mind around all the pieces that’ll make up the whole. Sometimes the act of starting, whether that’s the whole layout or an illustration in the page, is enough of a push to get me inspired to complete a project.&lt;/p&gt;
+&lt;p&gt;It also helps to go low fidelity and start sketching basic ideas (even if you don’t think you can sketch well). There’s a good reason why logo designers fill up pages full of ideas before arriving at a solution. Sketching is a low pressure and a faster way to get ideas out. Even if you feel silly sketching an idea, remember it’s only living in a sketchbook you’ll see.&lt;/p&gt;
+&lt;p&gt;Another quick tactic is scrolling through inspiration. As much as Dribbble is criticized for delivering pixel perfect work, it still serves as a great way to get inspired. One of my go-to ways is to search by color, which helps me understand quickly which colors look great together instead of going through a trial and error in Sketch or Illustrator.&lt;/p&gt;
+&lt;p&gt;Finally, get feedback. If you’re absolutely stuck, you probably haven’t asked for help yet. Colleagues can look at work with fresh eyes and introduce new ideas that you wouldn’t have thought of, which can be exactly what you need when you’re stuck in your own head.&lt;/p&gt;
+&lt;p&gt;I want to end with this quote from Jonathan Fields that reiterates how starting a project is never completely easy, but that’s ok:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Nothing truly innovative, nothing that has advanced art, business, design, or humanity, was ever created in the face of genuine certainty or perfect information. Because the only way to be certain before you begin is if the thing you seek to do has already been done.&lt;/p&gt;
+&lt;p&gt;— Jonathan Fields, &lt;a href=&quot;http://www.amazon.com/exec/obidos/ASIN/1591845661/braipick-20&quot;&gt;Uncertainty: Turning Fear and Doubt into Fuel for Brilliance&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This post was originally published on &lt;a href=&quot;https://medium.com/treehouse-engineering/being-creative-when-you-re-just-not-feeling-it-9dd55034207d#.sbiaoqgkz&quot;&gt;Medium&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[How to Work Remotely Without Losing Your Mind]]></title><description><![CDATA[It’s been a little over a year since I started working for Treehouse, which meant giving up the office lifestyle. My previous experience…]]></description><link>https://klare.io/how-to-work-remotely/</link><guid isPermaLink="false">https://klare.io/how-to-work-remotely/</guid><pubDate>Thu, 30 Jul 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;It’s been a little over a year since I started working for Treehouse, which meant giving up the office lifestyle. My previous experience working remotely was relegated to a few snow days stuck in southern Delaware and days before holidays. Here’s what I’ve learned so far to keep me happy outside of an office.&lt;/p&gt;
+&lt;h2&gt;1. Have a separate work and home computer&lt;/h2&gt;
+&lt;p&gt;It’s sort of a nod to my days working in government, but I firmly believe that work should be kept separate from anything else you do on a computer. I might close one laptop at the end of the work day and immediately open another, but the perception that I’m leaving work for the day helps. I don’t have any work related development environments set up on my ‘home’ computer (my macbook air), so the temptation to just do one more thing isn’t there. There are some exceptions, like traveling. Lugging around both my macbook pro and my air seemed ridiculous when I moved from DC to Seattle, stopping on vacation for the weekend in Vegas. I usually only take my pro with me when traveling because light travel superceeds other priorities for me.&lt;/p&gt;
+&lt;h2&gt;2. Have a dedicated work area&lt;/h2&gt;
+&lt;p&gt;But don’t feel like you have to work from there all the time.&lt;/p&gt;
+&lt;p&gt;Since I started at Treehouse, I’ve had a dedicated desk at WeWork that houses my 27” monitor and a much more traditional setup. For a while, I had trouble working on anything BUT that monitor, so it helped to set it up someplace that was out of my apartment where I knew would be quiet and I could get things done. Since I’ve done a ton of traveling this year, I’ve gotten more used to multi-tasking on my laptop, but it’s still nice to know I have a dedicated workstation where I can absolutely get my work done.&lt;/p&gt;
+&lt;p&gt;However, I get a lot of benefit from switching up my working locations. I find that I’m much more inspired when creating new design work if I go to someplace I don’t usually work from. Taking advantage of the mobility that comes with working remotely has been great, so I don’t try to force myself to go into an office everyday (just most days).&lt;/p&gt;
+&lt;h2&gt;3. Get out of your house/apartment every day&lt;/h2&gt;
+&lt;p&gt;This was crucial when I lived in a 400 sq foot studio in DC. Since in person interaction was no longer a necessary part of my day to day, it was really easy to stay in for more than a day at a time. I might have some reserved tendancies, but for the most part, I’m at my happiest when I get to talk to someone at least once every day.&lt;/p&gt;
+&lt;p&gt;Going outside every day is also crucial in the Winter, to get some more sunlight and vitamin D. I only had one set of windows in my studio that looked out onto another (taller) apartment building, so the amount of light coming in was pretty small. Now that I’m in Seattle, I get less amount of light in the Winter overall, so I’m trying to be proactive about taking in that sunlight when I can (even if it’s behind clouds most of the time).&lt;/p&gt;
+&lt;p&gt;And if it’s raining, you don’t have to go outside, but just get out and switch locations for a little while.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;There are some other things that might be good practices, such as not lounging in your pjs all day and waking up early, but overall, I’ve found these things to be more every day things than work day things (with some exceptions, of course). I’d also love to have more designers to interact with on a daily basis in-person, but this is more of a nice to have and not a must have.&lt;/p&gt;
+&lt;p&gt;Overall, my criteria for keeping sane involves providing myself with enough tools to get my work done efficiently, and keeping myself happy by providing enough in-person interaction that I don’t get from a job daily.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[The Top 10 Terminal Commands Every New Designer Should Know]]></title><description><![CDATA[You’ve probably experienced a time you’ve had a developer just sigh and take your computer from you instead of watching you entering in code…]]></description><link>https://klare.io/terminal-commands-for-new-designers/</link><guid isPermaLink="false">https://klare.io/terminal-commands-for-new-designers/</guid><pubDate>Thu, 18 Jun 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;You’ve probably experienced a time you’ve had a developer just sigh and take your computer from you instead of watching you entering in code to a scary looking terminal window. Wouldn’t you rather know a little bit of what they’re up to? Wouldn’t you rather figure out the basic commands of knowing how to use git (which you’ll inevitably have to use at some point)?&lt;/p&gt;
+&lt;p&gt;These are the very basics, but they’ll certainly help with getting you familiar with using terminal and not feeling as scared about deleting everything on your computer.&lt;/p&gt;
+&lt;p&gt;First off, you can start using the command line by opening up the Terminal app. The easiest way to do this is to search Spotlight (shortcut: cmd + space) for Terminal.&lt;/p&gt;
+&lt;h2&gt;Some basic file management/navigating around files stuff&lt;/h2&gt;
+&lt;h3&gt;1. cd&lt;/h3&gt;
+&lt;p&gt;Stands for change directory (or folder). You can use this command to navigate into a folder.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;cd work/my-project&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Similarly, you can navigate up, or out of a folder by adding ../ to the beginning:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;cd ../&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;2. ls&lt;/h3&gt;
+&lt;p&gt;Stands for list. Lists out the contents of a folder or directory. If I want to see the contents of my Dev folder, I’d type:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;ls Dev&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;…and then press enter. If your folder were named Development instead, you’d use the next command to save you a little time.&lt;/p&gt;
+&lt;h3&gt;3. Tab&lt;/h3&gt;
+&lt;p&gt;Completes arguments. If you’re drilling down into a directory, use tab to finish the folder name so you don’t have to memorize it (or worry about spelling it wrong).&lt;/p&gt;
+&lt;h3&gt;4. Up and Down Arrow Keys&lt;/h3&gt;
+&lt;p&gt;This will let you navigate through previous commands you’ve already entered. I’ve found it’s especially helpful when using git add and push or when you need to remember that command that dev told you to use and you haven’t cleared your window.&lt;/p&gt;
+&lt;h3&gt;5. mkdir&lt;/h3&gt;
+&lt;p&gt;Stands for make directory. Enter in:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;mkdir new-project&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;To create a new folder within the directory you’re in.&lt;/p&gt;
+&lt;h3&gt;6. rm&lt;/h3&gt;
+&lt;p&gt;Removes. You can use this to, say, remove the directory you just created. (Hint: use tab to complete the directory name.) This command also removes files, but be careful because they do not go to the trash can. Instead, they’re deleted immediately.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;rm new-project/&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;7. mv&lt;/h3&gt;
+&lt;p&gt;Created a stylesheet, but it’s in the wrong folder? Use the mv command to move the file to the correct folder.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;mv style.css /stylesheets&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;8. clear&lt;/h3&gt;
+&lt;p&gt;Clears the current window. Have your terminal window cluttered up with stuff and just want to not be distracted? Enter the clear command to start fresh.&lt;/p&gt;
+&lt;h2&gt;Things to help you with development&lt;/h2&gt;
+&lt;h3&gt;9. What to do when you a git command and it opens this weird view you can’t get out of&lt;/h3&gt;
+&lt;p&gt;If you’ve ever tried to do a git commit and forgot to add a message, it’ll switch views to something that you might have trouble getting out of. This is git opening up vim for you to edit something. All you need to do to exit is:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;:wq&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This means write (or save) and quite. (Yes you need the colon.) Press enter and it should go back to the view that’s more familiar. If that doesn’t work, try adding an exclamation point to the end.&lt;/p&gt;
+&lt;p&gt;Extra points if you actually type a commit message before quitting!&lt;/p&gt;
+&lt;h3&gt;10. Start a webserver for a directory&lt;/h3&gt;
+&lt;p&gt;This’ll let you view websites you’re building or testing locally. First, cd into the directory or folder you want and then enter this command:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;python -m SimpleHTTPServer&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If you’re having trouble with the port number already being in use, add a different number onto the end of the statement. Ex:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;python -m SimpleHTTPServer 8080&lt;/code&gt;&lt;/p&gt;
+&lt;h2&gt;More points&lt;/h2&gt;
+&lt;p&gt;Intimidated when people say you should learn something like Vim, but don’t know where to start? You can enter vimtutor as a command and start learning immediately.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;vimtutor&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;That’s right. Terminal comes with a built in way to learn how to use it’s code editor, so no excuses.&lt;/p&gt;
+&lt;p&gt;Interested in learning more about how to use the command line? Check out &lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line&quot;&gt;The Art of Command Line&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building a music player with pure javascript]]></title><description><![CDATA[I will preface this by saying I’m no expert in building javascript web apps from scratch. Most of the work I do using Javascript involves…]]></description><link>https://klare.io/building-a-music-player-in-pure-javascript/</link><guid isPermaLink="false">https://klare.io/building-a-music-player-in-pure-javascript/</guid><pubDate>Wed, 15 Apr 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;I will preface this by saying I’m no expert in building javascript web apps from scratch. Most of the work I do using Javascript involves page interactions, working with apis, and prototyping. When my friend Courtney approached me with the idea to do a parody of our friends weekly playlist, This Week’s Playlist, I figured at the very least it would be a great way to exercise some js skills while putting my love of all types of music out there. This Week’s Playlist is a curated weekly playlist of (mostly) new music. Part of our goal for our parody, Next Week’s Playlist (launching on April Fool’s Day, of course), was to also focus on mostly new music, predicting what should be on next week’s This Week’s Playlist.&lt;/p&gt;
+&lt;p&gt;I decided early on to test myself by only using pure javascript instead of relying on jquery. The first time I decided to not use jquery was on my coding assignment for my job application to Treehouse, where the functionality I wanted to accomplish was so small that adding an extra second of load time just to make five lines of code work seemed superfluous. While I knew there would be significantly more lines of code needed for Next Week’s Playlist, it seemed like a good opportunity to test out building in pure javascript.&lt;/p&gt;
+&lt;h2&gt;Planning out the functionality&lt;/h2&gt;
+&lt;p&gt;I started by compiling a list of things we wanted the site to do, starting with the bare minimum needed for it to work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When a user clicks on a song, play the song&lt;/li&gt;
+&lt;li&gt;If a user clicks on a song that is playing, pause the song&lt;/li&gt;
+&lt;li&gt;When a song ends, play the next song&lt;/li&gt;
+&lt;li&gt;When a user presses the spacebar for the first time, play the first song&lt;/li&gt;
+&lt;li&gt;When a user presses the spacebar and a song is playing, pause the song&lt;/li&gt;
+&lt;li&gt;When a user presses the spacebar and a song is paused, play the song&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We also wanted to add a feature to allow for links to external music services (if the song was available) and decided on a maximum of three: soundcloud, spotify, and rdio (rip, rdio):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When a user clicks on a links button, toggle the links to external music services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Starting with interactions&lt;/h2&gt;
+&lt;p&gt;I usually start projects by laying out the interactions. In this case, it’s a spacebar press and when a track gets clicked.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// Get all elements with a class of track
+var trackList = document.querySelectorAll(&amp;#39;.track&amp;#39;);
+
+// When the spacebar is pressed
+document.addEventListener(&amp;#39;keypress&amp;#39;, function(key){
+if( key.keyCode == 32 ){
+
+}
+});
+
+// When .track is clicked
+function playPause(){
+trackList[i].addEventListener(&amp;#39;click&amp;#39;, function(e){
+
+});
+}
+
+// Applying the function to all .track elements
+for ( i=0; i &amp;lt; trackList.length; i++ ) {
+playPause();
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Using track index instead of attributes&lt;/h2&gt;
+&lt;p&gt;Next Week’s Playlist works by getting the value of the audio attribute on a selected track. Since all tracks are meant to be listed in numerical order, I decided to take this a step forward and get the index (+1) of the selected track.&lt;/p&gt;
+&lt;p&gt;We’ll use a function to find the index of the selected song (either the song that is clicked or the song that is playing):&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function findIndex(el){
+var i=1;
+while(el.previousSibling){
+el = el.previousSibling;
+if(el.nodeType === 1){
+i++;
+}
+}
+return i;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Adding play and paused classes&lt;/h2&gt;
+&lt;p&gt;Next, I added in the appropriate classes based on my base interactions. (Note that we’re still not introducing sound yet.)&lt;/p&gt;
+&lt;p&gt;First, we’ll need a function to check for if an element has a class:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// A function to check if an element has a class
+function hasClass(el, cls) {
+return el.className &amp;amp;&amp;amp; new RegExp(&amp;#39;(\\s|^)&amp;#39; + cls + &amp;#39;(\\s|\$)&amp;#39;).test(el.className);
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For a spacebar press, I’ll add a class of playing to the first song if nothing has been played yet, and a class of activated to the playlist so that I can style it a bit.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// When the spacebar is pressed
+document.addEventListener(&amp;#39;keypress&amp;#39;, function(key){
+if( key.keyCode == 32 ){
+// If no songs have been played yet
+if (document.querySelectorAll(&amp;#39;.playing&amp;#39;).length == 0) {
+index = 0, // Setting the song index
+trackList[index].parentNode.classList.add(&amp;#39;playing&amp;#39;),
+document.querySelectorAll(&amp;#39;.playlist&amp;#39;)[0].classList.add(&amp;#39;activated&amp;#39;);
+} else if ( trackList[index].parentNode.classList[1] == &amp;#39;paused&amp;#39; ) {
+// If a user pressed the spacebar when a song is paused, play the song
+trackList[index].parentNode.classList.remove(&amp;#39;paused&amp;#39;);
+} else {
+// If a user pressed the spacebar when a song is playing, pause the song
+trackList[index].parentNode.classList.add(&amp;#39;paused&amp;#39;);
+}
+key.preventDefault();
+}
+});&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;For a song click, we’ll add similar classes of activated, playing, and paused:&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// When .track is clicked
+function playPause(){
+trackList[i].addEventListener(&amp;#39;click&amp;#39;, function(e){
+// Saves li instead of a
+var selected = this.parentNode;
+// Finds index of the selected li
+index = findIndex(selected);
+
+    // If a song is being played for the first time, add a class to .playlist
+    if( !hasClass(document.querySelectorAll(&amp;#39;.playlist&amp;#39;)[0], &amp;#39;activated&amp;#39;) ){
+      document.querySelectorAll(&amp;#39;.playlist&amp;#39;)[0].classList.add(&amp;#39;activated&amp;#39;);
+    }
+
+    // If selected
+    if( hasClass(selected, &amp;#39;playing&amp;#39;) || (document.querySelectorAll(&amp;#39;.playing&amp;#39;).length !== 0)){
+      if (!hasClass(selected, &amp;#39;playing&amp;#39;) &amp;amp;&amp;amp; (document.querySelectorAll(&amp;#39;.playing&amp;#39;).length !== 0)) {
+        if (selected.parentNode.hasChildNodes()){
+          var children = selected.parentNode.childNodes;
+          for (var i = 1; i &amp;lt; children.length; i+=2) {
+            children[i].classList.remove(&amp;#39;playing&amp;#39;,&amp;#39;paused&amp;#39;);
+          }
+        };
+      }
+    }
+
+      e.preventDefault();
+
+      return song.play(),
+      selected.classList.add(&amp;#39;playing&amp;#39;);
+      if (!hasClass(selected, &amp;#39;paused&amp;#39;) &amp;amp;&amp;amp; song.currentTime &amp;gt; 0) {
+        song.pause(),
+        selected.classList.add(&amp;#39;paused&amp;#39;);
+      } else {
+
+      }
+      !hasClass(selected, &amp;#39;paused&amp;#39;) &amp;amp;&amp;amp; song.currentTime &amp;gt; 0 ? (song.pause(), selected.classList.add(&amp;#39;paused&amp;#39;)) : hasClass(selected, &amp;#39;paused&amp;#39;) &amp;amp;&amp;amp; song.currentTime &amp;gt; 0 &amp;amp;&amp;amp; selected.classList.remove(&amp;#39;paused&amp;#39;); !1;
+
+});
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Adding in extra features&lt;/h2&gt;
+&lt;p&gt;One of the big requests that Courtney received was the ability to scrub through a track. I use this a lot on Soundcloud and Rdio to see if the track has enough pull to even consider listening all the way through and eventually put on Next Week’s Playlist.&lt;/p&gt;
+&lt;p&gt;To accomplish this, we need to track the position of the mouse click along one axis in the progress bar.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// Get click point&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;From there, we can calculate the percentage and apply it to the track.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;// Apply it to current audio&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Limitations&lt;/h2&gt;
+&lt;p&gt;The way I used javascript requires everything in the html to be in its proper order. Using jquery to grab a sibling by element instead of using javascript to grab a sibling by node index is a lot more forgiving.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;\$(this).siblings(&amp;#39;li&amp;#39;).children(&amp;#39;.track&amp;#39;);
+
+// compared to:
+
+this.parentNode.childNodes[0];&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;Takeaways&lt;/h2&gt;
+&lt;p&gt;While this was an interesting exercise in creating something using pure javascript, it could be done easier using libraries. It also doesn’t take into consideration pulling in tracks from different sources; it’s definitely a first iteration. That being said, we shouldn’t be automatically turning to JQuery for everything, especially when it could be written as simply and load way faster without a library.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Getting Started]]></title><description><![CDATA[About two months ago, I decided to take up running. As with anything I try to master, I gave it a scoff with slight arrogance, exclaiming…]]></description><link>https://klare.io/getting-started/</link><guid isPermaLink="false">https://klare.io/getting-started/</guid><pubDate>Sun, 15 Feb 2015 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;About two months ago, I decided to take up running. As with anything I try to master, I gave it a scoff with slight arrogance, exclaiming, “So and so did it and is great at it, so why can’t I?!” In this case, it was my high-school aged cousin, Kevin, who continually wins state-wide cross country races while silently chanting Invictus.&lt;/p&gt;
+&lt;p&gt;So as my friends started a wittily named run club (“Two Quads, One Squad”) to train for a half marathon, I decided to join to see how good I could get at this thing. Since I had never been great at athletics growing up, save for a short stint on a soccer team and in a gymnastics league until I broke my arm in fourth grade, I had low expectations. My one goal: just to get out there and see how far I could go.&lt;/p&gt;
+&lt;p&gt;And yet, even that proved to be difficult.&lt;/p&gt;
+&lt;p&gt;There’s a tipping point, I learned, between when I could force my butt out the door or have my running shoes propped up, lamenting how I’m absolutely terrible at this thing and subscribing to the continual beat down that logically stemmed from the lack of practice and illogically grew from my bruised ego. In the latter, I’d be battling the forces of ‘I can’t’ for the rest of the day. In the former, I’d be liberated to squash great tasks that day.&lt;/p&gt;
+&lt;p&gt;Simply put, the longer I thought about going for a run, the more difficult it became and I was less likely to go and do it. (Perhaps why Nike’s famous tagline is so aptly phrased.)&lt;/p&gt;
+&lt;h2&gt;“It‘ll never be good anyway.”&lt;/h2&gt;
+&lt;p&gt;In college, perfectionist procrastination got me in big trouble when I decided there was no way my concept for cyanotypes was good enough and I failed my alternative photographic processes class. I had one last project to redeem my grade, a photo transfer project, but I also waited too long on that one too. When I arrived at the photo studio, all the supplies had already been used by my classmates and I was left to my own devices. Let me tell you, using gel medium to transfer photos onto canvas does not work and all you’ll end up with is what resembles a child’s attempt at making their own paper from scratch. So after cursing photography (and getting back into making websites a few months later as a creative outlet), I decided that any crappy work I could produce, anything that I at least tried at, was better than delivering nothing.&lt;/p&gt;
+&lt;p&gt;Truthfully, I spend a hell of a lot of time thinking about the proper order to do things before getting started—more than I should. I still spend a lot of time researching and sketching before getting into design. It roughly ends up being two-thirds preparation and one-third actual work. That’s not to say preparation isn’t important, but sometimes I use it as a crutch to soak and squeeze the most information out of a project when I should just be starting. You have to recognize the point when to start and force yourself on that path immediately when you know.&lt;/p&gt;
+&lt;h2&gt;“You won’t have enough time, just do it tomorrow.”&lt;/h2&gt;
+&lt;p&gt;If I end up forcing myself out to go running before I’ve reached the tipping point, the scenario usually goes something like this: &lt;em&gt;oh god—oh god—oh god—I’m going to die—just make it halfway—you’re almost there—oh god—why did I ever decided to do this—I’m going to die—ok just make it home—you’re nearly there—you can see it—oh hey this isn’t too bad—I think I could probably run another mile—good job Klare—that wasn’t too bad—I didn’t die—let’s go again tomorrow—ok that kinda felt good.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The worst part is I know the longer I try to convince myself I won’t have enough time, the less time I’ll actually have and it’ll become a self-fulfilling prophecy of nonsense. This is why identifying the tipping point is crucial, because once I start any project or activity, it becomes easier to complete as I see the end on the horizon.&lt;/p&gt;
+&lt;h2&gt;“Everyone will know you’re a beginner and pity you.”&lt;/h2&gt;
+&lt;p&gt;Something about starting always terrifies me. It’s like when you go to your first Rocky Horror show and they put a red ‘V’ on your forehead with bright red lipstick. Yeah, that’s what it feels like every time I want to try something new and know I’m going to be terrible at it. Cue falling down and tumbling over myself and calling it progress. I didn’t want to be that person that goes out and buys all the best gear ever and has Photoshop CS Infinity only to use filters and lens flares worse than teenagers on Instagram.&lt;/p&gt;
+&lt;p&gt;Yet, when I see a beginner or someone new to the community, all I want to do is encourage their success. This new person chose to explore something I know I love and I actually get giddy knowing she has a chance to experience the same joy I have. It’s the same with people learning frontend development, even if they aren’t as excited about it. I’ll gladly offer my time and support to help them learn because I know one of the best feelings is the aha moment of development when you create something with determination and it actually works. Pity belongs nowhere in those feelings.&lt;/p&gt;
+&lt;p&gt;Starting is sometimes the hardest part. For me, I’ve learned that knowing my weaknesses and limitations helps to craft tactics to lessen them. Sometimes it means not waiting to let my mind trick myself into thinking I can’t. Sometimes it just requires womaning up and getting things done. However, nothing is more effective than convincing myself that I can finish, whether it’s three miles or launching a website or deciding my dreams are worthy enough to try.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It matters not how strait the gate, How charge with punishments the scroll, I am the master of my fate, I am the captain of my soul.
+— William Ernest Henley&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[Designing for Scale]]></title><description><![CDATA[This past Saturday, Ali Felski and I had the pleasure of doing a workshop at the Code(Her) Conference. We went over our process for tackling…]]></description><link>https://klare.io/designing-for-scale/</link><guid isPermaLink="false">https://klare.io/designing-for-scale/</guid><pubDate>Mon, 15 Sep 2014 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;This past Saturday, &lt;a href=&quot;http://twitter.com/felskia&quot;&gt;Ali Felski&lt;/a&gt; and I had the pleasure of doing a workshop at the &lt;a href=&quot;http://codeherconference.com/&quot;&gt;Code(Her) Conference&lt;/a&gt;. We went over our process for tackling user experience and user interface design for large web builds and the considerations we take when creating these sites. If you’d like, download our &lt;a href=&quot;http://klare.io/assets/img/blogs/building-for-scale.pdf&quot;&gt;slides&lt;/a&gt; for more information. For more clarification, I thought I’d outline my process for designing interfaces for scale.&lt;/p&gt;
+&lt;h2&gt;Why does it matter?&lt;/h2&gt;
+&lt;p&gt;We’ve all been on a project that seems to take a life of it’s own and morph into something unrecognizable. Projects like this soon have no clear goals and are like buildings that keep being built on top of buildings. Team members change over time, features may change over time, but design direction should stay solid throughout all this change. Designing for scale is about predicting the future of a site that’ll live on after the team is done initially building and designing.&lt;/p&gt;
+&lt;h2&gt;Three goals for designing for scale&lt;/h2&gt;
+&lt;h3&gt;1. Flexibility&lt;/h3&gt;
+&lt;p&gt;On larger projects, things can change rapidly. Since there are more moving parts, one change from a client could potentially mean a rework of an entire part of the site. Building a website as a system usually prevents headaches associated with these problems.&lt;/p&gt;
+&lt;h3&gt;2. Consistency&lt;/h3&gt;
+&lt;p&gt;Components that act the same will look similar across all pages so websites stay on brand and don’t confuse users.&lt;/p&gt;
+&lt;h3&gt;3. Speed&lt;/h3&gt;
+&lt;p&gt;If a new feature is discovered from user testing as being of prime importance and needs to be built right away, styles already exist to do so.&lt;/p&gt;
+&lt;h2&gt;Dynamic Content&lt;/h2&gt;
+&lt;p&gt;This is a consideration that’s paramount when designing static comps, and one which will most likely arise as a design problem when designing in-browser. In either situation, it’s inevitable that content will be both too short and too long.&lt;/p&gt;
+&lt;p&gt;Developers usually compensate for this by either limiting characters on input or cutting off text after a certain number of characters using an elipsis.&lt;/p&gt;
+&lt;p&gt;We can do better than that.&lt;/p&gt;
+&lt;p&gt;By asking “what if?” while designing, it’s easier to add the correct solutions for little or lots of text.&lt;/p&gt;
+&lt;h2&gt;Styleguide-driven design&lt;/h2&gt;
+&lt;p&gt;(Update 2018: Now referred to as design systems)&lt;/p&gt;
+&lt;p&gt;A lot of people talk about developing based off generated styles that keep consistency of visual direction throughout a website, but no one really talks about how a designer starts from functionality and gets to the point of enough designed user interface to have a complete styleguide.&lt;/p&gt;
+&lt;p&gt;Clients love to think in terms of pages and deliverables. Developers love reusable components and not pages. Users don’t care beyond the homepage as long as they can accomplish a task. As a designer, I need to find a compromise between presentation and creating a system that’ll grow after I’m finished with it.&lt;/p&gt;
+&lt;h2&gt;Process, not tools&lt;/h2&gt;
+&lt;p&gt;It doesn’t matter what you use to do the work. There’ll never be a magical tool that’ll do the work for you. Use the tools you’re comfortable in (or not, if you so choose), work best with your team, and help you create the best work possible. What works for me, might not work for you.&lt;/p&gt;
+&lt;h2&gt;Taking Inventory&lt;/h2&gt;
+&lt;p&gt;This could take a while.&lt;/p&gt;
+&lt;p&gt;I start by going through every wireframe and listing out all the components by labeling them as a css class. At ISL, we’re using BEM methodology for our css structure, so I usually list them this way.&lt;/p&gt;
+&lt;p&gt;Additionally, I screenshot all these common elements and throw them into a Sketch file for later. It helps having a visual example for each component in addition to just listing them out.&lt;/p&gt;
+&lt;h2&gt;Static approach&lt;/h2&gt;
+&lt;p&gt;Typically created using Sketch because of it’s ability to link symbols. This is where that file full of screenshots comes in handy.&lt;/p&gt;
+&lt;p&gt;I like to start out designing a few important pages. These pages get shown to the client so we know we’re headed in the right direction. Then the components on these pages are turned into symbols and can be used on other pages. There’s a significant back and forth here where symbols get slightly updated to become more flexible over a greater amount of pages. I also think it helps to continually look at all the pages being designed holistically to make sure everything is headed in the same design direction.&lt;/p&gt;
+&lt;p&gt;In the Sketch file, make sure there’s a page with all the symbols that’ll act as the base for the styleguide. Developers will love you forever for making this.&lt;/p&gt;
+&lt;p&gt;Not every page will be designed as a static comp. We’re aiming for the pages with the most reused components. Design just enough so it can be translated to code as soon as possible. Type looks different in photoshop, sketch, and illustrator. Elements look different at different browser sizes. There’s no replacement for evaluating a design in it’s intended medium.&lt;/p&gt;
+&lt;h2&gt;In-browser approach&lt;/h2&gt;
+&lt;p&gt;(This is my preferred approach, but if I’m working with designers who don’t know code, it may not be the approach chosen.)&lt;/p&gt;
+&lt;p&gt;I start by laying out a base style with color, typography, form inputs, etc. Everything including in this base style is extremely similar to what Brad Frost outlines as atoms in Pattern Lab.&lt;/p&gt;
+&lt;p&gt;After this, I can start designing components, every so often switching between pages that share those components to see how well they integrate. You can’t just design all components on their own and expect a great site. Sure, it’ll be flexible, but most likely, the ui will look pieced together. We don’t want that. We’re aiming for great, not passable. During this phase, there will be a lot of back and forth where components influence pages and pages influence components. Focus on the little details and then step back every once and a while to look at the whole thing.&lt;/p&gt;
+&lt;p&gt;As components are added and change, they’re linked to a styleguide that also changes. Any designer or developer can pull from that styleguide to keep consistency.&lt;/p&gt;
+&lt;h2&gt;Evaluate &amp;#x26; Iterate&lt;/h2&gt;
+&lt;p&gt;Nothing’s ever 100% right the first go around. Know this and plan for it.&lt;/p&gt;
+&lt;p&gt;A large site doesn’t stop when the project ends, it keeps on living and evolving far after all the papers have been signed and the checks delivered.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Everything Looks the Same, Convergence of Web Design]]></title><description><![CDATA[To preface, this was my original proposed topic for Contrary Con. If you’ve never prepped for a talk for a conference before, it’s a lot of…]]></description><link>https://klare.io/everything-looks-the-same/</link><guid isPermaLink="false">https://klare.io/everything-looks-the-same/</guid><pubDate>Mon, 25 Aug 2014 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;To preface, this was my original proposed topic for &lt;a href=&quot;http://contrarycon.com/&quot;&gt;Contrary Con&lt;/a&gt;. If you’ve never prepped for a talk for a conference before, it’s a lot of hard work. Being that it was my first official conference speaking experience, it took most nights (and some mornings) the week of plus extra concepting the week prior. I have a lot more respect now for speakers who can craft engaging and cohesive talks that aren’t focused around their work.&lt;/p&gt;
+&lt;p&gt;While I enjoyed speaking on the principles I practice for trying to create quality work and how it transcends one project to affect my future work and the work of my peers, a lot of attendees really wanted to hear about the original topic.&lt;/p&gt;
+&lt;p&gt;So here we go.&lt;/p&gt;
+&lt;h2&gt;How did we get here?&lt;/h2&gt;
+&lt;p&gt;If you were designing two or three years ago, you’ll remember most homepages had four elements. A header, a carousel, a three column section with more content that no one read, and a very large footer with a complete sitemap and contact information.&lt;/p&gt;
+&lt;p&gt;In short, something very similar to this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;During that time, most people thought this was the perfect layout. We kept seeing more clients request this and never stray from it. Conveniently, it worked well for clients who always wanted their content “above the fold”. We thought things wouldn’t change too much.&lt;/p&gt;
+&lt;p&gt;But things did change.&lt;/p&gt;
+&lt;p&gt;Not too long after, responsive design emerged. Some people (including myself) adopted it early on, while others were skeptical for a long while, arguing that separate mobile sites were better. Regardless, responsive design became the norm, and as creators of the web, we adapted to this.&lt;/p&gt;
+&lt;p&gt;What we ended up with were longer websites where content could be delivered in more interesting layouts. These layouts were based on strict grid systems that could be easily reconfigured into a single column for small screens.&lt;/p&gt;
+&lt;p&gt;They ended up looking a bit like this:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&quot;&gt;
+&lt;a href=&quot;http://graphicburger.com/one-page-website-wireframes/&quot;&gt;Created with One Page Wireframes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But frankly, things still look the same.&lt;/p&gt;
+&lt;p&gt;Why is it that today we have more flexibility in delivering content, yet we’re creating websites that look nearly identical to one another?&lt;/p&gt;
+&lt;h2&gt;Visual trends as response&lt;/h2&gt;
+&lt;p&gt;If you remember (or maybe you’d like to forget), highly texturized, drop shadowed websites were popular at the same time we were creating websites that were only 800 pixels tall. I think a lot of the justification for creating these was based off of our layouts being so rigid. Creating a website with personality was tough when services such as Typekit and Fontdeck were just emerging.&lt;/p&gt;
+&lt;p&gt;Additionally, after so many of our websites were just links for a long while, it was nice to be able to include a lot of images that didn’t take forever to load. It was pretty much commonplace to create websites where all the text had a 1px shadow to make it feel inset on the page, echoing actual letter-pressed, real type.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;In contrast, the minimalistic flat design was a response to this highly texturized trend. If you remember, responsive design emerged during this time. While we were reluctant to let go of sites that could be designed ‘pixel perfect’, we realized it was simply easier to create responsive designs for existing websites if they had less decoration and less superfluous content.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;But it was more than that.&lt;/p&gt;
+&lt;p&gt;Let’s take a look at some of the things that have influenced how we currently design for the web.&lt;/p&gt;
+&lt;h2&gt;Responsive Design&lt;/h2&gt;
+&lt;p&gt;Things had to change, literally.&lt;/p&gt;
+&lt;p&gt;As mentioned before, responsive design was a huge influence on simplifying websites.&lt;/p&gt;
+&lt;p&gt;Starting out, designers and developers needed to get familiar with responsive design. To accommodate changing sizes and placement of elements within responsive layouts, websites were mostly distilled down into a collection of large boxes.&lt;/p&gt;
+&lt;p&gt;Creating a website became more difficult to complete within the same timeframe. It’s understandable that websites got simpler in response to this.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Flexibility has become a more valuable currency than specificity.
+Matt Griffin — &lt;a href=&quot;http://alistapart.com/article/client-relationships-and-the-multi-device-web&quot;&gt;Client Relationships and the Multi-Device Web&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Type&lt;/h2&gt;
+&lt;p&gt;I like to joke that everything is either set in Proxima Nova or Brandon Grotesque. Or maybe Gotham if the client is really “progressive” (aka, was convinced to pay a lot for a Hoefler &amp;#x26; Co typeface).&lt;/p&gt;
+&lt;p&gt;It’s mostly true. Take a look at Land Book and you’ll see the most recent startup homepages featured are set in these typefaces.&lt;/p&gt;
+&lt;p&gt;They’re all modern sans-serifs that are easy to read and work with a variety of different logos. In short, very flexible. Yet, overuse dilutes any uniqueness.&lt;/p&gt;
+&lt;h2&gt;Bootstrap&lt;/h2&gt;
+&lt;p&gt;I get it. It’s easy to use. Bootstrap can be a great tool for quickly creating prototypes. However, when a product gets built using Bootstrap, it can be easy to think the work has been done.&lt;/p&gt;
+&lt;p&gt;It works. It feels like a real product. It has whitespace.&lt;/p&gt;
+&lt;p&gt;However, over time we’ve noticed that websites built with bootstrap still look like bootstrap. Heck, even toolkits based off bootstrap look like bootstrap.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Deciding all the components in a toolkit before starting design is limiting designers to what’s already been done, not what’s possible.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;How similar is too similar?&lt;/h2&gt;
+&lt;p&gt;When I came across these two websites in May of 2014, my initial thought was that someone took a hell of a lot of influence from the other. I posted to twitter with a simple reaction of ‘huh’.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Immediately after, I was reminded that this trend is prevalent in a lot of places. Take for example InVision’s latest redesign, which also uses similar placement of user interface elements and the same font and treatment.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;So how similar is too similar? Is this a reflection of trends and influence or designers drawing the same conclusions?&lt;/p&gt;
+&lt;h2&gt;What should we do (if anything)?&lt;/h2&gt;
+&lt;p&gt;Most people are quick to judge today’s websites, but there are some positives to their similarity.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Users know where to go. Most of the common elements on a page are in similar places and take advantage of users scanning the page in an ‘F’ shaped pattern.&lt;/li&gt;
+&lt;li&gt;It’s easy for startups to build first, validate their product and then add on uniqueness.&lt;/li&gt;
+&lt;li&gt;The design similarities make websites of today look a hell of a lot better than their predecessors.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;We can do better than that.&lt;/p&gt;
+&lt;p&gt;The web community has done a great job recently asking why certain trends exist and whether they add to the sites being created. But we shouldn’t be critical for the sake of being critical.&lt;/p&gt;
+&lt;p&gt;As technology changes, our common web design philosophy will also change. It could be a positive response to having more flexibility in the way we create websites, or a negative responsive to using new technology in the same way.&lt;/p&gt;
+&lt;p&gt;We’ll see. Change is inevitable.&lt;/p&gt;
+&lt;p&gt;Not all of the solutions we’ve used in today’s very minimalist era work for every project. Web designers have already moved away from exceedingly flat design trends (such as long shadows). I predict that we’ll see some bit of texture emerge as the pendulum swings back away from highly minimal.&lt;/p&gt;
+&lt;p&gt;I’d challenge all of you creating websites to think about creating something that enhances the work with ever step.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Design Process as Scientific Method]]></title><description><![CDATA[Let’s face it. The last time I thought about the scientific method, it was probably in high school. Back when the chairs for those heavy…]]></description><link>https://klare.io/design-process-as-scientific-method/</link><guid isPermaLink="false">https://klare.io/design-process-as-scientific-method/</guid><pubDate>Mon, 14 Jul 2014 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Let’s face it. The last time I thought about the scientific method, it was probably in high school. Back when the chairs for those heavy, black-topped were too tall for your knees to fit underneath and wearing safety googles meant not being able to see through a level of dust and film left on the plastic from years of science classes. I never ended up practicing anything close to science after high school so I don’t have an intimate knowledge of the process, but I’d like to think that there’s something to be garnished from proven methodology.&lt;/p&gt;
+&lt;p&gt;Beyond all the awkwardness of teenage misunderstanding, one thing I never got to do in science class was actually use the scientific method as it was intended: as iteration. It builds in an understanding that failure is almost certain and we’re never going to prove our hypothesis correct the first time (unless we’re superhuman or cheating).&lt;/p&gt;
+&lt;p&gt;A traditional waterfall approach is much like the scientific method of high school, we go through the motions, but there’s never a chance to go back to change our hypothesis and test again. Once one ‘deliverable’ is signed off on, it’s impossible to go back and change that part of the equation. If we’re lucky, some testing may be done on wireframes or visual design comps, but once that phase is complete, it’s very difficult to change. Waterfall protects teams from ever changing scopes and clients that can’t decide on what they want, sure, but it also holds back teams from creating the best products.&lt;/p&gt;
+&lt;p&gt;Yet, agile doesn’t work for every project. So how can we adapt our traditional design process to factor in the near certainty that we will fail, not at everything, at something? I’d like to think that we’re all better designers tomorrow than today, and there have definitely been projects where I could’ve gone back and fixed aspects of a design based on insights learned later on. Perhaps we should be treating both user experience and visual design in a frame much like the scientific method so we can iterate and bring more rigor to a design process.&lt;/p&gt;
+&lt;h2&gt;Applying the scientific method to a design phase&lt;/h2&gt;
+&lt;p&gt;Let’s take a look at the steps of the scientific method and see how to use them in terms of our own design process.&lt;/p&gt;
+&lt;h3&gt;Question&lt;/h3&gt;
+&lt;p&gt;These usually end up being more ‘How’ questions than ‘Why’. Many times, these questions come from our kickoff meetings with our clients. We usually go through a few different exercises to prioritize goals. In one of our recent kickoffs, the top priorities were to increase conversions and simplify/automate specific parts of the cms. Let’s take that one step further by turning them into questions. How can we increase conversions from the homepage to getting a person to sign up for a service? How can we simplify the cms so bulk content can be added and maintained automatically?&lt;/p&gt;
+&lt;h3&gt;Hypothesis&lt;/h3&gt;
+&lt;p&gt;These are the educated guesses we take when we make design decisions. Only have one button on the homepage will increase clicks to that page. Friendly, family-oriented and candid photography relates with our top personas, making it more likely they’ll explore the website. People want to fill out a contact form more than sending an email to an anonymous address.&lt;/p&gt;
+&lt;h3&gt;Testing&lt;/h3&gt;
+&lt;p&gt;Design is executed. My preference is to test closest to production format (usually code), but some testing is better than none. Any time I’ve done user testing, it becomes clear really quick if the assumptions I made while designing were correct or ended up confusing users. Asking the questions before designing also makes it easy to test since the questions already exist.&lt;/p&gt;
+&lt;h3&gt;Analysis&lt;/h3&gt;
+&lt;p&gt;This is where all the testing results are sorted through to identify if our hypotheses were correct or incorrect. New hypotheses, execution and testing may be needed and should be planned for now.&lt;/p&gt;
+&lt;h3&gt;Iteration&lt;/h3&gt;
+&lt;p&gt;We should assume that some of our hypotheses were wrong and build at least a phase of iteration into our design timeline before showing clients. Why? It makes it easier to defend any design decision to a client because it’s been tested and proven. Instead of doing a shoulder shrug or coming up with some arbitrary design speak bullshit to defend a design, a designer can point to specific tests as reasons for decisions.&lt;/p&gt;
+&lt;h2&gt;How is this different than just designing and testing?&lt;/h2&gt;
+&lt;p&gt;Well, for starters, testing gets built into the process instead of getting placed at the end of a phase. Instead of designing while these assumptions arise, hypotheses specifically get created to test answer our key questions before starting any design. This helps narrow focus during the design phase down to the main goals identified for any web build. When testing starts, the specific things to test for are already noted through our key questions and hypotheses. Additionally, analysis of tests provides strong documentation and defense for any design decision, both for ux and visual design.&lt;/p&gt;
+&lt;p&gt;Adding in this methodology to a timeline may lengthen it, so any team needs to seriously consider where they need to cut the fat. (Personally, I think it exists in visual comp deliverables, but knowing code, I can be very biased.) What it does is strengthen and defend designs, helping them become better by adding in iteration and testing through specific questions and assumptions.&lt;/p&gt;</content:encoded></item></channel></rss>
