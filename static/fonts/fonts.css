@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Noe Display";
+  src: url("Noe-Display/Noe-Display-Regular.eot");
+  src: url("Noe-Display/Noe-Display-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("Noe-Display/Noe-Display-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

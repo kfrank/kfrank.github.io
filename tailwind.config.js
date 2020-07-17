@@ -4,7 +4,7 @@ module.exports = {
       sm: "640px",
       md: "768px",
       lg: "1024px",
-      xl: "1280px",
+      xl: "1200px",
     },
     fontFamily: {
       display: ["Recoleta", "serif"],
@@ -18,8 +18,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        green: "#5a7672",
-        orange: "#c9803a",
+        secondary: "#5a7672",
+        primary: "#c9803a",
         black: "#000",
         dark: "#122025",
         light: "#f8f9fa",

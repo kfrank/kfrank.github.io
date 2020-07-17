@@ -1,81 +1,81 @@
-@import "../styles/colors.scss";
-@import "../styles/mixins.scss";
+// @import "../styles/colors.scss";
+// @import "../styles/mixins.scss";
 
-.globalHeader {
-  h1 {
-    font: 700 1.5rem/1 "Recoleta", serif;
-    order: 2;
-    span {
-      display: block;
-      &:last-child {
-        margin-left: 2rem;
-        position: relative;
-        transition: opacity 0.2s ease, transform 0.2s ease;
-        transform: translateY(0);
-      }
-    }
+// .globalHeader {
+//   h1 {
+//     font: 700 1.5rem/1 "Recoleta", serif;
+//     order: 2;
+//     span {
+//       display: block;
+//       &:last-child {
+//         margin-left: 2rem;
+//         position: relative;
+//         transition: opacity 0.2s ease, transform 0.2s ease;
+//         transform: translateY(0);
+//       }
+//     }
 
-    a {
-      position: relative;
-      display: block;
-      color: #fff;
-      text-decoration: none;
-      &:before {
-        opacity: 1;
-        position: absolute;
-        width: 1.5rem;
-        height: 3px;
-        border-radius: 3px;
-        background: #b2c6c9;
-        left: 0;
-        bottom: 0.75rem;
-        content: "";
-        transition: width 0.2s ease;
-      }
-      &:hover,
-      &:active {
-        span:last-child {
-          opacity: 0;
-          transform: translateY(100%);
-        }
-        &:before {
-          opacity: 1;
-          width: 6.25rem;
-        }
-      }
-    }
-  }
-  nav {
-    margin-left: -0.875rem;
-    margin-right: -0.875rem;
-    a {
-      @include link;
-      position: relative;
-      padding: 1rem;
-      display: inline-block;
-      color: #fff;
-      &::after {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0.875rem;
-        height: 0.75rem;
-        width: 0;
-        background: $primary-light;
-        z-index: -1;
-        transition: 0.3s ease all;
-        opacity: 0;
-      }
-      &:hover::after {
-        width: 100%;
-        opacity: 1;
-      }
-    }
-  }
-  .navFirst {
-    order: 1;
-  }
-  .navSecond {
-    order: 3;
-  }
-}
+//     a {
+//       position: relative;
+//       display: block;
+//       color: #fff;
+//       text-decoration: none;
+//       &:before {
+//         opacity: 1;
+//         position: absolute;
+//         width: 1.5rem;
+//         height: 3px;
+//         border-radius: 3px;
+//         background: #b2c6c9;
+//         left: 0;
+//         bottom: 0.75rem;
+//         content: "";
+//         transition: width 0.2s ease;
+//       }
+//       &:hover,
+//       &:active {
+//         span:last-child {
+//           opacity: 0;
+//           transform: translateY(100%);
+//         }
+//         &:before {
+//           opacity: 1;
+//           width: 6.25rem;
+//         }
+//       }
+//     }
+//   }
+//   nav {
+//     margin-left: -0.875rem;
+//     margin-right: -0.875rem;
+//     a {
+//       @include link;
+//       position: relative;
+//       padding: 1rem;
+//       display: inline-block;
+//       color: #fff;
+//       &::after {
+//         content: "";
+//         position: absolute;
+//         left: 0;
+//         bottom: 0.875rem;
+//         height: 0.75rem;
+//         width: 0;
+//         background: $primary-light;
+//         z-index: -1;
+//         transition: 0.3s ease all;
+//         opacity: 0;
+//       }
+//       &:hover::after {
+//         width: 100%;
+//         opacity: 1;
+//       }
+//     }
+//   }
+//   .navFirst {
+//     order: 1;
+//   }
+//   .navSecond {
+//     order: 3;
+//   }
+// }

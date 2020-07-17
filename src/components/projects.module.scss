@@ -1,48 +1,48 @@
-@import "../styles/colors.scss";
-@import "../styles/mixins.scss";
+// @import "../styles/colors.scss";
+// @import "../styles/mixins.scss";
 
-.projectList {
-  @include wrapper;
-  h3 {
-    font: 300 1.375rem/1 "Barlow Condensed", sans-serif;
-    margin: 0;
-  }
-  h4 {
-    font: 600 2rem/1.1 "Recoleta", serif;
-    margin: 0.75rem 0;
-  }
-  p {
-    line-height: 1.4;
-  }
-}
-h2 span {
-  display: block;
-  &:last-child {
-    margin-left: 2rem;
-    position: relative;
-    &:before {
-      position: absolute;
-      width: 1.5rem;
-      height: 3px;
-      border-radius: 3px;
-      background: $primary;
-      left: -2rem;
-      top: 1rem;
-      content: "";
-      transition: width 0.2s ease;
-    }
-  }
-}
-.projectLink {
-  text-decoration: none;
-  color: black;
-  padding: 1rem 0;
-  display: block;
-}
-.projectLinkAction {
-  font: 600 1.125rem/1 "Barlow Condensed", sans-serif;
-  text-transform: uppercase;
-  color: $primary;
-  margin-top: 2.5rem;
-  display: block;
-}
+// .projectList {
+//   @include wrapper;
+//   h3 {
+//     font: 300 1.375rem/1 "Barlow Condensed", sans-serif;
+//     margin: 0;
+//   }
+//   h4 {
+//     font: 600 2rem/1.1 "Recoleta", serif;
+//     margin: 0.75rem 0;
+//   }
+//   p {
+//     line-height: 1.4;
+//   }
+// }
+// h2 span {
+//   display: block;
+//   &:last-child {
+//     margin-left: 2rem;
+//     position: relative;
+//     &:before {
+//       position: absolute;
+//       width: 1.5rem;
+//       height: 3px;
+//       border-radius: 3px;
+//       background: $primary;
+//       left: -2rem;
+//       top: 1rem;
+//       content: "";
+//       transition: width 0.2s ease;
+//     }
+//   }
+// }
+// .projectLink {
+//   text-decoration: none;
+//   color: black;
+//   padding: 1rem 0;
+//   display: block;
+// }
+// .projectLinkAction {
+//   font: 600 1.125rem/1 "Barlow Condensed", sans-serif;
+//   text-transform: uppercase;
+//   color: $primary;
+//   margin-top: 2.5rem;
+//   display: block;
+// }
